@@ -1,0 +1,7 @@
+Unmodified generated Pango DDR3 controller/PHY and encrypted implementation dependencies.
+Origin: D:\BaiduNetdiskDownload\2_Demo\2_9_ddr3_test\2_9_ddr3_test\ddr3_test
+Copyright notices, encrypted blocks and original metadata have been preserved byte for byte.
+PANGO MICROSYSTEMS retains all rights in its files; inclusion grants no additional license.
+Use the applicable Pango software/IP license. These are not open-source replacement modules.
+reference/ files are evidence and project templates, not additional synthesis inputs.
+manifest.json lists SHA256 and the original project compilation dependency order.

@@ -1,0 +1,60 @@
+# FPGA LAB BOX 5 UART corrected from the platform's engineering-side pin panel.
+# Clock/reset/LED locations still follow the MINI board manuals and need board validation.
+# Board: MES2L676 MINI-100HP/200H; target device must be checked separately.
+# Sources:
+# https://szlogicmatrix.com/357.html (MINI hardware manual V1.3, pp.14,30,34,35)
+# https://szlogicmatrix.com/forum-post/1281.html (PDS FDC syntax/3.3V IO)
+# https://szlogicmatrix.com/1501.html (remote manual p.12: 27MHz D18, reset C22)
+# UART source: user screenshot, 2026-10-28 20:40, LabSerial / engineering-side constraints.
+# The panel explicitly says uart_rx -> AC26 and uart_tx -> AB26, 3.3V LVCMOS33.
+# This replaces the onboard CP2102 pins B24/C24, which are not the LabSerial path.
+# UART directions below follow the explicit port-name mapping in that panel.
+# Corrected constraint has not yet been recompiled/programmed or verified by echo.
+# KEY0 is active low; LED0..3 are active high according to the MINI manual.
+# Both remote_top and selftest_top use these same port names.
+# Check clock/reset/LED wiring against the current box and inspect timing after compilation.
+
+create_clock -period {37.037} [get_ports {sys_clk}] -name sys_clk
+
+define_attribute {p:sys_clk} {PAP_IO_DIRECTION} {INPUT}
+define_attribute {p:sys_clk} {PAP_IO_LOC} {D18}
+define_attribute {p:sys_clk} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:sys_clk} {PAP_IO_STANDARD} {LVCMOS33}
+
+define_attribute {p:rst_n} {PAP_IO_DIRECTION} {INPUT}
+define_attribute {p:rst_n} {PAP_IO_LOC} {C22}
+define_attribute {p:rst_n} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:rst_n} {PAP_IO_STANDARD} {LVCMOS33}
+
+define_attribute {p:uart_rx} {PAP_IO_DIRECTION} {INPUT}
+define_attribute {p:uart_rx} {PAP_IO_LOC} {AC26}
+define_attribute {p:uart_rx} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:uart_rx} {PAP_IO_STANDARD} {LVCMOS33}
+
+define_attribute {p:uart_tx} {PAP_IO_DIRECTION} {OUTPUT}
+define_attribute {p:uart_tx} {PAP_IO_LOC} {AB26}
+define_attribute {p:uart_tx} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:uart_tx} {PAP_IO_STANDARD} {LVCMOS33}
+
+define_attribute {p:led[0]} {PAP_IO_DIRECTION} {OUTPUT}
+define_attribute {p:led[0]} {PAP_IO_LOC} {A20}
+define_attribute {p:led[0]} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:led[0]} {PAP_IO_STANDARD} {LVCMOS33}
+
+define_attribute {p:led[1]} {PAP_IO_DIRECTION} {OUTPUT}
+define_attribute {p:led[1]} {PAP_IO_LOC} {C19}
+define_attribute {p:led[1]} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:led[1]} {PAP_IO_STANDARD} {LVCMOS33}
+
+define_attribute {p:led[2]} {PAP_IO_DIRECTION} {OUTPUT}
+define_attribute {p:led[2]} {PAP_IO_LOC} {C18}
+define_attribute {p:led[2]} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:led[2]} {PAP_IO_STANDARD} {LVCMOS33}
+
+define_attribute {p:led[3]} {PAP_IO_DIRECTION} {OUTPUT}
+define_attribute {p:led[3]} {PAP_IO_LOC} {E18}
+define_attribute {p:led[3]} {PAP_IO_VCCIO} {3.3}
+define_attribute {p:led[3]} {PAP_IO_STANDARD} {LVCMOS33}
+
+# Actual 27 MHz board input drives the Logos2 GPLL.
+create_generated_clock -name {cpu_clk} -source [get_ports {sys_clk}] [get_pins {u_cpu_clock.u_pll/CLKOUT0}] -master_clock [get_clocks {sys_clk}] -multiply_by {22} -divide_by {9}

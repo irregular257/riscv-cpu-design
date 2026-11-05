@@ -1,0 +1,7 @@
+reports/trained_digit_hanzi_20261101/digit/source/vision_firmware.c:114:13:text	0	static
+reports/trained_digit_hanzi_20261101/digit/source/vision_firmware.c:115:12:get_timeout	0	static
+reports/trained_digit_hanzi_20261101/digit/source/vision_firmware.c:42:13:convolution.constprop	128	static
+reports/trained_digit_hanzi_20261101/digit/source/vision_firmware.c:126:13:response	0	static
+reports/trained_digit_hanzi_20261101/digit/source/vision_firmware.c:72:10:digit_vision_infer	192	static
+reports/trained_digit_hanzi_20261101/digit/source/vision_firmware.c:110:16:digit_vision_last_head	0	static
+reports/trained_digit_hanzi_20261101/digit/source/vision_firmware.c:140:6:digit_unused_loop	112	static

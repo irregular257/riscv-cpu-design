@@ -1,0 +1,171 @@
+{
+  "status": "PASS_DEFINED_TIMING_PINS_PROVENANCE",
+  "work": "D:\\基于RISCV指令集CPU设计\\remote_pg2l200h\\advanced\\reports\\maxperf_20261103\\pds_decouple66_coremark\\work",
+  "kind": "coremark",
+  "cpu_hz": 66000000,
+  "audit_script_sha256": "f91ed2ce1b6d5c162fbacc3c4bbc7ebc6f2aa5b1911cf0100d0f6a812d71cc82",
+  "physical_board_verified": false,
+  "source_audit": {
+    "frozen_input_files": 3,
+    "frozen_source_files": 61,
+    "elf_sha256": "2b0ec233b4e70e96d544aefd502ea0fbca59b8aea61d2f781358f2989b009aba",
+    "images": {
+      "rom": {
+        "words": 16384,
+        "hex_sha256": "650dcd27114723cc49b13be619b8b1f4da7743723b0d97a4e615db29eb648d44"
+      },
+      "ram": {
+        "words": 16384,
+        "hex_sha256": "2a0edac4f20e799f7dbf62b22723decf60cbcc088c1b579e4f40d64a40fe53e4"
+      }
+    },
+    "preserved_peripherals": [],
+    "cpu_hz": 66000000,
+    "constraints_unchanged_except_cpu_generated_clock": true
+  },
+  "timing": {
+    "timing_report_sha256": "2166a645b69bfd56cfc7a428438c720acfbb512e267fe5ed079a209492efde07",
+    "summaries": {
+      "Slow Setup": [
+        {
+          "clocks": "cpu_clk                cpu_clk",
+          "slack_ns": 0.799,
+          "endpoints": 28721
+        }
+      ],
+      "Slow Hold": [
+        {
+          "clocks": "cpu_clk                cpu_clk",
+          "slack_ns": 0.148,
+          "endpoints": 28721
+        }
+      ],
+      "Slow Recovery": [],
+      "Slow Removal": [],
+      "Slow Minimum Pulse Width": [
+        {
+          "clocks": "cpu_clk",
+          "slack_ns": 6.615,
+          "endpoints": 4590
+        }
+      ],
+      "Fast Setup": [
+        {
+          "clocks": "cpu_clk                cpu_clk",
+          "slack_ns": 5.689,
+          "endpoints": 28721
+        }
+      ],
+      "Fast Hold": [
+        {
+          "clocks": "cpu_clk                cpu_clk",
+          "slack_ns": 0.101,
+          "endpoints": 28721
+        }
+      ],
+      "Fast Recovery": [],
+      "Fast Removal": [],
+      "Fast Minimum Pulse Width": [
+        {
+          "clocks": "cpu_clk",
+          "slack_ns": 6.92,
+          "endpoints": 4590
+        }
+      ]
+    },
+    "clocks": {
+      "sys_clk": {
+        "period_ns": 37.037,
+        "type": "Declared",
+        "clock_loads": 0,
+        "non_clock_loads": 1,
+        "source": "sys_clk"
+      },
+      "cpu_clk": {
+        "period_ns": 15.1515,
+        "type": "Generated (sys_clk)",
+        "clock_loads": 4999,
+        "non_clock_loads": 0,
+        "source": "u_cpu_clock/u_pll/gpll_inst/CLKOUT0"
+      }
+    },
+    "pins": {
+      "sys_clk": {
+        "pin": "D18",
+        "direction": "input"
+      },
+      "rst_n": {
+        "pin": "C22",
+        "direction": "input"
+      },
+      "led[3]": {
+        "pin": "E18",
+        "direction": "output"
+      },
+      "led[2]": {
+        "pin": "C18",
+        "direction": "output"
+      },
+      "led[1]": {
+        "pin": "C19",
+        "direction": "output"
+      },
+      "led[0]": {
+        "pin": "A20",
+        "direction": "output"
+      },
+      "uart_tx": {
+        "pin": "AB26",
+        "direction": "output"
+      },
+      "uart_rx": {
+        "pin": "AC26",
+        "direction": "input"
+      }
+    },
+    "pin_report_sha256": "9fa01913cc137b266f3f5807bfe6cb88ec9baed2f1ddfb5d691f0f4e3e78f72e",
+    "no_new_internal_unconstrained_warnings": true,
+    "unchanged_constraint_object_warnings": [],
+    "known_external_ports_without_IO_delays": [
+      "led[0]",
+      "led[1]",
+      "led[2]",
+      "led[3]",
+      "rst_n",
+      "uart_rx",
+      "uart_tx"
+    ],
+    "resources": {
+      "LUT": 8071,
+      "FF": 5154,
+      "Distributed RAM": 218,
+      "APM": 8,
+      "DRM": 51.5,
+      "ADC": 0,
+      "ANALOG": 0,
+      "CCS": 1,
+      "DDRPHY_CPD": 0,
+      "DDRPHY_IOCLK_DIV": 0,
+      "DDR_PHY": 0,
+      "GCLK_INBUF_SYN": 0,
+      "GPLL": 1,
+      "HCKB": 0,
+      "HSSTLP": 0,
+      "IO": 8,
+      "IOCKB": 0,
+      "KEYRAM": 0,
+      "MRCKB": 0,
+      "PCIE": 0,
+      "PPLL": 0,
+      "RCKB": 0,
+      "SCANCHAIN": 0,
+      "TSERDES": 0,
+      "USCM": 1
+    }
+  },
+  "bitstream_sha256": "6a8df5d2d847a4ffc58694d6eac1f52e2c17043fe1d9d4cdc25447b66fc84f27",
+  "limitations": [
+    "Known external asynchronous IO lacks full input/output delay constraints.",
+    "This audit does not replace long RTL, matrix netlist equivalence, or physical-board validation."
+  ]
+}

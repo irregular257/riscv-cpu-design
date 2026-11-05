@@ -1,0 +1,72 @@
+[
+  {
+    "name": "digit8",
+    "mode": "digit",
+    "glyph": 8,
+    "chunks": [
+      256,
+      256,
+      256,
+      256,
+      12
+    ],
+    "source_case": "digit_native28_digit8",
+    "physical_board_verified": false
+  },
+  {
+    "name": "up",
+    "mode": "hanzi",
+    "glyph": 10,
+    "chunks": [
+      256,
+      256,
+      256,
+      256,
+      12
+    ],
+    "source_case": "hanzi_up",
+    "physical_board_verified": false
+  },
+  {
+    "name": "down",
+    "mode": "hanzi",
+    "glyph": 11,
+    "chunks": [
+      256,
+      256,
+      256,
+      256,
+      12
+    ],
+    "source_case": "hanzi_down",
+    "physical_board_verified": false
+  },
+  {
+    "name": "left",
+    "mode": "hanzi",
+    "glyph": 12,
+    "chunks": [
+      256,
+      256,
+      256,
+      256,
+      12
+    ],
+    "source_case": "hanzi_left",
+    "physical_board_verified": false
+  },
+  {
+    "name": "right",
+    "mode": "hanzi",
+    "glyph": 13,
+    "chunks": [
+      256,
+      256,
+      256,
+      256,
+      12
+    ],
+    "source_case": "hanzi_right",
+    "physical_board_verified": false
+  }
+]

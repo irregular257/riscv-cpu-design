@@ -1,0 +1,4 @@
+D:\codex_rv32_advanced_20261028\reports\maxperf_20261103\icache_data_decouple\equivalence\tb_cache_lookahead_equivalence.v:38: warning: Instantiating module cache_2way with dangling input port 26 (preview_valid) floating.
+D:\codex_rv32_advanced_20261028\reports\maxperf_20261103\icache_data_decouple\equivalence\tb_cache_lookahead_equivalence.v:38: warning: Instantiating module cache_2way with dangling input port 27 (preview_addr) floating.
+D:\codex_rv32_advanced_20261028\reports\maxperf_20261103\icache_data_decouple\equivalence\tb_cache_lookahead_equivalence.v:45: warning: Instantiating module cache_2way_reference with dangling input port 26 (preview_valid) floating.
+D:\codex_rv32_advanced_20261028\reports\maxperf_20261103\icache_data_decouple\equivalence\tb_cache_lookahead_equivalence.v:45: warning: Instantiating module cache_2way_reference with dangling input port 27 (preview_addr) floating.

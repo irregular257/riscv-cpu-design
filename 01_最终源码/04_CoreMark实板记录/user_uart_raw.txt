@@ -1,0 +1,30 @@
+2K performance run parameters for coremark.&#x20;
+[22:47:13.571]**RX ←**&#x43;oreMark Size    : 666&#x20;
+[22:47:14.823]**RX ←**&#x54;otal ticks      : 726304994&#x20;
+[22:47:16.075]**RX ←**&#x54;otal time (secs): 11.004621&#x20;
+[22:47:17.077]**RX ←**&#x49;terations/Sec   : 181.741831&#x20;
+[22:47:18.310]**RX ←**&#x49;terations       : 2000&#x20;
+[22:47:19.566]**RX ←**&#x43;ompiler version : GCC 15.2.0&#x20;
+[22:47:20.807]**RX ←**&#x43;ompiler flags   : -O3 -march=rv32i_zmmul -mab&#x20;
+[22:47:22.074]**RX ←**&#x69;=ilp32 -msmall-data-limit=0 -ffreestanding -f&#x20;
+[22:47:23.313]**RX ←**&#x6E;o-builtin -fno-common -ffunction-sections -fd&#x20;
+[22:47:24.311]**RX ←**&#x61;ta-sections -funroll-all-loops --param=max-un&#x20;
+[22:47:25.581]**RX ←**&#x72;oll-times=4&#x20;
+[22:47:26.814]**RX ←**&#x4D;emory location  : Static RAM, actual advanced&#x20;
+[22:47:28.065]**RX ←**\_soc 2-way I/D cache, memory:core 1:1&#x20;
+[22:47:29.305]**RX ←**&#x73;eedcrc          : 0xe9f5&#x20;
+[22:47:30.320]**RX ←**[0]crclist       : 0xe714&#x20;
+[22:47:31.589]**RX ←**[0]crcmatrix     : 0x1fd7&#x20;
+[22:47:32.812]**RX ←**[0]crcstate      : 0x8e3a&#x20;
+[22:47:34.071]**RX ←**[0]crcfinal      : 0x4983&#x20;
+[22:47:35.322]**RX ←**&#x43;orrect operation validated. See README.md for&#x20;
+[22:47:36.311]**RX ←** run and reporting rules.&#x20;
+[22:47:37.565]**RX ←**&#x43;oreMark 1.0 : 181.741831 / GCC 15.2.0 -O3 -ma&#x20;
+[22:47:38.807]**RX ←**&#x72;ch=rv32i_zmmul -mabi=ilp32 -msmall-data-limit&#x20;
+[22:47:40.075]**RX ←**=0 -ffreestanding -fno-builtin -fno-common -ff&#x20;
+[22:47:41.308]**RX ←**&#x75;nction-sections -fdata-sections -funroll-all-&#x20;
+[22:47:42.581]**RX ←**&#x6C;oops --param=max-unroll-times=4 / Static RAM,&#x20;
+[22:47:43.572]**RX ←** actual advanced_soc 2-way I/D cache, memory:c&#x20;
+[22:47:44.802]**RX ←**&#x6F;re 1:1
+
+用户说明：这是66MHz的输出结果。

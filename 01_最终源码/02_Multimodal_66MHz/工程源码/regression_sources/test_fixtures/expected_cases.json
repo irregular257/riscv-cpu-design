@@ -1,0 +1,936 @@
+[
+  {
+    "name": "initial_status",
+    "kind": "C",
+    "request_sha256": "bcd149a351f741c22c2185dd144eae18b164b8d7df300601e32242d508a1937b",
+    "glyph": 15,
+    "status": 0,
+    "expected_brightness": 192,
+    "behavioral_ddr_enabled": false,
+    "command": 1,
+    "expected_payload_hex": null,
+    "status_fields": {
+      "mode": 0,
+      "threshold": 160,
+      "required": 1,
+      "shown": 15,
+      "frames": 0,
+      "accepted": 0,
+      "unknown": 0,
+      "crc_errors": 0,
+      "ddr_status": 0,
+      "ddr_tested": 0,
+      "model_size": 0,
+      "model_offset": 0,
+      "model_ready": 0,
+      "upload_active": 0,
+      "with_llm": 1
+    }
+  },
+  {
+    "name": "digit_native28_digit8",
+    "kind": "V",
+    "request_sha256": "d596ce26a88e2efcb7dc92e9e218c29a6b973246c6304f7366b463aef8de434f",
+    "glyph": 8,
+    "status": 0,
+    "expected_brightness": 192,
+    "behavioral_ddr_enabled": false,
+    "reference": "digit",
+    "expected_boxes": [
+      [
+        6,
+        6,
+        22,
+        21,
+        8,
+        251
+      ]
+    ],
+    "provenance": "Established fixed native28 request, no model selection"
+  },
+  {
+    "name": "digit_native28_raw",
+    "kind": "V",
+    "request_sha256": "3e2c67572a302526ac536d02639cb64f4fc10c38f2ba6674618329e741ed4556",
+    "glyph": 8,
+    "status": 0,
+    "expected_brightness": 192,
+    "behavioral_ddr_enabled": false,
+    "reference": "digit",
+    "expected_boxes": [
+      [
+        6,
+        6,
+        22,
+        21,
+        8,
+        251
+      ]
+    ],
+    "provenance": "Established fixed native28 request, no model selection"
+  },
+  {
+    "name": "digit_blank",
+    "kind": "V",
+    "request_sha256": "773bea1b68a321f52ed60b40b8b70fa0f2c69689cedef83e107aeac170eb5deb",
+    "glyph": 14,
+    "status": 0,
+    "expected_brightness": 192,
+    "behavioral_ddr_enabled": false,
+    "reference": "digit",
+    "expected_boxes": [],
+    "provenance": "Synthetic all-zero protocol regression"
+  },
+  {
+    "name": "bad_vision_crc_preserves_display",
+    "kind": "V",
+    "request_sha256": "7a43bca0634eaffd6fcb0a49048c4d80951a918c14d978f252b8afebe50ff12e",
+    "glyph": 14,
+    "status": 2,
+    "expected_brightness": 192,
+    "behavioral_ddr_enabled": false,
+    "reference": "digit"
+  },
+  {
+    "name": "bad_mode_crc_preserves_display",
+    "kind": "C",
+    "request_sha256": "6951f2c330ff91524b20e7d7ee9ff75a33e5254fad1a0fa103080e2e26bc519f",
+    "glyph": 14,
+    "status": 2,
+    "expected_brightness": 192,
+    "behavioral_ddr_enabled": false,
+    "command": 2,
+    "expected_payload_hex": null,
+    "status_fields": null
+  },
+  {
+    "name": "status_after_crc",
+    "kind": "C",
+    "request_sha256": "a8a49a978ab43df807e149cb57b2fdc095e42a53dcbf16b4bde0a8dac7458ea1",
+    "glyph": 14,
+    "status": 0,
+    "expected_brightness": 192,
+    "behavioral_ddr_enabled": false,
+    "command": 1,
+    "expected_payload_hex": null,
+    "status_fields": {
+      "mode": 0,
+      "threshold": 160,
+      "required": 1,
+      "shown": 14,
+      "frames": 3,
+      "accepted": 2,
+      "unknown": 1,
+      "crc_errors": 2,
+      "ddr_status": 0,
+      "ddr_tested": 0,
+      "model_size": 0,
+      "model_offset": 0,
+      "model_ready": 0,
+      "upload_active": 0,
+      "with_llm": 1
+    }
+  },
+  {
+    "name": "set_high_threshold",
+    "kind": "C",
+    "request_sha256": "02c9a96373439dd8bafdd121b03479357881d10e92b4d6713f3797d20554d750",
+    "glyph": 15,
+    "status": 0,
+    "expected_brightness": 64,
+    "behavioral_ddr_enabled": false,
+    "command": 3,
+    "expected_payload_hex": null,
+    "status_fields": null
+  },
+  {
+    "name": "threshold_rejects_digit8",
+    "kind": "V",
+    "request_sha256": "3e2c67572a302526ac536d02639cb64f4fc10c38f2ba6674618329e741ed4556",
+    "glyph": 14,
+    "status": 0,
+    "expected_brightness": 64,
+    "behavioral_ddr_enabled": false,
+    "reference": "digit",
+    "expected_boxes": [
+      [
+        6,
+        6,
+        22,
+        21,
+        8,
+        251
+      ]
+    ],
+    "provenance": null
+  },
+  {
+    "name": "set_two_frame_stability",
+    "kind": "C",
+    "request_sha256": "53b171aea7b02121186ecd3da0c89b1fd8d82b1b4f547659e8aa47f82ed7d97e",
+    "glyph": 15,
+    "status": 0,
+    "expected_brightness": 192,
+    "behavioral_ddr_enabled": false,
+    "command": 3,
+    "expected_payload_hex": null,
+    "status_fields": null
+  },
+  {
+    "name": "stable_first_is_busy",
+    "kind": "V",
+    "request_sha256": "3e2c67572a302526ac536d02639cb64f4fc10c38f2ba6674618329e741ed4556",
+    "glyph": 16,
+    "status": 0,
+    "expected_brightness": 192,
+    "behavioral_ddr_enabled": false,
+    "reference": "digit",
+    "expected_boxes": [
+      [
+        6,
+        6,
+        22,
+        21,
+        8,
+        251
+      ]
+    ],
+    "provenance": null
+  },
+  {
+    "name": "stable_second_is_digit8",
+    "kind": "V",
+    "request_sha256": "3e2c67572a302526ac536d02639cb64f4fc10c38f2ba6674618329e741ed4556",
+    "glyph": 8,
+    "status": 0,
+    "expected_brightness": 192,
+    "behavioral_ddr_enabled": false,
+    "reference": "digit",
+    "expected_boxes": [
+      [
+        6,
+        6,
+        22,
+        21,
+        8,
+        251
+      ]
+    ],
+    "provenance": null
+  },
+  {
+    "name": "history_before_mode_switch",
+    "kind": "C",
+    "request_sha256": "f3e860168d2381f8cac51e81657341e7995619795f7d83e5f2eb1d042c4a86af",
+    "glyph": 8,
+    "status": 0,
+    "expected_brightness": 192,
+    "behavioral_ddr_enabled": false,
+    "command": 4,
+    "expected_payload_hex": "061c000008fb0801011c000008fb0801021d0000ff000e00001c000008fb0e01001c000008fb1001011c000008fb080102",
+    "status_fields": null
+  },
+  {
+    "name": "status_before_mode_switch",
+    "kind": "C",
+    "request_sha256": "8d3796c4f1f257f9ad65ad6f668ebfc2ace97fc23bcad604cf956b5e03653f70",
+    "glyph": 8,
+    "status": 0,
+    "expected_brightness": 192,
+    "behavioral_ddr_enabled": false,
+    "command": 1,
+    "expected_payload_hex": null,
+    "status_fields": {
+      "mode": 0,
+      "threshold": 160,
+      "required": 2,
+      "shown": 8,
+      "frames": 6,
+      "accepted": 3,
+      "unknown": 2,
+      "crc_errors": 2,
+      "ddr_status": 0,
+      "ddr_tested": 0,
+      "model_size": 0,
+      "model_offset": 0,
+      "model_ready": 0,
+      "upload_active": 0,
+      "with_llm": 1
+    }
+  },
+  {
+    "name": "switch_to_hanzi",
+    "kind": "C",
+    "request_sha256": "19f533fb699e504b2f7f54718d8db90d679764cbb3bbf0e94ebe80e9998e292a",
+    "glyph": 15,
+    "status": 0,
+    "expected_brightness": 192,
+    "behavioral_ddr_enabled": false,
+    "command": 2,
+    "expected_payload_hex": null,
+    "status_fields": null
+  },
+  {
+    "name": "hanzi_hanzi_sample",
+    "kind": "V",
+    "request_sha256": "57bf412237e764c4e003ffead01ae7f5963a14aafed3492a3767a71dc361a5aa",
+    "glyph": 14,
+    "status": 0,
+    "expected_brightness": 192,
+    "behavioral_ddr_enabled": false,
+    "reference": "hanzi",
+    "expected_boxes": [
+      [
+        8,
+        7,
+        18,
+        21,
+        0,
+        252
+      ]
+    ],
+    "provenance": "开"
+  },
+  {
+    "name": "hanzi_hanzi_raw",
+    "kind": "V",
+    "request_sha256": "019f90b7a63f4a59d1e2a2ff9d068b2bbb19c1612c4a4a28854581224df74dc2",
+    "glyph": 14,
+    "status": 0,
+    "expected_brightness": 192,
+    "behavioral_ddr_enabled": false,
+    "reference": "hanzi",
+    "expected_boxes": [
+      [
+        8,
+        7,
+        18,
+        21,
+        0,
+        252
+      ]
+    ],
+    "provenance": "开"
+  },
+  {
+    "name": "set_one_frame_stability",
+    "kind": "C",
+    "request_sha256": "d6231385d81bf111559e6c8b397f653c8661239839d144c80e39187163d8e187",
+    "glyph": 15,
+    "status": 0,
+    "expected_brightness": 192,
+    "behavioral_ddr_enabled": false,
+    "command": 3,
+    "expected_payload_hex": null,
+    "status_fields": null
+  },
+  {
+    "name": "hanzi_up",
+    "kind": "V",
+    "request_sha256": "ff7847bf93467c8d925546b18d94c9f0f5085dd6cfd7d1eed6845b6e54b9c428",
+    "glyph": 10,
+    "status": 0,
+    "expected_brightness": 192,
+    "behavioral_ddr_enabled": false,
+    "reference": "hanzi",
+    "expected_boxes": [
+      [
+        6,
+        8,
+        21,
+        20,
+        2,
+        253
+      ]
+    ],
+    "provenance": {
+      "source_id": 2520,
+      "sample_id": "Gnt1.1TrainPart1.zip/1009-f.gnt:1305",
+      "writer": "1009",
+      "source_partition": "validation",
+      "truth_class": 2,
+      "truth_label": "上"
+    }
+  },
+  {
+    "name": "hanzi_down",
+    "kind": "V",
+    "request_sha256": "8603bc9841219844b1ef18f7c6fdc31127e18b4bb99d146aa4577e914fd4236e",
+    "glyph": 11,
+    "status": 0,
+    "expected_brightness": 192,
+    "behavioral_ddr_enabled": false,
+    "reference": "hanzi",
+    "expected_boxes": [
+      [
+        9,
+        7,
+        15,
+        21,
+        3,
+        240
+      ]
+    ],
+    "provenance": {
+      "source_id": 2521,
+      "sample_id": "Gnt1.1TrainPart1.zip/1009-f.gnt:1855",
+      "writer": "1009",
+      "source_partition": "validation",
+      "truth_class": 3,
+      "truth_label": "下"
+    }
+  },
+  {
+    "name": "hanzi_left",
+    "kind": "V",
+    "request_sha256": "7ac5ffe9e65777fa0d33d59675e97c984698eca5af1d7eec05848964d6211c95",
+    "glyph": 12,
+    "status": 0,
+    "expected_brightness": 192,
+    "behavioral_ddr_enabled": false,
+    "reference": "hanzi",
+    "expected_boxes": [
+      [
+        6,
+        6,
+        18,
+        21,
+        4,
+        253
+      ]
+    ],
+    "provenance": {
+      "source_id": 2522,
+      "sample_id": "Gnt1.1TrainPart1.zip/1009-f.gnt:2655",
+      "writer": "1009",
+      "source_partition": "validation",
+      "truth_class": 4,
+      "truth_label": "左"
+    }
+  },
+  {
+    "name": "hanzi_right",
+    "kind": "V",
+    "request_sha256": "9320251969e8072c0ebb5ee00833df6a5d7d93fed620844b30e6d05451fec792",
+    "glyph": 13,
+    "status": 0,
+    "expected_brightness": 192,
+    "behavioral_ddr_enabled": false,
+    "reference": "hanzi",
+    "expected_boxes": [
+      [
+        6,
+        6,
+        16,
+        22,
+        5,
+        241
+      ]
+    ],
+    "provenance": {
+      "source_id": 2523,
+      "sample_id": "Gnt1.1TrainPart1.zip/1009-f.gnt:2247",
+      "writer": "1009",
+      "source_partition": "validation",
+      "truth_class": 5,
+      "truth_label": "右"
+    }
+  },
+  {
+    "name": "hanzi_blank",
+    "kind": "V",
+    "request_sha256": "9ecfda31c1b99b7b5e2fefccd644b474e9f1722cf7aa4c8d40b14c8eaf719932",
+    "glyph": 14,
+    "status": 0,
+    "expected_brightness": 192,
+    "behavioral_ddr_enabled": false,
+    "reference": "hanzi",
+    "expected_boxes": [],
+    "provenance": null
+  },
+  {
+    "name": "history_wrap_frame_0",
+    "kind": "V",
+    "request_sha256": "ff7847bf93467c8d925546b18d94c9f0f5085dd6cfd7d1eed6845b6e54b9c428",
+    "glyph": 10,
+    "status": 0,
+    "expected_brightness": 192,
+    "behavioral_ddr_enabled": false,
+    "reference": "hanzi",
+    "expected_boxes": [
+      [
+        6,
+        8,
+        21,
+        20,
+        2,
+        253
+      ]
+    ],
+    "provenance": null
+  },
+  {
+    "name": "history_wrap_frame_1",
+    "kind": "V",
+    "request_sha256": "8603bc9841219844b1ef18f7c6fdc31127e18b4bb99d146aa4577e914fd4236e",
+    "glyph": 11,
+    "status": 0,
+    "expected_brightness": 192,
+    "behavioral_ddr_enabled": false,
+    "reference": "hanzi",
+    "expected_boxes": [
+      [
+        9,
+        7,
+        15,
+        21,
+        3,
+        240
+      ]
+    ],
+    "provenance": null
+  },
+  {
+    "name": "history_wrap_frame_2",
+    "kind": "V",
+    "request_sha256": "7ac5ffe9e65777fa0d33d59675e97c984698eca5af1d7eec05848964d6211c95",
+    "glyph": 12,
+    "status": 0,
+    "expected_brightness": 192,
+    "behavioral_ddr_enabled": false,
+    "reference": "hanzi",
+    "expected_boxes": [
+      [
+        6,
+        6,
+        18,
+        21,
+        4,
+        253
+      ]
+    ],
+    "provenance": null
+  },
+  {
+    "name": "history_wrap_frame_3",
+    "kind": "V",
+    "request_sha256": "9320251969e8072c0ebb5ee00833df6a5d7d93fed620844b30e6d05451fec792",
+    "glyph": 13,
+    "status": 0,
+    "expected_brightness": 192,
+    "behavioral_ddr_enabled": false,
+    "reference": "hanzi",
+    "expected_boxes": [
+      [
+        6,
+        6,
+        16,
+        22,
+        5,
+        241
+      ]
+    ],
+    "provenance": null
+  },
+  {
+    "name": "history_wrap_frame_4",
+    "kind": "V",
+    "request_sha256": "ff7847bf93467c8d925546b18d94c9f0f5085dd6cfd7d1eed6845b6e54b9c428",
+    "glyph": 10,
+    "status": 0,
+    "expected_brightness": 192,
+    "behavioral_ddr_enabled": false,
+    "reference": "hanzi",
+    "expected_boxes": [
+      [
+        6,
+        8,
+        21,
+        20,
+        2,
+        253
+      ]
+    ],
+    "provenance": null
+  },
+  {
+    "name": "history_after_wrap",
+    "kind": "C",
+    "request_sha256": "8039cae39184c6248d96b011906d168a3c288dd46926f95c6c0b3815bd7896a2",
+    "glyph": 10,
+    "status": 0,
+    "expected_brightness": 192,
+    "behavioral_ddr_enabled": false,
+    "command": 4,
+    "expected_payload_hex": "101d0000ff000e00001c000008fb0e01001c000008fb1001011c000008fb08010251000100fc0e010051000100fc0e0100ca000102fd0a0101cb000103f00b0101cc000104fd0c0101cd000105f10d0101520001ff000e0000ca000102fd0a0101cb000103f00b0101cc000104fd0c0101cd000105f10d0101ca000102fd0a0101",
+    "status_fields": null
+  },
+  {
+    "name": "status_after_wrap",
+    "kind": "C",
+    "request_sha256": "01c24925a66e58f9bbb9ea5d2ce8d3370938dabba3f5d1fcc38487b813615804",
+    "glyph": 10,
+    "status": 0,
+    "expected_brightness": 192,
+    "behavioral_ddr_enabled": false,
+    "command": 1,
+    "expected_payload_hex": null,
+    "status_fields": {
+      "mode": 1,
+      "threshold": 160,
+      "required": 1,
+      "shown": 10,
+      "frames": 18,
+      "accepted": 12,
+      "unknown": 5,
+      "crc_errors": 2,
+      "ddr_status": 0,
+      "ddr_tested": 0,
+      "model_size": 0,
+      "model_offset": 0,
+      "model_ready": 0,
+      "upload_active": 0,
+      "with_llm": 1
+    }
+  },
+  {
+    "name": "ddr_probe_not_ready",
+    "kind": "C",
+    "request_sha256": "8b94c321289df89628007c28e0cd1a50182983ccf66c81da7e0581891fa249cd",
+    "glyph": 10,
+    "status": 4,
+    "expected_brightness": 192,
+    "behavioral_ddr_enabled": false,
+    "command": 16,
+    "expected_payload_hex": null,
+    "status_fields": null
+  },
+  {
+    "name": "model_begin_not_ready",
+    "kind": "C",
+    "request_sha256": "268a8f2d93da47f4a83db59c8db697e3258d003fa7b23781ed57c7e415d78e29",
+    "glyph": 10,
+    "status": 4,
+    "expected_brightness": 192,
+    "behavioral_ddr_enabled": false,
+    "command": 32,
+    "expected_payload_hex": null,
+    "status_fields": null
+  },
+  {
+    "name": "status_after_ddr_rejection",
+    "kind": "C",
+    "request_sha256": "81e0d472357b225f24bc453b4e38b376871ee434569d78893c3874ce2c71672c",
+    "glyph": 10,
+    "status": 0,
+    "expected_brightness": 192,
+    "behavioral_ddr_enabled": false,
+    "command": 1,
+    "expected_payload_hex": null,
+    "status_fields": {
+      "mode": 1,
+      "threshold": 160,
+      "required": 1,
+      "shown": 10,
+      "frames": 18,
+      "accepted": 12,
+      "unknown": 5,
+      "crc_errors": 2,
+      "ddr_status": 0,
+      "ddr_tested": 0,
+      "model_size": 0,
+      "model_offset": 0,
+      "model_ready": 0,
+      "upload_active": 0,
+      "with_llm": 1
+    }
+  },
+  {
+    "name": "invalid_mode_preserves_state",
+    "kind": "C",
+    "request_sha256": "7c7d819660f58426dee8cfb908621c23a3a9a73d4146ea6694c6edc08ba43fd3",
+    "glyph": 10,
+    "status": 1,
+    "expected_brightness": 192,
+    "behavioral_ddr_enabled": false,
+    "command": 2,
+    "expected_payload_hex": null,
+    "status_fields": null
+  },
+  {
+    "name": "unsupported_command",
+    "kind": "C",
+    "request_sha256": "40045b18449b8db931a9c6033118f54dacfcda889c94050fc84ebbaa81dc0b27",
+    "glyph": 10,
+    "status": 7,
+    "expected_brightness": 192,
+    "behavioral_ddr_enabled": false,
+    "command": 127,
+    "expected_payload_hex": null,
+    "status_fields": null
+  },
+  {
+    "name": "clear_statistics",
+    "kind": "C",
+    "request_sha256": "af9bf71a989c3e46212069b9fe4c65f7db89b10ba30659ae4887bb73cf839061",
+    "glyph": 10,
+    "status": 0,
+    "expected_brightness": 192,
+    "behavioral_ddr_enabled": false,
+    "command": 5,
+    "expected_payload_hex": null,
+    "status_fields": null
+  },
+  {
+    "name": "history_after_clear",
+    "kind": "C",
+    "request_sha256": "a4c9a4ad5fd36d1501d955e6fc210530472586020e340cf9f0144d2578f79346",
+    "glyph": 10,
+    "status": 0,
+    "expected_brightness": 192,
+    "behavioral_ddr_enabled": false,
+    "command": 4,
+    "expected_payload_hex": "00",
+    "status_fields": null
+  },
+  {
+    "name": "status_after_clear",
+    "kind": "C",
+    "request_sha256": "02728c3f33149a6ab1b6fa0653c682f0df1135d411c367d6303aff7f971d1e7c",
+    "glyph": 10,
+    "status": 0,
+    "expected_brightness": 192,
+    "behavioral_ddr_enabled": false,
+    "command": 1,
+    "expected_payload_hex": null,
+    "status_fields": {
+      "mode": 1,
+      "threshold": 160,
+      "required": 1,
+      "shown": 10,
+      "frames": 0,
+      "accepted": 0,
+      "unknown": 0,
+      "crc_errors": 0,
+      "ddr_status": 0,
+      "ddr_tested": 0,
+      "model_size": 0,
+      "model_offset": 0,
+      "model_ready": 0,
+      "upload_active": 0,
+      "with_llm": 1
+    }
+  },
+  {
+    "name": "behavioral_ddr_probe",
+    "kind": "C",
+    "request_sha256": "e8b899eff06b438ab3f393a148e3b90bd0dafeb883c5411973c9dec509bcc91e",
+    "glyph": 10,
+    "status": 0,
+    "expected_brightness": 192,
+    "behavioral_ddr_enabled": true,
+    "command": 16,
+    "expected_payload_hex": null,
+    "status_fields": null
+  },
+  {
+    "name": "status_after_behavioral_probe",
+    "kind": "C",
+    "request_sha256": "ef55cdd377207c7bec240e63f09d5a4c2825829f114fc091cc25f3c0f8ed0753",
+    "glyph": 10,
+    "status": 0,
+    "expected_brightness": 192,
+    "behavioral_ddr_enabled": true,
+    "command": 1,
+    "expected_payload_hex": null,
+    "status_fields": {
+      "mode": 1,
+      "threshold": 160,
+      "required": 1,
+      "shown": 10,
+      "frames": 0,
+      "accepted": 0,
+      "unknown": 0,
+      "crc_errors": 0,
+      "ddr_status": 1,
+      "ddr_tested": 1,
+      "model_size": 0,
+      "model_offset": 0,
+      "model_ready": 0,
+      "upload_active": 0,
+      "with_llm": 1
+    }
+  },
+  {
+    "name": "loader_begin_bad_file_crc",
+    "kind": "C",
+    "request_sha256": "51212d61d7aa0bcce2fdbfc5ec04511df35d152d6bc74556e44b412046a499be",
+    "glyph": 10,
+    "status": 0,
+    "expected_brightness": 192,
+    "behavioral_ddr_enabled": true,
+    "command": 32,
+    "expected_payload_hex": null,
+    "status_fields": null
+  },
+  {
+    "name": "loader_out_of_order_rejected",
+    "kind": "C",
+    "request_sha256": "2517e137f4a2130656598354b4acdf119a9e2e92df329708a697a05e772ec19c",
+    "glyph": 10,
+    "status": 5,
+    "expected_brightness": 192,
+    "behavioral_ddr_enabled": true,
+    "command": 33,
+    "expected_payload_hex": "00000000",
+    "status_fields": null
+  },
+  {
+    "name": "loader_first_chunk",
+    "kind": "C",
+    "request_sha256": "0b64b5f633fe1b615bc8b70108d74ca9b5596218942fbbe609e1d6fea8046752",
+    "glyph": 10,
+    "status": 0,
+    "expected_brightness": 192,
+    "behavioral_ddr_enabled": true,
+    "command": 33,
+    "expected_payload_hex": "40000000",
+    "status_fields": null
+  },
+  {
+    "name": "loader_duplicate_chunk",
+    "kind": "C",
+    "request_sha256": "eeda32c41abe5f09292909ca685daaadf411fcfb201bb988e4bf8eb2b71bdba5",
+    "glyph": 10,
+    "status": 0,
+    "expected_brightness": 192,
+    "behavioral_ddr_enabled": true,
+    "command": 33,
+    "expected_payload_hex": "40000000",
+    "status_fields": null
+  },
+  {
+    "name": "loader_conflicting_duplicate",
+    "kind": "C",
+    "request_sha256": "c87da577c5d2e31266a9d11a46a45309cc4e246bd30b8a0b3da28e724f308187",
+    "glyph": 10,
+    "status": 5,
+    "expected_brightness": 192,
+    "behavioral_ddr_enabled": true,
+    "command": 33,
+    "expected_payload_hex": "40000000",
+    "status_fields": null
+  },
+  {
+    "name": "loader_remaining_chunk",
+    "kind": "C",
+    "request_sha256": "5e0cfa9e495908806bdf5eea0693e2a6ca6b63c1ae1fd5de44a4d869065639f7",
+    "glyph": 10,
+    "status": 0,
+    "expected_brightness": 192,
+    "behavioral_ddr_enabled": true,
+    "command": 33,
+    "expected_payload_hex": "00010000",
+    "status_fields": null
+  },
+  {
+    "name": "loader_bad_file_crc_rejected",
+    "kind": "C",
+    "request_sha256": "5520c4140eed1e2b2621be7eb70e5966d22c3d175ab9b9401e36bbeca0a143e9",
+    "glyph": 10,
+    "status": 5,
+    "expected_brightness": 192,
+    "behavioral_ddr_enabled": true,
+    "command": 34,
+    "expected_payload_hex": null,
+    "status_fields": null
+  },
+  {
+    "name": "loader_begin_good_crc",
+    "kind": "C",
+    "request_sha256": "eecaa20f0798cd9b4836d130725ba1b321b5c202438d5484c413a8361222f877",
+    "glyph": 10,
+    "status": 0,
+    "expected_brightness": 192,
+    "behavioral_ddr_enabled": true,
+    "command": 32,
+    "expected_payload_hex": null,
+    "status_fields": null
+  },
+  {
+    "name": "loader_complete_image",
+    "kind": "C",
+    "request_sha256": "51644f3e3f468e9eca4743b9c3ed2fc1055d4d380ac9b192f3cac25fc0c17523",
+    "glyph": 10,
+    "status": 0,
+    "expected_brightness": 192,
+    "behavioral_ddr_enabled": true,
+    "command": 33,
+    "expected_payload_hex": "00010000",
+    "status_fields": null
+  },
+  {
+    "name": "loader_ddr_readback_crc_rejected",
+    "kind": "C",
+    "request_sha256": "cc0c8fb96ae9f88e3f838a6823016f9e845041e68862a26689921dae33eb1e4e",
+    "glyph": 10,
+    "status": 5,
+    "expected_brightness": 192,
+    "behavioral_ddr_enabled": true,
+    "command": 34,
+    "expected_payload_hex": null,
+    "status_fields": null
+  },
+  {
+    "name": "loader_invalid_llm_image_rejected",
+    "kind": "C",
+    "request_sha256": "7d8905beed1568225a09400bdeaee71e4540bcaddb1fa8690ff9b64314062ef1",
+    "glyph": 10,
+    "status": 6,
+    "expected_brightness": 192,
+    "behavioral_ddr_enabled": true,
+    "command": 34,
+    "expected_payload_hex": "ffffffff",
+    "status_fields": null
+  },
+  {
+    "name": "status_after_invalid_image",
+    "kind": "C",
+    "request_sha256": "6c9c63297a462473c5fe83f028afd9db600cc87c5ae57305762fa2345141f1a9",
+    "glyph": 10,
+    "status": 0,
+    "expected_brightness": 192,
+    "behavioral_ddr_enabled": true,
+    "command": 1,
+    "expected_payload_hex": null,
+    "status_fields": {
+      "mode": 1,
+      "threshold": 160,
+      "required": 1,
+      "shown": 10,
+      "frames": 0,
+      "accepted": 0,
+      "unknown": 0,
+      "crc_errors": 0,
+      "ddr_status": 1,
+      "ddr_tested": 1,
+      "model_size": 256,
+      "model_offset": 256,
+      "model_ready": 0,
+      "upload_active": 1,
+      "with_llm": 1
+    }
+  },
+  {
+    "name": "chat_without_ready_model_rejected",
+    "kind": "C",
+    "request_sha256": "a6731ac97b53f27a0a1a01c1caf64dd0c744a0ccebdcffeae111ef5845439c4f",
+    "glyph": 10,
+    "status": 4,
+    "expected_brightness": 192,
+    "behavioral_ddr_enabled": true,
+    "command": 48,
+    "expected_payload_hex": null,
+    "status_fields": null
+  }
+]

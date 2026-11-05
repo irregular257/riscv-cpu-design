@@ -1,0 +1,16 @@
+{
+  "status": "PASS_ACTUAL_SYNTH_MULTIPLIER",
+  "scope": "Both actual mapped multiplier/DSP and EX/MEM D-pin cones with legal EX boundaries forced; not complete CPU gate-level execution, post-route timing, or physical board",
+  "runs": {
+    "coremark": {
+      "summary_path": "D:\\\u57fa\u4e8eRISCV\u6307\u4ee4\u96c6CPU\u8bbe\u8ba1\\remote_pg2l200h\\advanced\\reports\\maxperf_20261103\\mapped_multiplier_decouple66_coremark_internal_wb\\summary.json",
+      "summary_sha256": "06c975dbef2d6a9ca3ad025d67d7812aa306fbf33bd5186a4eac274a6ef9c4dc",
+      "netlist_sha256": "333d9f02a87818d0fd0a7613c9b1b48831c2fe3a1e98362e0e5fc06170686828"
+    },
+    "multimodal": {
+      "summary_path": "D:\\\u57fa\u4e8eRISCV\u6307\u4ee4\u96c6CPU\u8bbe\u8ba1\\remote_pg2l200h\\advanced\\reports\\maxperf_20261103\\mapped_multiplier_decouple66_multimodal_internal_wb\\summary.json",
+      "summary_sha256": "1c9086280fff034ce34e6daf65832e1ea97a4e82ba720e7f7a157428d068616a",
+      "netlist_sha256": "7142c43df446b61a2f7a9cf8e7c103e058784d3498c1316d00c66862a5b35dcf"
+    }
+  }
+}

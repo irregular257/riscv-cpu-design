@@ -1,0 +1,17 @@
+- V e r i l a t i o n   R e p o r t: Verilator 5.053 devel rev v5.052-627-g9440ae89d (mod)
+- Verilator: Built from 0.084 MB sources in 4 modules, into 0.680 MB in 7 C++ files needing 0.010 MB
+- Verilator: Walltime 0.162 s (elab=0.008, cvt=0.105, bld=0.000); cpu 0.125 s on 1 threads; allocated 22.891 MB
+%Warning-WIDTHEXPAND: reports\maxperf_20261103\matrix_66000000\matrix_display.v:187:69: Operator SUB expects 32 bits on the LHS, but LHS's VARREF 'x' generates 4 bits.
+                                                                                      : ... note: In instance 'tb_matrix_display.dut'
+  187 |                         glyph_column[y]=font[(6-((y-1)>>1))*5+(4-((x-3)>>1))];
+      |                                                                     ^
+                      ... For warning description see https://verilator.org/warn/WIDTHEXPAND?v=5.053
+                      ... Use "/* verilator lint_off WIDTHEXPAND */" and lint_on around source to disable this message.
+%Warning-WIDTHEXPAND: reports\maxperf_20261103\matrix_66000000\tb_matrix_display.v:143:33: Operator EQCASE expects 256 bits on the LHS, but LHS's VARREF 'panel_rows' generates 16 bits.
+                                                                                         : ... note: In instance 'tb_matrix_display'
+  143 |                 check(panel_rows===((wanted>>(col*16))&16'hffff),"serial pixels match complete golden glyph/frame");
+      |                                 ^~~
+%Warning-WIDTHEXPAND: reports\maxperf_20261103\matrix_66000000\tb_matrix_display.v:143:55: Operator AND expects 256 bits on the RHS, but RHS's CONST '16'hffff' generates 16 bits.
+                                                                                         : ... note: In instance 'tb_matrix_display'
+  143 |                 check(panel_rows===((wanted>>(col*16))&16'hffff),"serial pixels match complete golden glyph/frame");
+      |                                                       ^

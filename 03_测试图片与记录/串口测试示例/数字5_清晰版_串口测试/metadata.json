@@ -1,0 +1,55 @@
+{
+  "directory": "D:\\基于RISCV指令集CPU设计\\串口图片工具示例\\数字5_清晰版_串口测试",
+  "protocol": "RV32I image request A5 59 version 1",
+  "sequence": 5,
+  "raw_head": false,
+  "frame_size": [
+    32,
+    32
+  ],
+  "content_size": [
+    28,
+    28
+  ],
+  "pixel_range": [
+    0,
+    16
+  ],
+  "packet_bytes": 1036,
+  "pixel_bytes": 1024,
+  "chunk_bytes": [
+    256,
+    256,
+    256,
+    256,
+    12
+  ],
+  "request_sha256": "ad3f07698e6fc8933a499df55e2c2fe79c993b300baafbe1fab271ff21e3b4f3",
+  "crc16_ccitt_false": "71B9",
+  "crc_wire_little_endian": "B9 71",
+  "preprocessing": {
+    "source_size": [
+      1254,
+      1254
+    ],
+    "mode": "fit28",
+    "invert": "no",
+    "inversion_applied": false
+  },
+  "paths": {
+    "request_bin": "D:\\基于RISCV指令集CPU设计\\串口图片工具示例\\数字5_清晰版_串口测试\\request.bin",
+    "request_hex": "D:\\基于RISCV指令集CPU设计\\串口图片工具示例\\数字5_清晰版_串口测试\\request.hex",
+    "input28": "D:\\基于RISCV指令集CPU设计\\串口图片工具示例\\数字5_清晰版_串口测试\\input28.png",
+    "input32": "D:\\基于RISCV指令集CPU设计\\串口图片工具示例\\数字5_清晰版_串口测试\\input32.png",
+    "metadata": "D:\\基于RISCV指令集CPU设计\\串口图片工具示例\\数字5_清晰版_串口测试\\metadata.json",
+    "chunks": [
+      "D:\\基于RISCV指令集CPU设计\\串口图片工具示例\\数字5_清晰版_串口测试\\chunk_1.hex",
+      "D:\\基于RISCV指令集CPU设计\\串口图片工具示例\\数字5_清晰版_串口测试\\chunk_2.hex",
+      "D:\\基于RISCV指令集CPU设计\\串口图片工具示例\\数字5_清晰版_串口测试\\chunk_3.hex",
+      "D:\\基于RISCV指令集CPU设计\\串口图片工具示例\\数字5_清晰版_串口测试\\chunk_4.hex",
+      "D:\\基于RISCV指令集CPU设计\\串口图片工具示例\\数字5_清晰版_串口测试\\chunk_5.hex"
+    ]
+  },
+  "display_note": "input PNGs are reconstructed from sent pixels; no model inference is performed.",
+  "send_note": "Send five chunks in order with HEX sending enabled; do not add packet headers or CR/LF bytes."
+}

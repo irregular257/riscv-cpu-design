@@ -1,0 +1,4 @@
+tb_production.v:4: warning: Port 1 (req_addr) of matrix_display expects 32 bits, got 1.
+tb_production.v:4:        : Padding 31 high bits of the port.
+tb_production.v:4: warning: Port 2 (req_wdata) of matrix_display expects 32 bits, got 1.
+tb_production.v:4:        : Padding 31 high bits of the port.

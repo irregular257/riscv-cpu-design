@@ -1,0 +1,4067 @@
+[
+  {
+    "path": ".gitignore",
+    "bytes": 52,
+    "sha256": "92b05fd67ff8047708218fec46963d6a710ae7f1303338be42be813adb2398af"
+  },
+  {
+    "path": "01_最终源码/00_使用说明.txt",
+    "bytes": 4835,
+    "sha256": "f13b617a68c4b14c775e5fb4572985613f386fe90533cec9853fe27aaf1d4499"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/重新构建说明.txt",
+    "bytes": 531,
+    "sha256": "21135f45fb1e9fe0c49bea225d79f016be4f91a4c90f68f4c7473961c57dd4ac"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/build.json",
+    "bytes": 11811,
+    "sha256": "7c162baef44e29140740f310d4f96e0d12f8211752958e1a449284e43047d25a"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/independent_pds_audit.json",
+    "bytes": 4538,
+    "sha256": "b4a86c2aa8581d09b028cae152af262a594fa539c29cd02db1e674abd6cfe669"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/licenses/CoreMark/LICENSE.md",
+    "bytes": 18582,
+    "sha256": "9577b9c846f61fd69a0d8ac965998c6450c7d8969f71f0bb4a931b91aebad28a"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/licenses/CoreMark/README.md",
+    "bytes": 19687,
+    "sha256": "5581fb67dc1609cbd1865f150dbcb1050d96c602987792456850eb96eb0dd08c"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/pds_evidence/generate_bitstream/advanced_top.bgr",
+    "bytes": 1993,
+    "sha256": "fcb6eb27481bcc53b1cdb8478a9b4c48252567f316c5abf02ec87532d7f2e39f"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/pds_evidence/place_route/advanced_top_prr_route_optimize.prt",
+    "bytes": 18785,
+    "sha256": "9fa01913cc137b266f3f5807bfe6cb88ec9baed2f1ddfb5d691f0f4e3e78f72e"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/pds_evidence/place_route/advanced_top.ror",
+    "bytes": 23783,
+    "sha256": "20416e83847127a2dc0149cfeab28b1a08d91c8da5aa1e99e0e53e1c488d97de"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/pds_evidence/report_timing/advanced_top_exception.rtr",
+    "bytes": 9488,
+    "sha256": "0ececc90be04320e7a7cc2c9d87a2bef6b051b20dae9a4e0972c2d4cc43986c7"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/pds_evidence/report_timing/advanced_top.rtr",
+    "bytes": 111691,
+    "sha256": "2166a645b69bfd56cfc7a428438c720acfbb512e267fe5ed079a209492efde07"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/pds_evidence/report_timing/run.log",
+    "bytes": 1679,
+    "sha256": "ab529809b476c306d047a6e79b746765518c9b2d4b7e5ae63b09eec92addb0cc"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/pds_evidence/synthesize/advanced_top_syn.vm",
+    "bytes": 7148176,
+    "sha256": "333d9f02a87818d0fd0a7613c9b1b48831c2fe3a1e98362e0e5fc06170686828"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/pds_evidence/synthesize/constraint_check.ccr",
+    "bytes": 1980,
+    "sha256": "375e3a746968dadaff87decf54fe2046b193096c7166313c3ae8c2864bebd144"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/regression_sources/reports/maxperf_20261103/selected_decoupled_i8_d4/advanced_soc.v",
+    "bytes": 6453,
+    "sha256": "c09cb42c057d4204c5c5870990ae0cf5e8486aee22ba2669a862a7f3987abc87"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/regression_sources/reports/maxperf_20261103/selected_decoupled_i8_d4/advanced_top.v",
+    "bytes": 1229,
+    "sha256": "fcd4e3c99b92c0d70379bc2e2caccb56fce7c7deb679afdcfdcd3ddd8591a9d7"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/regression_sources/reports/maxperf_20261103/selected_decoupled_i8_d4/alu.v",
+    "bytes": 5362,
+    "sha256": "5f53b372aabd205e485fa299d1bf7624c51ae1dc90e0903a6dc76c4e27acc711"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/regression_sources/reports/maxperf_20261103/selected_decoupled_i8_d4/cache_2way.v",
+    "bytes": 18664,
+    "sha256": "1638fea389f5d18a755e145a7097ca153d7374dbaea9fb0f1140476bc0408ac9"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/regression_sources/reports/maxperf_20261103/selected_decoupled_i8_d4/camera_dvp_capture.v",
+    "bytes": 5680,
+    "sha256": "59ef641d47586b1d18f32da348b188abaf0b4053b1ddbc25abc71ee12eda2d74"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/regression_sources/reports/maxperf_20261103/selected_decoupled_i8_d4/camera_sccb_write.v",
+    "bytes": 2428,
+    "sha256": "73910e450f4f36d3e02c1d2eb925e368f1b9be60c91a0d5d9e523675727a284c"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/regression_sources/reports/maxperf_20261103/selected_decoupled_i8_d4/cpu_core.v",
+    "bytes": 27015,
+    "sha256": "ccb43bd36d5e050b97e2f71d86ba54eb1d1d33b7cf5e9cb976caa3dbec9ecaf8"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/regression_sources/reports/maxperf_20261103/selected_decoupled_i8_d4/cpu_top.v",
+    "bytes": 3233,
+    "sha256": "8a67233e20affb552ae73309240e580a339d45618626a7da8a9b59cc8a57aa17"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/regression_sources/reports/maxperf_20261103/selected_decoupled_i8_d4/data_bus.v",
+    "bytes": 8742,
+    "sha256": "7adc18ac0724a457dd3ec8349d6bf9079edaf723d6f83e101c017068d7859b80"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/regression_sources/reports/maxperf_20261103/selected_decoupled_i8_d4/decoder.v",
+    "bytes": 5592,
+    "sha256": "0e11234d7352393c23ec882b5e5221974efb9050d7ecd4a90f8756dbbe0177cf"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/regression_sources/reports/maxperf_20261103/selected_decoupled_i8_d4/fpga_top.v",
+    "bytes": 1803,
+    "sha256": "c0999157b6d5b9e6b89ed91d31c523ac7a010bb2a4064ee8427dfb094bee73d3"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/regression_sources/reports/maxperf_20261103/selected_decoupled_i8_d4/int8_dot.v",
+    "bytes": 3730,
+    "sha256": "27b0c16ebab7695d79c206f2bf655e7be519b6d2a838593a6ab4914c8b2320a5"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/regression_sources/reports/maxperf_20261103/selected_decoupled_i8_d4/machine_csr.v",
+    "bytes": 4723,
+    "sha256": "4df8fce167ba4371bd98ee9736628224bafdeaf682a38d8d7136765566379d4b"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/regression_sources/reports/maxperf_20261103/selected_decoupled_i8_d4/pc_reg.v",
+    "bytes": 1280,
+    "sha256": "4038873a252f8486307eb7a27e504a6c4fe0c665711c9025ed8183f63a03c568"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/regression_sources/reports/maxperf_20261103/selected_decoupled_i8_d4/ram_sync.v",
+    "bytes": 3470,
+    "sha256": "f66eb0e9a84b608a2d5c44682cb713ea02f2e19503e27ffbf6f2a6077ed7fdb5"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/regression_sources/reports/maxperf_20261103/selected_decoupled_i8_d4/ram.v",
+    "bytes": 3924,
+    "sha256": "9c9846bdc58fbba620b4f6326aa134757ee7117dbf081143917fed0341dcdd01"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/regression_sources/reports/maxperf_20261103/selected_decoupled_i8_d4/regfile.v",
+    "bytes": 1409,
+    "sha256": "0d5f03aa884c1725a51269a4a69e8f6a3740eb56d87b7fd50df0af92d13296f2"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/regression_sources/reports/maxperf_20261103/selected_decoupled_i8_d4/remote_top.v",
+    "bytes": 894,
+    "sha256": "940cb0d11a30d14bbfbdf218017c4e5790c8ebf8dbbb011959481551f2dbc576"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/regression_sources/reports/maxperf_20261103/selected_decoupled_i8_d4/rom_sync.v",
+    "bytes": 18799,
+    "sha256": "da9da1de535d89f68b08d8bc9eb8b4068a755289091f82c79774f21665fd62f7"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/regression_sources/reports/maxperf_20261103/selected_decoupled_i8_d4/rom.v",
+    "bytes": 17722,
+    "sha256": "d38d93cea50620274f35fcf242fdba4a77b9835c855338d4942c50c46a16be3c"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/regression_sources/reports/maxperf_20261103/selected_decoupled_i8_d4/selftest_top.v",
+    "bytes": 687,
+    "sha256": "18b17b6c24531a11ddc8f02986de704746030401b3d1f3afa2d71bf36a001fa5"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/regression_sources/reports/maxperf_20261103/selected_decoupled_i8_d4/soc_peripherals.v",
+    "bytes": 3586,
+    "sha256": "0ae1a5d042b80ae560d7198dbc8300c0a16337de69cd21d0d1cff0c697d0c30c"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/regression_sources/reports/maxperf_20261103/selected_decoupled_i8_d4/uart_rx.v",
+    "bytes": 2074,
+    "sha256": "f5c547dad8d21ab8894e4933f5ecfcd94bb71643d7af8c62449bcbf84274a0e3"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/regression_sources/reports/maxperf_20261103/selected_decoupled_i8_d4/uart_tx.v",
+    "bytes": 1181,
+    "sha256": "d93824751216ab3319ad7d4e755e59009d1c4a204cb7da685addfdf42e859077"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/regression_sources/reports/maxperf_20261103/selected_decoupled_i8_d4/video_mmio.v",
+    "bytes": 5922,
+    "sha256": "6b2ddadf22b2c0b695f1948b98661ed0d16fe94c03c47dcb7061363ec36f0679"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/regression_sources/reports/maxperf_20261103/selected_decoupled_i8_d4/video_rgb_scanout.v",
+    "bytes": 2515,
+    "sha256": "fbd2c54a1838c3f71ce53bd72a5707cf76b56d57f8aa16beb9c8b83ca963c452"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/regression_sources/sim/coremark_perf_runner.cpp",
+    "bytes": 2190,
+    "sha256": "ab799d4739e1a3b2f905fa48b14fa6677bac72e7ed4681b01c469f692b16492b"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/regression_sources/sim/tb_coremark_perf.v",
+    "bytes": 1733,
+    "sha256": "6fa1ca3a3332f32da3b5d1d01830f67279680f868cbf4640be351b2437fe9e40"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/release_tools/reports/maxperf_20261103/compiler/audit_maxperf_pds.py",
+    "bytes": 23416,
+    "sha256": "f91ed2ce1b6d5c162fbacc3c4bbc7ebc6f2aa5b1911cf0100d0f6a812d71cc82"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/release_tools/scripts/compare_maxperf_scores.py",
+    "bytes": 9878,
+    "sha256": "cdbf0df865e2dc40e3ae6ee1603bda3183c2223d06c6c21cee3b8bc8cdf2ed4b"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/release_tools/scripts/compare_maxperf_vision.py",
+    "bytes": 6293,
+    "sha256": "780a3558184bdcdd49ad00d4fe46d12629fb2708b9e6e0fe4e6e4fa269a5d4f8"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/release_tools/scripts/finalize_maxperf_core_comparison.py",
+    "bytes": 6330,
+    "sha256": "ad7cf5671caf5d28d05af26824aeca12629eea66dfc8ff54cd3952484da64f2e"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/release_tools/scripts/finalize_maxperf_release.py",
+    "bytes": 44030,
+    "sha256": "bd7c00dbcbff0f6857d44989013e5b1e512b567dc286572eb4797f762badfdd1"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/release_tools/scripts/package_advanced.py",
+    "bytes": 13428,
+    "sha256": "74e13c57a50992a9cf23759e7dbe5418d6dbfa8e0582bee102e11b3805cfbc3c"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/release_tools/scripts/vision_serial.py",
+    "bytes": 9966,
+    "sha256": "02e1a37b5d8246f559daeacb336f83bd497551ada3d93576a4fff0db7a9ef20e"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/SHA256.json",
+    "bytes": 20430,
+    "sha256": "6a9d34219407484a0511b1cad83af1f136e66e1cbe8359b7298a68715929979b"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/source/build_scripts/multimodal/scripts/assemble_soc.py",
+    "bytes": 2609,
+    "sha256": "1883f3f609f800ecf975944ccbe27882a65809276be8d32d7383877d03a151d4"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/source/build_scripts/multimodal/scripts/build.py",
+    "bytes": 7278,
+    "sha256": "9b4cbe9f3992857f6a764a12acdbfdb7ea749c2566045ca07128629ae900c8c8"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/source/build_scripts/scripts/build_maxperf_pds.py",
+    "bytes": 11768,
+    "sha256": "ed0be12261baf37b9248870b0c2232f93132c702a7dc019904ea12415c2a431e"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/source/build_scripts/scripts/package_advanced.py",
+    "bytes": 13428,
+    "sha256": "74e13c57a50992a9cf23759e7dbe5418d6dbfa8e0582bee102e11b3805cfbc3c"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/source/build_scripts/scripts/run_coremark_perf.py",
+    "bytes": 11027,
+    "sha256": "d3a6bb1e1e0fe8b986584396cce4ce6208ec735fc08c28f0148297820bed4fc8"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/source/cpu_clock.v",
+    "bytes": 1352,
+    "sha256": "776679233b5786a1f88afe9239937dcdc2c206c5cb2a7e41faa59507e4416bb3"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/source/firmware_sources/software/coremark_perf/core_portme.c",
+    "bytes": 1511,
+    "sha256": "be088fba5a4ddb46b2698de705bd98787e2a781f96b33eb8d2d73183ccc39150"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/source/firmware_sources/software/coremark_perf/core_portme.h",
+    "bytes": 1392,
+    "sha256": "bbf6e5d3b5f9b3f7e4362fad653d5d88bb877481363f5f0f5285f5d4ec5da5ac"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/source/firmware_sources/software/coremark_perf/ee_printf.c",
+    "bytes": 2436,
+    "sha256": "e832ed0884fbaf0c7bac4f962e0793c046d6f8b75fd2d043082f58383aa942fd"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/source/firmware_sources/software/coremark_perf/link.ld",
+    "bytes": 543,
+    "sha256": "da05f5fd209d49f5fcde795b2f3256d9908e097267381c358610f398ef003acf"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/source/firmware_sources/software/coremark_perf/official/core_list_join.c",
+    "bytes": 18225,
+    "sha256": "ca00e4e010ece47d7f040cb92aa50a95345a00d3171b59d088f6b243be06ce7b"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/source/firmware_sources/software/coremark_perf/official/core_main.c",
+    "bytes": 15788,
+    "sha256": "17884c93c5b94378eb0ff02b4df3725756cf2addb9b8cbcaa6200a4649ff5ca7"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/source/firmware_sources/software/coremark_perf/official/core_matrix.c",
+    "bytes": 9598,
+    "sha256": "ecdff717b5a5c4907d221a606760e25499899cbf617582c05d40db71c91351e4"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/source/firmware_sources/software/coremark_perf/official/core_state.c",
+    "bytes": 9707,
+    "sha256": "f4b84bb0a3452c45a4daa664ab502bfdccbd31cb57d93e9ac490c60937717a4e"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/source/firmware_sources/software/coremark_perf/official/core_util.c",
+    "bytes": 6004,
+    "sha256": "a3fbfcb9bb943b638624b8ece01c5836dd56a96d7bcde2697b248d077447327f"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/source/firmware_sources/software/coremark_perf/official/coremark.h",
+    "bytes": 4760,
+    "sha256": "42642b9a06c7ed2b3bd9eda971b7c3868c4f5d27bf7ef6c4bba11291a0c2598a"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/source/firmware_sources/software/coremark_perf/start.S",
+    "bytes": 278,
+    "sha256": "ed92803955455eaac0953e800965f58b2fd190ce592eb17cf96b7864d6150bd0"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/source/firmware/build.json",
+    "bytes": 4102,
+    "sha256": "1158da26c4a3848df3e269c25a0bd646ee2590302c5d0f243d22d2fdb0aeda19"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/source/firmware/compile.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/source/firmware/coremark_ram.hex",
+    "bytes": 163840,
+    "sha256": "2a0edac4f20e799f7dbf62b22723decf60cbcc088c1b579e4f40d64a40fe53e4"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/source/firmware/coremark_rom.hex",
+    "bytes": 163840,
+    "sha256": "650dcd27114723cc49b13be619b8b1f4da7743723b0d97a4e615db29eb648d44"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/source/firmware/coremark.dis",
+    "bytes": 358826,
+    "sha256": "74d4dde250d344cb7f238df8348a986feb59a26a737604f59ce60679d3fd04f1"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/source/firmware/coremark.elf",
+    "bytes": 119516,
+    "sha256": "2b0ec233b4e70e96d544aefd502ea0fbca59b8aea61d2f781358f2989b009aba"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/source/firmware/coremark.map",
+    "bytes": 46041,
+    "sha256": "28240eb7f4668ff085c92e113b2073e6eddd47e04cfb80c2962f61e0116b57f3"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/source/firmware/source/core_portme.c",
+    "bytes": 1511,
+    "sha256": "be088fba5a4ddb46b2698de705bd98787e2a781f96b33eb8d2d73183ccc39150"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/source/firmware/source/core_portme.h",
+    "bytes": 1392,
+    "sha256": "bbf6e5d3b5f9b3f7e4362fad653d5d88bb877481363f5f0f5285f5d4ec5da5ac"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/source/firmware/source/ee_printf.c",
+    "bytes": 2436,
+    "sha256": "e832ed0884fbaf0c7bac4f962e0793c046d6f8b75fd2d043082f58383aa942fd"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/source/firmware/source/link.ld",
+    "bytes": 543,
+    "sha256": "da05f5fd209d49f5fcde795b2f3256d9908e097267381c358610f398ef003acf"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/source/firmware/source/official/core_list_join.c",
+    "bytes": 18225,
+    "sha256": "ca00e4e010ece47d7f040cb92aa50a95345a00d3171b59d088f6b243be06ce7b"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/source/firmware/source/official/core_main.c",
+    "bytes": 15788,
+    "sha256": "17884c93c5b94378eb0ff02b4df3725756cf2addb9b8cbcaa6200a4649ff5ca7"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/source/firmware/source/official/core_matrix.c",
+    "bytes": 9598,
+    "sha256": "ecdff717b5a5c4907d221a606760e25499899cbf617582c05d40db71c91351e4"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/source/firmware/source/official/core_state.c",
+    "bytes": 9707,
+    "sha256": "f4b84bb0a3452c45a4daa664ab502bfdccbd31cb57d93e9ac490c60937717a4e"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/source/firmware/source/official/core_util.c",
+    "bytes": 6004,
+    "sha256": "a3fbfcb9bb943b638624b8ece01c5836dd56a96d7bcde2697b248d077447327f"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/source/firmware/source/official/coremark.h",
+    "bytes": 4760,
+    "sha256": "42642b9a06c7ed2b3bd9eda971b7c3868c4f5d27bf7ef6c4bba11291a0c2598a"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/source/firmware/source/start.S",
+    "bytes": 278,
+    "sha256": "ed92803955455eaac0953e800965f58b2fd190ce592eb17cf96b7864d6150bd0"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/source/rtl/advanced_soc.v",
+    "bytes": 6453,
+    "sha256": "c09cb42c057d4204c5c5870990ae0cf5e8486aee22ba2669a862a7f3987abc87"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/source/rtl/advanced_top.v",
+    "bytes": 1229,
+    "sha256": "fcd4e3c99b92c0d70379bc2e2caccb56fce7c7deb679afdcfdcd3ddd8591a9d7"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/source/rtl/alu.v",
+    "bytes": 5362,
+    "sha256": "5f53b372aabd205e485fa299d1bf7624c51ae1dc90e0903a6dc76c4e27acc711"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/source/rtl/cache_2way.v",
+    "bytes": 18664,
+    "sha256": "1638fea389f5d18a755e145a7097ca153d7374dbaea9fb0f1140476bc0408ac9"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/source/rtl/camera_dvp_capture.v",
+    "bytes": 5680,
+    "sha256": "59ef641d47586b1d18f32da348b188abaf0b4053b1ddbc25abc71ee12eda2d74"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/source/rtl/camera_sccb_write.v",
+    "bytes": 2428,
+    "sha256": "73910e450f4f36d3e02c1d2eb925e368f1b9be60c91a0d5d9e523675727a284c"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/source/rtl/cpu_core.v",
+    "bytes": 27015,
+    "sha256": "ccb43bd36d5e050b97e2f71d86ba54eb1d1d33b7cf5e9cb976caa3dbec9ecaf8"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/source/rtl/cpu_top.v",
+    "bytes": 3233,
+    "sha256": "8a67233e20affb552ae73309240e580a339d45618626a7da8a9b59cc8a57aa17"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/source/rtl/data_bus.v",
+    "bytes": 8742,
+    "sha256": "7adc18ac0724a457dd3ec8349d6bf9079edaf723d6f83e101c017068d7859b80"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/source/rtl/decoder.v",
+    "bytes": 5592,
+    "sha256": "0e11234d7352393c23ec882b5e5221974efb9050d7ecd4a90f8756dbbe0177cf"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/source/rtl/fpga_top.v",
+    "bytes": 1803,
+    "sha256": "c0999157b6d5b9e6b89ed91d31c523ac7a010bb2a4064ee8427dfb094bee73d3"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/source/rtl/int8_dot.v",
+    "bytes": 3730,
+    "sha256": "27b0c16ebab7695d79c206f2bf655e7be519b6d2a838593a6ab4914c8b2320a5"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/source/rtl/machine_csr.v",
+    "bytes": 4723,
+    "sha256": "4df8fce167ba4371bd98ee9736628224bafdeaf682a38d8d7136765566379d4b"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/source/rtl/pc_reg.v",
+    "bytes": 1280,
+    "sha256": "4038873a252f8486307eb7a27e504a6c4fe0c665711c9025ed8183f63a03c568"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/source/rtl/ram_sync.v",
+    "bytes": 3470,
+    "sha256": "f66eb0e9a84b608a2d5c44682cb713ea02f2e19503e27ffbf6f2a6077ed7fdb5"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/source/rtl/ram.v",
+    "bytes": 3924,
+    "sha256": "9c9846bdc58fbba620b4f6326aa134757ee7117dbf081143917fed0341dcdd01"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/source/rtl/regfile.v",
+    "bytes": 1409,
+    "sha256": "0d5f03aa884c1725a51269a4a69e8f6a3740eb56d87b7fd50df0af92d13296f2"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/source/rtl/remote_top.v",
+    "bytes": 894,
+    "sha256": "940cb0d11a30d14bbfbdf218017c4e5790c8ebf8dbbb011959481551f2dbc576"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/source/rtl/rom_sync.v",
+    "bytes": 18799,
+    "sha256": "da9da1de535d89f68b08d8bc9eb8b4068a755289091f82c79774f21665fd62f7"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/source/rtl/rom.v",
+    "bytes": 17722,
+    "sha256": "d38d93cea50620274f35fcf242fdba4a77b9835c855338d4942c50c46a16be3c"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/source/rtl/selftest_top.v",
+    "bytes": 687,
+    "sha256": "18b17b6c24531a11ddc8f02986de704746030401b3d1f3afa2d71bf36a001fa5"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/source/rtl/soc_peripherals.v",
+    "bytes": 3586,
+    "sha256": "0ae1a5d042b80ae560d7198dbc8300c0a16337de69cd21d0d1cff0c697d0c30c"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/source/rtl/uart_rx.v",
+    "bytes": 2074,
+    "sha256": "f5c547dad8d21ab8894e4933f5ecfcd94bb71643d7af8c62449bcbf84274a0e3"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/source/rtl/uart_tx.v",
+    "bytes": 1181,
+    "sha256": "d93824751216ab3319ad7d4e755e59009d1c4a204cb7da685addfdf42e859077"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/source/rtl/video_mmio.v",
+    "bytes": 5922,
+    "sha256": "6b2ddadf22b2c0b695f1948b98661ed0d16fe94c03c47dcb7061363ec36f0679"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/source/rtl/video_rgb_scanout.v",
+    "bytes": 2515,
+    "sha256": "fbd2c54a1838c3f71ce53bd72a5707cf76b56d57f8aa16beb9c8b83ca963c452"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/verification/00_summary.json",
+    "bytes": 10095,
+    "sha256": "fe2385895ca1b5121b59e872c885effbadc99bd5483027e86e02e50e177e10b7"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/verification/01_summary.json",
+    "bytes": 2737,
+    "sha256": "7a283a31544e8d0d75e0c1ee2c68096d3261c4a0c7015887a9dcd277df50d939"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/verification/02_mapped_multiplier_decouple66_audit.json",
+    "bytes": 1077,
+    "sha256": "71624fd4a2b4f2dd9deb854379547955211c0a508da59faf2da8a8274fb043a0"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/verification/03_summary.json",
+    "bytes": 2533,
+    "sha256": "f8fc68db70d5e0d5c9d9bb307a79e0d453e0a31f55c615b750cde432633654f9"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/verification/04_compile.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/verification/05_run.log",
+    "bytes": 7686,
+    "sha256": "4e191efae7ece45881cb35de82c7a139b7826466c8d381d67cc6f36c3ef9b7eb"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/verification/06_summary.json",
+    "bytes": 546,
+    "sha256": "b8f3d52664c59240697a1b006bb9c6c127f27f12c85bc1c11ad9ae11e3e2255a"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/verification/07_tb.v",
+    "bytes": 2739,
+    "sha256": "d584a87af010e03b59019ec0dfcffea1ee4b053612b67712938111bd3c56abcc"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/verification/08_matrix_display.v",
+    "bytes": 12477,
+    "sha256": "40ed803d1d1c879e5e3736396092c531bf1f9a77cc0dcd553d56a6380dbb5533"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/verification/09_summary.json",
+    "bytes": 4294,
+    "sha256": "9d04a6052ad7aaad0e297b1342c3630f1088fa83760fa0f200b4905e212febf0"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/verification/10_tb_matrix_display.v",
+    "bytes": 10559,
+    "sha256": "3df6ce7e09a5412d6ddb57a4a653d4a291110a2265e77dd7be55899f45fb3916"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/verification/11_compile.log",
+    "bytes": 1643,
+    "sha256": "ced989924194e8f13bb548e4c1f4d7a41f1a9d7b2e53fa03263304e01d650dcb"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/verification/12_simulation.log",
+    "bytes": 365,
+    "sha256": "efc2a8f66142a87324393233dff045c994c7f37400a59a50d96ba7a55e21e5fe"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/verification/13_verilator.log",
+    "bytes": 1997,
+    "sha256": "f0cdb697d08472e27f03e34c257048f01fb7c4615b5214daaef79803c5168ace"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/verification/14_summary.json",
+    "bytes": 10057,
+    "sha256": "0a9d7de65faf07f10148805f7800cc3bf00f99e0c77b163e93f71b0a9435ba6a"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/verification/15_tb_cache_preview_edges.v",
+    "bytes": 3969,
+    "sha256": "1ec48b79541c8dc3d8cbb7a61d955671ad205c54985780fe60c713a77284d2af"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/verification/16_compile.log",
+    "bytes": 884,
+    "sha256": "32d5a5aec24f7a1d38d477922232f4a87a6c05ede9bf42c4f5b8df81a7daf6b1"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/verification/17_edges.log",
+    "bytes": 163,
+    "sha256": "43e15166785465b911b207d17537e241de4b76c5ba7d231e5c45ba4c67eedeef"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/verification/18_edges_compile.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/verification/19_lookahead_0_forward_0.log",
+    "bytes": 200,
+    "sha256": "28f892715943a919c18794b02668c13f9fae655dfaa3c01a61c9107715b4ca3f"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/verification/20_lookahead_0_forward_0_compile.log",
+    "bytes": 313,
+    "sha256": "4522abcdf4706f7abb1647295a2ab943a18d362188032d5420bb34a22f735492"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/verification/21_lookahead_0_forward_1.log",
+    "bytes": 200,
+    "sha256": "6088f126b106f4a5bf322c108c3faf7e42baf3a50ee941b61a42b0a17a432d8b"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/verification/22_lookahead_0_forward_1_compile.log",
+    "bytes": 313,
+    "sha256": "4522abcdf4706f7abb1647295a2ab943a18d362188032d5420bb34a22f735492"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/verification/23_lookahead_1_forward_1.log",
+    "bytes": 200,
+    "sha256": "fef603cd567f2f68c5424ec495cd63bf839f12e1901eca27e19e1e3da051bcc7"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/verification/24_lookahead_1_forward_1_compile.log",
+    "bytes": 313,
+    "sha256": "4522abcdf4706f7abb1647295a2ab943a18d362188032d5420bb34a22f735492"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/verification/25_run.log",
+    "bytes": 438,
+    "sha256": "808c4e7d66edd30896451b78e9b088fb7d285a88cbc7c7e6699d82468da8561e"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/verification/26_summary.json",
+    "bytes": 1403,
+    "sha256": "49293b3d5300a5833d1833c0d93cc1baa447d35401236c132c6829e19db80abd"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/verification/27_tb_cache_preview_oracle.v",
+    "bytes": 16944,
+    "sha256": "67edfa17f031d08a1db4959b7fae2f9f8e1435c6b14c1a5bfec226d7609bf19c"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/verification/28_check_equivalence.py",
+    "bytes": 5853,
+    "sha256": "5088e09b30146e67edefe014b4278a7a1f8c15a328a616709ad13da2773c4879"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/verification/29_check_mapped_selection.py",
+    "bytes": 3107,
+    "sha256": "b9f4b3d01581cee47daf3518d51fa590f2d21a5f2b828bccd52bad6a15d40ebf"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/verification/30_summary.json",
+    "bytes": 10057,
+    "sha256": "0518a78440a8212f395e72ad91dc320222be7d6be1036bcf0ececfb29594ea20"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/verification/31_cache_2way_reference.v",
+    "bytes": 18479,
+    "sha256": "fb0bef79ccb92b8987820f2994f6295b4a677ee646d7724de711945c7e49564c"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/verification/32_la0_forward0.log",
+    "bytes": 329,
+    "sha256": "71f6151b96baeb908abc52917027090be531cd7a111c272cf98408f8d84cfbf4"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/verification/33_la0_forward0_compile.log",
+    "bytes": 910,
+    "sha256": "bdd8b7163ae58f1dbd63651ff3efdf8f02708af632dad623f6cc5dcc97a46800"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/verification/34_la0_forward1.log",
+    "bytes": 329,
+    "sha256": "679a49a92cb05fb976b1818bc4e16e80859150f313ddb501e613373253b53d5c"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/verification/35_la0_forward1_compile.log",
+    "bytes": 910,
+    "sha256": "bdd8b7163ae58f1dbd63651ff3efdf8f02708af632dad623f6cc5dcc97a46800"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/verification/36_la1_forward1.log",
+    "bytes": 330,
+    "sha256": "c350376e5a074ec56521de740633124c54c3cfaccdf93c8d4fd3725ee17542ff"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/verification/37_la1_forward1_compile.log",
+    "bytes": 910,
+    "sha256": "bdd8b7163ae58f1dbd63651ff3efdf8f02708af632dad623f6cc5dcc97a46800"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/verification/38_summary.json",
+    "bytes": 1294,
+    "sha256": "ca6363fd9790d17bbc95864e66c95c90519906a9defd4117d21b9a872570bb9f"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/verification/39_tb_cache_lookahead_equivalence.v",
+    "bytes": 9694,
+    "sha256": "2302345bad9bde746bcb2cfc255c741a6c4cf7a2ffcc24af4c660829e797dfdf"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/verification/40_freeze_summary.py",
+    "bytes": 1937,
+    "sha256": "b94e45eddbbd93798160d539411c42bc5e5f546a065e20a866599228d17cf23c"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/verification/41_run_frozen_isa.py",
+    "bytes": 737,
+    "sha256": "afb4e7d5999fd8cca8ec42c7538c13d06d29553ad8c1bd06520473af3ce96edc"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/verification/42_summary.json",
+    "bytes": 4470,
+    "sha256": "a3ed16b0975eca3622abfb991e2e27e334f29461d5a6139c881b9c98bfce76af"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/verification/43_cache_2way.v",
+    "bytes": 18135,
+    "sha256": "98aa6b1ba03e566589467434c7c150c06878e6f0abadf1ec5907da9b8dda2c4b"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/verification/44_tb_cache_2way.v",
+    "bytes": 16230,
+    "sha256": "c25246b4df87e0bec0293332018fa17ef13f364a74f6221c4cecfffbbe89896f"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/verification/45_tb_cache_lookahead.v",
+    "bytes": 6964,
+    "sha256": "63197e5aa76aa839e94d5402cd8724ed08f1d0799ccd89958c60ebd056b3a831"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/verification/46_comparison.json",
+    "bytes": 53293,
+    "sha256": "1f9aaa3ce22217e84b5751c9525a96ce1b2b5f6e73ccfe09a533b3ccd723425c"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/verification/47_comparison.csv",
+    "bytes": 2405,
+    "sha256": "8de96ab29f9d37e6c09cceda25ec9fe4df3524f9d6db38047eb76b829f65bf04"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/verification/48_uart.log",
+    "bytes": 1107,
+    "sha256": "ed51a89c6347a633e5e919cc7ad98d1568e1fbef0e431df2d8c6a1a5c7efe243"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/verification/49_summary.json",
+    "bytes": 7734,
+    "sha256": "06c975dbef2d6a9ca3ad025d67d7812aa306fbf33bd5186a4eac274a6ef9c4dc"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/verification/50_summary.json",
+    "bytes": 7725,
+    "sha256": "1c9086280fff034ce34e6daf65832e1ea97a4e82ba720e7f7a157428d068616a"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/verification/51_tb.v",
+    "bytes": 3610,
+    "sha256": "e8ecacfb82186c0da9e100fc3ef03f68fda6ff0e17ec5ff624797ae260879351"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/verification/52_simulation.log",
+    "bytes": 124,
+    "sha256": "2ef4ad516d2727b13b4e1bfe70846ac313edfca5bcc1c183f5eb281367de6ee0"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/verification/53_tb.v",
+    "bytes": 3642,
+    "sha256": "81b33a33d8eea66d7ec4d80fec87ee6833728fdf2e5ad98be6f75607ca8b6c07"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/verification/54_simulation.log",
+    "bytes": 124,
+    "sha256": "e1cc2e6ee191fde24959a335c6b36aa4d10f21fdeaed6e11a1aa61f4690af589"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/verification/55_cpu_mapped.v",
+    "bytes": 2195564,
+    "sha256": "007a7464158c97a99f387808801749e44761e81db2dfb79305bab32c9d4cc0d2"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/verification/56_compile.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/verification/57_vectors.hex",
+    "bytes": 162248,
+    "sha256": "36bb84d60e36e04c622812e6acef60b1c0303b7e791097bbe5a1eeb5a14f042c"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/verification/58_cpu_mapped.v",
+    "bytes": 2218420,
+    "sha256": "2c5950bc306f55b568f4283e6596fd400bb574a2b80bf91c162bce19d1698247"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/verification/59_compile.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/verification/60_vectors.hex",
+    "bytes": 162248,
+    "sha256": "36bb84d60e36e04c622812e6acef60b1c0303b7e791097bbe5a1eeb5a14f042c"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/verification/61_tb_matrix_display.v",
+    "bytes": 10382,
+    "sha256": "88d070ac8482f2a2fff46ce8cd86fd620e81bdd0588af548799462d785c395fd"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/verification/62_tb_production.v",
+    "bytes": 1602,
+    "sha256": "3fb798c5e5eb29628de03b665890375480720746dbe4ecde9a6cbb609bf56cf2"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/verification/63_matrix_extracted.vm",
+    "bytes": 120277,
+    "sha256": "463211fd50af3d8eb0b6505f0ffd65a2a8962980679362deb606186e3cad190b"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/verification/64_simulation.log",
+    "bytes": 9811,
+    "sha256": "0eb8f7e9e001ed6e889facdbd255412e20da88edc6cc38bcd28f3903d0232e05"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/verification/65_compile.log",
+    "bytes": 305,
+    "sha256": "9594b04478671d212812d9e6fc9771bb9c8cca0990c36fafc4984cb0a6509efc"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/work/constraints/board.fdc",
+    "bytes": 3186,
+    "sha256": "220324557e110e15a0db395c6d863f113c0592e72493b98175b3e3a3425f2ef7"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/work/rtl/design.v",
+    "bytes": 1221407,
+    "sha256": "8c47404898476dd8766023a0434d80033dc25ee640009f4920934c4d79c6bfb6"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/工程源码/work/run.tcl",
+    "bytes": 282,
+    "sha256": "2c083fd6b922e3366d645f92e9a86f21a6aa4cacc1ded8c907982fae0841b473"
+  },
+  {
+    "path": "01_最终源码/01_CoreMark_66MHz/可烧录位流/coremark_pg2l200h_maxperf_66mhz_2000iter.sbit",
+    "bytes": 9188552,
+    "sha256": "6a8df5d2d847a4ffc58694d6eac1f52e2c17043fe1d9d4cdc25447b66fc84f27"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/补充许可与说明/Qwen预研代码/LICENSE.Qwen",
+    "bytes": 11343,
+    "sha256": "832dd9e00a68dd83b3c3fb9f5588dad7dcf337a0db50f7d9483f310cd292e92e"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/补充许可与说明/Qwen预研代码/README.md",
+    "bytes": 9811,
+    "sha256": "5730c5cdd4867d59a7933067473cd0975eddd133560aa9085303838c00e30153"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/重新构建说明.txt",
+    "bytes": 531,
+    "sha256": "21135f45fb1e9fe0c49bea225d79f016be4f91a4c90f68f4c7473961c57dd4ac"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/build.json",
+    "bytes": 34667,
+    "sha256": "038921d0d3593ad25c63a7ba3d26afa262b1dddfea21f422e9869e6cdea9a751"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/independent_pds_audit.json",
+    "bytes": 28598,
+    "sha256": "6c82df014cfe038e1f4968046b929ba0c12e50975ebaa6912e010c9b460e9bbc"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/licenses/CoreMark/LICENSE.md",
+    "bytes": 18582,
+    "sha256": "9577b9c846f61fd69a0d8ac965998c6450c7d8969f71f0bb4a931b91aebad28a"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/licenses/CoreMark/README.md",
+    "bytes": 19687,
+    "sha256": "5581fb67dc1609cbd1865f150dbcb1050d96c602987792456850eb96eb0dd08c"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/pds_evidence/generate_bitstream/multimodal_top.bgr",
+    "bytes": 2034,
+    "sha256": "93e510927ec481a4f892db5c1605f9aa53f315df9d51c0b7a0f39b569038c941"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/pds_evidence/place_route/multimodal_top_prr_route_optimize.prt",
+    "bytes": 20519,
+    "sha256": "417271374185fee5433f86a29c68f34c2f50bd51d7d59db9f2f32d3ef60dc9e5"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/pds_evidence/place_route/multimodal_top.ror",
+    "bytes": 155561,
+    "sha256": "b2e8c1254eb32be8228484d3bba0ae7bf5f3475723db6171304bea16c9f92c23"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/pds_evidence/report_timing/multimodal_top_exception.rtr",
+    "bytes": 508693,
+    "sha256": "7f4f9fb6bf1a9123bed49c73e1455153cbc18cf5fa1db431134a30f720780b99"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/pds_evidence/report_timing/multimodal_top.rtr",
+    "bytes": 875146,
+    "sha256": "604936ef73de69a6301d81386d7e0a980466b1571f07011b97c46b0e67be3565"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/pds_evidence/report_timing/run.log",
+    "bytes": 38539,
+    "sha256": "216cca31288c15dbbd01b43211f86f42d42cb7be176803a19ec6c9796077f3cf"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/pds_evidence/synthesize/constraint_check.ccr",
+    "bytes": 32010,
+    "sha256": "d0f73589559695870f6ee1ce1eeee1be629004f4f457ce91b34a046e99f266d3"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/pds_evidence/synthesize/multimodal_top_syn.vm",
+    "bytes": 13681776,
+    "sha256": "7142c43df446b61a2f7a9cf8e7c103e058784d3498c1316d00c66862a5b35dcf"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/captured_responses/bad_mode_crc_preserves_display/response.bin",
+    "bytes": 11,
+    "sha256": "400e50acb1ca8fab9f4241f507ea274f30ee092e55c54d7ea87eed25e5a0306b"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/captured_responses/bad_vision_crc_preserves_display/response.bin",
+    "bytes": 14,
+    "sha256": "3f5a3148bba6eff8b644b90379c8d610aadf6dae604765bfb52848a182885956"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/captured_responses/behavioral_ddr_probe/response.bin",
+    "bytes": 11,
+    "sha256": "704d66a72b392b5e598cef87e003bb2dbc99499ab27431a61ba4d30784b98c2c"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/captured_responses/chat_without_ready_model_rejected/response.bin",
+    "bytes": 11,
+    "sha256": "674dccaba2dc95019bd83bd350b77dde3f2fbe87c38eda068ec2dbed1fce4e86"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/captured_responses/clear_statistics/response.bin",
+    "bytes": 11,
+    "sha256": "4ab313b21c4ae56d69e20614052b9213b3b66b981fb2722cc862c88da44aca26"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/captured_responses/ddr_probe_not_ready/response.bin",
+    "bytes": 11,
+    "sha256": "3481c7cfe76180403714acb44e67c5f160ba0584b13b24cd475a10413ba187d3"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/captured_responses/digit_blank/response.bin",
+    "bytes": 494,
+    "sha256": "b0cb6bcae63861304de31adc99cca0d676050e737ce7809e1efe1b11e12b3f28"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/captured_responses/digit_native28_digit8/response.bin",
+    "bytes": 22,
+    "sha256": "f4f9d19169d205d566ba0512d6bd2d6c9c66b25e6d200dc7eea906bfc62463df"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/captured_responses/digit_native28_raw/response.bin",
+    "bytes": 502,
+    "sha256": "57d450dc3004713f780b822a80811edd9d12b689f83db124e798946e297001d0"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/captured_responses/hanzi_blank/response.bin",
+    "bytes": 494,
+    "sha256": "78bc9d16fdc96275e6d00dff13cd5c3612d14508aac4d831bf98ffca699f97c2"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/captured_responses/hanzi_down/response.bin",
+    "bytes": 502,
+    "sha256": "f6160b414e4660febd1ba6860bf82a0415e7dd928d4ca25e55a9f2c265f789f7"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/captured_responses/hanzi_hanzi_raw/response.bin",
+    "bytes": 502,
+    "sha256": "3229ade530843a05eb3a29cb049a5254dacd6815724eebda966214a02f1a9c85"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/captured_responses/hanzi_hanzi_sample/response.bin",
+    "bytes": 22,
+    "sha256": "dce5abb8bea88259676f1c1afa079fccf24e0932f97721f286076fb4b9256e26"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/captured_responses/hanzi_left/response.bin",
+    "bytes": 502,
+    "sha256": "8b913236e38e3f2465ebdf1bd57990cc3e349e0c6d27c8fbdfb550b994f1f30b"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/captured_responses/hanzi_right/response.bin",
+    "bytes": 502,
+    "sha256": "613b2c755f16dcefa6e951c186751ca1c78b0362f49e6eec3aedb05064d8a382"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/captured_responses/hanzi_up/response.bin",
+    "bytes": 502,
+    "sha256": "87d322c4c12de03a5a5021fbf9b4a120a309b035be122d4b1b7cdb5bf80df9e7"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/captured_responses/history_after_clear/response.bin",
+    "bytes": 12,
+    "sha256": "2dcca86924c56d81fa890bedc29082d4b7bec3b63d704cf0e7be0813a2e95221"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/captured_responses/history_after_wrap/response.bin",
+    "bytes": 140,
+    "sha256": "6c91b54e7cd7ff00cff5fced41f42f6a080c019676302354cf248b799998cb58"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/captured_responses/history_before_mode_switch/response.bin",
+    "bytes": 60,
+    "sha256": "094e896d9ff53bd2ff4b15d81839a88b6c874ff878633c1f6293b89c6d968b2d"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/captured_responses/history_wrap_frame_0/response.bin",
+    "bytes": 502,
+    "sha256": "dee02d15c97b644708e70d90808dffabf13ec4a441817442355ebc8ded5713e5"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/captured_responses/history_wrap_frame_1/response.bin",
+    "bytes": 502,
+    "sha256": "7e7a647fe21aad49e0efbbb8e7b4a200476d05a15816d216b34212ad8f747e30"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/captured_responses/history_wrap_frame_2/response.bin",
+    "bytes": 502,
+    "sha256": "70723c8f17e2319377853e13186e591f6e7a820b222b30c25ba33f55beae37f3"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/captured_responses/history_wrap_frame_3/response.bin",
+    "bytes": 502,
+    "sha256": "613b2c755f16dcefa6e951c186751ca1c78b0362f49e6eec3aedb05064d8a382"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/captured_responses/history_wrap_frame_4/response.bin",
+    "bytes": 502,
+    "sha256": "c82d199fd866eabe633c1d11e3ea8cd747f80d88a0f86902a2a196c387cada85"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/captured_responses/initial_status/response.bin",
+    "bytes": 51,
+    "sha256": "e32ebc1fcd9fb5d6e8345be31400bed99fc467110103fdd0ff1e1100a643a9a7"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/captured_responses/invalid_mode_preserves_state/response.bin",
+    "bytes": 11,
+    "sha256": "778e4b8ade20ac1fd726edb329b9b54da2907f1c8b4f08d2bf1061dc76ade5f7"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/captured_responses/loader_bad_file_crc_rejected/response.bin",
+    "bytes": 11,
+    "sha256": "a16d1043ed0be3efcbc5e794a97b5b4ea8043a10c9f94b97ef4cfce21f6a538c"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/captured_responses/loader_begin_bad_file_crc/response.bin",
+    "bytes": 11,
+    "sha256": "d02dae1432e6078d981ebef35a85fc97aba296c9d0dae4fc5aba7e92310a10af"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/captured_responses/loader_begin_good_crc/response.bin",
+    "bytes": 11,
+    "sha256": "b7b9994bd7d0c55fa593ab489cb6cc964186568ffaeb6291931bd56c1b98e560"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/captured_responses/loader_complete_image/response.bin",
+    "bytes": 15,
+    "sha256": "c9fd8e1bbb53b16cf4347de047e6206266cb11afdc7602ada3bfa9a126c3c8a3"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/captured_responses/loader_conflicting_duplicate/response.bin",
+    "bytes": 15,
+    "sha256": "0d6e34fb4f4de0b9a6980df15cf0b7abee979e45dd6b6a0749dc1686e1465627"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/captured_responses/loader_ddr_readback_crc_rejected/response.bin",
+    "bytes": 11,
+    "sha256": "d72e925a39f42a20b9836d2611b9299d7bed909d78ad68c6dd270392babe5ffa"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/captured_responses/loader_duplicate_chunk/response.bin",
+    "bytes": 15,
+    "sha256": "819ddd381d64d32a5c73e0fdc485061721144501f8e04bfd5435d33f72961f32"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/captured_responses/loader_first_chunk/response.bin",
+    "bytes": 15,
+    "sha256": "d12cea047b683e4886d09ddfe5f771fe131c7d9ec2b2757a4b4d166c201949c7"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/captured_responses/loader_invalid_llm_image_rejected/response.bin",
+    "bytes": 15,
+    "sha256": "be89ba6559c6972e2f42eb4f695b3d4aec585211aef475daf647c4a06dfa1ec4"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/captured_responses/loader_out_of_order_rejected/response.bin",
+    "bytes": 15,
+    "sha256": "3f31d9d28b170c10aa4704cf0bad8657f8a83b740e1083c7339a67676819a72a"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/captured_responses/loader_remaining_chunk/response.bin",
+    "bytes": 15,
+    "sha256": "ab2ea10e0b01e95249caeec450915b03c20671ec25ed47209e315ce25cd413c7"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/captured_responses/model_begin_not_ready/response.bin",
+    "bytes": 11,
+    "sha256": "dcde06430358e8d68fb55051e19cf080225d3b304348a3d36803cf51721457ae"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/captured_responses/set_high_threshold/response.bin",
+    "bytes": 11,
+    "sha256": "351346850ccdcfa186a24a0219da85e36f179dcb800634ca58808a66540a1ba7"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/captured_responses/set_one_frame_stability/response.bin",
+    "bytes": 11,
+    "sha256": "1e80d22b3fb1bfb2905c28c2c88486fba5f24df3f80b1887ce3b2086bb8d01fd"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/captured_responses/set_two_frame_stability/response.bin",
+    "bytes": 11,
+    "sha256": "3599a28b959b7543b25d9692cc0dfccfcc1b3725fb1c09a6ee3879f95af46603"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/captured_responses/stable_first_is_busy/response.bin",
+    "bytes": 502,
+    "sha256": "b4da4f6edd98f1ba9b72dc9e6274d55e8ed51363a39d6f591151a2a23b0a0d99"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/captured_responses/stable_second_is_digit8/response.bin",
+    "bytes": 502,
+    "sha256": "57d450dc3004713f780b822a80811edd9d12b689f83db124e798946e297001d0"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/captured_responses/status_after_behavioral_probe/response.bin",
+    "bytes": 51,
+    "sha256": "8d5c0b7dceb0f5a3c42aef07a5c59f96327be19509ead195898fce49bb656417"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/captured_responses/status_after_clear/response.bin",
+    "bytes": 51,
+    "sha256": "497aaad74aba09d037b5f7a97fdf4518ead394a13f823493eef3b43a76bc287e"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/captured_responses/status_after_crc/response.bin",
+    "bytes": 51,
+    "sha256": "69a3a08df15952d7ce180dd7e815b8181b12fcf641a13906ae7faa341a89b2de"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/captured_responses/status_after_ddr_rejection/response.bin",
+    "bytes": 51,
+    "sha256": "0df984206367e8e04f1b7c9170a2f2440826304df2379aa6100192823c3e6b61"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/captured_responses/status_after_invalid_image/response.bin",
+    "bytes": 51,
+    "sha256": "f1cb8ea24eecb47679b90f2f39f73d1d17cf57f66a86bb35b27bf986059d7252"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/captured_responses/status_after_wrap/response.bin",
+    "bytes": 51,
+    "sha256": "d00c58be2ecf3e543d1341ade7e4bd1813f915b31037dcd096b99641610e691c"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/captured_responses/status_before_mode_switch/response.bin",
+    "bytes": 51,
+    "sha256": "78e3717150c4cda2e784ceb3f0cbdb0fc5c7819dc921b338fb7d473707da297f"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/captured_responses/switch_to_hanzi/response.bin",
+    "bytes": 11,
+    "sha256": "ce73259cfd54701879ae858e5c369bec6fa4af0bb3d25e81b089c68fca599b81"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/captured_responses/threshold_rejects_digit8/response.bin",
+    "bytes": 502,
+    "sha256": "3d8f28d9ca4dd41cd4ec95412736765b79d16d29745e232f287c0aa558358441"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/captured_responses/unsupported_command/response.bin",
+    "bytes": 11,
+    "sha256": "b1af428877423df029bc714bc5b6e144cc1958288a255f204f5a363d6fb177af"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/multimodal/rtl/matrix_display.v",
+    "bytes": 12477,
+    "sha256": "40ed803d1d1c879e5e3736396092c531bf1f9a77cc0dcd553d56a6380dbb5533"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/multimodal/scripts/run_multimodal.py",
+    "bytes": 17599,
+    "sha256": "84d82d37927d5af769c76df47918b94a09e86b3ac44e4ca02f65c99e1c2e816b"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/multimodal/sim/multimodal_runner.cpp",
+    "bytes": 9932,
+    "sha256": "c3326e211346419d6ff4d3f8b1644748c19a91652bbc533080cf417becce5e19"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/multimodal/sim/vision_soc.v",
+    "bytes": 4225,
+    "sha256": "b42c7b8a48c90f685a2ea433d00ca9acb1c2aacae6e8dc1e8e57fe6985138122"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/reports/maxperf_20261103/selected_decoupled_i8_d4/advanced_soc.v",
+    "bytes": 6453,
+    "sha256": "c09cb42c057d4204c5c5870990ae0cf5e8486aee22ba2669a862a7f3987abc87"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/reports/maxperf_20261103/selected_decoupled_i8_d4/advanced_top.v",
+    "bytes": 1229,
+    "sha256": "fcd4e3c99b92c0d70379bc2e2caccb56fce7c7deb679afdcfdcd3ddd8591a9d7"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/reports/maxperf_20261103/selected_decoupled_i8_d4/alu.v",
+    "bytes": 5362,
+    "sha256": "5f53b372aabd205e485fa299d1bf7624c51ae1dc90e0903a6dc76c4e27acc711"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/reports/maxperf_20261103/selected_decoupled_i8_d4/cache_2way.v",
+    "bytes": 18664,
+    "sha256": "1638fea389f5d18a755e145a7097ca153d7374dbaea9fb0f1140476bc0408ac9"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/reports/maxperf_20261103/selected_decoupled_i8_d4/camera_dvp_capture.v",
+    "bytes": 5680,
+    "sha256": "59ef641d47586b1d18f32da348b188abaf0b4053b1ddbc25abc71ee12eda2d74"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/reports/maxperf_20261103/selected_decoupled_i8_d4/camera_sccb_write.v",
+    "bytes": 2428,
+    "sha256": "73910e450f4f36d3e02c1d2eb925e368f1b9be60c91a0d5d9e523675727a284c"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/reports/maxperf_20261103/selected_decoupled_i8_d4/cpu_core.v",
+    "bytes": 27015,
+    "sha256": "ccb43bd36d5e050b97e2f71d86ba54eb1d1d33b7cf5e9cb976caa3dbec9ecaf8"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/reports/maxperf_20261103/selected_decoupled_i8_d4/cpu_top.v",
+    "bytes": 3233,
+    "sha256": "8a67233e20affb552ae73309240e580a339d45618626a7da8a9b59cc8a57aa17"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/reports/maxperf_20261103/selected_decoupled_i8_d4/data_bus.v",
+    "bytes": 8742,
+    "sha256": "7adc18ac0724a457dd3ec8349d6bf9079edaf723d6f83e101c017068d7859b80"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/reports/maxperf_20261103/selected_decoupled_i8_d4/decoder.v",
+    "bytes": 5592,
+    "sha256": "0e11234d7352393c23ec882b5e5221974efb9050d7ecd4a90f8756dbbe0177cf"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/reports/maxperf_20261103/selected_decoupled_i8_d4/fpga_top.v",
+    "bytes": 1803,
+    "sha256": "c0999157b6d5b9e6b89ed91d31c523ac7a010bb2a4064ee8427dfb094bee73d3"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/reports/maxperf_20261103/selected_decoupled_i8_d4/int8_dot.v",
+    "bytes": 3730,
+    "sha256": "27b0c16ebab7695d79c206f2bf655e7be519b6d2a838593a6ab4914c8b2320a5"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/reports/maxperf_20261103/selected_decoupled_i8_d4/machine_csr.v",
+    "bytes": 4723,
+    "sha256": "4df8fce167ba4371bd98ee9736628224bafdeaf682a38d8d7136765566379d4b"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/reports/maxperf_20261103/selected_decoupled_i8_d4/pc_reg.v",
+    "bytes": 1280,
+    "sha256": "4038873a252f8486307eb7a27e504a6c4fe0c665711c9025ed8183f63a03c568"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/reports/maxperf_20261103/selected_decoupled_i8_d4/ram_sync.v",
+    "bytes": 3470,
+    "sha256": "f66eb0e9a84b608a2d5c44682cb713ea02f2e19503e27ffbf6f2a6077ed7fdb5"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/reports/maxperf_20261103/selected_decoupled_i8_d4/ram.v",
+    "bytes": 3924,
+    "sha256": "9c9846bdc58fbba620b4f6326aa134757ee7117dbf081143917fed0341dcdd01"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/reports/maxperf_20261103/selected_decoupled_i8_d4/regfile.v",
+    "bytes": 1409,
+    "sha256": "0d5f03aa884c1725a51269a4a69e8f6a3740eb56d87b7fd50df0af92d13296f2"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/reports/maxperf_20261103/selected_decoupled_i8_d4/remote_top.v",
+    "bytes": 894,
+    "sha256": "940cb0d11a30d14bbfbdf218017c4e5790c8ebf8dbbb011959481551f2dbc576"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/reports/maxperf_20261103/selected_decoupled_i8_d4/rom_sync.v",
+    "bytes": 18799,
+    "sha256": "da9da1de535d89f68b08d8bc9eb8b4068a755289091f82c79774f21665fd62f7"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/reports/maxperf_20261103/selected_decoupled_i8_d4/rom.v",
+    "bytes": 17722,
+    "sha256": "d38d93cea50620274f35fcf242fdba4a77b9835c855338d4942c50c46a16be3c"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/reports/maxperf_20261103/selected_decoupled_i8_d4/selftest_top.v",
+    "bytes": 687,
+    "sha256": "18b17b6c24531a11ddc8f02986de704746030401b3d1f3afa2d71bf36a001fa5"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/reports/maxperf_20261103/selected_decoupled_i8_d4/soc_peripherals.v",
+    "bytes": 3586,
+    "sha256": "0ae1a5d042b80ae560d7198dbc8300c0a16337de69cd21d0d1cff0c697d0c30c"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/reports/maxperf_20261103/selected_decoupled_i8_d4/uart_rx.v",
+    "bytes": 2074,
+    "sha256": "f5c547dad8d21ab8894e4933f5ecfcd94bb71643d7af8c62449bcbf84274a0e3"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/reports/maxperf_20261103/selected_decoupled_i8_d4/uart_tx.v",
+    "bytes": 1181,
+    "sha256": "d93824751216ab3319ad7d4e755e59009d1c4a204cb7da685addfdf42e859077"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/reports/maxperf_20261103/selected_decoupled_i8_d4/video_mmio.v",
+    "bytes": 5922,
+    "sha256": "6b2ddadf22b2c0b695f1948b98661ed0d16fe94c03c47dcb7061363ec36f0679"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/reports/maxperf_20261103/selected_decoupled_i8_d4/video_rgb_scanout.v",
+    "bytes": 2515,
+    "sha256": "fbd2c54a1838c3f71ce53bd72a5707cf76b56d57f8aa16beb9c8b83ca963c452"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/reports/maxperf_20261103/selected_decoupled_multimodal_soc.v",
+    "bytes": 7674,
+    "sha256": "e60b68e6b865a4b1a1f3c47c4ad64dec30b3bfe329dd5927af38b7d005523d60"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/bad_mode_crc_preserves_display/request.bin",
+    "bytes": 11,
+    "sha256": "6951f2c330ff91524b20e7d7ee9ff75a33e5254fad1a0fa103080e2e26bc519f"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/bad_vision_crc_preserves_display/request.bin",
+    "bytes": 1036,
+    "sha256": "7a43bca0634eaffd6fcb0a49048c4d80951a918c14d978f252b8afebe50ff12e"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/behavioral_ddr_probe/request.bin",
+    "bytes": 10,
+    "sha256": "e8b899eff06b438ab3f393a148e3b90bd0dafeb883c5411973c9dec509bcc91e"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/chat_without_ready_model_rejected/request.bin",
+    "bytes": 15,
+    "sha256": "a6731ac97b53f27a0a1a01c1caf64dd0c744a0ccebdcffeae111ef5845439c4f"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/clear_statistics/request.bin",
+    "bytes": 10,
+    "sha256": "af9bf71a989c3e46212069b9fe4c65f7db89b10ba30659ae4887bb73cf839061"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/ddr_probe_not_ready/request.bin",
+    "bytes": 10,
+    "sha256": "8b94c321289df89628007c28e0cd1a50182983ccf66c81da7e0581891fa249cd"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/digit_blank/expected_boxes.bin",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/digit_blank/expected_head.bin",
+    "bytes": 480,
+    "sha256": "effdb87aa1e59679e22f350f256086f3851634c32770db3483df850f7ad6fc8c"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/digit_blank/request.bin",
+    "bytes": 1036,
+    "sha256": "773bea1b68a321f52ed60b40b8b70fa0f2c69689cedef83e107aeac170eb5deb"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/digit_native28_digit8/expected_boxes.bin",
+    "bytes": 6,
+    "sha256": "f83d7e12c5642724d0ec8646aa36fc0c0e42040d57d98ce249d1648cd9f0c55d"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/digit_native28_digit8/expected_head.bin",
+    "bytes": 480,
+    "sha256": "d7eb802b29ca208e67768db98a7985d71dc82d64aca7b0eec947fc624e40df9e"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/digit_native28_digit8/request.bin",
+    "bytes": 1036,
+    "sha256": "d596ce26a88e2efcb7dc92e9e218c29a6b973246c6304f7366b463aef8de434f"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/digit_native28_raw/expected_boxes.bin",
+    "bytes": 6,
+    "sha256": "f83d7e12c5642724d0ec8646aa36fc0c0e42040d57d98ce249d1648cd9f0c55d"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/digit_native28_raw/expected_head.bin",
+    "bytes": 480,
+    "sha256": "d7eb802b29ca208e67768db98a7985d71dc82d64aca7b0eec947fc624e40df9e"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/digit_native28_raw/request.bin",
+    "bytes": 1036,
+    "sha256": "3e2c67572a302526ac536d02639cb64f4fc10c38f2ba6674618329e741ed4556"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/expected_cases.json",
+    "bytes": 23964,
+    "sha256": "9f2d11342f1e1fcbc435200dfc8aa01aecb35c92b268eea4d813b08c35024bfc"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/hanzi_blank/expected_boxes.bin",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/hanzi_blank/expected_head.bin",
+    "bytes": 480,
+    "sha256": "fae6f1d59a6bf21d435dd8fb7ddba90d8e488b37b2fdeaa7285f42eac2dbaec5"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/hanzi_blank/request.bin",
+    "bytes": 1036,
+    "sha256": "9ecfda31c1b99b7b5e2fefccd644b474e9f1722cf7aa4c8d40b14c8eaf719932"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/hanzi_down/expected_boxes.bin",
+    "bytes": 6,
+    "sha256": "04d1cd66ae7f977e5829631b10ada975953e709f3b4e8622d37dc58c18196dd7"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/hanzi_down/expected_head.bin",
+    "bytes": 480,
+    "sha256": "f58906b5ee4d0d6d07d4808a48619208cb915eb5567c0df68afbd103cf0c3b40"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/hanzi_down/request.bin",
+    "bytes": 1036,
+    "sha256": "8603bc9841219844b1ef18f7c6fdc31127e18b4bb99d146aa4577e914fd4236e"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/hanzi_hanzi_raw/expected_boxes.bin",
+    "bytes": 6,
+    "sha256": "8995059f8e9eed93f1958cd568679cd6e6786c37f2aa75fff812e3f7a16b4645"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/hanzi_hanzi_raw/expected_head.bin",
+    "bytes": 480,
+    "sha256": "15384ad05d91a5392e7332735ea8e0953d9f32f68b0594a3734ce45486ca72be"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/hanzi_hanzi_raw/request.bin",
+    "bytes": 1036,
+    "sha256": "019f90b7a63f4a59d1e2a2ff9d068b2bbb19c1612c4a4a28854581224df74dc2"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/hanzi_hanzi_sample/expected_boxes.bin",
+    "bytes": 6,
+    "sha256": "8995059f8e9eed93f1958cd568679cd6e6786c37f2aa75fff812e3f7a16b4645"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/hanzi_hanzi_sample/expected_head.bin",
+    "bytes": 480,
+    "sha256": "15384ad05d91a5392e7332735ea8e0953d9f32f68b0594a3734ce45486ca72be"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/hanzi_hanzi_sample/request.bin",
+    "bytes": 1036,
+    "sha256": "57bf412237e764c4e003ffead01ae7f5963a14aafed3492a3767a71dc361a5aa"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/hanzi_left/expected_boxes.bin",
+    "bytes": 6,
+    "sha256": "ceebd36c290bf78888139d3f2afcb2a7319a2e8d40920c2594752af458cec283"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/hanzi_left/expected_head.bin",
+    "bytes": 480,
+    "sha256": "8366b896dc9bc6ef4fc3f0c22b6209fc9b503fe660d7b17df3a3bd9c04c776fa"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/hanzi_left/request.bin",
+    "bytes": 1036,
+    "sha256": "7ac5ffe9e65777fa0d33d59675e97c984698eca5af1d7eec05848964d6211c95"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/hanzi_right/expected_boxes.bin",
+    "bytes": 6,
+    "sha256": "68d60cef3c78f1eda6c2cb6da80c0301c748948838af9c07d8084138c538e0b0"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/hanzi_right/expected_head.bin",
+    "bytes": 480,
+    "sha256": "0d9d87409b17afa293948db1a7c1d8b0db228ae18310ac2a03a674e40bee839e"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/hanzi_right/request.bin",
+    "bytes": 1036,
+    "sha256": "9320251969e8072c0ebb5ee00833df6a5d7d93fed620844b30e6d05451fec792"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/hanzi_up/expected_boxes.bin",
+    "bytes": 6,
+    "sha256": "ce4e9982111cc1721182f29eaa0ecfb530f7b1f87b98bc805df9ae23f943cf7d"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/hanzi_up/expected_head.bin",
+    "bytes": 480,
+    "sha256": "c046b379f6291d13e0de6744cbd7f1600be4d0d0f5c901521c18229e1086af60"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/hanzi_up/request.bin",
+    "bytes": 1036,
+    "sha256": "ff7847bf93467c8d925546b18d94c9f0f5085dd6cfd7d1eed6845b6e54b9c428"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/history_after_clear/request.bin",
+    "bytes": 10,
+    "sha256": "a4c9a4ad5fd36d1501d955e6fc210530472586020e340cf9f0144d2578f79346"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/history_after_wrap/request.bin",
+    "bytes": 10,
+    "sha256": "8039cae39184c6248d96b011906d168a3c288dd46926f95c6c0b3815bd7896a2"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/history_before_mode_switch/request.bin",
+    "bytes": 10,
+    "sha256": "f3e860168d2381f8cac51e81657341e7995619795f7d83e5f2eb1d042c4a86af"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/history_wrap_frame_0/expected_boxes.bin",
+    "bytes": 6,
+    "sha256": "ce4e9982111cc1721182f29eaa0ecfb530f7b1f87b98bc805df9ae23f943cf7d"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/history_wrap_frame_0/expected_head.bin",
+    "bytes": 480,
+    "sha256": "c046b379f6291d13e0de6744cbd7f1600be4d0d0f5c901521c18229e1086af60"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/history_wrap_frame_0/request.bin",
+    "bytes": 1036,
+    "sha256": "ff7847bf93467c8d925546b18d94c9f0f5085dd6cfd7d1eed6845b6e54b9c428"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/history_wrap_frame_1/expected_boxes.bin",
+    "bytes": 6,
+    "sha256": "04d1cd66ae7f977e5829631b10ada975953e709f3b4e8622d37dc58c18196dd7"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/history_wrap_frame_1/expected_head.bin",
+    "bytes": 480,
+    "sha256": "f58906b5ee4d0d6d07d4808a48619208cb915eb5567c0df68afbd103cf0c3b40"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/history_wrap_frame_1/request.bin",
+    "bytes": 1036,
+    "sha256": "8603bc9841219844b1ef18f7c6fdc31127e18b4bb99d146aa4577e914fd4236e"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/history_wrap_frame_2/expected_boxes.bin",
+    "bytes": 6,
+    "sha256": "ceebd36c290bf78888139d3f2afcb2a7319a2e8d40920c2594752af458cec283"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/history_wrap_frame_2/expected_head.bin",
+    "bytes": 480,
+    "sha256": "8366b896dc9bc6ef4fc3f0c22b6209fc9b503fe660d7b17df3a3bd9c04c776fa"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/history_wrap_frame_2/request.bin",
+    "bytes": 1036,
+    "sha256": "7ac5ffe9e65777fa0d33d59675e97c984698eca5af1d7eec05848964d6211c95"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/history_wrap_frame_3/expected_boxes.bin",
+    "bytes": 6,
+    "sha256": "68d60cef3c78f1eda6c2cb6da80c0301c748948838af9c07d8084138c538e0b0"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/history_wrap_frame_3/expected_head.bin",
+    "bytes": 480,
+    "sha256": "0d9d87409b17afa293948db1a7c1d8b0db228ae18310ac2a03a674e40bee839e"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/history_wrap_frame_3/request.bin",
+    "bytes": 1036,
+    "sha256": "9320251969e8072c0ebb5ee00833df6a5d7d93fed620844b30e6d05451fec792"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/history_wrap_frame_4/expected_boxes.bin",
+    "bytes": 6,
+    "sha256": "ce4e9982111cc1721182f29eaa0ecfb530f7b1f87b98bc805df9ae23f943cf7d"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/history_wrap_frame_4/expected_head.bin",
+    "bytes": 480,
+    "sha256": "c046b379f6291d13e0de6744cbd7f1600be4d0d0f5c901521c18229e1086af60"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/history_wrap_frame_4/request.bin",
+    "bytes": 1036,
+    "sha256": "ff7847bf93467c8d925546b18d94c9f0f5085dd6cfd7d1eed6845b6e54b9c428"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/initial_status/request.bin",
+    "bytes": 10,
+    "sha256": "bcd149a351f741c22c2185dd144eae18b164b8d7df300601e32242d508a1937b"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/invalid_mode_preserves_state/request.bin",
+    "bytes": 11,
+    "sha256": "7c7d819660f58426dee8cfb908621c23a3a9a73d4146ea6694c6edc08ba43fd3"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/loader_bad_file_crc_rejected/request.bin",
+    "bytes": 10,
+    "sha256": "5520c4140eed1e2b2621be7eb70e5966d22c3d175ab9b9401e36bbeca0a143e9"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/loader_begin_bad_file_crc/request.bin",
+    "bytes": 18,
+    "sha256": "51212d61d7aa0bcce2fdbfc5ec04511df35d152d6bc74556e44b412046a499be"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/loader_begin_good_crc/request.bin",
+    "bytes": 18,
+    "sha256": "eecaa20f0798cd9b4836d130725ba1b321b5c202438d5484c413a8361222f877"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/loader_complete_image/request.bin",
+    "bytes": 270,
+    "sha256": "51644f3e3f468e9eca4743b9c3ed2fc1055d4d380ac9b192f3cac25fc0c17523"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/loader_conflicting_duplicate/request.bin",
+    "bytes": 78,
+    "sha256": "c87da577c5d2e31266a9d11a46a45309cc4e246bd30b8a0b3da28e724f308187"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/loader_ddr_readback_crc_rejected/request.bin",
+    "bytes": 10,
+    "sha256": "cc0c8fb96ae9f88e3f838a6823016f9e845041e68862a26689921dae33eb1e4e"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/loader_duplicate_chunk/request.bin",
+    "bytes": 78,
+    "sha256": "eeda32c41abe5f09292909ca685daaadf411fcfb201bb988e4bf8eb2b71bdba5"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/loader_first_chunk/request.bin",
+    "bytes": 78,
+    "sha256": "0b64b5f633fe1b615bc8b70108d74ca9b5596218942fbbe609e1d6fea8046752"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/loader_invalid_llm_image_rejected/request.bin",
+    "bytes": 10,
+    "sha256": "7d8905beed1568225a09400bdeaee71e4540bcaddb1fa8690ff9b64314062ef1"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/loader_out_of_order_rejected/request.bin",
+    "bytes": 78,
+    "sha256": "2517e137f4a2130656598354b4acdf119a9e2e92df329708a697a05e772ec19c"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/loader_remaining_chunk/request.bin",
+    "bytes": 206,
+    "sha256": "5e0cfa9e495908806bdf5eea0693e2a6ca6b63c1ae1fd5de44a4d869065639f7"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/model_begin_not_ready/request.bin",
+    "bytes": 18,
+    "sha256": "268a8f2d93da47f4a83db59c8db697e3258d003fa7b23781ed57c7e415d78e29"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/plan.tsv",
+    "bytes": 5193,
+    "sha256": "b8ab4e0313e6250651b57642e62d1af054a41caee7ffa18fab10212f7ab4a933"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/set_high_threshold/request.bin",
+    "bytes": 13,
+    "sha256": "02c9a96373439dd8bafdd121b03479357881d10e92b4d6713f3797d20554d750"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/set_one_frame_stability/request.bin",
+    "bytes": 13,
+    "sha256": "d6231385d81bf111559e6c8b397f653c8661239839d144c80e39187163d8e187"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/set_two_frame_stability/request.bin",
+    "bytes": 13,
+    "sha256": "53b171aea7b02121186ecd3da0c89b1fd8d82b1b4f547659e8aa47f82ed7d97e"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/stable_first_is_busy/expected_boxes.bin",
+    "bytes": 6,
+    "sha256": "f83d7e12c5642724d0ec8646aa36fc0c0e42040d57d98ce249d1648cd9f0c55d"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/stable_first_is_busy/expected_head.bin",
+    "bytes": 480,
+    "sha256": "d7eb802b29ca208e67768db98a7985d71dc82d64aca7b0eec947fc624e40df9e"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/stable_first_is_busy/request.bin",
+    "bytes": 1036,
+    "sha256": "3e2c67572a302526ac536d02639cb64f4fc10c38f2ba6674618329e741ed4556"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/stable_second_is_digit8/expected_boxes.bin",
+    "bytes": 6,
+    "sha256": "f83d7e12c5642724d0ec8646aa36fc0c0e42040d57d98ce249d1648cd9f0c55d"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/stable_second_is_digit8/expected_head.bin",
+    "bytes": 480,
+    "sha256": "d7eb802b29ca208e67768db98a7985d71dc82d64aca7b0eec947fc624e40df9e"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/stable_second_is_digit8/request.bin",
+    "bytes": 1036,
+    "sha256": "3e2c67572a302526ac536d02639cb64f4fc10c38f2ba6674618329e741ed4556"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/status_after_behavioral_probe/request.bin",
+    "bytes": 10,
+    "sha256": "ef55cdd377207c7bec240e63f09d5a4c2825829f114fc091cc25f3c0f8ed0753"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/status_after_clear/request.bin",
+    "bytes": 10,
+    "sha256": "02728c3f33149a6ab1b6fa0653c682f0df1135d411c367d6303aff7f971d1e7c"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/status_after_crc/request.bin",
+    "bytes": 10,
+    "sha256": "a8a49a978ab43df807e149cb57b2fdc095e42a53dcbf16b4bde0a8dac7458ea1"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/status_after_ddr_rejection/request.bin",
+    "bytes": 10,
+    "sha256": "81e0d472357b225f24bc453b4e38b376871ee434569d78893c3874ce2c71672c"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/status_after_invalid_image/request.bin",
+    "bytes": 10,
+    "sha256": "6c9c63297a462473c5fe83f028afd9db600cc87c5ae57305762fa2345141f1a9"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/status_after_wrap/request.bin",
+    "bytes": 10,
+    "sha256": "01c24925a66e58f9bbb9ea5d2ce8d3370938dabba3f5d1fcc38487b813615804"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/status_before_mode_switch/request.bin",
+    "bytes": 10,
+    "sha256": "8d3796c4f1f257f9ad65ad6f668ebfc2ace97fc23bcad604cf956b5e03653f70"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/switch_to_hanzi/request.bin",
+    "bytes": 11,
+    "sha256": "19f533fb699e504b2f7f54718d8db90d679764cbb3bbf0e94ebe80e9998e292a"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/threshold_rejects_digit8/expected_boxes.bin",
+    "bytes": 6,
+    "sha256": "f83d7e12c5642724d0ec8646aa36fc0c0e42040d57d98ce249d1648cd9f0c55d"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/threshold_rejects_digit8/expected_head.bin",
+    "bytes": 480,
+    "sha256": "d7eb802b29ca208e67768db98a7985d71dc82d64aca7b0eec947fc624e40df9e"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/threshold_rejects_digit8/request.bin",
+    "bytes": 1036,
+    "sha256": "3e2c67572a302526ac536d02639cb64f4fc10c38f2ba6674618329e741ed4556"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/regression_sources/test_fixtures/unsupported_command/request.bin",
+    "bytes": 10,
+    "sha256": "40045b18449b8db931a9c6033118f54dacfcda889c94050fc84ebbaa81dc0b27"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/release_tools/reports/maxperf_20261103/compiler/audit_maxperf_pds.py",
+    "bytes": 23416,
+    "sha256": "f91ed2ce1b6d5c162fbacc3c4bbc7ebc6f2aa5b1911cf0100d0f6a812d71cc82"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/release_tools/scripts/compare_maxperf_scores.py",
+    "bytes": 9878,
+    "sha256": "cdbf0df865e2dc40e3ae6ee1603bda3183c2223d06c6c21cee3b8bc8cdf2ed4b"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/release_tools/scripts/compare_maxperf_vision.py",
+    "bytes": 6293,
+    "sha256": "780a3558184bdcdd49ad00d4fe46d12629fb2708b9e6e0fe4e6e4fa269a5d4f8"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/release_tools/scripts/finalize_maxperf_core_comparison.py",
+    "bytes": 6330,
+    "sha256": "ad7cf5671caf5d28d05af26824aeca12629eea66dfc8ff54cd3952484da64f2e"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/release_tools/scripts/finalize_maxperf_release.py",
+    "bytes": 44030,
+    "sha256": "bd7c00dbcbff0f6857d44989013e5b1e512b567dc286572eb4797f762badfdd1"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/release_tools/scripts/package_advanced.py",
+    "bytes": 13428,
+    "sha256": "74e13c57a50992a9cf23759e7dbe5418d6dbfa8e0582bee102e11b3805cfbc3c"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/release_tools/scripts/vision_serial.py",
+    "bytes": 9966,
+    "sha256": "02e1a37b5d8246f559daeacb336f83bd497551ada3d93576a4fff0db7a9ef20e"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/SHA256.json",
+    "bytes": 53697,
+    "sha256": "85c1032bea77b655fd13b899b980c4d09ca64b88d814ff801cd120b3c8876b98"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/source/build_scripts/multimodal/scripts/assemble_soc.py",
+    "bytes": 2609,
+    "sha256": "1883f3f609f800ecf975944ccbe27882a65809276be8d32d7383877d03a151d4"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/source/build_scripts/multimodal/scripts/build.py",
+    "bytes": 7278,
+    "sha256": "9b4cbe9f3992857f6a764a12acdbfdb7ea749c2566045ca07128629ae900c8c8"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/source/build_scripts/scripts/build_maxperf_pds.py",
+    "bytes": 11768,
+    "sha256": "ed0be12261baf37b9248870b0c2232f93132c702a7dc019904ea12415c2a431e"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/source/build_scripts/scripts/package_advanced.py",
+    "bytes": 13428,
+    "sha256": "74e13c57a50992a9cf23759e7dbe5418d6dbfa8e0582bee102e11b3805cfbc3c"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/source/build_scripts/scripts/run_coremark_perf.py",
+    "bytes": 11027,
+    "sha256": "d3a6bb1e1e0fe8b986584396cce4ce6208ec735fc08c28f0148297820bed4fc8"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/source/cpu_clock.v",
+    "bytes": 1352,
+    "sha256": "776679233b5786a1f88afe9239937dcdc2c206c5cb2a7e41faa59507e4416bb3"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/source/firmware_sources/multimodal/software/link.ld",
+    "bytes": 788,
+    "sha256": "3a63b2d3ddeb40be109c3fc3b4dbd496a1cda769e822041b3d9320f0f451f87d"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/source/firmware_sources/multimodal/software/llm/llm.c",
+    "bytes": 27494,
+    "sha256": "aae9c240f5bae7bd718f924f6b8908a5a1d995f42b4148ce5320f6d027b05ced"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/source/firmware_sources/multimodal/software/llm/llm.h",
+    "bytes": 1882,
+    "sha256": "b3ec6ef66a5c5f3547e0a1d462be2f09a9ea378aeafe989ba533f79112490341"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/source/firmware_sources/multimodal/software/minilib.c",
+    "bytes": 454,
+    "sha256": "334141d7fdb8a071f95345ae1311e768b0d94bce2502e9947338594b728ec2d8"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/source/firmware_sources/multimodal/software/multimodal.c",
+    "bytes": 10504,
+    "sha256": "72b88b9861e722598335a2c0cd7bbc5f853ae5083ce31137591668f263ae03d1"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/source/firmware_sources/multimodal/software/multimodal.h",
+    "bytes": 394,
+    "sha256": "85d275e5fadc098f82221233e38e7284a0ec13cc2d1f4771ebdbaec2497bd24d"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/source/firmware_sources/reports/maxperf_20261103/vision_firmware/board66/main.c",
+    "bytes": 3465,
+    "sha256": "cb0bb4999541c96a0f16a3cf46b1a39bc3daf4018a3e554846a02f93b869e1b3"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/source/firmware_sources/reports/trained_digit_hanzi_20261101/digit/source/vision_firmware.c",
+    "bytes": 8608,
+    "sha256": "314d8857329caef86378df9038af909fb8ac8a32c287095d26ec9151d90b3872"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/source/firmware_sources/reports/trained_digit_hanzi_20261101/digit/source/vision_firmware.h",
+    "bytes": 378,
+    "sha256": "f3fa6dc1d8128bb05e68d636f803a5da9c6f5df1973e52b8b1aabbaffe39ccdd"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/source/firmware_sources/reports/trained_digit_hanzi_20261101/digit/source/vision_model.h",
+    "bytes": 27582,
+    "sha256": "91abd48c20b412b33507e00584f41fbce550ef3511da095d18d9b061f2e7deb6"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/source/firmware_sources/reports/trained_digit_hanzi_20261101/hanzi/source/vision_firmware.c",
+    "bytes": 8602,
+    "sha256": "41635cc492d66675719336f8d7c810ec594d5416ed00de3f77337a7affddd988"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/source/firmware_sources/reports/trained_digit_hanzi_20261101/hanzi/source/vision_firmware.h",
+    "bytes": 378,
+    "sha256": "f3fa6dc1d8128bb05e68d636f803a5da9c6f5df1973e52b8b1aabbaffe39ccdd"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/source/firmware_sources/reports/trained_digit_hanzi_20261101/hanzi/source/vision_model.h",
+    "bytes": 26842,
+    "sha256": "187111043c6e7ff09d4a2476e67c919688b0dec388377b0d266c7e76e1298738"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/source/firmware_sources/software/runtime/start.S",
+    "bytes": 374,
+    "sha256": "7a0e2b073d5b7086fa4a5bac8ef068128be2fd69f98b70644e7112b7ae3d29d9"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/source/firmware_sources/software/runtime/trap.S",
+    "bytes": 1257,
+    "sha256": "5efdcd7abeb58450ddfcb33f2cb6c3664f76cc39c25835f7e60a46cbbdc69e8b"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/source/firmware/advanced_ram.hex",
+    "bytes": 163840,
+    "sha256": "184e1b487e971657641cd18d7c5c2f6b29ab3eb8e46bcbe63150ff84f230061d"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/source/firmware/advanced_rom.hex",
+    "bytes": 163840,
+    "sha256": "d68f9d19bfa5373b36a373820bb6d5b4d810e452cea8da0e1b5339a85445a5b8"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/source/firmware/build.json",
+    "bytes": 14398,
+    "sha256": "cfd4dd760ba70208e837518a1ff8d289dd7b9431eaf7e2500b7c891d7b72ec0d"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/source/firmware/compile.log",
+    "bytes": 16,
+    "sha256": "dfb23411a6872447e75541e6b3067026d10ebc8f76f427a5f69d795498e117f9"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/source/firmware/digit.o",
+    "bytes": 20256,
+    "sha256": "c20de6f4288b5dd9c2f67ff1fc769dc076fd2d12b5a00fbdc23ed2301b5fc807"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/source/firmware/digit.su",
+    "bytes": 706,
+    "sha256": "1fab9b1bfb15e150480ab8940564ce2db2609123414f6c34c93ff5bd96d52ebb"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/source/firmware/hanzi.o",
+    "bytes": 20240,
+    "sha256": "fcd47973584e599f735465157aff4d7f01fb58745ea69f07c60bed199b639d7f"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/source/firmware/hanzi.su",
+    "bytes": 706,
+    "sha256": "3b73a586003aafe4e0502b809bd0c8d80bb5324f56208bc907d0a4a457b33575"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/source/firmware/llm_llm.o",
+    "bytes": 20804,
+    "sha256": "9b7db9251686cda1b59e744defa34964cb93116f0cf83f5085e1172781d475b4"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/source/firmware/llm_llm.su",
+    "bytes": 1347,
+    "sha256": "7d1d83940cd8c81480591e641c3793fd61c8c749c17d0fc340a02be40a4e500a"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/source/firmware/main.c",
+    "bytes": 3465,
+    "sha256": "cb0bb4999541c96a0f16a3cf46b1a39bc3daf4018a3e554846a02f93b869e1b3"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/source/firmware/main.o",
+    "bytes": 5520,
+    "sha256": "07d1fe9bd1a6382d18083604d64c2ab59bad71ceb88c0f44a0e83402d3643abd"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/source/firmware/main.su",
+    "bytes": 395,
+    "sha256": "9b40d1aee395d6576d70cbde2257e8d3203f6e290f3167f5ea84b459c8052c10"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/source/firmware/minilib.o",
+    "bytes": 1404,
+    "sha256": "c18a4d828fd80cdb235e56436fc6f30ce430e0f3fb6884c38fd7c643c331c6f5"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/source/firmware/minilib.su",
+    "bytes": 154,
+    "sha256": "fff571c62d2cdfa3451642032b037db3810f4c4abebe1fad60a9d22c36651d0b"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/source/firmware/multimodal.dis",
+    "bytes": 525451,
+    "sha256": "7b2fafee4217b97a886713f5fd30c102911769dfb67b8233e2548fb19172dee6"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/source/firmware/multimodal.elf",
+    "bytes": 143812,
+    "sha256": "55dcf5609b75307197b092e4ddf2e9ea38ac00fedab39eaf1a6c689d4104e4ed"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/source/firmware/multimodal.map",
+    "bytes": 90939,
+    "sha256": "e261d2fe3a6bcc7464f4244e913ebb0fcb87be62410d54b634fc83124af970e4"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/source/firmware/multimodal.o",
+    "bytes": 15092,
+    "sha256": "13f8d2685ad76196ca927fe2a119f66b441b8628b149831b8dcff19d884a352c"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/source/firmware/multimodal.su",
+    "bytes": 701,
+    "sha256": "ae086538ea3adf6468d88740272d17c172ef537acab12149507e08938690cd5f"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/source/firmware/start.o",
+    "bytes": 1228,
+    "sha256": "2fd1f1f975f34b86435e5a5818de4c9ca9213f6fd8a6762cb2e5ced4aebd73a2"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/source/firmware/trap.o",
+    "bytes": 1076,
+    "sha256": "f21cbe5f766ecd22dd0129e58fbd769f197010f6afc7428ecc23e47d6af48b9d"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/source/multimodal_soc.v",
+    "bytes": 7674,
+    "sha256": "e60b68e6b865a4b1a1f3c47c4ad64dec30b3bfe329dd5927af38b7d005523d60"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/source/rtl/advanced_soc.v",
+    "bytes": 6453,
+    "sha256": "c09cb42c057d4204c5c5870990ae0cf5e8486aee22ba2669a862a7f3987abc87"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/source/rtl/advanced_top.v",
+    "bytes": 1229,
+    "sha256": "fcd4e3c99b92c0d70379bc2e2caccb56fce7c7deb679afdcfdcd3ddd8591a9d7"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/source/rtl/alu.v",
+    "bytes": 5362,
+    "sha256": "5f53b372aabd205e485fa299d1bf7624c51ae1dc90e0903a6dc76c4e27acc711"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/source/rtl/cache_2way.v",
+    "bytes": 18664,
+    "sha256": "1638fea389f5d18a755e145a7097ca153d7374dbaea9fb0f1140476bc0408ac9"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/source/rtl/camera_dvp_capture.v",
+    "bytes": 5680,
+    "sha256": "59ef641d47586b1d18f32da348b188abaf0b4053b1ddbc25abc71ee12eda2d74"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/source/rtl/camera_sccb_write.v",
+    "bytes": 2428,
+    "sha256": "73910e450f4f36d3e02c1d2eb925e368f1b9be60c91a0d5d9e523675727a284c"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/source/rtl/cpu_core.v",
+    "bytes": 27015,
+    "sha256": "ccb43bd36d5e050b97e2f71d86ba54eb1d1d33b7cf5e9cb976caa3dbec9ecaf8"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/source/rtl/cpu_top.v",
+    "bytes": 3233,
+    "sha256": "8a67233e20affb552ae73309240e580a339d45618626a7da8a9b59cc8a57aa17"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/source/rtl/data_bus.v",
+    "bytes": 8742,
+    "sha256": "7adc18ac0724a457dd3ec8349d6bf9079edaf723d6f83e101c017068d7859b80"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/source/rtl/decoder.v",
+    "bytes": 5592,
+    "sha256": "0e11234d7352393c23ec882b5e5221974efb9050d7ecd4a90f8756dbbe0177cf"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/source/rtl/fpga_top.v",
+    "bytes": 1803,
+    "sha256": "c0999157b6d5b9e6b89ed91d31c523ac7a010bb2a4064ee8427dfb094bee73d3"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/source/rtl/int8_dot.v",
+    "bytes": 3730,
+    "sha256": "27b0c16ebab7695d79c206f2bf655e7be519b6d2a838593a6ab4914c8b2320a5"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/source/rtl/machine_csr.v",
+    "bytes": 4723,
+    "sha256": "4df8fce167ba4371bd98ee9736628224bafdeaf682a38d8d7136765566379d4b"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/source/rtl/pc_reg.v",
+    "bytes": 1280,
+    "sha256": "4038873a252f8486307eb7a27e504a6c4fe0c665711c9025ed8183f63a03c568"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/source/rtl/ram_sync.v",
+    "bytes": 3470,
+    "sha256": "f66eb0e9a84b608a2d5c44682cb713ea02f2e19503e27ffbf6f2a6077ed7fdb5"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/source/rtl/ram.v",
+    "bytes": 3924,
+    "sha256": "9c9846bdc58fbba620b4f6326aa134757ee7117dbf081143917fed0341dcdd01"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/source/rtl/regfile.v",
+    "bytes": 1409,
+    "sha256": "0d5f03aa884c1725a51269a4a69e8f6a3740eb56d87b7fd50df0af92d13296f2"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/source/rtl/remote_top.v",
+    "bytes": 894,
+    "sha256": "940cb0d11a30d14bbfbdf218017c4e5790c8ebf8dbbb011959481551f2dbc576"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/source/rtl/rom_sync.v",
+    "bytes": 18799,
+    "sha256": "da9da1de535d89f68b08d8bc9eb8b4068a755289091f82c79774f21665fd62f7"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/source/rtl/rom.v",
+    "bytes": 17722,
+    "sha256": "d38d93cea50620274f35fcf242fdba4a77b9835c855338d4942c50c46a16be3c"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/source/rtl/selftest_top.v",
+    "bytes": 687,
+    "sha256": "18b17b6c24531a11ddc8f02986de704746030401b3d1f3afa2d71bf36a001fa5"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/source/rtl/soc_peripherals.v",
+    "bytes": 3586,
+    "sha256": "0ae1a5d042b80ae560d7198dbc8300c0a16337de69cd21d0d1cff0c697d0c30c"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/source/rtl/uart_rx.v",
+    "bytes": 2074,
+    "sha256": "f5c547dad8d21ab8894e4933f5ecfcd94bb71643d7af8c62449bcbf84274a0e3"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/source/rtl/uart_tx.v",
+    "bytes": 1181,
+    "sha256": "d93824751216ab3319ad7d4e755e59009d1c4a204cb7da685addfdf42e859077"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/source/rtl/video_mmio.v",
+    "bytes": 5922,
+    "sha256": "6b2ddadf22b2c0b695f1948b98661ed0d16fe94c03c47dcb7061363ec36f0679"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/source/rtl/video_rgb_scanout.v",
+    "bytes": 2515,
+    "sha256": "fbd2c54a1838c3f71ce53bd72a5707cf76b56d57f8aa16beb9c8b83ca963c452"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/verification/00_summary.json",
+    "bytes": 97606,
+    "sha256": "8d20ca5b2e791cba6041e690b57a1744990230559f78e13081d2fb147329b4a0"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/verification/01_summary.json",
+    "bytes": 2737,
+    "sha256": "7a283a31544e8d0d75e0c1ee2c68096d3261c4a0c7015887a9dcd277df50d939"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/verification/02_mapped_multiplier_decouple66_audit.json",
+    "bytes": 1077,
+    "sha256": "71624fd4a2b4f2dd9deb854379547955211c0a508da59faf2da8a8274fb043a0"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/verification/03_summary.json",
+    "bytes": 2533,
+    "sha256": "f8fc68db70d5e0d5c9d9bb307a79e0d453e0a31f55c615b750cde432633654f9"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/verification/04_compile.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/verification/05_run.log",
+    "bytes": 7686,
+    "sha256": "4e191efae7ece45881cb35de82c7a139b7826466c8d381d67cc6f36c3ef9b7eb"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/verification/06_summary.json",
+    "bytes": 546,
+    "sha256": "b8f3d52664c59240697a1b006bb9c6c127f27f12c85bc1c11ad9ae11e3e2255a"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/verification/07_tb.v",
+    "bytes": 2739,
+    "sha256": "d584a87af010e03b59019ec0dfcffea1ee4b053612b67712938111bd3c56abcc"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/verification/08_matrix_display.v",
+    "bytes": 12477,
+    "sha256": "40ed803d1d1c879e5e3736396092c531bf1f9a77cc0dcd553d56a6380dbb5533"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/verification/09_summary.json",
+    "bytes": 4294,
+    "sha256": "9d04a6052ad7aaad0e297b1342c3630f1088fa83760fa0f200b4905e212febf0"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/verification/10_tb_matrix_display.v",
+    "bytes": 10559,
+    "sha256": "3df6ce7e09a5412d6ddb57a4a653d4a291110a2265e77dd7be55899f45fb3916"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/verification/11_compile.log",
+    "bytes": 1643,
+    "sha256": "ced989924194e8f13bb548e4c1f4d7a41f1a9d7b2e53fa03263304e01d650dcb"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/verification/12_simulation.log",
+    "bytes": 365,
+    "sha256": "efc2a8f66142a87324393233dff045c994c7f37400a59a50d96ba7a55e21e5fe"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/verification/13_verilator.log",
+    "bytes": 1997,
+    "sha256": "f0cdb697d08472e27f03e34c257048f01fb7c4615b5214daaef79803c5168ace"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/verification/14_summary.json",
+    "bytes": 10057,
+    "sha256": "0a9d7de65faf07f10148805f7800cc3bf00f99e0c77b163e93f71b0a9435ba6a"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/verification/15_tb_cache_preview_edges.v",
+    "bytes": 3969,
+    "sha256": "1ec48b79541c8dc3d8cbb7a61d955671ad205c54985780fe60c713a77284d2af"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/verification/16_compile.log",
+    "bytes": 884,
+    "sha256": "32d5a5aec24f7a1d38d477922232f4a87a6c05ede9bf42c4f5b8df81a7daf6b1"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/verification/17_edges.log",
+    "bytes": 163,
+    "sha256": "43e15166785465b911b207d17537e241de4b76c5ba7d231e5c45ba4c67eedeef"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/verification/18_edges_compile.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/verification/19_lookahead_0_forward_0.log",
+    "bytes": 200,
+    "sha256": "28f892715943a919c18794b02668c13f9fae655dfaa3c01a61c9107715b4ca3f"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/verification/20_lookahead_0_forward_0_compile.log",
+    "bytes": 313,
+    "sha256": "4522abcdf4706f7abb1647295a2ab943a18d362188032d5420bb34a22f735492"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/verification/21_lookahead_0_forward_1.log",
+    "bytes": 200,
+    "sha256": "6088f126b106f4a5bf322c108c3faf7e42baf3a50ee941b61a42b0a17a432d8b"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/verification/22_lookahead_0_forward_1_compile.log",
+    "bytes": 313,
+    "sha256": "4522abcdf4706f7abb1647295a2ab943a18d362188032d5420bb34a22f735492"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/verification/23_lookahead_1_forward_1.log",
+    "bytes": 200,
+    "sha256": "fef603cd567f2f68c5424ec495cd63bf839f12e1901eca27e19e1e3da051bcc7"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/verification/24_lookahead_1_forward_1_compile.log",
+    "bytes": 313,
+    "sha256": "4522abcdf4706f7abb1647295a2ab943a18d362188032d5420bb34a22f735492"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/verification/25_run.log",
+    "bytes": 438,
+    "sha256": "808c4e7d66edd30896451b78e9b088fb7d285a88cbc7c7e6699d82468da8561e"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/verification/26_summary.json",
+    "bytes": 1403,
+    "sha256": "49293b3d5300a5833d1833c0d93cc1baa447d35401236c132c6829e19db80abd"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/verification/27_tb_cache_preview_oracle.v",
+    "bytes": 16944,
+    "sha256": "67edfa17f031d08a1db4959b7fae2f9f8e1435c6b14c1a5bfec226d7609bf19c"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/verification/28_check_equivalence.py",
+    "bytes": 5853,
+    "sha256": "5088e09b30146e67edefe014b4278a7a1f8c15a328a616709ad13da2773c4879"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/verification/29_check_mapped_selection.py",
+    "bytes": 3107,
+    "sha256": "b9f4b3d01581cee47daf3518d51fa590f2d21a5f2b828bccd52bad6a15d40ebf"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/verification/30_summary.json",
+    "bytes": 10057,
+    "sha256": "0518a78440a8212f395e72ad91dc320222be7d6be1036bcf0ececfb29594ea20"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/verification/31_cache_2way_reference.v",
+    "bytes": 18479,
+    "sha256": "fb0bef79ccb92b8987820f2994f6295b4a677ee646d7724de711945c7e49564c"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/verification/32_la0_forward0.log",
+    "bytes": 329,
+    "sha256": "71f6151b96baeb908abc52917027090be531cd7a111c272cf98408f8d84cfbf4"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/verification/33_la0_forward0_compile.log",
+    "bytes": 910,
+    "sha256": "bdd8b7163ae58f1dbd63651ff3efdf8f02708af632dad623f6cc5dcc97a46800"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/verification/34_la0_forward1.log",
+    "bytes": 329,
+    "sha256": "679a49a92cb05fb976b1818bc4e16e80859150f313ddb501e613373253b53d5c"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/verification/35_la0_forward1_compile.log",
+    "bytes": 910,
+    "sha256": "bdd8b7163ae58f1dbd63651ff3efdf8f02708af632dad623f6cc5dcc97a46800"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/verification/36_la1_forward1.log",
+    "bytes": 330,
+    "sha256": "c350376e5a074ec56521de740633124c54c3cfaccdf93c8d4fd3725ee17542ff"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/verification/37_la1_forward1_compile.log",
+    "bytes": 910,
+    "sha256": "bdd8b7163ae58f1dbd63651ff3efdf8f02708af632dad623f6cc5dcc97a46800"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/verification/38_summary.json",
+    "bytes": 1294,
+    "sha256": "ca6363fd9790d17bbc95864e66c95c90519906a9defd4117d21b9a872570bb9f"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/verification/39_tb_cache_lookahead_equivalence.v",
+    "bytes": 9694,
+    "sha256": "2302345bad9bde746bcb2cfc255c741a6c4cf7a2ffcc24af4c660829e797dfdf"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/verification/40_freeze_summary.py",
+    "bytes": 1937,
+    "sha256": "b94e45eddbbd93798160d539411c42bc5e5f546a065e20a866599228d17cf23c"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/verification/41_run_frozen_isa.py",
+    "bytes": 737,
+    "sha256": "afb4e7d5999fd8cca8ec42c7538c13d06d29553ad8c1bd06520473af3ce96edc"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/verification/42_summary.json",
+    "bytes": 4470,
+    "sha256": "a3ed16b0975eca3622abfb991e2e27e334f29461d5a6139c881b9c98bfce76af"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/verification/43_cache_2way.v",
+    "bytes": 18135,
+    "sha256": "98aa6b1ba03e566589467434c7c150c06878e6f0abadf1ec5907da9b8dda2c4b"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/verification/44_tb_cache_2way.v",
+    "bytes": 16230,
+    "sha256": "c25246b4df87e0bec0293332018fa17ef13f364a74f6221c4cecfffbbe89896f"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/verification/45_tb_cache_lookahead.v",
+    "bytes": 6964,
+    "sha256": "63197e5aa76aa839e94d5402cd8724ed08f1d0799ccd89958c60ebd056b3a831"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/verification/46_comparison.json",
+    "bytes": 53293,
+    "sha256": "1f9aaa3ce22217e84b5751c9525a96ce1b2b5f6e73ccfe09a533b3ccd723425c"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/verification/47_comparison.csv",
+    "bytes": 2405,
+    "sha256": "8de96ab29f9d37e6c09cceda25ec9fe4df3524f9d6db38047eb76b829f65bf04"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/verification/48_comparison.json",
+    "bytes": 11770,
+    "sha256": "adec895a308c305923cf3718ae5cc718d22d5e4a82e5b20553d694d70dd91b11"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/verification/49_summary.json",
+    "bytes": 7734,
+    "sha256": "06c975dbef2d6a9ca3ad025d67d7812aa306fbf33bd5186a4eac274a6ef9c4dc"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/verification/50_summary.json",
+    "bytes": 7725,
+    "sha256": "1c9086280fff034ce34e6daf65832e1ea97a4e82ba720e7f7a157428d068616a"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/verification/51_tb.v",
+    "bytes": 3610,
+    "sha256": "e8ecacfb82186c0da9e100fc3ef03f68fda6ff0e17ec5ff624797ae260879351"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/verification/52_simulation.log",
+    "bytes": 124,
+    "sha256": "2ef4ad516d2727b13b4e1bfe70846ac313edfca5bcc1c183f5eb281367de6ee0"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/verification/53_tb.v",
+    "bytes": 3642,
+    "sha256": "81b33a33d8eea66d7ec4d80fec87ee6833728fdf2e5ad98be6f75607ca8b6c07"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/verification/54_simulation.log",
+    "bytes": 124,
+    "sha256": "e1cc2e6ee191fde24959a335c6b36aa4d10f21fdeaed6e11a1aa61f4690af589"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/verification/55_cpu_mapped.v",
+    "bytes": 2195564,
+    "sha256": "007a7464158c97a99f387808801749e44761e81db2dfb79305bab32c9d4cc0d2"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/verification/56_compile.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/verification/57_vectors.hex",
+    "bytes": 162248,
+    "sha256": "36bb84d60e36e04c622812e6acef60b1c0303b7e791097bbe5a1eeb5a14f042c"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/verification/58_cpu_mapped.v",
+    "bytes": 2218420,
+    "sha256": "2c5950bc306f55b568f4283e6596fd400bb574a2b80bf91c162bce19d1698247"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/verification/59_compile.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/verification/60_vectors.hex",
+    "bytes": 162248,
+    "sha256": "36bb84d60e36e04c622812e6acef60b1c0303b7e791097bbe5a1eeb5a14f042c"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/verification/61_tb_matrix_display.v",
+    "bytes": 10382,
+    "sha256": "88d070ac8482f2a2fff46ce8cd86fd620e81bdd0588af548799462d785c395fd"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/verification/62_tb_production.v",
+    "bytes": 1602,
+    "sha256": "3fb798c5e5eb29628de03b665890375480720746dbe4ecde9a6cbb609bf56cf2"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/verification/63_matrix_extracted.vm",
+    "bytes": 120277,
+    "sha256": "463211fd50af3d8eb0b6505f0ffd65a2a8962980679362deb606186e3cad190b"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/verification/64_simulation.log",
+    "bytes": 9811,
+    "sha256": "0eb8f7e9e001ed6e889facdbd255412e20da88edc6cc38bcd28f3903d0232e05"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/verification/65_compile.log",
+    "bytes": 305,
+    "sha256": "9594b04478671d212812d9e6fc9771bb9c8cca0990c36fafc4984cb0a6509efc"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/verification/66_runner_metrics.json",
+    "bytes": 18186,
+    "sha256": "52986535068fa3b61f9e4fd6bffe6bc2dc5f0215cf283db1372839c80ad06014"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/constraints/ddr_pg2l200h.fdc",
+    "bytes": 32375,
+    "sha256": "a04baa4e8be8816fde2a78e75e998acd56de6dba47a406605b5575e9d8df1345"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/constraints/matrix_pins.fdc",
+    "bytes": 8435,
+    "sha256": "45c7364a64cbe66a5eeb16c882de02f8c2e61ff6ec2218e286e40bc240496ea5"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/constraints/mini_board_candidate.fdc",
+    "bytes": 3186,
+    "sha256": "220324557e110e15a0db395c6d863f113c0592e72493b98175b3e3a3425f2ef7"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/rtl/design.v",
+    "bytes": 1250012,
+    "sha256": "bb6666055645b76f5770181c206cbc663ecc24c04e71ff8b2b21c17a86a2091c"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/run.tcl",
+    "bytes": 488,
+    "sha256": "460bd41a78e5934c455ae1b03f0e93e0691c2a6a33a649a52fd191fd886b990d"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/ddr3_test_ddrphy_top.v",
+    "bytes": 53206,
+    "sha256": "a95c28f225d2984401a798f673efff209154ae5beb8a7356d303136b71ea49d5"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/ddr3_test.idf",
+    "bytes": 77657,
+    "sha256": "f8111f0059996708c59f72473fafd62db7a8e738002a740d016e866cdfff57ae"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/ddr3_test.v",
+    "bytes": 22196,
+    "sha256": "3c5441b4bff33dff73811c3a025ede3b6348cb5779e21778653659b6cbfb84e0"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/manifest.json",
+    "bytes": 18819,
+    "sha256": "6d30b5c0fc78c5f34075646ed4b70f82ea1a7821c57ac636e6ff1954cdbbbef0"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/NOTICE.txt",
+    "bytes": 620,
+    "sha256": "5d9c623b384e1b346f77bc2b744d8c1030986e4e732f0de83609aaa8f3c225fb"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/reference/ddr_test.fdc",
+    "bytes": 79590,
+    "sha256": "bac418dac60d9f8cc2850e8d70f9c4822bf39ef648dde0878103e87671e96e9f"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/reference/ip_project.pds",
+    "bytes": 16985,
+    "sha256": "9521ffb8e0dc49862ba6eb553529b7b4385251117797ee9b71246933c5bf68fa"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/reference/standalone.pds",
+    "bytes": 25625,
+    "sha256": "8379b5dea4e2104d36dbeda8354f06474906f6d81a31b4f1055a9c8b9c165123"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/reference/test_rd_ctrl_v1_0.v",
+    "bytes": 16144,
+    "sha256": "d1bc613b0102efb2e13eefbc131d62ad4cde63ce7f3cf6fc781268de707e9ade"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/reference/test_wr_ctrl_v1_0.v",
+    "bytes": 11766,
+    "sha256": "a455e81d4ee494006b25b466537e5eb7d9acfb28d24f4f5531365e1a00145913"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/rtl/ddrphy/ddr3_test_slice_top_v1_10.v",
+    "bytes": 55691,
+    "sha256": "213c8c801e069d7b9a98bfe5a4f7981cb1528181d86517c3185a05be541e2289"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/rtl/ddrphy/ips2l_ddrphy_calib_mux_v1_0.vp",
+    "bytes": 13948,
+    "sha256": "676e36319e7ce80b93e3543e255d53708d9fc71606587a6e692eab1ec82ecaed"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/rtl/ddrphy/ips2l_ddrphy_calib_top_v1_10.vp",
+    "bytes": 29035,
+    "sha256": "04faf434cef120b5d712911dfc97c8f498901b0679fba720b806f596d688bded"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/rtl/ddrphy/ips2l_ddrphy_control_path_adj_v1_10.vp",
+    "bytes": 8870,
+    "sha256": "8cdd7b9ec01c143882217b038cbf840d77e52ee3037e629e75e10b03fc223a38"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/rtl/ddrphy/ips2l_ddrphy_cpd_ctrl_v1_3.vp",
+    "bytes": 12614,
+    "sha256": "56f52683adbe720c7d43da1a9f199f4ab3add3f3b5960e3f687f87f60267c161"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/rtl/ddrphy/ips2l_ddrphy_cpd_lock_v1_0.vp",
+    "bytes": 3988,
+    "sha256": "a6696f8e79e2d132a6e76ad4997d5366d6c9cf8f05c60f77feff1b47b50d0090"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/rtl/ddrphy/ips2l_ddrphy_data_slice_dqs_gate_cal_v1_10.vp",
+    "bytes": 7140,
+    "sha256": "8764275d4eeb8d1765b3a09aba527d6d3bf3e46f5e1d17eefc685d7e0dbe1520"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/rtl/ddrphy/ips2l_ddrphy_data_slice_v1_10.vp",
+    "bytes": 43859,
+    "sha256": "e13e33d97ecbfea1838c4dd28e7f9f1c57dcb974606179523be46bba75344d50"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/rtl/ddrphy/ips2l_ddrphy_data_slice_wrcal_v1_10.vp",
+    "bytes": 20167,
+    "sha256": "b7a9757c252f74c4b57eb0fb74738c57e4eed3e669ddd7ffeeca1acedd330b2e"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/rtl/ddrphy/ips2l_ddrphy_data_slice_wrlvl_v1_10.vp",
+    "bytes": 21219,
+    "sha256": "871874f4af0f068571416916898f83eb07052e6e015c5800ffdf65d67620cf7e"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/rtl/ddrphy/ips2l_ddrphy_dfi_v1_3.vp",
+    "bytes": 23431,
+    "sha256": "9828a1ef43a864d287a7a317910fe330bfc904f44e8f60c8773aafa1d8c1534e"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/rtl/ddrphy/ips2l_ddrphy_dll_update_ctrl_v1_3.vp",
+    "bytes": 8102,
+    "sha256": "bc4e8f402d2fb98920e050a3c1514d44ec959877217d7865a30b22b7da73cac6"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/rtl/ddrphy/ips2l_ddrphy_dqs_gate_coarse_cal_v1_0.vp",
+    "bytes": 11936,
+    "sha256": "950a0010929854894c2c92d9f3f8e9dce0fee6985fee70d4160540a058853ede"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/rtl/ddrphy/ips2l_ddrphy_dqs_rddata_align_v1_10.vp",
+    "bytes": 39545,
+    "sha256": "c0cab4287a7a7b6b720977c1c5f9259c5f48f8da18e9a3ca1173a073b1ccf025"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/rtl/ddrphy/ips2l_ddrphy_dqsi_rdel_cal_v1_3.vp",
+    "bytes": 29297,
+    "sha256": "ef7e57755ab7558b1b518aa73999384368f349efe7077cf9283e0911e711ac1a"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/rtl/ddrphy/ips2l_ddrphy_drift_ctrl_v1_0.vp",
+    "bytes": 7226,
+    "sha256": "8ea99ac6decf6fe14c0585b4f121d7a1acc17290d7a1c68725d984e704e277bc"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/rtl/ddrphy/ips2l_ddrphy_eyecal_v1_5.vp",
+    "bytes": 16271,
+    "sha256": "31977dd34339d163ecbd8b9949ac4b65f0eaa6fbcd9a75d787400ae73f7f51d2"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/rtl/ddrphy/ips2l_ddrphy_gate_update_ctrl_v1_3.vp",
+    "bytes": 6262,
+    "sha256": "ce20eb3b9cbe3b392d8be0aa1d6787247bc7b2d91af36a1f734f35c9eb03d642"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/rtl/ddrphy/ips2l_ddrphy_gatecal_v1_10.vp",
+    "bytes": 17323,
+    "sha256": "b6859250ca098e81ff05bcab08dfe8ffee77648218e90c040a1dd3838a0671f2"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/rtl/ddrphy/ips2l_ddrphy_gpll_phase_v1_0.vp",
+    "bytes": 3812,
+    "sha256": "ef8ebe3742d23848bd2a1492d4901f886ce49aa98dbc295873b67e4116ba8524"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/rtl/ddrphy/ips2l_ddrphy_info_v1_0.vp",
+    "bytes": 12042,
+    "sha256": "0794201be97885e7695a16b6c35848655b08c4bf191405d26417126512ce4aa8"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/rtl/ddrphy/ips2l_ddrphy_init_v1_0.vp",
+    "bytes": 43375,
+    "sha256": "817f9f32b2260a4c35af446e89ff4c2d4b065381b25cb2020c538d22b4a45088"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/rtl/ddrphy/ips2l_ddrphy_main_ctrl_v1_10.vp",
+    "bytes": 13750,
+    "sha256": "39d5024d7364b441340b131d265d0648d8b7c1f92cc417424d7c584413c5f4a6"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/rtl/ddrphy/ips2l_ddrphy_rdcal_v1_10.vp",
+    "bytes": 56971,
+    "sha256": "6b4c7f3c24a4750ac69b4e7882617105c6e31f02da712aaa87932b8561ccea2b"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/rtl/ddrphy/ips2l_ddrphy_reset_ctrl_v1_3.vp",
+    "bytes": 19445,
+    "sha256": "17189b59ed5307c4a27ec35485b33af5c98a89e6ee7f9c5d85aaed9c03a77163"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/rtl/ddrphy/ips2l_ddrphy_rst_clk_phase_adj_v1_0.vp",
+    "bytes": 7292,
+    "sha256": "dd1dbae71726d968df475fe7fbb2b7321411fa67786092c0dc2e065edcf39382"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/rtl/ddrphy/ips2l_ddrphy_rst_debounce_v1_0.vp",
+    "bytes": 4580,
+    "sha256": "bff7ed95c8d305dfb88e6002c6de8453a21c72c03a5a0521a76ddd105598dc4d"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/rtl/ddrphy/ips2l_ddrphy_slice_rddata_align_v1_0.vp",
+    "bytes": 6878,
+    "sha256": "befb44f07d851524109a6dc8e17c5b8062694aa274ed8dbc4f7326b8fe1c443e"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/rtl/ddrphy/ips2l_ddrphy_training_ctrl_v1_0.vp",
+    "bytes": 4908,
+    "sha256": "777e8ee9d8d819fdcf04b39b5a5d6086c52369a7f19f04dbd0d06f7a7d3d6110"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/rtl/ddrphy/ips2l_ddrphy_upcal_v1_0.vp",
+    "bytes": 10182,
+    "sha256": "afbca3503da609f7951ad7fbef386bd007f403c89f52377211ba521967c94455"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/rtl/ddrphy/ips2l_ddrphy_wdata_path_adj_v1_10.vp",
+    "bytes": 16469,
+    "sha256": "85f625ed4a09964442e8616074eea9e4757e43b4217589bb9e2f289c9748b272"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/rtl/ddrphy/ips2l_ddrphy_wrcal_v1_7.vp",
+    "bytes": 37069,
+    "sha256": "0a8cb0bb70bd40809260c50bcb85d092c16fea5d9ab2e4fbbe647ccbd1bfb1b0"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/rtl/ddrphy/ips2l_ddrphy_wrlvl_v1_0.vp",
+    "bytes": 12764,
+    "sha256": "00c086bd729be3ab8287f6eb786cfb3549c97aa92f8465c608b8fc2477df3edc"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/rtl/ips2l_rst_sync_v1_3.vp",
+    "bytes": 3024,
+    "sha256": "64b8d83f15f2ff373e6b1040405c42051d8761bd1857dec719c884c2eb59361a"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/rtl/mcdq_ctrl/distributed_fifo/ips2l_distributed_fifo_v1_0.vp",
+    "bytes": 7838,
+    "sha256": "d6c0b0d8560b0f22128b4883933944fc686fd7597cfea0d6c545cc6af56c0b7a"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/rtl/mcdq_ctrl/distributed_fifo/rtl/ips2l_distributed_fifo_ctr_v1_0.vp",
+    "bytes": 18809,
+    "sha256": "fe31c8f44bea653ab20bb1830ad4f8ed41566e9cfef354bd5e2d48c7682f353d"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/rtl/mcdq_ctrl/distributed_fifo/rtl/ips2l_distributed_fifo_v1_0_distributed_fifo_v1_0.vp",
+    "bytes": 7708,
+    "sha256": "867ac91a1485dfe613a81f372d788e784bba8cd4b0497e56986135e92685ba73"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/rtl/mcdq_ctrl/distributed_fifo/rtl/ips2l_distributed_sdpram_v1_0_distributed_fifo_v1_0.vp",
+    "bytes": 6854,
+    "sha256": "3561bbbbd4e4432a538c3d20818d262b4f1e5517c48296f6b1b4cc8afdd19aef"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/rtl/mcdq_ctrl/ips2l_mcdq_apb_cross_v1_2.vp",
+    "bytes": 9592,
+    "sha256": "62f7d55354a8afe4d02bc6f6d6dc30fc8e9960d3b21709988b887acc99d09cf5"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/rtl/mcdq_ctrl/ips2l_mcdq_calib_delay_v1_2.vp",
+    "bytes": 6590,
+    "sha256": "a52e992b9766b6cb22ed23aa01d1cc5ac9b6a429a8e49de7a13ac51dd70e9784"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/rtl/mcdq_ctrl/ips2l_mcdq_cfg_apb_v1_2.vp",
+    "bytes": 42389,
+    "sha256": "482cb280a614f70209f1d07892fdd773a259d2ca0f23e8f38b85a9faf00513b9"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/rtl/mcdq_ctrl/ips2l_mcdq_dcd_bm_v1_2.vp",
+    "bytes": 17651,
+    "sha256": "bfbd472dd8b427fe6b003dd510f73db89f915ac92d31fe8a779c40f9d4e56bee"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/rtl/mcdq_ctrl/ips2l_mcdq_dcd_rowaddr_v1_2.vp",
+    "bytes": 4580,
+    "sha256": "4ac4721747b13020e1895be6265e55df90968f05beb8056279589039394bb9be"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/rtl/mcdq_ctrl/ips2l_mcdq_dcd_sm_v1_2.vp",
+    "bytes": 15064,
+    "sha256": "d7e710e3ed4d1807fb0bdd4d84c264817247a4da41123c72439c555573821f49"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/rtl/mcdq_ctrl/ips2l_mcdq_dcd_top_v1_2.vp",
+    "bytes": 12330,
+    "sha256": "26ab4e142f555602c023f62b19df52056c6d51da5052401254066cae0655ddaa"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/rtl/mcdq_ctrl/ips2l_mcdq_dcp_back_ctrl_v1_2.vp",
+    "bytes": 48957,
+    "sha256": "fe7b340b41d80ec7428cc38329a41864bcf5c209a6310610d09c7bc8579e541f"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/rtl/mcdq_ctrl/ips2l_mcdq_dcp_buf_v1_2.vp",
+    "bytes": 22007,
+    "sha256": "dab35fa172243ecbb5426a8ebccc2c168368ea0a6ea0558c909b815d781b17d6"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/rtl/mcdq_ctrl/ips2l_mcdq_dcp_out_v1_2.vp",
+    "bytes": 15064,
+    "sha256": "9471082e23170b144dc619f7f7e08c94b8a03378f72da388f744d6acb728928b"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/rtl/mcdq_ctrl/ips2l_mcdq_dcp_top_v1_2.vp",
+    "bytes": 24371,
+    "sha256": "21b1f0e3b4660e1078b47000bfe50022346414f5d5e713ac9e522a4f39f76548"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/rtl/mcdq_ctrl/ips2l_mcdq_dfi_v1_2.vp",
+    "bytes": 32495,
+    "sha256": "abf138d692e634fabe5f569b98d897dfece8a8ae66cee1dba830a56d7e255df1"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/rtl/mcdq_ctrl/ips2l_mcdq_lp_v1_2.vp",
+    "bytes": 23123,
+    "sha256": "7a80ccb1e053e5c9d8f389169359570f256d709ff2e4ad2c51fda7a7a6a4239d"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/rtl/mcdq_ctrl/ips2l_mcdq_mrs_v1_2.vp",
+    "bytes": 23735,
+    "sha256": "f78133bc021a57cf469773daaf102817fc37069447e8accc80afa1f4b20b0ad6"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/rtl/mcdq_ctrl/ips2l_mcdq_prefetch_fifo_v1_2.vp",
+    "bytes": 6044,
+    "sha256": "ee3aa91e980fb3dd08231cf1806a28edf759f4ea8248adfd44407d607519b9e4"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/rtl/mcdq_ctrl/ips2l_mcdq_rdatapath_v1_2.vp",
+    "bytes": 5212,
+    "sha256": "72dd8ece021f4ee74fd576c1628c4f7d3606ef632f0e68b9569a288a092a6b0f"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/rtl/mcdq_ctrl/ips2l_mcdq_reg_fifo2_v1_2.vp",
+    "bytes": 4818,
+    "sha256": "bc9cff65e4002a51af0c20c2f0a9b9f17dacde5157b58691bbfb1c44348ee08a"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/rtl/mcdq_ctrl/ips2l_mcdq_ui_axi_v1_2a.vp",
+    "bytes": 19885,
+    "sha256": "145b69395412be2553835f9278cdf1cb1703d3beeb914abf7d985e3c69f817fb"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/rtl/mcdq_ctrl/ips2l_mcdq_wdatapath_v1_2.vp",
+    "bytes": 11760,
+    "sha256": "db648e90ff607ca2f9e2b5cca048de417439888d0b906288e0cec7cf038d9dee"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/rtl/mcdq_ctrl/ips2l_mcdq_wdp_align_v1_2.vp",
+    "bytes": 9722,
+    "sha256": "1645e9eb7fac3c9c13cd3e0d7367f132293f9cec16835ce188c6345993d2b730"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/rtl/mcdq_ctrl/ips2l_mcdq_wdp_dcp_v1_2.vp",
+    "bytes": 9132,
+    "sha256": "3f30be0f49f78f09915743995c950fa6ff8de5f14598ebc8802e73b5c6d140ee"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/rtl/mcdq_ctrl/ips2l_mcdq_wrapper_v1_2b.vp",
+    "bytes": 47013,
+    "sha256": "d35010f49be551fb15ab2655cbeffcaaaa74fdf3ccb0754b033fc979d615e805"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/rtl/mcdq_ctrl/syn_mod/ips2l_mcdq_com_timing_v1_2.vp",
+    "bytes": 6636,
+    "sha256": "e3f19c4be6352ab64f07426973387f2876c540ee992f6eac9d3f2d470b3d49c2"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/rtl/mcdq_ctrl/syn_mod/ips2l_mcdq_tfaw_timing_v1_2.vp",
+    "bytes": 8738,
+    "sha256": "c632619f042bebb4f059df7f20eee90eb2b51b81210430cb37d01958ad3cd30f"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/rtl/mcdq_ctrl/syn_mod/ips2l_mcdq_tfaw_v1_2.vp",
+    "bytes": 4074,
+    "sha256": "ab87b7718bffc4fb2a2b27765576187f09b5266bbca7fc393c43c6dec96ff379"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/rtl/mcdq_ctrl/syn_mod/ips2l_mcdq_timing_act_pass_v1_2.vp",
+    "bytes": 5892,
+    "sha256": "9f32b6936e039c15f7b07b74480179d39d1b3787965e1b90bd067a7ede7fdd4c"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/rtl/mcdq_ctrl/syn_mod/ips2l_mcdq_timing_act2wr_pass_v1_2.vp",
+    "bytes": 7642,
+    "sha256": "1b3874b059923481f292ba382ad156f7dcdd9ad39da6c86dddd480290ccce498"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/rtl/mcdq_ctrl/syn_mod/ips2l_mcdq_timing_pre_pass_v1_2.vp",
+    "bytes": 10248,
+    "sha256": "e40a64caec9725c231cd88dde69973eab3aca38c9d2e66a2c5c0bbddf3103ae0"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/rtl/mcdq_ctrl/syn_mod/ips2l_mcdq_timing_rd_pass_v1_2.vp",
+    "bytes": 8652,
+    "sha256": "78b1de719a43ee0fc80e1a5464f7284439d91f1d4b3f83ef2ae5611920293988"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/rtl/mcdq_ctrl/syn_mod/ips2l_mcdq_timing_ref_pass_v1_2.vp",
+    "bytes": 5672,
+    "sha256": "c79dde6f9a682c55aff7bb89c4863f76a069b874fb154dff7d3e4d4a7a88f9d1"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/rtl/mcdq_ctrl/syn_mod/ips2l_mcdq_timing_wr_pass_v1_2.vp",
+    "bytes": 8626,
+    "sha256": "ea3470ca984554d4908ec950314f9242042417c6c4c6b3fd05ac5d6daab98c90"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/rtl/mcdq_ctrl/syn_mod/ips2l_mcdq_trc_timing_v1_2.vp",
+    "bytes": 10424,
+    "sha256": "7234241e5968f91ec6e396794f0bb80f6c7d1bca2038aa004d5078d3937953da"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/rtl/pll/ips2l_ddrphy_gpll_v1_3.vp",
+    "bytes": 8324,
+    "sha256": "3fecc367573a4b5bd158e1a8ff106c5c401c5f180143e8e5abe6bb068e5078d2"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/rtl/pll/ips2l_ddrphy_ppll_v1_0.vp",
+    "bytes": 17323,
+    "sha256": "34bb46106b84eab147f130bd7526f1486d35caeb40b0258cd59656e50d19dddd"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/工程源码/work/vendor/ddr3/sources.f",
+    "bytes": 3435,
+    "sha256": "7bbbfa28c5a486f55224d8450bbbc8e6ca8ea6684498323299e2e7ba0c6c52e1"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/可烧录位流/multimodal_pg2l200h_maxperf_66mhz.sbit",
+    "bytes": 9188552,
+    "sha256": "b122142a3c4ba8937854628d858bda3c743fbdb3d5d47cad975ec4fa9c856e22"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/模块阅读副本/说明.txt",
+    "bytes": 245,
+    "sha256": "649cb4dc63d75c20e4f064dee78542425112beed484c96b2c5f5e28e77ff9db7"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/模块阅读副本/ddr_cpu_bridge.v",
+    "bytes": 9104,
+    "sha256": "d24788e97b438c0d934ac02c89c7e3636cc52330c1aab0c50f4a8654e06381ec"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/模块阅读副本/ddr_pango_subsystem.v",
+    "bytes": 5049,
+    "sha256": "f047c62e26afa99f82e381cce0856f1f592c9b1d4b24854ce803521f11a49f4f"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/模块阅读副本/matrix_display.v",
+    "bytes": 11813,
+    "sha256": "8ce219aba72465c297df7c89250e1d1de951748c219369d8daedf4c70383ba37"
+  },
+  {
+    "path": "01_最终源码/02_Multimodal_66MHz/模块阅读副本/multimodal_top.v",
+    "bytes": 2675,
+    "sha256": "abc0c651d200a993ab9ba2a3461fd3e4ad239703cfcac7e167b977d509e61f4d"
+  },
+  {
+    "path": "01_最终源码/03_原始发布记录/candidate_scores.csv",
+    "bytes": 2405,
+    "sha256": "8de96ab29f9d37e6c09cceda25ec9fe4df3524f9d6db38047eb76b829f65bf04"
+  },
+  {
+    "path": "01_最终源码/03_原始发布记录/candidate_scores.json",
+    "bytes": 53293,
+    "sha256": "1f9aaa3ce22217e84b5751c9525a96ce1b2b5f6e73ccfe09a533b3ccd723425c"
+  },
+  {
+    "path": "01_最终源码/03_原始发布记录/maxperf_release.json",
+    "bytes": 58868,
+    "sha256": "68f398643a85010006793eac02dac1cbb1735cfd4042fc198be018d4bfd8e5b1"
+  },
+  {
+    "path": "01_最终源码/03_原始发布记录/SHA256.json",
+    "bytes": 860,
+    "sha256": "a0a8b7fa8c70334a462da66cb808c5dfa6359ba2c06f510f2b30983e4bc9d24b"
+  },
+  {
+    "path": "01_最终源码/04_CoreMark实板记录/summary.json",
+    "bytes": 1604,
+    "sha256": "895d7c5052ee1dff8e2810964d5e5b6a2cc9d4fd786f80ba71dfe41f75b27075"
+  },
+  {
+    "path": "01_最终源码/04_CoreMark实板记录/user_uart_decoded.txt",
+    "bytes": 1091,
+    "sha256": "9f90d872d28ea3fc09474b8660c7a53c8f52c8283101856be6d3710499f2da77"
+  },
+  {
+    "path": "01_最终源码/04_CoreMark实板记录/user_uart_raw.txt",
+    "bytes": 1940,
+    "sha256": "d89b68a89e4b8277465b9f81bdbabe81f978574140e1657efa40a5ba0b02850a"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/packets/chat_hello.hex",
+    "bytes": 49,
+    "sha256": "0d8bed496fbd0822df0c3a3fb5a5b5479e1d9ee7ea3875a406c4b2dda98ab187"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/packets/chat_test.hex",
+    "bytes": 43,
+    "sha256": "8624461493af4b697fca9a43ba09233438a39b7f6168561996a4c3eeb0bc4e7c"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/packets/digit8/01.hex",
+    "bytes": 769,
+    "sha256": "d2dbced435509bba082664c6ac0838351a349d2562d25e32d1e40e97ad8fcbd8"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/packets/digit8/02.hex",
+    "bytes": 769,
+    "sha256": "c1e39395fc4410baa627a5ae571adc5461be6072b721d7e2cc5127159a2353a6"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/packets/digit8/03.hex",
+    "bytes": 769,
+    "sha256": "1c96ab546593cf8c6ff1a773df69bf153ff007b758f49877f4553a3e9c4c1782"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/packets/digit8/04.hex",
+    "bytes": 769,
+    "sha256": "f1cb142f95082e72045fb75e6e99eea239614f9975b5915b8c8be274d9eaaf57"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/packets/digit8/05.hex",
+    "bytes": 37,
+    "sha256": "5d13abc39702d2ca1956312d6b188bda7beb1abe3c004e80848f2a19bdb54b03"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/packets/digit8/request.bin",
+    "bytes": 1036,
+    "sha256": "d596ce26a88e2efcb7dc92e9e218c29a6b973246c6304f7366b463aef8de434f"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/packets/display_default.hex",
+    "bytes": 40,
+    "sha256": "89a09b2983abc3c1dd586fe59f14f53cf6147de1f67e674c5b7bfa6edd38af9f"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/packets/down/01.hex",
+    "bytes": 769,
+    "sha256": "087fd204be841dea171d3874e0ae8ebed3d1877a9f96416121b3e0836d59cf35"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/packets/down/02.hex",
+    "bytes": 769,
+    "sha256": "6eefe79e8955c96dd15be6f3ad288cab491e31ed4f875bced307f59896ef520a"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/packets/down/03.hex",
+    "bytes": 769,
+    "sha256": "49f9a71b7cdbe7d1626668e1892570b18b2ef6b717d9bd8c048bbad36a71afd8"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/packets/down/04.hex",
+    "bytes": 769,
+    "sha256": "f9df4288080fd55e65956cebcb9da32cc0fadee7544bdba545b5dac61694ed57"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/packets/down/05.hex",
+    "bytes": 37,
+    "sha256": "8f01848512dac25fcf95cba9b2eb02a300318db37114ed911a48cc5d651e1962"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/packets/down/request.bin",
+    "bytes": 1036,
+    "sha256": "8603bc9841219844b1ef18f7c6fdc31127e18b4bb99d146aa4577e914fd4236e"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/packets/left/01.hex",
+    "bytes": 769,
+    "sha256": "0343445d9efd91c8bf07fb88c45497ce14ac2089637429c5b3897e64b3b69d6f"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/packets/left/02.hex",
+    "bytes": 769,
+    "sha256": "8d37ecc9486dd411d1480fbad35822fd7a726dcdc91ce7e1aabf38e297185f15"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/packets/left/03.hex",
+    "bytes": 769,
+    "sha256": "784197db22d3cad65991af4c2c9bc7752351fee4c60dc24467e6b8104c6b4a85"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/packets/left/04.hex",
+    "bytes": 769,
+    "sha256": "3db9129c414d275184ac41a7b9d7ba49932c0cc10b53963352b0fb1643c3719d"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/packets/left/05.hex",
+    "bytes": 37,
+    "sha256": "5aa528f0ce2c53dc0b3771762d20ead2a6ffa46570e7a5e055555e53816401a4"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/packets/left/request.bin",
+    "bytes": 1036,
+    "sha256": "7ac5ffe9e65777fa0d33d59675e97c984698eca5af1d7eec05848964d6211c95"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/packets/manifest.json",
+    "bytes": 1150,
+    "sha256": "53df17fd4d88967ca2e7b05a63789e26d8a498d8604aad070b4ce05eebfa7dc6"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/packets/mode_digit.hex",
+    "bytes": 34,
+    "sha256": "c181f859041f26ccb3a527f952db30372d8405097ef52d4657f18b217ef74efe"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/packets/mode_hanzi.hex",
+    "bytes": 34,
+    "sha256": "3e75d3a326838248c5a0e7c5ac94a6d18f3f0022c7196924c2eed5ba4f806a54"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/packets/README.txt",
+    "bytes": 551,
+    "sha256": "6d869ea10f3a8ff1caf415f557a975a886af23fbddcbcac16119b9d1fc48a9d3"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/packets/right/01.hex",
+    "bytes": 769,
+    "sha256": "a2a350832fe7534c1d424c4d018536a31d002aec37fd7b577217ba8fa6332754"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/packets/right/02.hex",
+    "bytes": 769,
+    "sha256": "d305ed666221bbc35ed38209463877692dec604de767903ebbf93e94bc4804da"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/packets/right/03.hex",
+    "bytes": 769,
+    "sha256": "6c486dbd5a40037714c9784a9f2cc5c53d068fa9a51d8dfcd7cd666ccdde9ad4"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/packets/right/04.hex",
+    "bytes": 769,
+    "sha256": "027892480deec9ca7e906c09b4bcc03532cb9b0a61d1cc064bb61f901b14b6dd"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/packets/right/05.hex",
+    "bytes": 37,
+    "sha256": "3acc3fb6fb960b96ebfa1d7fed76645278eb4af796dda4d66f030c7820cd53ba"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/packets/right/request.bin",
+    "bytes": 1036,
+    "sha256": "9320251969e8072c0ebb5ee00833df6a5d7d93fed620844b30e6d05451fec792"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/packets/status_saved_20261103.hex",
+    "bytes": 154,
+    "sha256": "901903ca527ac2de83c892bd438a74f6e61f79610ec27dc8debe81f569e5c4a0"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/packets/status.hex",
+    "bytes": 31,
+    "sha256": "0adff8e0ee10892d9e0ce1b4b34c376cb9a4bb7af3903723caf6b7c2a2d7bc9f"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/packets/up/01.hex",
+    "bytes": 769,
+    "sha256": "e51cf47a86a5ec589def5dd58f44883a30bfc99c63fd4adee78128fa02f5ad15"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/packets/up/02.hex",
+    "bytes": 769,
+    "sha256": "aaabb869a40cf7fd3e104d831e44b368f151066e5944d01dfd67df3c88d690ea"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/packets/up/03.hex",
+    "bytes": 769,
+    "sha256": "ba23f04395ddd4272466bb5609ce22f9bae724dd3c43a92c3bf5f0c14b8c0f22"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/packets/up/04.hex",
+    "bytes": 769,
+    "sha256": "e6e1f06cb05291398aa1f5355e123dd69b9f7d0030117aef34220e320a97a4e4"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/packets/up/05.hex",
+    "bytes": 37,
+    "sha256": "115bcf3ba5bec638ef456de8f746f179f82348ea8028435190b2567935c421eb"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/packets/up/request.bin",
+    "bytes": 1036,
+    "sha256": "ff7847bf93467c8d925546b18d94c9f0f5085dd6cfd7d1eed6845b6e54b9c428"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/bad_mode_crc_preserves_display/request.bin",
+    "bytes": 11,
+    "sha256": "6951f2c330ff91524b20e7d7ee9ff75a33e5254fad1a0fa103080e2e26bc519f"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/bad_vision_crc_preserves_display/request.bin",
+    "bytes": 1036,
+    "sha256": "7a43bca0634eaffd6fcb0a49048c4d80951a918c14d978f252b8afebe50ff12e"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/behavioral_ddr_probe/request.bin",
+    "bytes": 10,
+    "sha256": "e8b899eff06b438ab3f393a148e3b90bd0dafeb883c5411973c9dec509bcc91e"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/chat_without_ready_model_rejected/request.bin",
+    "bytes": 15,
+    "sha256": "a6731ac97b53f27a0a1a01c1caf64dd0c744a0ccebdcffeae111ef5845439c4f"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/clear_statistics/request.bin",
+    "bytes": 10,
+    "sha256": "af9bf71a989c3e46212069b9fe4c65f7db89b10ba30659ae4887bb73cf839061"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/ddr_probe_not_ready/request.bin",
+    "bytes": 10,
+    "sha256": "8b94c321289df89628007c28e0cd1a50182983ccf66c81da7e0581891fa249cd"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/digit_blank/expected_boxes.bin",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/digit_blank/expected_head.bin",
+    "bytes": 480,
+    "sha256": "effdb87aa1e59679e22f350f256086f3851634c32770db3483df850f7ad6fc8c"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/digit_blank/request.bin",
+    "bytes": 1036,
+    "sha256": "773bea1b68a321f52ed60b40b8b70fa0f2c69689cedef83e107aeac170eb5deb"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/digit_native28_digit8/expected_boxes.bin",
+    "bytes": 6,
+    "sha256": "f83d7e12c5642724d0ec8646aa36fc0c0e42040d57d98ce249d1648cd9f0c55d"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/digit_native28_digit8/expected_head.bin",
+    "bytes": 480,
+    "sha256": "d7eb802b29ca208e67768db98a7985d71dc82d64aca7b0eec947fc624e40df9e"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/digit_native28_digit8/request.bin",
+    "bytes": 1036,
+    "sha256": "d596ce26a88e2efcb7dc92e9e218c29a6b973246c6304f7366b463aef8de434f"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/digit_native28_raw/expected_boxes.bin",
+    "bytes": 6,
+    "sha256": "f83d7e12c5642724d0ec8646aa36fc0c0e42040d57d98ce249d1648cd9f0c55d"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/digit_native28_raw/expected_head.bin",
+    "bytes": 480,
+    "sha256": "d7eb802b29ca208e67768db98a7985d71dc82d64aca7b0eec947fc624e40df9e"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/digit_native28_raw/request.bin",
+    "bytes": 1036,
+    "sha256": "3e2c67572a302526ac536d02639cb64f4fc10c38f2ba6674618329e741ed4556"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/expected_cases.json",
+    "bytes": 23964,
+    "sha256": "9f2d11342f1e1fcbc435200dfc8aa01aecb35c92b268eea4d813b08c35024bfc"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/hanzi_blank/expected_boxes.bin",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/hanzi_blank/expected_head.bin",
+    "bytes": 480,
+    "sha256": "fae6f1d59a6bf21d435dd8fb7ddba90d8e488b37b2fdeaa7285f42eac2dbaec5"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/hanzi_blank/request.bin",
+    "bytes": 1036,
+    "sha256": "9ecfda31c1b99b7b5e2fefccd644b474e9f1722cf7aa4c8d40b14c8eaf719932"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/hanzi_down/expected_boxes.bin",
+    "bytes": 6,
+    "sha256": "04d1cd66ae7f977e5829631b10ada975953e709f3b4e8622d37dc58c18196dd7"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/hanzi_down/expected_head.bin",
+    "bytes": 480,
+    "sha256": "f58906b5ee4d0d6d07d4808a48619208cb915eb5567c0df68afbd103cf0c3b40"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/hanzi_down/request.bin",
+    "bytes": 1036,
+    "sha256": "8603bc9841219844b1ef18f7c6fdc31127e18b4bb99d146aa4577e914fd4236e"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/hanzi_hanzi_raw/expected_boxes.bin",
+    "bytes": 6,
+    "sha256": "8995059f8e9eed93f1958cd568679cd6e6786c37f2aa75fff812e3f7a16b4645"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/hanzi_hanzi_raw/expected_head.bin",
+    "bytes": 480,
+    "sha256": "15384ad05d91a5392e7332735ea8e0953d9f32f68b0594a3734ce45486ca72be"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/hanzi_hanzi_raw/request.bin",
+    "bytes": 1036,
+    "sha256": "019f90b7a63f4a59d1e2a2ff9d068b2bbb19c1612c4a4a28854581224df74dc2"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/hanzi_hanzi_sample/expected_boxes.bin",
+    "bytes": 6,
+    "sha256": "8995059f8e9eed93f1958cd568679cd6e6786c37f2aa75fff812e3f7a16b4645"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/hanzi_hanzi_sample/expected_head.bin",
+    "bytes": 480,
+    "sha256": "15384ad05d91a5392e7332735ea8e0953d9f32f68b0594a3734ce45486ca72be"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/hanzi_hanzi_sample/request.bin",
+    "bytes": 1036,
+    "sha256": "57bf412237e764c4e003ffead01ae7f5963a14aafed3492a3767a71dc361a5aa"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/hanzi_left/expected_boxes.bin",
+    "bytes": 6,
+    "sha256": "ceebd36c290bf78888139d3f2afcb2a7319a2e8d40920c2594752af458cec283"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/hanzi_left/expected_head.bin",
+    "bytes": 480,
+    "sha256": "8366b896dc9bc6ef4fc3f0c22b6209fc9b503fe660d7b17df3a3bd9c04c776fa"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/hanzi_left/request.bin",
+    "bytes": 1036,
+    "sha256": "7ac5ffe9e65777fa0d33d59675e97c984698eca5af1d7eec05848964d6211c95"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/hanzi_right/expected_boxes.bin",
+    "bytes": 6,
+    "sha256": "68d60cef3c78f1eda6c2cb6da80c0301c748948838af9c07d8084138c538e0b0"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/hanzi_right/expected_head.bin",
+    "bytes": 480,
+    "sha256": "0d9d87409b17afa293948db1a7c1d8b0db228ae18310ac2a03a674e40bee839e"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/hanzi_right/request.bin",
+    "bytes": 1036,
+    "sha256": "9320251969e8072c0ebb5ee00833df6a5d7d93fed620844b30e6d05451fec792"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/hanzi_up/expected_boxes.bin",
+    "bytes": 6,
+    "sha256": "ce4e9982111cc1721182f29eaa0ecfb530f7b1f87b98bc805df9ae23f943cf7d"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/hanzi_up/expected_head.bin",
+    "bytes": 480,
+    "sha256": "c046b379f6291d13e0de6744cbd7f1600be4d0d0f5c901521c18229e1086af60"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/hanzi_up/request.bin",
+    "bytes": 1036,
+    "sha256": "ff7847bf93467c8d925546b18d94c9f0f5085dd6cfd7d1eed6845b6e54b9c428"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/history_after_clear/request.bin",
+    "bytes": 10,
+    "sha256": "a4c9a4ad5fd36d1501d955e6fc210530472586020e340cf9f0144d2578f79346"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/history_after_wrap/request.bin",
+    "bytes": 10,
+    "sha256": "8039cae39184c6248d96b011906d168a3c288dd46926f95c6c0b3815bd7896a2"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/history_before_mode_switch/request.bin",
+    "bytes": 10,
+    "sha256": "f3e860168d2381f8cac51e81657341e7995619795f7d83e5f2eb1d042c4a86af"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/history_wrap_frame_0/expected_boxes.bin",
+    "bytes": 6,
+    "sha256": "ce4e9982111cc1721182f29eaa0ecfb530f7b1f87b98bc805df9ae23f943cf7d"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/history_wrap_frame_0/expected_head.bin",
+    "bytes": 480,
+    "sha256": "c046b379f6291d13e0de6744cbd7f1600be4d0d0f5c901521c18229e1086af60"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/history_wrap_frame_0/request.bin",
+    "bytes": 1036,
+    "sha256": "ff7847bf93467c8d925546b18d94c9f0f5085dd6cfd7d1eed6845b6e54b9c428"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/history_wrap_frame_1/expected_boxes.bin",
+    "bytes": 6,
+    "sha256": "04d1cd66ae7f977e5829631b10ada975953e709f3b4e8622d37dc58c18196dd7"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/history_wrap_frame_1/expected_head.bin",
+    "bytes": 480,
+    "sha256": "f58906b5ee4d0d6d07d4808a48619208cb915eb5567c0df68afbd103cf0c3b40"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/history_wrap_frame_1/request.bin",
+    "bytes": 1036,
+    "sha256": "8603bc9841219844b1ef18f7c6fdc31127e18b4bb99d146aa4577e914fd4236e"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/history_wrap_frame_2/expected_boxes.bin",
+    "bytes": 6,
+    "sha256": "ceebd36c290bf78888139d3f2afcb2a7319a2e8d40920c2594752af458cec283"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/history_wrap_frame_2/expected_head.bin",
+    "bytes": 480,
+    "sha256": "8366b896dc9bc6ef4fc3f0c22b6209fc9b503fe660d7b17df3a3bd9c04c776fa"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/history_wrap_frame_2/request.bin",
+    "bytes": 1036,
+    "sha256": "7ac5ffe9e65777fa0d33d59675e97c984698eca5af1d7eec05848964d6211c95"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/history_wrap_frame_3/expected_boxes.bin",
+    "bytes": 6,
+    "sha256": "68d60cef3c78f1eda6c2cb6da80c0301c748948838af9c07d8084138c538e0b0"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/history_wrap_frame_3/expected_head.bin",
+    "bytes": 480,
+    "sha256": "0d9d87409b17afa293948db1a7c1d8b0db228ae18310ac2a03a674e40bee839e"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/history_wrap_frame_3/request.bin",
+    "bytes": 1036,
+    "sha256": "9320251969e8072c0ebb5ee00833df6a5d7d93fed620844b30e6d05451fec792"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/history_wrap_frame_4/expected_boxes.bin",
+    "bytes": 6,
+    "sha256": "ce4e9982111cc1721182f29eaa0ecfb530f7b1f87b98bc805df9ae23f943cf7d"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/history_wrap_frame_4/expected_head.bin",
+    "bytes": 480,
+    "sha256": "c046b379f6291d13e0de6744cbd7f1600be4d0d0f5c901521c18229e1086af60"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/history_wrap_frame_4/request.bin",
+    "bytes": 1036,
+    "sha256": "ff7847bf93467c8d925546b18d94c9f0f5085dd6cfd7d1eed6845b6e54b9c428"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/initial_status/request.bin",
+    "bytes": 10,
+    "sha256": "bcd149a351f741c22c2185dd144eae18b164b8d7df300601e32242d508a1937b"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/invalid_mode_preserves_state/request.bin",
+    "bytes": 11,
+    "sha256": "7c7d819660f58426dee8cfb908621c23a3a9a73d4146ea6694c6edc08ba43fd3"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/loader_bad_file_crc_rejected/request.bin",
+    "bytes": 10,
+    "sha256": "5520c4140eed1e2b2621be7eb70e5966d22c3d175ab9b9401e36bbeca0a143e9"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/loader_begin_bad_file_crc/request.bin",
+    "bytes": 18,
+    "sha256": "51212d61d7aa0bcce2fdbfc5ec04511df35d152d6bc74556e44b412046a499be"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/loader_begin_good_crc/request.bin",
+    "bytes": 18,
+    "sha256": "eecaa20f0798cd9b4836d130725ba1b321b5c202438d5484c413a8361222f877"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/loader_complete_image/request.bin",
+    "bytes": 270,
+    "sha256": "51644f3e3f468e9eca4743b9c3ed2fc1055d4d380ac9b192f3cac25fc0c17523"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/loader_conflicting_duplicate/request.bin",
+    "bytes": 78,
+    "sha256": "c87da577c5d2e31266a9d11a46a45309cc4e246bd30b8a0b3da28e724f308187"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/loader_ddr_readback_crc_rejected/request.bin",
+    "bytes": 10,
+    "sha256": "cc0c8fb96ae9f88e3f838a6823016f9e845041e68862a26689921dae33eb1e4e"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/loader_duplicate_chunk/request.bin",
+    "bytes": 78,
+    "sha256": "eeda32c41abe5f09292909ca685daaadf411fcfb201bb988e4bf8eb2b71bdba5"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/loader_first_chunk/request.bin",
+    "bytes": 78,
+    "sha256": "0b64b5f633fe1b615bc8b70108d74ca9b5596218942fbbe609e1d6fea8046752"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/loader_invalid_llm_image_rejected/request.bin",
+    "bytes": 10,
+    "sha256": "7d8905beed1568225a09400bdeaee71e4540bcaddb1fa8690ff9b64314062ef1"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/loader_out_of_order_rejected/request.bin",
+    "bytes": 78,
+    "sha256": "2517e137f4a2130656598354b4acdf119a9e2e92df329708a697a05e772ec19c"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/loader_remaining_chunk/request.bin",
+    "bytes": 206,
+    "sha256": "5e0cfa9e495908806bdf5eea0693e2a6ca6b63c1ae1fd5de44a4d869065639f7"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/model_begin_not_ready/request.bin",
+    "bytes": 18,
+    "sha256": "268a8f2d93da47f4a83db59c8db697e3258d003fa7b23781ed57c7e415d78e29"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/plan.tsv",
+    "bytes": 5193,
+    "sha256": "b8ab4e0313e6250651b57642e62d1af054a41caee7ffa18fab10212f7ab4a933"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/set_high_threshold/request.bin",
+    "bytes": 13,
+    "sha256": "02c9a96373439dd8bafdd121b03479357881d10e92b4d6713f3797d20554d750"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/set_one_frame_stability/request.bin",
+    "bytes": 13,
+    "sha256": "d6231385d81bf111559e6c8b397f653c8661239839d144c80e39187163d8e187"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/set_two_frame_stability/request.bin",
+    "bytes": 13,
+    "sha256": "53b171aea7b02121186ecd3da0c89b1fd8d82b1b4f547659e8aa47f82ed7d97e"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/stable_first_is_busy/expected_boxes.bin",
+    "bytes": 6,
+    "sha256": "f83d7e12c5642724d0ec8646aa36fc0c0e42040d57d98ce249d1648cd9f0c55d"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/stable_first_is_busy/expected_head.bin",
+    "bytes": 480,
+    "sha256": "d7eb802b29ca208e67768db98a7985d71dc82d64aca7b0eec947fc624e40df9e"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/stable_first_is_busy/request.bin",
+    "bytes": 1036,
+    "sha256": "3e2c67572a302526ac536d02639cb64f4fc10c38f2ba6674618329e741ed4556"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/stable_second_is_digit8/expected_boxes.bin",
+    "bytes": 6,
+    "sha256": "f83d7e12c5642724d0ec8646aa36fc0c0e42040d57d98ce249d1648cd9f0c55d"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/stable_second_is_digit8/expected_head.bin",
+    "bytes": 480,
+    "sha256": "d7eb802b29ca208e67768db98a7985d71dc82d64aca7b0eec947fc624e40df9e"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/stable_second_is_digit8/request.bin",
+    "bytes": 1036,
+    "sha256": "3e2c67572a302526ac536d02639cb64f4fc10c38f2ba6674618329e741ed4556"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/status_after_behavioral_probe/request.bin",
+    "bytes": 10,
+    "sha256": "ef55cdd377207c7bec240e63f09d5a4c2825829f114fc091cc25f3c0f8ed0753"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/status_after_clear/request.bin",
+    "bytes": 10,
+    "sha256": "02728c3f33149a6ab1b6fa0653c682f0df1135d411c367d6303aff7f971d1e7c"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/status_after_crc/request.bin",
+    "bytes": 10,
+    "sha256": "a8a49a978ab43df807e149cb57b2fdc095e42a53dcbf16b4bde0a8dac7458ea1"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/status_after_ddr_rejection/request.bin",
+    "bytes": 10,
+    "sha256": "81e0d472357b225f24bc453b4e38b376871ee434569d78893c3874ce2c71672c"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/status_after_invalid_image/request.bin",
+    "bytes": 10,
+    "sha256": "6c9c63297a462473c5fe83f028afd9db600cc87c5ae57305762fa2345141f1a9"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/status_after_wrap/request.bin",
+    "bytes": 10,
+    "sha256": "01c24925a66e58f9bbb9ea5d2ce8d3370938dabba3f5d1fcc38487b813615804"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/status_before_mode_switch/request.bin",
+    "bytes": 10,
+    "sha256": "8d3796c4f1f257f9ad65ad6f668ebfc2ace97fc23bcad604cf956b5e03653f70"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/switch_to_hanzi/request.bin",
+    "bytes": 11,
+    "sha256": "19f533fb699e504b2f7f54718d8db90d679764cbb3bbf0e94ebe80e9998e292a"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/threshold_rejects_digit8/expected_boxes.bin",
+    "bytes": 6,
+    "sha256": "f83d7e12c5642724d0ec8646aa36fc0c0e42040d57d98ce249d1648cd9f0c55d"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/threshold_rejects_digit8/expected_head.bin",
+    "bytes": 480,
+    "sha256": "d7eb802b29ca208e67768db98a7985d71dc82d64aca7b0eec947fc624e40df9e"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/threshold_rejects_digit8/request.bin",
+    "bytes": 1036,
+    "sha256": "3e2c67572a302526ac536d02639cb64f4fc10c38f2ba6674618329e741ed4556"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/reports/integration/fixture/unsupported_command/request.bin",
+    "bytes": 10,
+    "sha256": "40045b18449b8db931a9c6033118f54dacfcda889c94050fc84ebbaa81dc0b27"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/scripts/client.py",
+    "bytes": 11185,
+    "sha256": "7ba557739b8bfa3182f6a6e81976c81c0f74374de4d3dace1bbf59998c380d31"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/multimodal/scripts/make_demo_packets.py",
+    "bytes": 2214,
+    "sha256": "f7c340e9723919e3c485d43243ed72ec295bbaa50ea7c72df27063227060c557"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/控制客户端/requirements.txt",
+    "bytes": 16,
+    "sha256": "db01504bfe6f5079bb059779c8d8aedf9122b52789947718555fe0f73c4b64eb"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/说明.txt",
+    "bytes": 553,
+    "sha256": "f960302af9b9ccb78319dc846b138ef0df001c5bd25e28e54770e3db97c82424"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/图片串口工具/便携工具使用说明.txt",
+    "bytes": 3656,
+    "sha256": "68cfd269347993a325de9af0a0f45bf3915c87c71f9665e6ed29bddd19aab5c5"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/图片串口工具/源码运行说明.txt",
+    "bytes": 269,
+    "sha256": "2ff5e5ea1f7e9ab42e48ca32cd937163730d648f78d1cf6da4516c3b581957fb"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/图片串口工具/image_serial_encode.py",
+    "bytes": 10259,
+    "sha256": "24db5ce69b05e6f14f7d95d3db9ebdb89a2087da560624fc43308856df5a1abf"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/图片串口工具/image_serial_tool.py",
+    "bytes": 21878,
+    "sha256": "cf33fd739bf189da04a701b90e23986f316c9cc6cb27b7fb51e6cd969db8c08d"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/图片串口工具/requirements.txt",
+    "bytes": 31,
+    "sha256": "273b7c0775ce440f5a9645484809a0a0331fef9147202ce97da7c26250c90d92"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/图片串口工具/serial_image_codec.py",
+    "bytes": 15133,
+    "sha256": "c8f8cdb358088c90ed8300f60d73f82b489aa7f964365ec88e71bd64b29dd0d0"
+  },
+  {
+    "path": "01_最终源码/05_上位机工具源码/图片串口工具/serial_image_viewer.py",
+    "bytes": 29954,
+    "sha256": "3faf6c411b394d2da8e6c6d97243ee5a673141eb9163ff69cbb25fa53208a306"
+  },
+  {
+    "path": "01_最终源码/打包信息.json",
+    "bytes": 3476,
+    "sha256": "0e6595cb3233ee7be00cbcf99d9d27f6ed9e8a3cc43f7eda6df33eb5254f1489"
+  },
+  {
+    "path": "02_最终报告/RISC-V处理器与串口视觉识别及点阵显示系统技术报告_实测与实物图版.docx",
+    "bytes": 2658304,
+    "sha256": "6e39d8ff12215dcf578de32e1d8a31281fbb99c41a8c18b8da2bcd0a3d8280fb"
+  },
+  {
+    "path": "02_最终报告/RISC-V处理器与串口视觉识别及点阵显示系统技术报告_实测与实物图版.pdf",
+    "bytes": 2178814,
+    "sha256": "c7e2abde92571dbc43f0035fca8ca73ffb7ea4f5937f43aea9ae93d33609c435"
+  },
+  {
+    "path": "03_测试图片与记录/报告插图/image1.png",
+    "bytes": 67191,
+    "sha256": "787db8fa20de80a88e406e5eb8bc8c3076d71592635851045bb8a8cbfb4aaadc"
+  },
+  {
+    "path": "03_测试图片与记录/报告插图/image2.png",
+    "bytes": 76114,
+    "sha256": "e2d796ce223238eaf1acf7b0ec371729748d16f927bf303c742a9279df1cbbc0"
+  },
+  {
+    "path": "03_测试图片与记录/报告插图/image3.png",
+    "bytes": 57614,
+    "sha256": "04808e0930412e7fd9f078184d408897f2784983bb8e209a081d5ca46e815a41"
+  },
+  {
+    "path": "03_测试图片与记录/报告插图/image4.png",
+    "bytes": 50220,
+    "sha256": "66d41132c563ff1136d3f5a34363364de2a869cf9fa403753867a470df3f7421"
+  },
+  {
+    "path": "03_测试图片与记录/报告插图/image5.png",
+    "bytes": 296189,
+    "sha256": "70071b382706a34bbae8227fd6a9e33552d31b1bb221934f775b4e9358da6e18"
+  },
+  {
+    "path": "03_测试图片与记录/报告插图/image6.png",
+    "bytes": 47837,
+    "sha256": "2ea1dca051c3bdfd5c92240c1fa764038dbcc35f043455f2e7640c04707c0857"
+  },
+  {
+    "path": "03_测试图片与记录/报告插图/image7.png",
+    "bytes": 1412146,
+    "sha256": "0622517d426ee25ce50610fd94dbd8d96c167be78b29996f9391d33937490c3e"
+  },
+  {
+    "path": "03_测试图片与记录/报告插图/image8.png",
+    "bytes": 582449,
+    "sha256": "47088e25a41df4db0d798c29d721af40787957f8ec7b8923ac4d2231b53d199b"
+  },
+  {
+    "path": "03_测试图片与记录/串口测试示例/汉字上_清晰版_生成说明.txt",
+    "bytes": 929,
+    "sha256": "92ed84735b2d1f0f3b4b6bdd77584de33c7a8493eeeb7701fa0654674fdca8da"
+  },
+  {
+    "path": "03_测试图片与记录/串口测试示例/汉字上_清晰版.png",
+    "bytes": 380246,
+    "sha256": "3e682e09bcf924dc0d1dca04d1f8f46e36b5ec5db5a7a7fe8c875621b1eaaec5"
+  },
+  {
+    "path": "03_测试图片与记录/串口测试示例/汉字下_清晰版_生成说明.txt",
+    "bytes": 1195,
+    "sha256": "9e05f8fbfc059585f04b47df70cfa3612500d20374af159aee17bd69ee727e49"
+  },
+  {
+    "path": "03_测试图片与记录/串口测试示例/汉字下_清晰版.png",
+    "bytes": 432246,
+    "sha256": "f275dc4bc20d3b68b0a0f0b828f69b7c1c091e784c0124b21c7447c9a75bfd00"
+  },
+  {
+    "path": "03_测试图片与记录/串口测试示例/核验结果.json",
+    "bytes": 2747,
+    "sha256": "9c8e00c08159d39adef4d3cad05dabf85bdc50f6e83cc0ec770986b3a3da5c87"
+  },
+  {
+    "path": "03_测试图片与记录/串口测试示例/示例来源.txt",
+    "bytes": 1738,
+    "sha256": "88010747f81ade6a5f7c4f389405597b715bfcbc869a191e06483da2536e28a2"
+  },
+  {
+    "path": "03_测试图片与记录/串口测试示例/数字3_还原28x28.png",
+    "bytes": 274,
+    "sha256": "fad3d9edc2691d4f82dfd075eae26e7800c73c41020f3b14d1532e5033557e57"
+  },
+  {
+    "path": "03_测试图片与记录/串口测试示例/数字3_还原32x32.png",
+    "bytes": 278,
+    "sha256": "aa3c1b700dbf477227b6bedc970f09584a633401284446f878a14f15d535a4e9"
+  },
+  {
+    "path": "03_测试图片与记录/串口测试示例/数字3_检测叠框.png",
+    "bytes": 1900,
+    "sha256": "632aa5f551c31de3911db4a955529e3fb557e41fa951236c8977296d32eb614d"
+  },
+  {
+    "path": "03_测试图片与记录/串口测试示例/数字3_识别回包.bin",
+    "bytes": 22,
+    "sha256": "d2501884c57226347cf75a50d6ba5c756daf8002d374f8363898c4b9e334b152"
+  },
+  {
+    "path": "03_测试图片与记录/串口测试示例/数字3_识别回包.hex",
+    "bytes": 67,
+    "sha256": "65a718c7f69e14ad73e1b6b19803bd0170ab6420e60ad5713f37979fbf87d12b"
+  },
+  {
+    "path": "03_测试图片与记录/串口测试示例/数字3_图片请求.bin",
+    "bytes": 1036,
+    "sha256": "c763b251bd691b480df59a5e54378ffd48415f0c02600dd2bcbffe0391e6c9cd"
+  },
+  {
+    "path": "03_测试图片与记录/串口测试示例/数字3_图片请求.hex",
+    "bytes": 3109,
+    "sha256": "feecd47c6e687216c482744ee65c65793af59514ab4cdc5c73d882c603e05fbb"
+  },
+  {
+    "path": "03_测试图片与记录/串口测试示例/数字5_还原28x28.png",
+    "bytes": 248,
+    "sha256": "a6ec84ea89105be478509f9f059eea51be37b9cd6f240472398966af3fbec1ac"
+  },
+  {
+    "path": "03_测试图片与记录/串口测试示例/数字5_还原32x32.png",
+    "bytes": 252,
+    "sha256": "3ca5fb2004a29b3a34cd4cf7b3ba3d989437074ae0201e0fcffdffe360c42d97"
+  },
+  {
+    "path": "03_测试图片与记录/串口测试示例/数字5_清晰版_串口测试/使用说明.txt",
+    "bytes": 1068,
+    "sha256": "d71a10aaeaf34481ce980d68c09e911f3883c8f536733437e4576473afd3e5b2"
+  },
+  {
+    "path": "03_测试图片与记录/串口测试示例/数字5_清晰版_串口测试/chunk_1.hex",
+    "bytes": 769,
+    "sha256": "a7d3cef376dba8c34897c3ec46ec9166e6b0c77899b86d54971b6bf63a8b21f1"
+  },
+  {
+    "path": "03_测试图片与记录/串口测试示例/数字5_清晰版_串口测试/chunk_2.hex",
+    "bytes": 769,
+    "sha256": "9756fc6b201c4dbf3e3f4cf0eee86415e90bd41dcb7615d85a773d735321068d"
+  },
+  {
+    "path": "03_测试图片与记录/串口测试示例/数字5_清晰版_串口测试/chunk_3.hex",
+    "bytes": 769,
+    "sha256": "b97b60fb00f162151d5f190baa9960f89b95bc15b3597e9c0fcf2f1d62e32004"
+  },
+  {
+    "path": "03_测试图片与记录/串口测试示例/数字5_清晰版_串口测试/chunk_4.hex",
+    "bytes": 769,
+    "sha256": "db0fea11b66b8a04e1e4f496583315a1b1e6cd0e0e8f5ae414c3b41f5f3a19e5"
+  },
+  {
+    "path": "03_测试图片与记录/串口测试示例/数字5_清晰版_串口测试/chunk_5.hex",
+    "bytes": 37,
+    "sha256": "f697c149ca30b1791c8c520b483f867a488a406c66aa617f1e2ee08aae3820fc"
+  },
+  {
+    "path": "03_测试图片与记录/串口测试示例/数字5_清晰版_串口测试/input28.png",
+    "bytes": 262,
+    "sha256": "eccc2ec5232fab79ea7bee3ee1bab35e55f7f3f29f96689bb63e731332229ff3"
+  },
+  {
+    "path": "03_测试图片与记录/串口测试示例/数字5_清晰版_串口测试/input32.png",
+    "bytes": 269,
+    "sha256": "c63eb4006479330f2787947a51537e4268ca890d13687928e90bf033f55f56d6"
+  },
+  {
+    "path": "03_测试图片与记录/串口测试示例/数字5_清晰版_串口测试/metadata.json",
+    "bytes": 2242,
+    "sha256": "4edbaf8f5257aeb2d407d6f59c5d1c1ada6c2b32644fd0e14cb7cf32d909db8e"
+  },
+  {
+    "path": "03_测试图片与记录/串口测试示例/数字5_清晰版_串口测试/preview280.png",
+    "bytes": 842,
+    "sha256": "76e7a7c29ef81d33089ddfec61073aa8bb86c33f9054366a0d666df002cbd15e"
+  },
+  {
+    "path": "03_测试图片与记录/串口测试示例/数字5_清晰版_串口测试/request.bin",
+    "bytes": 1036,
+    "sha256": "ad3f07698e6fc8933a499df55e2c2fe79c993b300baafbe1fab271ff21e3b4f3"
+  },
+  {
+    "path": "03_测试图片与记录/串口测试示例/数字5_清晰版_串口测试/request.hex",
+    "bytes": 3109,
+    "sha256": "54b1a1665210b50bea8a6618de32491e01a583b7768c380a8c522cb4e6615249"
+  },
+  {
+    "path": "03_测试图片与记录/串口测试示例/数字5_清晰版_串口测试/validation.json",
+    "bytes": 1679,
+    "sha256": "d74bc4cfb65cd5b54c543edb90c2fd027ad83d9f77ee8fff617695fff3e5d255"
+  },
+  {
+    "path": "03_测试图片与记录/串口测试示例/数字5_清晰版_生成说明.txt",
+    "bytes": 1426,
+    "sha256": "0853b51480ecc9c8490220d60d7d205ba1229a7a13aa7a2f5ad4bd5845581285"
+  },
+  {
+    "path": "03_测试图片与记录/串口测试示例/数字5_清晰版.png",
+    "bytes": 510429,
+    "sha256": "22226c06953e1ce4def22ec84472a9b91b9f3aa022e64852156011e692c3cb82"
+  },
+  {
+    "path": "03_测试图片与记录/串口测试示例/数字5_图片来源.json",
+    "bytes": 1067,
+    "sha256": "0f7eb94769243bea379b579266064ddd832cb6375aabc8da8c1499cc017f04e6"
+  },
+  {
+    "path": "03_测试图片与记录/串口测试示例/数字5_预览280x280.png",
+    "bytes": 871,
+    "sha256": "37caf4c8ca9d62ecfc8a52232a81ff9f3ed2dce490a3166362d1679c292f0fc4"
+  },
+  {
+    "path": "03_测试图片与记录/串口测试示例/数字8_还原28x28.png",
+    "bytes": 265,
+    "sha256": "d36d012c43198629cfcb654c156871bb9435c950c44dcde42057c52048f98073"
+  },
+  {
+    "path": "03_测试图片与记录/串口测试示例/数字8_还原32x32.png",
+    "bytes": 268,
+    "sha256": "101c05dd5f16d22c27ed4df7706de40cae58733830db5dd436db5662a9db8226"
+  },
+  {
+    "path": "03_测试图片与记录/串口测试示例/数字8_检测叠框.png",
+    "bytes": 1757,
+    "sha256": "bb2a52848073d5403ea7d97fc24a9c40c95b028ba663f6f264c5f870d1406591"
+  },
+  {
+    "path": "03_测试图片与记录/串口测试示例/数字8_识别回包.bin",
+    "bytes": 22,
+    "sha256": "31e491dd435a5cad5a904289b6d6b7a5ef2492a75d9df613b19fd39f17d1b144"
+  },
+  {
+    "path": "03_测试图片与记录/串口测试示例/数字8_识别回包.hex",
+    "bytes": 67,
+    "sha256": "7a7f9c28bac0000c4dc4f2a18c291d95c3889fcbf25bd0c1bf25c0f821247514"
+  },
+  {
+    "path": "03_测试图片与记录/串口测试示例/数字8_图片请求.bin",
+    "bytes": 1036,
+    "sha256": "d596ce26a88e2efcb7dc92e9e218c29a6b973246c6304f7366b463aef8de434f"
+  },
+  {
+    "path": "03_测试图片与记录/串口测试示例/数字8_图片请求.hex",
+    "bytes": 3109,
+    "sha256": "5d41d9d218e8e32d45222ceb841904969795770c299fe0081aa0037dabca7a7b"
+  },
+  {
+    "path": "03_测试图片与记录/实物照片/数字3_实板显示.png",
+    "bytes": 2058873,
+    "sha256": "ee0b891c4a128e483bec0a90d92afdadb948ee5d650ed2d47fb1d2715f16bacf"
+  },
+  {
+    "path": "03_测试图片与记录/实物照片/向上箭头_实板显示.png",
+    "bytes": 1552412,
+    "sha256": "3d61fcb376f4117b6647c6d57f91e572a337c8715310e19f4d4bf9bb7c8346a4"
+  },
+  {
+    "path": "03_测试图片与记录/远程实验平台测试.png",
+    "bytes": 531393,
+    "sha256": "522fc216e8528ddd3db7f9a80543649f2eeb513eff13a49ea7806b0640351571"
+  },
+  {
+    "path": "README.md",
+    "bytes": 2421,
+    "sha256": "c7883e5b5962043a709c3331bf6817b7d9f068d21aa7eb8d0efc7dc3bb90e316"
+  }
+]

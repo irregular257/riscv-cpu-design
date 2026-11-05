@@ -1,0 +1,4 @@
+D:\codex_rv32_advanced_20261028\reports\maxperf_20261103\icache_data_decouple\cache_regression\tb_cache_preview_oracle.v:94: warning: Instantiating module cache_2way with dangling input port 26 (preview_valid) floating.
+D:\codex_rv32_advanced_20261028\reports\maxperf_20261103\icache_data_decouple\cache_regression\tb_cache_preview_oracle.v:94: warning: Instantiating module cache_2way with dangling input port 27 (preview_addr) floating.
+D:\codex_rv32_advanced_20261028\reports\maxperf_20261103\icache_data_decouple\cache_regression\tb_cache_preview_oracle.v:109: warning: Instantiating module cache_2way with dangling input port 26 (preview_valid) floating.
+D:\codex_rv32_advanced_20261028\reports\maxperf_20261103\icache_data_decouple\cache_regression\tb_cache_preview_oracle.v:109: warning: Instantiating module cache_2way with dangling input port 27 (preview_addr) floating.

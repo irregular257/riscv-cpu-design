@@ -1,0 +1,2 @@
+PASS DATA_PREVIEW_EDGES checks=14
+D:\codex_rv32_advanced_20261028\reports\maxperf_20261103\frontend\tb_cache_preview_edges.v:83: $finish called at 1300000 (1ps)

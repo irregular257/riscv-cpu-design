@@ -1,0 +1,3 @@
+﻿此目录供查看或修改源码。直接使用便携版不需要Python。
+若自行运行源码，需要Python 3.12或更新版本（含Tkinter），安装requirements.txt后运行image_serial_tool.py。
+请保留上一级examples目录，以便读取示例。

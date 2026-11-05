@@ -1,0 +1,12 @@
+multimodal/software/multimodal.c:23:13:put	0	static
+multimodal/software/multimodal.c:25:12:get	0	static
+multimodal/software/multimodal.c:26:17:crc16	0	static
+multimodal/software/multimodal.c:27:17:crc32	0	static
+multimodal/software/multimodal.c:28:17:load32	0	static
+multimodal/software/multimodal.c:29:13:save32	0	static
+multimodal/software/multimodal.c:30:13:send	16	static
+multimodal/software/multimodal.c:32:13:display_reset	0	static
+multimodal/software/multimodal.c:34:13:control_reply	48	static
+multimodal/software/multimodal.c:92:12:emit_token	32	static
+multimodal/software/multimodal.c:41:13:vision_reply	48	static
+multimodal/software/multimodal.c:179:6:multimodal_loop	128	static

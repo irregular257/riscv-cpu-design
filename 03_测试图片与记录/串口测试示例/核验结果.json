@@ -1,0 +1,49 @@
+{
+  "result": "PASS",
+  "cases": [
+    {
+      "name": "数字8",
+      "request_source": "D:\\基于RISCV指令集CPU设计\\remote_pg2l200h\\advanced\\reports\\trained_digit_hanzi_20261101\\digit\\cases\\native28_digit8\\request.bin",
+      "response_evidence_source": "D:\\基于RISCV指令集CPU设计\\remote_pg2l200h\\advanced\\reports\\trained_digit_hanzi_20261101\\digit\\board_response_verified.json",
+      "request_bytes": 1036,
+      "response_bytes": 22,
+      "request_sha256": "d596ce26a88e2efcb7dc92e9e218c29a6b973246c6304f7366b463aef8de434f",
+      "request_sha256_matches_record": true,
+      "response_sha256": "31e491dd435a5cad5a904289b6d6b7a5ef2492a75d9df613b19fd39f17d1b144",
+      "request_crc16_ccitt_false": "5CCD",
+      "response_crc16_ccitt_false": "15B4",
+      "request_crc_valid": true,
+      "response_crc_valid": true,
+      "sequence_matches": true,
+      "pixel_bytes": 1024,
+      "pixel_sha256": "b21cd39ac414454abed4d239d97f4e916d46e0728ccaf3ed5c306d5d7770964e",
+      "png_recovered_quantized_pixels_exact": true,
+      "two_pixel_zero_border_verified": true,
+      "response_origin": "此前用户粘贴的实板串口回包；非本工具直接采集",
+      "response_contains_image_pixels": false,
+      "png_method": "请求字节[10:1034]，0..16确定性映射为0..255；28x28裁剪(2,2,30,30)，不插值"
+    },
+    {
+      "name": "数字3",
+      "request_source": "D:\\基于RISCV指令集CPU设计\\remote_pg2l200h\\advanced\\reports\\trained_digit_hanzi_20261101\\digit\\tests\\digit3\\request.bin",
+      "response_evidence_source": "D:\\基于RISCV指令集CPU设计\\remote_pg2l200h\\advanced\\reports\\trained_digit_hanzi_20261101\\digit\\tests\\digit3\\board_response_verified.json",
+      "request_bytes": 1036,
+      "response_bytes": 22,
+      "request_sha256": "c763b251bd691b480df59a5e54378ffd48415f0c02600dd2bcbffe0391e6c9cd",
+      "request_sha256_matches_record": true,
+      "response_sha256": "d2501884c57226347cf75a50d6ba5c756daf8002d374f8363898c4b9e334b152",
+      "request_crc16_ccitt_false": "0679",
+      "response_crc16_ccitt_false": "E270",
+      "request_crc_valid": true,
+      "response_crc_valid": true,
+      "sequence_matches": true,
+      "pixel_bytes": 1024,
+      "pixel_sha256": "91163ed1adb8d497d0b390eb308d54b48af75e5da748bca3daa16f4716f05c21",
+      "png_recovered_quantized_pixels_exact": true,
+      "two_pixel_zero_border_verified": true,
+      "response_origin": "此前用户粘贴的实板串口回包；非本工具直接采集",
+      "response_contains_image_pixels": false,
+      "png_method": "请求字节[10:1034]，0..16确定性映射为0..255；28x28裁剪(2,2,30,30)，不插值"
+    }
+  ]
+}

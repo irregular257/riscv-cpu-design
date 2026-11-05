@@ -1,0 +1,35 @@
+{
+  "source": "MNIST official test set",
+  "source_index_zero_based": 8,
+  "source_label": 5,
+  "method": "Same deterministic request-pixel decoding as digit3/digit8 examples. 0..16 grayscale -> 0..255; 32x32 has 2px zero padding. Preview repeats pixels 10x.",
+  "model_inference_performed": false,
+  "board_verified": false,
+  "request_source": "D:\\基于RISCV指令集CPU设计\\remote_pg2l200h\\advanced\\reports\\digit5_image_20261103\\request.bin",
+  "files": [
+    {
+      "file": "数字5_还原28x28.png",
+      "size": [
+        28,
+        28
+      ],
+      "sha256": "a6ec84ea89105be478509f9f059eea51be37b9cd6f240472398966af3fbec1ac"
+    },
+    {
+      "file": "数字5_还原32x32.png",
+      "size": [
+        32,
+        32
+      ],
+      "sha256": "3ca5fb2004a29b3a34cd4cf7b3ba3d989437074ae0201e0fcffdffe360c42d97"
+    },
+    {
+      "file": "数字5_预览280x280.png",
+      "size": [
+        280,
+        280
+      ],
+      "sha256": "37caf4c8ca9d62ecfc8a52232a81ff9f3ed2dce490a3166362d1679c292f0fc4"
+    }
+  ]
+}

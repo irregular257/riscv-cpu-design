@@ -1,0 +1,17 @@
+{
+  "exit_code": 0,
+  "timed_out": false,
+  "mode": "66mhz",
+  "target_mhz": 66,
+  "feedback_divider": 44,
+  "output_divider": 18,
+  "vco_mhz": 1188,
+  "expected_10_periods_ns": 151.5151515151515,
+  "measured_periods_per_check": 10,
+  "reset_checks": 2,
+  "unmodified_vendor_model": true,
+  "source_sha256": "776679233b5786a1f88afe9239937dcdc2c206c5cb2a7e41faa59507e4416bb3",
+  "vendor_sha256": "b1e0df6237c4502a5a01978c4e14db9b58c946c64cb614e88e89458c8c533fb2",
+  "clock_reset_pass": true,
+  "negative_cphase_observed": false
+}

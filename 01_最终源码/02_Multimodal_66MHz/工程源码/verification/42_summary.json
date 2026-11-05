@@ -1,0 +1,73 @@
+{
+  "status": "PASS_RTL_HANDSHAKE_EQUIVALENT",
+  "rtl": {
+    "advanced_soc.v": "c09cb42c057d4204c5c5870990ae0cf5e8486aee22ba2669a862a7f3987abc87",
+    "advanced_top.v": "fcd4e3c99b92c0d70379bc2e2caccb56fce7c7deb679afdcfdcd3ddd8591a9d7",
+    "alu.v": "5f53b372aabd205e485fa299d1bf7624c51ae1dc90e0903a6dc76c4e27acc711",
+    "cache_2way.v": "1638fea389f5d18a755e145a7097ca153d7374dbaea9fb0f1140476bc0408ac9",
+    "camera_dvp_capture.v": "59ef641d47586b1d18f32da348b188abaf0b4053b1ddbc25abc71ee12eda2d74",
+    "camera_sccb_write.v": "73910e450f4f36d3e02c1d2eb925e368f1b9be60c91a0d5d9e523675727a284c",
+    "cpu_core.v": "ccb43bd36d5e050b97e2f71d86ba54eb1d1d33b7cf5e9cb976caa3dbec9ecaf8",
+    "cpu_top.v": "8a67233e20affb552ae73309240e580a339d45618626a7da8a9b59cc8a57aa17",
+    "data_bus.v": "7adc18ac0724a457dd3ec8349d6bf9079edaf723d6f83e101c017068d7859b80",
+    "decoder.v": "0e11234d7352393c23ec882b5e5221974efb9050d7ecd4a90f8756dbbe0177cf",
+    "fpga_top.v": "c0999157b6d5b9e6b89ed91d31c523ac7a010bb2a4064ee8427dfb094bee73d3",
+    "int8_dot.v": "27b0c16ebab7695d79c206f2bf655e7be519b6d2a838593a6ab4914c8b2320a5",
+    "machine_csr.v": "4df8fce167ba4371bd98ee9736628224bafdeaf682a38d8d7136765566379d4b",
+    "pc_reg.v": "4038873a252f8486307eb7a27e504a6c4fe0c665711c9025ed8183f63a03c568",
+    "ram.v": "9c9846bdc58fbba620b4f6326aa134757ee7117dbf081143917fed0341dcdd01",
+    "ram_sync.v": "f66eb0e9a84b608a2d5c44682cb713ea02f2e19503e27ffbf6f2a6077ed7fdb5",
+    "regfile.v": "0d5f03aa884c1725a51269a4a69e8f6a3740eb56d87b7fd50df0af92d13296f2",
+    "remote_top.v": "940cb0d11a30d14bbfbdf218017c4e5790c8ebf8dbbb011959481551f2dbc576",
+    "rom.v": "d38d93cea50620274f35fcf242fdba4a77b9835c855338d4942c50c46a16be3c",
+    "rom_sync.v": "da9da1de535d89f68b08d8bc9eb8b4068a755289091f82c79774f21665fd62f7",
+    "selftest_top.v": "18b17b6c24531a11ddc8f02986de704746030401b3d1f3afa2d71bf36a001fa5",
+    "soc_peripherals.v": "0ae1a5d042b80ae560d7198dbc8300c0a16337de69cd21d0d1cff0c697d0c30c",
+    "uart_rx.v": "f5c547dad8d21ab8894e4933f5ecfcd94bb71643d7af8c62449bcbf84274a0e3",
+    "uart_tx.v": "d93824751216ab3319ad7d4e755e59009d1c4a204cb7da685addfdf42e859077",
+    "video_mmio.v": "6b2ddadf22b2c0b695f1948b98661ed0d16fe94c03c47dcb7061363ec36f0679",
+    "video_rgb_scanout.v": "fbd2c54a1838c3f71ce53bd72a5707cf76b56d57f8aa16beb9c8b83ca963c452"
+  },
+  "changed_files": [
+    "cache_2way.v"
+  ],
+  "change": "Only speculative I-cache rdata selection; ready/error, backend protocol, state transitions, data RAM process and D-cache are unchanged.",
+  "proof": "Only I-cache rdata mux selection changes. When req_valid && ready in S_IDLE, lookahead_hit must be true, so speculative data selection is true and identical. In other states selection is false; D-cache selection always false. All sequential logic and ready/error equations are unchanged.",
+  "consumer": "cpu_core fetch_keep gates id_inst capture and predicted branch redirect; a non-handshake rdata change cannot become an architectural instruction.",
+  "combinational_assignments": 262144,
+  "lockstep_runs": [
+    {
+      "lookahead": 0,
+      "refill_forward": 0,
+      "cycles": 551,
+      "handshakes": 192,
+      "idle_data_differences": 0
+    },
+    {
+      "lookahead": 0,
+      "refill_forward": 1,
+      "cycles": 528,
+      "handshakes": 192,
+      "idle_data_differences": 0
+    },
+    {
+      "lookahead": 1,
+      "refill_forward": 1,
+      "cycles": 378,
+      "handshakes": 192,
+      "idle_data_differences": 45
+    }
+  ],
+  "coremark_all_metrics_identical": true,
+  "coremark_all_crc_identical": true,
+  "timed_cycles": 364775,
+  "evidence": {
+    "reports\\maxperf_20261103\\icache_data_decouple\\equivalence\\summary.json": "ca6363fd9790d17bbc95864e66c95c90519906a9defd4117d21b9a872570bb9f",
+    "reports\\maxperf_20261103\\icache_data_decouple\\cache_regression\\summary.json": "49293b3d5300a5833d1833c0d93cc1baa447d35401236c132c6829e19db80abd",
+    "reports\\maxperf_20261103\\icache_data_decouple\\coremark_perf\\summary.json": "0518a78440a8212f395e72ad91dc320222be7d6be1036bcf0ececfb29594ea20",
+    "reports\\maxperf_20261103\\cache_bram_candidate\\coremark_perf\\summary.json": "0a9d7de65faf07f10148805f7800cc3bf00f99e0c77b163e93f71b0a9435ba6a"
+  },
+  "physical_board_validation": "NOT_RUN",
+  "pds_timing": "NOT_RUN",
+  "pds36_prepare_only": "pds36_synth prepared but never synthesized; parent handles final 48 MHz candidates."
+}

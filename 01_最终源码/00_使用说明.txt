@@ -1,0 +1,55 @@
+66 MHz CoreMark 与 Multimodal 完整代码包
+整理日期：2026年11月4日
+
+一、目录与版本
+01_CoreMark_66MHz：CoreMark v1.0，2000次迭代；顶层 advanced_top。
+02_Multimodal_66MHz：数字/汉字识别、串口控制和16×16点阵；顶层 multimodal_top。
+03_原始发布记录：保留原发布清单、候选比较及历史ZIP的校验信息；重复源码ZIP已移除，解压源码完整保留。
+04_CoreMark实板记录：2026年11月3日22:47用户提供的66 MHz串口原文、解码结果和复算记录。
+05_上位机工具源码：图片串口工具、控制客户端、依赖说明及示例数据。
+打包信息.json：原始版本来源与历史校验信息；本次归档的逐文件SHA256见交付目录根部 MANIFEST_SHA256.json。
+
+两套代码均以2026年11月3日最终66 MHz发布包为准，已完整解压。两份可烧录.sbit与原发布文件哈希一致。
+当前ISA为RV32I加Zmmul乘法扩展，未新增DIV/DIVU/REM/REMU除法及取余单元。
+项目原有名称为multimodal（用户所指的multimodel完整应用）。
+
+二、直接使用远程实验箱
+跑分：上传 01_CoreMark_66MHz/可烧录位流/coremark_pg2l200h_maxperf_66mhz_2000iter.sbit。
+串口115200、8N1，接收选文本/ASCII；复位后自动运行，无需发送命令。逐行输出有等待间隔，打印时间不计入CoreMark成绩。
+识别：上传 02_Multimodal_66MHz/可烧录位流/multimodal_pg2l200h_maxperf_66mhz.sbit。
+串口115200、8N1，协议交互用HEX且不附加回车换行，默认数字模式。
+切换汉字：A5 43 01 02 01 00 01 00 01 AF 4F
+切换数字：A5 43 01 02 01 00 01 00 00 8E 5F
+模式切换成功后再发送图像请求；1036字节图像包按256、256、256、256、12字节五段发送。
+数字显示为0至9；汉字模型含开、关、上、下、左、右、正、反、停、行，其中上下左右映射为箭头。
+两份位流分别使用。烧录CoreMark会替换识别应用，演示识别时烧回Multimodal。
+
+三、代码阅读入口（两套项目内路径相同）
+工程源码/work/rtl/design.v：实际提交PDS的完整合并RTL，已经内嵌ROM/RAM初始化内容。
+工程源码/work/run.tcl：PDS综合、映射、布局布线、时序报告和位流生成入口。
+工程源码/work/constraints：引脚和时序约束。
+工程源码/work/vendor：Multimodal使用的DDR厂商IP及NOTICE，保留原始加密形式。
+工程源码/source/rtl：冻结的原始CPU、缓存和外设RTL。
+工程源码/source/firmware_sources：C、头文件、汇编、链接脚本；Multimodal的两个vision_model.h包含实际使用的量化模型参数。
+工程源码/source/firmware：构建命令、ELF、MAP、反汇编、HEX等。
+工程源码/source/build_scripts、release_tools、regression_sources：原构建、封装、检查脚本及回归源码/输入。
+工程源码/pds_evidence、verification：既有PDS和RTL验证记录。
+Multimodal另有模块阅读副本，按冻结design.v逐字节摘出顶层、点阵及DDR接口模块，不参与重复编译。
+
+四、重新构建
+PDS：使用支持PG2L200H器件的PDS（原构建为2023.2-SP3-ads）及有效许可证。
+进入相应项目的 工程源码/work 目录，运行 pds_shell -file run.tcl；若工具不在PATH中，使用pds_shell完整路径。
+建议将工程复制到简短英文路径后构建。run.tcl的工程输入使用相对路径。
+固件：使用xPack riscv-none-elf-gcc 15.2.0，编译选项和原始命令见 工程源码/source/firmware/build.json。
+历史Python构建脚本仍按原advanced目录布局组织，并记录旧工具绝对路径；迁移重编时需要还原相应目录、配置工具路径。
+修改C后需重新生成ROM/RAM映像，并将映像重新嵌入实际综合用的design.v；只替换旁边的HEX文件不会更新已内嵌的RTL内容。
+本次完成的是代码归档与完整性核对，未重新编译或生成新位流。
+PDS/GCC/Python安装包、商业许可证不属于源码包；CoreMark和DDR/Qwen相关许可及说明已保留。
+
+五、验证记录的时间顺序
+66 MHz CoreMark结果：2000次、726304994周期、11.004621秒、181.741831 CoreMark，全部CRC和Correct operation validated通过。
+按周期复算为2.753664117 CoreMark/MHz；按已发布CoreMark工程8071 LUT计算约0.022517883 CoreMark/LUT。
+原RTL计时为726304996周期，与实板记录相差2周期，来源尚未确定。串口记录本身不能独立证明当时上传位流的SHA。
+完整应用已有RTL/PDS验证以及数字3、完整上箭头静态显示照片。
+66 MHz为已有CoreMark实测工作点，不作为最高长期稳定频率结论。
+聊天运行时预研源码按原构建保留；大型Qwen权重未包含、未装载。聊天和语音仍是后续功能。

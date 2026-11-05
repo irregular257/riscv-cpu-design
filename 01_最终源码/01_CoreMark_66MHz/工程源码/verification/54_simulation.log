@@ -1,0 +1,2 @@
+MAPPED_MULTIPLY_PASS vectors=4772 all_four_operations=1 actual_mem_result_d=1
+tb.v:116: $finish called at 668080000 (1ps)

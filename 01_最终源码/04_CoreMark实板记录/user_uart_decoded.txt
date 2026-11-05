@@ -1,0 +1,30 @@
+2K performance run parameters for coremark. 
+CoreMark Size    : 666 
+Total ticks      : 726304994 
+Total time (secs): 11.004621 
+Iterations/Sec   : 181.741831 
+Iterations       : 2000 
+Compiler version : GCC 15.2.0 
+Compiler flags   : -O3 -march=rv32i_zmmul -mab 
+i=ilp32 -msmall-data-limit=0 -ffreestanding -f 
+no-builtin -fno-common -ffunction-sections -fd 
+ata-sections -funroll-all-loops --param=max-un 
+roll-times=4 
+Memory location  : Static RAM, actual advanced 
+_soc 2-way I/D cache, memory:core 1:1 
+seedcrc          : 0xe9f5 
+[0]crclist       : 0xe714 
+[0]crcmatrix     : 0x1fd7 
+[0]crcstate      : 0x8e3a 
+[0]crcfinal      : 0x4983 
+Correct operation validated. See README.md for 
+ run and reporting rules. 
+CoreMark 1.0 : 181.741831 / GCC 15.2.0 -O3 -ma 
+rch=rv32i_zmmul -mabi=ilp32 -msmall-data-limit 
+=0 -ffreestanding -fno-builtin -fno-common -ff 
+unction-sections -fdata-sections -funroll-all- 
+loops --param=max-unroll-times=4 / Static RAM, 
+ actual advanced_soc 2-way I/D cache, memory:c 
+ore 1:1
+
+用户说明：这是66MHz的输出结果。

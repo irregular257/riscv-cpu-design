@@ -1,0 +1,3 @@
+﻿这些模块逐字节摘自本包冻结的 work/rtl/design.v，便于单独阅读。
+PDS 构建仍以工程源码/work/run.tcl 和合并 design.v 为准。
+不要将这些副本与 design.v 同时加入工程，以免模块重复定义。

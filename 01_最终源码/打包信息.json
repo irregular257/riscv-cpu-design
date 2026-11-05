@@ -1,0 +1,84 @@
+﻿{
+  "package_date": "2026-11-04",
+  "source_release_date": "2026-11-03",
+  "source_release_path": "D:\\基于RISCV指令集CPU设计\\remote_pg2l200h\\advanced\\release\\maxperf_20261103",
+  "projects": {
+    "coremark": {
+      "folder": "01_CoreMark_66MHz",
+      "top": "advanced_top",
+      "cpu_hz": 66000000,
+      "bitstream": "01_CoreMark_66MHz/可烧录位流/coremark_pg2l200h_maxperf_66mhz_2000iter.sbit",
+      "bitstream_sha256": "6a8df5d2d847a4ffc58694d6eac1f52e2c17043fe1d9d4cdc25447b66fc84f27",
+      "pds_entry": "01_CoreMark_66MHz/工程源码/work/run.tcl",
+      "frozen_firmware_build": "01_CoreMark_66MHz/工程源码/source/firmware/build.json"
+    },
+    "multimodal": {
+      "folder": "02_Multimodal_66MHz",
+      "top": "multimodal_top",
+      "cpu_hz": 66000000,
+      "bitstream": "02_Multimodal_66MHz/可烧录位流/multimodal_pg2l200h_maxperf_66mhz.sbit",
+      "bitstream_sha256": "b122142a3c4ba8937854628d858bda3c743fbdb3d5d47cad975ec4fa9c856e22",
+      "pds_entry": "02_Multimodal_66MHz/工程源码/work/run.tcl",
+      "frozen_firmware_build": "02_Multimodal_66MHz/工程源码/source/firmware/build.json"
+    }
+  },
+  "verified_archives": [
+    {
+      "project": "coremark",
+      "archive": "coremark_pg2l200h_maxperf_66mhz_2000iter_source.zip",
+      "archive_sha256": "5fc1d1d872cd2aecaf8bc1b7279bcf7ab5807fa8ebb52e9a912954fa44579a25",
+      "archive_entries": 179,
+      "declared_hashes_checked": 177,
+      "all_archive_entries_extracted_identically": true
+    },
+    {
+      "project": "multimodal",
+      "archive": "multimodal_pg2l200h_maxperf_66mhz_source.zip",
+      "archive_sha256": "93e1c5eaecc86913871cdcca8797254ccf4ba6d7fff5f7326d34ef0493bdae53",
+      "archive_entries": 421,
+      "declared_hashes_checked": 419,
+      "all_archive_entries_extracted_identically": true
+    }
+  ],
+  "readable_module_excerpts": [
+    {
+      "module": "multimodal_top",
+      "source": "02_Multimodal_66MHz/工程源码/work/rtl/design.v",
+      "byte_start": 19,
+      "byte_end_exclusive": 2694,
+      "sha256": "abc0c651d200a993ab9ba2a3461fd3e4ad239703cfcac7e167b977d509e61f4d"
+    },
+    {
+      "module": "matrix_display",
+      "source": "02_Multimodal_66MHz/工程源码/work/rtl/design.v",
+      "byte_start": 89031,
+      "byte_end_exclusive": 100844,
+      "sha256": "8ce219aba72465c297df7c89250e1d1de951748c219369d8daedf4c70383ba37"
+    },
+    {
+      "module": "ddr_cpu_bridge",
+      "source": "02_Multimodal_66MHz/工程源码/work/rtl/design.v",
+      "byte_start": 61822,
+      "byte_end_exclusive": 70926,
+      "sha256": "d24788e97b438c0d934ac02c89c7e3636cc52330c1aab0c50f4a8654e06381ec"
+    },
+    {
+      "module": "ddr_pango_subsystem",
+      "source": "02_Multimodal_66MHz/工程源码/work/rtl/design.v",
+      "byte_start": 70927,
+      "byte_end_exclusive": 75976,
+      "sha256": "f047c62e26afa99f82e381cce0856f1f592c9b1d4b24854ce803521f11a49f4f"
+    }
+  ],
+  "board_result_source": "04_CoreMark实板记录/summary.json",
+  "board_coremark": "181.741831",
+  "board_ticks": 726304994,
+  "frozen_inputs_modified": false,
+  "new_synthesis_or_board_run_performed": false,
+  "keywords": [
+    "同位流双模型切换",
+    "CPU与INT8协同推理",
+    "识别结果稳定显示"
+  ],
+  "innovation_scope": "Engineering integration and application features; no claim of a novel pipeline/cache/branch-prediction algorithm."
+}

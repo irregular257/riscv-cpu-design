@@ -1,0 +1,3 @@
+multimodal/software/minilib.c:4:7:memcpy	0	static
+multimodal/software/minilib.c:5:7:memset	0	static
+multimodal/software/minilib.c:7:6:__errno	0	static

@@ -1,0 +1,1530 @@
+{
+  "status": "PASS_LOCAL_RELEASE_GATES_BOARD_PENDING",
+  "cpu_hz": 66000000,
+  "device": "PG2L200H-6 FBB676",
+  "board": "Remote experiment box 5",
+  "physical_board_verified": false,
+  "coremark_rtl": {
+    "scope": "Actual 2000-iteration RTL run; not a measured physical-board score",
+    "iterations": 2000,
+    "cpu_hz": 66000000,
+    "timed_cycles": 726304996,
+    "compiler": "riscv-none-elf-gcc.exe (xPack GNU RISC-V Embedded GCC x86_64) 15.2.0",
+    "compiler_flags": "-O3 -march=rv32i_zmmul -mabi=ilp32 -msmall-data-limit=0 -ffreestanding -fno-builtin -fno-common -ffunction-sections -fdata-sections -funroll-all-loops --param=max-unroll-times=4",
+    "instruction_set": "rv32i_zmmul",
+    "simulated_seconds": 11.00462115151515,
+    "simulated_coremark": 181.74183122375217,
+    "simulated_coremark_per_mhz": 2.7536641094507908,
+    "crc": {
+      "seedcrc": "e9f5",
+      "crclist": "e714",
+      "crcmatrix": "1fd7",
+      "crcstate": "8e3a",
+      "crcfinal": "4983"
+    },
+    "uart_sha256": "ed51a89c6347a633e5e919cc7ad98d1568e1fbef0e431df2d8c6a1a5c7efe243",
+    "summary_sha256": "fe2385895ca1b5121b59e872c885effbadc99bd5483027e86e02e50e177e10b7",
+    "simulation_elf_sha256": "9b1f13c0ef39e0b6a05c4bda04302b0cebe31f75bc42a881e6da1d2eed662f47",
+    "board_elf_sha256": "2b0ec233b4e70e96d544aefd502ea0fbca59b8aea61d2f781358f2989b009aba",
+    "identical_elf": false,
+    "same_sources_and_flags_except_uart_gap": true,
+    "uart_gap_ms": {
+      "simulation": 0,
+      "board": 1200
+    }
+  },
+  "vision_rtl": {
+    "comparison_sha256": "adec895a308c305923cf3718ae5cc718d22d5e4a82e5b20553d694d70dd91b11",
+    "summary_sha256": "8d20ca5b2e791cba6041e690b57a1744990230559f78e13081d2fb147329b4a0",
+    "baseline_summary_sha256": "98e41b67aaab04a1cd4560531dc3ca5cb10389ffe19c54e6938cdc8039a36c29",
+    "transactions": 53,
+    "inferences": 18,
+    "raw_head_values_checked": 3840,
+    "same_models_and_outputs": true,
+    "simulation_elf_sha256": "f5d8fd562a44ef30541cde981915758d270e218258922587f10714ed6df5fd21",
+    "board_elf_sha256": "55dcf5609b75307197b092e4ddf2e9ea38ac00fedab39eaf1a6c689d4104e4ed",
+    "identical_elf": false,
+    "scope": "Actual RTL protocol, model output and display-state regression; not physical DDR or camera FPS",
+    "aggregate_cycle_reduction_percent": 10.464747755505465
+  },
+  "pds": {
+    "coremark": {
+      "status": "PASS_DEFINED_TIMING_PINS_PROVENANCE",
+      "work": "D:\\基于RISCV指令集CPU设计\\remote_pg2l200h\\advanced\\reports\\maxperf_20261103\\pds_decouple66_coremark\\work",
+      "kind": "coremark",
+      "cpu_hz": 66000000,
+      "audit_script_sha256": "f91ed2ce1b6d5c162fbacc3c4bbc7ebc6f2aa5b1911cf0100d0f6a812d71cc82",
+      "physical_board_verified": false,
+      "source_audit": {
+        "frozen_input_files": 3,
+        "frozen_source_files": 61,
+        "elf_sha256": "2b0ec233b4e70e96d544aefd502ea0fbca59b8aea61d2f781358f2989b009aba",
+        "images": {
+          "rom": {
+            "words": 16384,
+            "hex_sha256": "650dcd27114723cc49b13be619b8b1f4da7743723b0d97a4e615db29eb648d44"
+          },
+          "ram": {
+            "words": 16384,
+            "hex_sha256": "2a0edac4f20e799f7dbf62b22723decf60cbcc088c1b579e4f40d64a40fe53e4"
+          }
+        },
+        "preserved_peripherals": [],
+        "cpu_hz": 66000000,
+        "constraints_unchanged_except_cpu_generated_clock": true
+      },
+      "timing": {
+        "timing_report_sha256": "2166a645b69bfd56cfc7a428438c720acfbb512e267fe5ed079a209492efde07",
+        "summaries": {
+          "Slow Setup": [
+            {
+              "clocks": "cpu_clk                cpu_clk",
+              "slack_ns": 0.799,
+              "endpoints": 28721
+            }
+          ],
+          "Slow Hold": [
+            {
+              "clocks": "cpu_clk                cpu_clk",
+              "slack_ns": 0.148,
+              "endpoints": 28721
+            }
+          ],
+          "Slow Recovery": [],
+          "Slow Removal": [],
+          "Slow Minimum Pulse Width": [
+            {
+              "clocks": "cpu_clk",
+              "slack_ns": 6.615,
+              "endpoints": 4590
+            }
+          ],
+          "Fast Setup": [
+            {
+              "clocks": "cpu_clk                cpu_clk",
+              "slack_ns": 5.689,
+              "endpoints": 28721
+            }
+          ],
+          "Fast Hold": [
+            {
+              "clocks": "cpu_clk                cpu_clk",
+              "slack_ns": 0.101,
+              "endpoints": 28721
+            }
+          ],
+          "Fast Recovery": [],
+          "Fast Removal": [],
+          "Fast Minimum Pulse Width": [
+            {
+              "clocks": "cpu_clk",
+              "slack_ns": 6.92,
+              "endpoints": 4590
+            }
+          ]
+        },
+        "clocks": {
+          "sys_clk": {
+            "period_ns": 37.037,
+            "type": "Declared",
+            "clock_loads": 0,
+            "non_clock_loads": 1,
+            "source": "sys_clk"
+          },
+          "cpu_clk": {
+            "period_ns": 15.1515,
+            "type": "Generated (sys_clk)",
+            "clock_loads": 4999,
+            "non_clock_loads": 0,
+            "source": "u_cpu_clock/u_pll/gpll_inst/CLKOUT0"
+          }
+        },
+        "pins": {
+          "sys_clk": {
+            "pin": "D18",
+            "direction": "input"
+          },
+          "rst_n": {
+            "pin": "C22",
+            "direction": "input"
+          },
+          "led[3]": {
+            "pin": "E18",
+            "direction": "output"
+          },
+          "led[2]": {
+            "pin": "C18",
+            "direction": "output"
+          },
+          "led[1]": {
+            "pin": "C19",
+            "direction": "output"
+          },
+          "led[0]": {
+            "pin": "A20",
+            "direction": "output"
+          },
+          "uart_tx": {
+            "pin": "AB26",
+            "direction": "output"
+          },
+          "uart_rx": {
+            "pin": "AC26",
+            "direction": "input"
+          }
+        },
+        "pin_report_sha256": "9fa01913cc137b266f3f5807bfe6cb88ec9baed2f1ddfb5d691f0f4e3e78f72e",
+        "no_new_internal_unconstrained_warnings": true,
+        "unchanged_constraint_object_warnings": [],
+        "known_external_ports_without_IO_delays": [
+          "led[0]",
+          "led[1]",
+          "led[2]",
+          "led[3]",
+          "rst_n",
+          "uart_rx",
+          "uart_tx"
+        ],
+        "resources": {
+          "LUT": 8071,
+          "FF": 5154,
+          "Distributed RAM": 218,
+          "APM": 8,
+          "DRM": 51.5,
+          "ADC": 0,
+          "ANALOG": 0,
+          "CCS": 1,
+          "DDRPHY_CPD": 0,
+          "DDRPHY_IOCLK_DIV": 0,
+          "DDR_PHY": 0,
+          "GCLK_INBUF_SYN": 0,
+          "GPLL": 1,
+          "HCKB": 0,
+          "HSSTLP": 0,
+          "IO": 8,
+          "IOCKB": 0,
+          "KEYRAM": 0,
+          "MRCKB": 0,
+          "PCIE": 0,
+          "PPLL": 0,
+          "RCKB": 0,
+          "SCANCHAIN": 0,
+          "TSERDES": 0,
+          "USCM": 1
+        }
+      },
+      "bitstream_sha256": "6a8df5d2d847a4ffc58694d6eac1f52e2c17043fe1d9d4cdc25447b66fc84f27",
+      "limitations": [
+        "Known external asynchronous IO lacks full input/output delay constraints.",
+        "This audit does not replace long RTL, matrix netlist equivalence, or physical-board validation."
+      ]
+    },
+    "multimodal": {
+      "status": "PASS_DEFINED_TIMING_PINS_PROVENANCE",
+      "work": "D:\\基于RISCV指令集CPU设计\\remote_pg2l200h\\advanced\\reports\\maxperf_20261103\\pds_decouple66_multimodal\\work",
+      "kind": "multimodal",
+      "cpu_hz": 66000000,
+      "audit_script_sha256": "f91ed2ce1b6d5c162fbacc3c4bbc7ebc6f2aa5b1911cf0100d0f6a812d71cc82",
+      "physical_board_verified": false,
+      "source_audit": {
+        "frozen_input_files": 88,
+        "frozen_source_files": 70,
+        "elf_sha256": "55dcf5609b75307197b092e4ddf2e9ea38ac00fedab39eaf1a6c689d4104e4ed",
+        "images": {
+          "rom": {
+            "words": 16384,
+            "hex_sha256": "d68f9d19bfa5373b36a373820bb6d5b4d810e452cea8da0e1b5339a85445a5b8"
+          },
+          "ram": {
+            "words": 16384,
+            "hex_sha256": "184e1b487e971657641cd18d7c5c2f6b29ab3eb8e46bcbe63150ff84f230061d"
+          }
+        },
+        "preserved_peripherals": [
+          "ddr_cpu_bridge",
+          "ddr_pango_subsystem",
+          "matrix_display"
+        ],
+        "cpu_hz": 66000000,
+        "constraints_unchanged_except_cpu_generated_clock": true
+      },
+      "timing": {
+        "timing_report_sha256": "604936ef73de69a6301d81386d7e0a980466b1571f07011b97c46b0e67be3565",
+        "summaries": {
+          "Slow Setup": [
+            {
+              "clocks": "cpu_clk                cpu_clk",
+              "slack_ns": 1.165,
+              "endpoints": 29440
+            },
+            {
+              "clocks": "rst_clk                rst_clk",
+              "slack_ns": 4.41,
+              "endpoints": 417
+            },
+            {
+              "clocks": "ddrphy_sysclk          ddrphy_sysclk",
+              "slack_ns": 0.756,
+              "endpoints": 13960
+            },
+            {
+              "clocks": "phy_dq_sysclk_1        ddrphy_sysclk",
+              "slack_ns": 3.101,
+              "endpoints": 260
+            },
+            {
+              "clocks": "phy_dq_sysclk_0        ddrphy_sysclk",
+              "slack_ns": 4.258,
+              "endpoints": 1
+            },
+            {
+              "clocks": "ddrphy_sysclk          phy_dq_sysclk_0",
+              "slack_ns": 1.578,
+              "endpoints": 196
+            },
+            {
+              "clocks": "ddrphy_sysclk          phy_dq_sysclk_1",
+              "slack_ns": 0.432,
+              "endpoints": 420
+            }
+          ],
+          "Slow Hold": [
+            {
+              "clocks": "cpu_clk                cpu_clk",
+              "slack_ns": 0.101,
+              "endpoints": 29440
+            },
+            {
+              "clocks": "rst_clk                rst_clk",
+              "slack_ns": 0.255,
+              "endpoints": 417
+            },
+            {
+              "clocks": "ddrphy_sysclk          ddrphy_sysclk",
+              "slack_ns": 0.103,
+              "endpoints": 13960
+            },
+            {
+              "clocks": "phy_dq_sysclk_1        ddrphy_sysclk",
+              "slack_ns": 0.513,
+              "endpoints": 260
+            },
+            {
+              "clocks": "phy_dq_sysclk_0        ddrphy_sysclk",
+              "slack_ns": 0.665,
+              "endpoints": 1
+            },
+            {
+              "clocks": "ddrphy_sysclk          phy_dq_sysclk_0",
+              "slack_ns": 0.455,
+              "endpoints": 196
+            },
+            {
+              "clocks": "ddrphy_sysclk          phy_dq_sysclk_1",
+              "slack_ns": 0.453,
+              "endpoints": 420
+            }
+          ],
+          "Slow Recovery": [
+            {
+              "clocks": "cpu_clk                cpu_clk",
+              "slack_ns": 11.996,
+              "endpoints": 121
+            },
+            {
+              "clocks": "rst_clk                rst_clk",
+              "slack_ns": 5.785,
+              "endpoints": 100
+            },
+            {
+              "clocks": "ddrphy_sysclk          ddrphy_sysclk",
+              "slack_ns": 3.412,
+              "endpoints": 3911
+            }
+          ],
+          "Slow Removal": [
+            {
+              "clocks": "cpu_clk                cpu_clk",
+              "slack_ns": 0.613,
+              "endpoints": 121
+            },
+            {
+              "clocks": "rst_clk                rst_clk",
+              "slack_ns": 0.429,
+              "endpoints": 100
+            },
+            {
+              "clocks": "ddrphy_sysclk          ddrphy_sysclk",
+              "slack_ns": 0.319,
+              "endpoints": 3911
+            }
+          ],
+          "Slow Minimum Pulse Width": [
+            {
+              "clocks": "cpu_clk",
+              "slack_ns": 6.615,
+              "endpoints": 4800
+            },
+            {
+              "clocks": "rst_clk",
+              "slack_ns": 3.8,
+              "endpoints": 101
+            },
+            {
+              "clocks": "ddrphy_sysclk",
+              "slack_ns": 3.8,
+              "endpoints": 3954
+            },
+            {
+              "clocks": "phy_dq_clk_0",
+              "slack_ns": 0.035,
+              "endpoints": 35
+            },
+            {
+              "clocks": "phy_dq_sysclk_0",
+              "slack_ns": 1.85,
+              "endpoints": 35
+            },
+            {
+              "clocks": "phy_dq_clk_1",
+              "slack_ns": 0.035,
+              "endpoints": 84
+            },
+            {
+              "clocks": "phy_dq_sysclk_1",
+              "slack_ns": 2.4,
+              "endpoints": 84
+            }
+          ],
+          "Fast Setup": [
+            {
+              "clocks": "cpu_clk                cpu_clk",
+              "slack_ns": 5.929,
+              "endpoints": 29440
+            },
+            {
+              "clocks": "rst_clk                rst_clk",
+              "slack_ns": 6.02,
+              "endpoints": 417
+            },
+            {
+              "clocks": "ddrphy_sysclk          ddrphy_sysclk",
+              "slack_ns": 3.715,
+              "endpoints": 13960
+            },
+            {
+              "clocks": "phy_dq_sysclk_1        ddrphy_sysclk",
+              "slack_ns": 4.882,
+              "endpoints": 260
+            },
+            {
+              "clocks": "phy_dq_sysclk_0        ddrphy_sysclk",
+              "slack_ns": 5.557,
+              "endpoints": 1
+            },
+            {
+              "clocks": "ddrphy_sysclk          phy_dq_sysclk_0",
+              "slack_ns": 3.863,
+              "endpoints": 196
+            },
+            {
+              "clocks": "ddrphy_sysclk          phy_dq_sysclk_1",
+              "slack_ns": 3.178,
+              "endpoints": 420
+            }
+          ],
+          "Fast Hold": [
+            {
+              "clocks": "cpu_clk                cpu_clk",
+              "slack_ns": 0.1,
+              "endpoints": 29440
+            },
+            {
+              "clocks": "rst_clk                rst_clk",
+              "slack_ns": 0.174,
+              "endpoints": 417
+            },
+            {
+              "clocks": "ddrphy_sysclk          ddrphy_sysclk",
+              "slack_ns": 0.101,
+              "endpoints": 13960
+            },
+            {
+              "clocks": "phy_dq_sysclk_1        ddrphy_sysclk",
+              "slack_ns": 0.1,
+              "endpoints": 260
+            },
+            {
+              "clocks": "phy_dq_sysclk_0        ddrphy_sysclk",
+              "slack_ns": 0.251,
+              "endpoints": 1
+            },
+            {
+              "clocks": "ddrphy_sysclk          phy_dq_sysclk_0",
+              "slack_ns": 0.1,
+              "endpoints": 196
+            },
+            {
+              "clocks": "ddrphy_sysclk          phy_dq_sysclk_1",
+              "slack_ns": 0.1,
+              "endpoints": 420
+            }
+          ],
+          "Fast Recovery": [
+            {
+              "clocks": "cpu_clk                cpu_clk",
+              "slack_ns": 13.298,
+              "endpoints": 121
+            },
+            {
+              "clocks": "rst_clk                rst_clk",
+              "slack_ns": 6.757,
+              "endpoints": 100
+            },
+            {
+              "clocks": "ddrphy_sysclk          ddrphy_sysclk",
+              "slack_ns": 5.4,
+              "endpoints": 3911
+            }
+          ],
+          "Fast Removal": [
+            {
+              "clocks": "cpu_clk                cpu_clk",
+              "slack_ns": 0.402,
+              "endpoints": 121
+            },
+            {
+              "clocks": "rst_clk                rst_clk",
+              "slack_ns": 0.287,
+              "endpoints": 100
+            },
+            {
+              "clocks": "ddrphy_sysclk          ddrphy_sysclk",
+              "slack_ns": 0.213,
+              "endpoints": 3911
+            }
+          ],
+          "Fast Minimum Pulse Width": [
+            {
+              "clocks": "cpu_clk",
+              "slack_ns": 6.92,
+              "endpoints": 4800
+            },
+            {
+              "clocks": "rst_clk",
+              "slack_ns": 3.8,
+              "endpoints": 101
+            },
+            {
+              "clocks": "ddrphy_sysclk",
+              "slack_ns": 3.8,
+              "endpoints": 3954
+            },
+            {
+              "clocks": "phy_dq_clk_0",
+              "slack_ns": 0.035,
+              "endpoints": 35
+            },
+            {
+              "clocks": "phy_dq_sysclk_0",
+              "slack_ns": 1.85,
+              "endpoints": 35
+            },
+            {
+              "clocks": "phy_dq_clk_1",
+              "slack_ns": 0.035,
+              "endpoints": 84
+            },
+            {
+              "clocks": "phy_dq_sysclk_1",
+              "slack_ns": 2.4,
+              "endpoints": 84
+            }
+          ]
+        },
+        "clocks": {
+          "sys_clk": {
+            "period_ns": 37.037,
+            "type": "Declared",
+            "clock_loads": 0,
+            "non_clock_loads": 1,
+            "source": "sys_clk"
+          },
+          "cpu_clk": {
+            "period_ns": 15.1515,
+            "type": "Generated (sys_clk)",
+            "clock_loads": 5255,
+            "non_clock_loads": 0,
+            "source": "u_cpu_clock/u_pll/gpll_inst/CLKOUT0"
+          },
+          "ref_clk": {
+            "period_ns": 8.0,
+            "type": "Declared",
+            "clock_loads": 0,
+            "non_clock_loads": 4,
+            "source": "ddr_ref_clk_p"
+          },
+          "rst_clk": {
+            "period_ns": 8.0,
+            "type": "Generated (ref_clk)",
+            "clock_loads": 121,
+            "non_clock_loads": 0,
+            "source": "u_ddr/u_ip/u_ddrphy_top/rst_clk_gpll/u_gpll/gpll_inst/CLKOUT0"
+          },
+          "ddrphy_sysclk": {
+            "period_ns": 8.0,
+            "type": "Generated (ref_clk)",
+            "clock_loads": 4162,
+            "non_clock_loads": 1,
+            "source": "u_ddr/u_ip/u_ddrphy_top/ddrphy_gpll/u_gpll/gpll_inst/CLKOUT0"
+          },
+          "phy_dq_clk_0": {
+            "period_ns": 1.0,
+            "type": "Generated (ref_clk)",
+            "clock_loads": 35,
+            "non_clock_loads": 1,
+            "source": "u_ddr/u_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_bank[0].ddrphy_ppll/u_ppll/ppll_inst/CLKOUTPHY"
+          },
+          "phy_dq_sysclk_0": {
+            "period_ns": 8.0,
+            "type": "Generated (phy_dq_clk_0)",
+            "clock_loads": 35,
+            "non_clock_loads": 0,
+            "source": "u_ddr/u_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_bank[0].u_ddrphy_ioclkdiv/ddrphy_ioclk_div_inst/CLKOUT"
+          },
+          "phy_dq_clk_1": {
+            "period_ns": 1.0,
+            "type": "Generated (ref_clk)",
+            "clock_loads": 84,
+            "non_clock_loads": 1,
+            "source": "u_ddr/u_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_bank[1].ddrphy_ppll/u_ppll/ppll_inst/CLKOUTPHY"
+          },
+          "phy_dq_sysclk_1": {
+            "period_ns": 8.0,
+            "type": "Generated (phy_dq_clk_1)",
+            "clock_loads": 84,
+            "non_clock_loads": 0,
+            "source": "u_ddr/u_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_bank[1].u_ddrphy_ioclkdiv/ddrphy_ioclk_div_inst/CLKOUT"
+          }
+        },
+        "pins": {
+          "sys_clk": {
+            "pin": "D18",
+            "direction": "input"
+          },
+          "rst_n": {
+            "pin": "C22",
+            "direction": "input"
+          },
+          "led[3]": {
+            "pin": "E18",
+            "direction": "output"
+          },
+          "led[2]": {
+            "pin": "C18",
+            "direction": "output"
+          },
+          "led[1]": {
+            "pin": "C19",
+            "direction": "output"
+          },
+          "led[0]": {
+            "pin": "A20",
+            "direction": "output"
+          },
+          "G_Matrix[2]": {
+            "pin": "K25",
+            "direction": "output"
+          },
+          "SCLK_Matrix[2]": {
+            "pin": "L24",
+            "direction": "output"
+          },
+          "DS_Matrix[1]": {
+            "pin": "M24",
+            "direction": "output"
+          },
+          "DS_Matrix[3]": {
+            "pin": "L22",
+            "direction": "output"
+          },
+          "SCLK_Matrix[0]": {
+            "pin": "P19",
+            "direction": "output"
+          },
+          "G_Matrix[0]": {
+            "pin": "R20",
+            "direction": "output"
+          },
+          "RCK_Matrix[1]": {
+            "pin": "T24",
+            "direction": "output"
+          },
+          "SCLR_Matrix[1]": {
+            "pin": "T22",
+            "direction": "output"
+          },
+          "DS_Matrix[2]": {
+            "pin": "K26",
+            "direction": "output"
+          },
+          "RCK_Matrix[2]": {
+            "pin": "L25",
+            "direction": "output"
+          },
+          "SCLR_Matrix[0]": {
+            "pin": "M25",
+            "direction": "output"
+          },
+          "SCLR_Matrix[2]": {
+            "pin": "L23",
+            "direction": "output"
+          },
+          "RCK_Matrix[0]": {
+            "pin": "N19",
+            "direction": "output"
+          },
+          "DS_Matrix[0]": {
+            "pin": "R21",
+            "direction": "output"
+          },
+          "G_Matrix[1]": {
+            "pin": "T25",
+            "direction": "output"
+          },
+          "SCLK_Matrix[1]": {
+            "pin": "R22",
+            "direction": "output"
+          },
+          "uart_tx": {
+            "pin": "AB26",
+            "direction": "output"
+          },
+          "RCK_Matrix[3]": {
+            "pin": "Y25",
+            "direction": "output"
+          },
+          "SCLR_Matrix[3]": {
+            "pin": "AA24",
+            "direction": "output"
+          },
+          "uart_rx": {
+            "pin": "AC26",
+            "direction": "input"
+          },
+          "G_Matrix[3]": {
+            "pin": "AA25",
+            "direction": "output"
+          },
+          "SCLK_Matrix[3]": {
+            "pin": "AB25",
+            "direction": "output"
+          },
+          "mem_dq[13]": {
+            "pin": "E6",
+            "direction": "inout"
+          },
+          "mem_dq[10]": {
+            "pin": "H8",
+            "direction": "inout"
+          },
+          "mem_dqs[1]": {
+            "pin": "H7",
+            "direction": "inout"
+          },
+          "mem_dq[9]": {
+            "pin": "F8",
+            "direction": "inout"
+          },
+          "mem_dq[8]": {
+            "pin": "H6",
+            "direction": "inout"
+          },
+          "mem_dq[14]": {
+            "pin": "H9",
+            "direction": "inout"
+          },
+          "mem_dq[1]": {
+            "pin": "J6",
+            "direction": "inout"
+          },
+          "mem_dq[3]": {
+            "pin": "L8",
+            "direction": "inout"
+          },
+          "mem_dqs[0]": {
+            "pin": "J4",
+            "direction": "inout"
+          },
+          "mem_dq[5]": {
+            "pin": "K7",
+            "direction": "inout"
+          },
+          "mem_dq[4]": {
+            "pin": "G4",
+            "direction": "inout"
+          },
+          "mem_dq[0]": {
+            "pin": "G5",
+            "direction": "inout"
+          },
+          "mem_dq[17]": {
+            "pin": "D4",
+            "direction": "inout"
+          },
+          "mem_dqs[2]": {
+            "pin": "B5",
+            "direction": "inout"
+          },
+          "mem_dq[22]": {
+            "pin": "B4",
+            "direction": "inout"
+          },
+          "mem_dq[23]": {
+            "pin": "D3",
+            "direction": "inout"
+          },
+          "mem_dq[21]": {
+            "pin": "F3",
+            "direction": "inout"
+          },
+          "mem_dq[31]": {
+            "pin": "C2",
+            "direction": "inout"
+          },
+          "mem_dq[29]": {
+            "pin": "A3",
+            "direction": "inout"
+          },
+          "mem_dqs[3]": {
+            "pin": "C1",
+            "direction": "inout"
+          },
+          "mem_dq[24]": {
+            "pin": "F2",
+            "direction": "inout"
+          },
+          "mem_dq[28]": {
+            "pin": "E1",
+            "direction": "inout"
+          },
+          "mem_dq[30]": {
+            "pin": "G2",
+            "direction": "inout"
+          },
+          "mem_dq[11]": {
+            "pin": "D6",
+            "direction": "inout"
+          },
+          "mem_dq[12]": {
+            "pin": "G8",
+            "direction": "inout"
+          },
+          "mem_dqs_n[1]": {
+            "pin": "G7",
+            "direction": "inout"
+          },
+          "mem_dm[1]": {
+            "pin": "F7",
+            "direction": "output"
+          },
+          "mem_dq[15]": {
+            "pin": "G6",
+            "direction": "inout"
+          },
+          "mem_dq[7]": {
+            "pin": "J5",
+            "direction": "inout"
+          },
+          "mem_dqs_n[0]": {
+            "pin": "H4",
+            "direction": "inout"
+          },
+          "mem_dm[0]": {
+            "pin": "K6",
+            "direction": "output"
+          },
+          "mem_dq[6]": {
+            "pin": "F4",
+            "direction": "inout"
+          },
+          "mem_dq[2]": {
+            "pin": "F5",
+            "direction": "inout"
+          },
+          "mem_dm[2]": {
+            "pin": "D5",
+            "direction": "output"
+          },
+          "mem_dq[16]": {
+            "pin": "C4",
+            "direction": "inout"
+          },
+          "mem_dqs_n[2]": {
+            "pin": "A5",
+            "direction": "inout"
+          },
+          "mem_dq[18]": {
+            "pin": "A4",
+            "direction": "inout"
+          },
+          "mem_dq[20]": {
+            "pin": "C3",
+            "direction": "inout"
+          },
+          "mem_dq[19]": {
+            "pin": "E3",
+            "direction": "inout"
+          },
+          "mem_dq[27]": {
+            "pin": "A2",
+            "direction": "inout"
+          },
+          "mem_dqs_n[3]": {
+            "pin": "B1",
+            "direction": "inout"
+          },
+          "mem_dm[3]": {
+            "pin": "E2",
+            "direction": "output"
+          },
+          "mem_dq[25]": {
+            "pin": "D1",
+            "direction": "inout"
+          },
+          "mem_dq[26]": {
+            "pin": "G1",
+            "direction": "inout"
+          },
+          "mem_a[7]": {
+            "pin": "K1",
+            "direction": "output"
+          },
+          "mem_a[1]": {
+            "pin": "L3",
+            "direction": "output"
+          },
+          "mem_a[14]": {
+            "pin": "N1",
+            "direction": "output"
+          },
+          "mem_odt": {
+            "pin": "H2",
+            "direction": "output"
+          },
+          "mem_a[13]": {
+            "pin": "M2",
+            "direction": "output"
+          },
+          "ddr_ref_clk_p": {
+            "pin": "N3",
+            "direction": "input"
+          },
+          "mem_ba[0]": {
+            "pin": "P4",
+            "direction": "output"
+          },
+          "mem_cke": {
+            "pin": "R1",
+            "direction": "output"
+          },
+          "mem_a[12]": {
+            "pin": "T4",
+            "direction": "output"
+          },
+          "mem_a[4]": {
+            "pin": "T2",
+            "direction": "output"
+          },
+          "mem_a[8]": {
+            "pin": "U2",
+            "direction": "output"
+          },
+          "mem_ras_n": {
+            "pin": "P6",
+            "direction": "output"
+          },
+          "mem_ba[2]": {
+            "pin": "T5",
+            "direction": "output"
+          },
+          "mem_ck": {
+            "pin": "U6",
+            "direction": "output"
+          },
+          "mem_we_n": {
+            "pin": "T8",
+            "direction": "output"
+          },
+          "mem_a[0]": {
+            "pin": "J1",
+            "direction": "output"
+          },
+          "mem_a[9]": {
+            "pin": "K2",
+            "direction": "output"
+          },
+          "mem_a[5]": {
+            "pin": "M1",
+            "direction": "output"
+          },
+          "mem_rst_n": {
+            "pin": "H1",
+            "direction": "output"
+          },
+          "mem_a[2]": {
+            "pin": "L2",
+            "direction": "output"
+          },
+          "ddr_ref_clk_n": {
+            "pin": "N2",
+            "direction": "input"
+          },
+          "mem_a[3]": {
+            "pin": "P3",
+            "direction": "output"
+          },
+          "mem_cs_n": {
+            "pin": "N4",
+            "direction": "output"
+          },
+          "mem_a[11]": {
+            "pin": "P1",
+            "direction": "output"
+          },
+          "mem_a[10]": {
+            "pin": "T3",
+            "direction": "output"
+          },
+          "mem_ba[1]": {
+            "pin": "R2",
+            "direction": "output"
+          },
+          "mem_a[6]": {
+            "pin": "U1",
+            "direction": "output"
+          },
+          "mem_ck_n": {
+            "pin": "U5",
+            "direction": "output"
+          },
+          "mem_cas_n": {
+            "pin": "T7",
+            "direction": "output"
+          }
+        },
+        "pin_report_sha256": "417271374185fee5433f86a29c68f34c2f50bd51d7d59db9f2f32d3ef60dc9e5",
+        "no_new_internal_unconstrained_warnings": true,
+        "unchanged_constraint_object_warnings": [
+          "W: ConstraintEditor-4040: Port p:DS_Matrix[0] has been placed at location R21, whose type is share pin.",
+          "W: ConstraintEditor-4040: Port p:DS_Matrix[1] has been placed at location M24, whose type is share pin.",
+          "W: ConstraintEditor-4040: Port p:DS_Matrix[2] has been placed at location K26, whose type is share pin.",
+          "W: ConstraintEditor-4040: Port p:G_Matrix[0] has been placed at location R20, whose type is share pin.",
+          "W: ConstraintEditor-4040: Port p:G_Matrix[1] has been placed at location T25, whose type is share pin.",
+          "W: ConstraintEditor-4040: Port p:G_Matrix[2] has been placed at location K25, whose type is share pin.",
+          "W: ConstraintEditor-4040: Port p:RCK_Matrix[0] has been placed at location N19, whose type is share pin.",
+          "W: ConstraintEditor-4040: Port p:RCK_Matrix[2] has been placed at location L25, whose type is share pin.",
+          "W: ConstraintEditor-4040: Port p:SCLK_Matrix[0] has been placed at location P19, whose type is share pin.",
+          "W: ConstraintEditor-4040: Port p:SCLK_Matrix[1] has been placed at location R22, whose type is share pin.",
+          "W: ConstraintEditor-4040: Port p:SCLR_Matrix[0] has been placed at location M25, whose type is share pin.",
+          "W: ConstraintEditor-4040: Port p:SCLR_Matrix[1] has been placed at location T22, whose type is share pin.",
+          "W: ConstraintEditor-4040: Port p:mem_dm[0] has been placed at location K6, whose type is share pin.",
+          "W: ConstraintEditor-4040: Port p:mem_dq[10] has been placed at location H8, whose type is share pin.",
+          "W: ConstraintEditor-4040: Port p:mem_dq[11] has been placed at location D6, whose type is share pin.",
+          "W: ConstraintEditor-4040: Port p:mem_dq[12] has been placed at location G8, whose type is share pin.",
+          "W: ConstraintEditor-4040: Port p:mem_dq[13] has been placed at location E6, whose type is share pin.",
+          "W: ConstraintEditor-4040: Port p:mem_dq[15] has been placed at location G6, whose type is share pin.",
+          "W: ConstraintEditor-4040: Port p:mem_dq[1] has been placed at location J6, whose type is share pin.",
+          "W: ConstraintEditor-4040: Port p:mem_dq[3] has been placed at location L8, whose type is share pin.",
+          "W: ConstraintEditor-4040: Port p:mem_dq[5] has been placed at location K7, whose type is share pin.",
+          "W: ConstraintEditor-4040: Port p:mem_dq[7] has been placed at location J5, whose type is share pin.",
+          "W: ConstraintEditor-4040: Port p:mem_dq[8] has been placed at location H6, whose type is share pin.",
+          "W: ConstraintEditor-4040: Port p:mem_dqs[0] has been placed at location J4, whose type is share pin.",
+          "W: ConstraintEditor-4040: Port p:mem_dqs[1] has been placed at location H7, whose type is share pin.",
+          "W: ConstraintEditor-4040: Port p:mem_dqs_n[0] has been placed at location H4, whose type is share pin.",
+          "W: ConstraintEditor-4040: Port p:mem_dqs_n[1] has been placed at location G7, whose type is share pin."
+        ],
+        "known_external_ports_without_IO_delays": [
+          "DS_Matrix[0]",
+          "DS_Matrix[1]",
+          "DS_Matrix[2]",
+          "DS_Matrix[3]",
+          "G_Matrix[0]",
+          "G_Matrix[1]",
+          "G_Matrix[2]",
+          "G_Matrix[3]",
+          "RCK_Matrix[0]",
+          "RCK_Matrix[1]",
+          "RCK_Matrix[2]",
+          "RCK_Matrix[3]",
+          "SCLK_Matrix[0]",
+          "SCLK_Matrix[1]",
+          "SCLK_Matrix[2]",
+          "SCLK_Matrix[3]",
+          "SCLR_Matrix[0]",
+          "SCLR_Matrix[1]",
+          "SCLR_Matrix[2]",
+          "SCLR_Matrix[3]",
+          "led[0]",
+          "led[1]",
+          "led[2]",
+          "led[3]",
+          "mem_a[0]",
+          "mem_a[10]",
+          "mem_a[11]",
+          "mem_a[12]",
+          "mem_a[13]",
+          "mem_a[14]",
+          "mem_a[1]",
+          "mem_a[2]",
+          "mem_a[3]",
+          "mem_a[4]",
+          "mem_a[5]",
+          "mem_a[6]",
+          "mem_a[7]",
+          "mem_a[8]",
+          "mem_a[9]",
+          "mem_ba[0]",
+          "mem_ba[1]",
+          "mem_ba[2]",
+          "mem_cas_n",
+          "mem_ck",
+          "mem_ck_n",
+          "mem_cke",
+          "mem_cs_n",
+          "mem_dm[0]",
+          "mem_dm[1]",
+          "mem_dm[2]",
+          "mem_dm[3]",
+          "mem_dq[0]",
+          "mem_dq[10]",
+          "mem_dq[11]",
+          "mem_dq[12]",
+          "mem_dq[13]",
+          "mem_dq[14]",
+          "mem_dq[15]",
+          "mem_dq[16]",
+          "mem_dq[17]",
+          "mem_dq[18]",
+          "mem_dq[19]",
+          "mem_dq[1]",
+          "mem_dq[20]",
+          "mem_dq[21]",
+          "mem_dq[22]",
+          "mem_dq[23]",
+          "mem_dq[24]",
+          "mem_dq[25]",
+          "mem_dq[26]",
+          "mem_dq[27]",
+          "mem_dq[28]",
+          "mem_dq[29]",
+          "mem_dq[2]",
+          "mem_dq[30]",
+          "mem_dq[31]",
+          "mem_dq[3]",
+          "mem_dq[4]",
+          "mem_dq[5]",
+          "mem_dq[6]",
+          "mem_dq[7]",
+          "mem_dq[8]",
+          "mem_dq[9]",
+          "mem_dqs[0]",
+          "mem_dqs[1]",
+          "mem_dqs[2]",
+          "mem_dqs[3]",
+          "mem_dqs_n[0]",
+          "mem_dqs_n[1]",
+          "mem_dqs_n[2]",
+          "mem_dqs_n[3]",
+          "mem_odt",
+          "mem_ras_n",
+          "mem_rst_n",
+          "mem_we_n",
+          "rst_n",
+          "uart_rx",
+          "uart_tx"
+        ],
+        "ddr_payload_boundaries": {
+          "exception_report_sha256": "7f4f9fb6bf1a9123bed49c73e1455153cbc18cf5fa1db431134a30f720780b99",
+          "request_max_ns": 8,
+          "response_max_ns": 20,
+          "request_paths": [
+            {
+              "start": "u_ddr/u_bridge/request_data[23]/opit_0/Q",
+              "end": "u_ddr/u_bridge/data_latched[63]/opit_0/D",
+              "corner": "slow",
+              "slack_ns": 3.672
+            },
+            {
+              "start": "u_ddr/u_bridge/request_data[23]/opit_0/Q",
+              "end": "u_ddr/u_bridge/data_latched[31]/opit_0/D",
+              "corner": "slow",
+              "slack_ns": 3.686
+            },
+            {
+              "start": "u_ddr/u_bridge/request_data[23]/opit_0/Q",
+              "end": "u_ddr/u_bridge/data_latched[255]/opit_0/D",
+              "corner": "slow",
+              "slack_ns": 3.768
+            },
+            {
+              "start": "u_ddr/u_bridge/request_data[23]/opit_0/Q",
+              "end": "u_ddr/u_bridge/data_latched[31]/opit_0/D",
+              "corner": "fast",
+              "slack_ns": 5.465
+            },
+            {
+              "start": "u_ddr/u_bridge/request_data[23]/opit_0/Q",
+              "end": "u_ddr/u_bridge/data_latched[63]/opit_0/D",
+              "corner": "fast",
+              "slack_ns": 5.467
+            },
+            {
+              "start": "u_ddr/u_bridge/request_data[23]/opit_0/Q",
+              "end": "u_ddr/u_bridge/data_latched[255]/opit_0/D",
+              "corner": "fast",
+              "slack_ns": 5.513
+            }
+          ],
+          "response_paths": [
+            {
+              "start": "u_ddr/u_bridge/response_data[0]/opit_0/Q",
+              "end": "u_ddr/u_bridge/rsp_rdata[0]/opit_0/D",
+              "corner": "slow",
+              "slack_ns": 17.744
+            },
+            {
+              "start": "u_ddr/u_bridge/response_data[28]/opit_0/Q",
+              "end": "u_ddr/u_bridge/rsp_rdata[28]/opit_0/D",
+              "corner": "slow",
+              "slack_ns": 18.079
+            },
+            {
+              "start": "u_ddr/u_bridge/response_data[4]/opit_0/Q",
+              "end": "u_ddr/u_bridge/rsp_rdata[4]/opit_0/D",
+              "corner": "slow",
+              "slack_ns": 18.186
+            },
+            {
+              "start": "u_ddr/u_bridge/response_data[0]/opit_0/Q",
+              "end": "u_ddr/u_bridge/rsp_rdata[0]/opit_0/D",
+              "corner": "fast",
+              "slack_ns": 18.723
+            },
+            {
+              "start": "u_ddr/u_bridge/response_data[28]/opit_0/Q",
+              "end": "u_ddr/u_bridge/rsp_rdata[28]/opit_0/D",
+              "corner": "fast",
+              "slack_ns": 18.916
+            },
+            {
+              "start": "u_ddr/u_bridge/response_data[4]/opit_0/Q",
+              "end": "u_ddr/u_bridge/rsp_rdata[4]/opit_0/D",
+              "corner": "fast",
+              "slack_ns": 18.966
+            }
+          ]
+        },
+        "resources": {
+          "LUT": 13394,
+          "FF": 10919,
+          "Distributed RAM": 260,
+          "APM": 8,
+          "DRM": 51,
+          "ADC": 0,
+          "ANALOG": 0,
+          "CCS": 1,
+          "DDRPHY_CPD": 1,
+          "DDRPHY_IOCLK_DIV": 2,
+          "DDR_PHY": 7,
+          "GCLK_INBUF_SYN": 0,
+          "GPLL": 3,
+          "HCKB": 0,
+          "HSSTLP": 0,
+          "IO": 101,
+          "IOCKB": 0,
+          "KEYRAM": 0,
+          "MRCKB": 1,
+          "PCIE": 0,
+          "PPLL": 2,
+          "RCKB": 2,
+          "SCANCHAIN": 0,
+          "TSERDES": 14,
+          "USCM": 3
+        }
+      },
+      "bitstream_sha256": "b122142a3c4ba8937854628d858bda3c743fbdb3d5d47cad975ec4fa9c856e22",
+      "limitations": [
+        "Known external asynchronous IO lacks full input/output delay constraints.",
+        "This audit does not replace long RTL, matrix netlist equivalence, or physical-board validation."
+      ]
+    }
+  },
+  "matrix_synthesized_glyphs": {
+    "summary_sha256": "7a283a31544e8d0d75e0c1ee2c68096d3261c4a0c7015887a9dcd277df50d939",
+    "netlist_sha256": "7142c43df446b61a2f7a9cf8e7c103e058784d3498c1316d00c66862a5b35dcf",
+    "words_checked": 272,
+    "scope": "Vendor-primitives functional gate-level glyph-load cone; not timing or full sequential simulation",
+    "folded_bit0": {
+      "method": "Actual successor-register D cone in SHIFT_HIGH, at all-zero/all-one shift state",
+      "checks": 544
+    }
+  },
+  "mapped_multiplier": {
+    "coremark": {
+      "summary_path": "D:\\基于RISCV指令集CPU设计\\remote_pg2l200h\\advanced\\reports\\maxperf_20261103\\mapped_multiplier_decouple66_coremark_internal_wb\\summary.json",
+      "summary_sha256": "06c975dbef2d6a9ca3ad025d67d7812aa306fbf33bd5186a4eac274a6ef9c4dc",
+      "netlist_sha256": "333d9f02a87818d0fd0a7613c9b1b48831c2fe3a1e98362e0e5fc06170686828",
+      "case_count": 4772,
+      "scope": "Actual PDS mapped CPU multiplier and result mux into EX/MEM D pins; legal EX operands/instruction forced; not full CPU execution, post-route timing or physical board",
+      "testbench_path": "D:\\基于RISCV指令集CPU设计\\remote_pg2l200h\\advanced\\reports\\maxperf_20261103\\mapped_multiplier_decouple66_coremark_internal_wb\\tb.v",
+      "log_path": "D:\\基于RISCV指令集CPU设计\\remote_pg2l200h\\advanced\\reports\\maxperf_20261103\\mapped_multiplier_decouple66_coremark_internal_wb\\simulation.log",
+      "forced_boundaries": [
+        "ex_a",
+        "ex_b",
+        "ex_rs1=11",
+        "ex_rs2=12",
+        "mem_valid",
+        "mem_writes=1",
+        "mem_load=0",
+        "mem_exc=0",
+        "mem_rd",
+        "mem_result (prior instruction Q)",
+        "wb_valid",
+        "wb_writes=1",
+        "commit_rd (WB destination register)",
+        "commit_wdata (WB register value)",
+        "ex_inst",
+        "ex_ctrl=0",
+        "ex_mul=1"
+      ],
+      "verified_operand_lut_copies": [],
+      "extra_artifacts_sha256": {
+        "D:\\基于RISCV指令集CPU设计\\remote_pg2l200h\\advanced\\reports\\maxperf_20261103\\mapped_multiplier_decouple66_coremark_internal_wb\\cpu_mapped.v": "007a7464158c97a99f387808801749e44761e81db2dfb79305bab32c9d4cc0d2",
+        "D:\\基于RISCV指令集CPU设计\\remote_pg2l200h\\advanced\\reports\\maxperf_20261103\\mapped_multiplier_decouple66_coremark_internal_wb\\compile.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "D:\\基于RISCV指令集CPU设计\\remote_pg2l200h\\advanced\\reports\\maxperf_20261103\\mapped_multiplier_decouple66_coremark_internal_wb\\vectors.hex": "36bb84d60e36e04c622812e6acef60b1c0303b7e791097bbe5a1eeb5a14f042c"
+      }
+    },
+    "multimodal": {
+      "summary_path": "D:\\基于RISCV指令集CPU设计\\remote_pg2l200h\\advanced\\reports\\maxperf_20261103\\mapped_multiplier_decouple66_multimodal_internal_wb\\summary.json",
+      "summary_sha256": "1c9086280fff034ce34e6daf65832e1ea97a4e82ba720e7f7a157428d068616a",
+      "netlist_sha256": "7142c43df446b61a2f7a9cf8e7c103e058784d3498c1316d00c66862a5b35dcf",
+      "case_count": 4772,
+      "scope": "Actual PDS mapped CPU multiplier and result mux into EX/MEM D pins; legal EX operands/instruction forced; not full CPU execution, post-route timing or physical board",
+      "testbench_path": "D:\\基于RISCV指令集CPU设计\\remote_pg2l200h\\advanced\\reports\\maxperf_20261103\\mapped_multiplier_decouple66_multimodal_internal_wb\\tb.v",
+      "log_path": "D:\\基于RISCV指令集CPU设计\\remote_pg2l200h\\advanced\\reports\\maxperf_20261103\\mapped_multiplier_decouple66_multimodal_internal_wb\\simulation.log",
+      "forced_boundaries": [
+        "ex_a",
+        "ex_b",
+        "ex_rs1=11",
+        "ex_rs2=12",
+        "mem_valid",
+        "mem_writes=1",
+        "mem_load=0",
+        "mem_exc=0",
+        "mem_rd",
+        "mem_result (prior instruction Q)",
+        "wb_valid",
+        "wb_writes=1",
+        "commit_rd (WB destination register)",
+        "commit_wdata (WB register value)",
+        "ex_inst",
+        "ex_ctrl=0",
+        "ex_mul=1"
+      ],
+      "verified_operand_lut_copies": [],
+      "extra_artifacts_sha256": {
+        "D:\\基于RISCV指令集CPU设计\\remote_pg2l200h\\advanced\\reports\\maxperf_20261103\\mapped_multiplier_decouple66_multimodal_internal_wb\\cpu_mapped.v": "2c5950bc306f55b568f4283e6596fd400bb574a2b80bf91c162bce19d1698247",
+        "D:\\基于RISCV指令集CPU设计\\remote_pg2l200h\\advanced\\reports\\maxperf_20261103\\mapped_multiplier_decouple66_multimodal_internal_wb\\compile.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "D:\\基于RISCV指令集CPU设计\\remote_pg2l200h\\advanced\\reports\\maxperf_20261103\\mapped_multiplier_decouple66_multimodal_internal_wb\\vectors.hex": "36bb84d60e36e04c622812e6acef60b1c0303b7e791097bbe5a1eeb5a14f042c"
+      }
+    }
+  },
+  "additional_verification": {
+    "pll_model": {
+      "summary_sha256": "b8f3d52664c59240697a1b006bb9c6c127f27f12c85bc1c11ad9ae11e3e2255a",
+      "artifacts_sha256": {
+        "reports\\maxperf_20261103\\clock_audit\\66mhz\\compile.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "reports\\maxperf_20261103\\clock_audit\\66mhz\\run.log": "4e191efae7ece45881cb35de82c7a139b7826466c8d381d67cc6f36c3ef9b7eb",
+        "reports\\maxperf_20261103\\clock_audit\\66mhz\\summary.json": "b8f3d52664c59240697a1b006bb9c6c127f27f12c85bc1c11ad9ae11e3e2255a",
+        "reports\\maxperf_20261103\\clock_audit\\66mhz\\tb.v": "d584a87af010e03b59019ec0dfcffea1ee4b053612b67712938111bd3c56abcc"
+      },
+      "scope": "Unmodified vendor PLL model; two lock/reset/period checks, not physical clock measurement",
+      "cpu_hz": 66000000,
+      "periods_ns": [
+        151.515152,
+        151.515152
+      ],
+      "vendor_sha256": "b1e0df6237c4502a5a01978c4e14db9b58c946c64cb614e88e89458c8c533fb2"
+    },
+    "matrix_pin_stream": {
+      "summary_sha256": "9d04a6052ad7aaad0e297b1342c3630f1088fa83760fa0f200b4905e212febf0",
+      "artifacts_sha256": {
+        "reports\\maxperf_20261103\\matrix_66000000\\matrix_display.v": "40ed803d1d1c879e5e3736396092c531bf1f9a77cc0dcd553d56a6380dbb5533",
+        "reports\\maxperf_20261103\\matrix_66000000\\summary.json": "9d04a6052ad7aaad0e297b1342c3630f1088fa83760fa0f200b4905e212febf0",
+        "reports\\maxperf_20261103\\matrix_66000000\\tb_matrix_display.v": "3df6ce7e09a5412d6ddb57a4a653d4a291110a2265e77dd7be55899f45fb3916",
+        "reports\\maxperf_20261103\\matrix_66000000\\verilator\\compile.log": "ced989924194e8f13bb548e4c1f4d7a41f1a9d7b2e53fa03263304e01d650dcb",
+        "reports\\maxperf_20261103\\matrix_66000000\\verilator\\simulation.log": "efc2a8f66142a87324393233dff045c994c7f37400a59a50d96ba7a55e21e5fe",
+        "reports\\maxperf_20261103\\matrix_66000000\\verilator\\verilator.log": "f0cdb697d08472e27f03e34c257048f01fb7c4615b5214daaef79803c5168ace"
+      },
+      "scope": "Full compiled timed RTL pin-stream oracle at actual default divisors; no post-route/physical board claim",
+      "cpu_hz": 66000000,
+      "simulation": {
+        "checks": 249460492,
+        "frames": 67,
+        "latches": 1034,
+        "full_on": 1036992,
+        "low1_on": 4112,
+        "half_on": 526336
+      },
+      "frame_seconds_nominal": 0.016000242424242424
+    },
+    "cache_equivalence": {
+      "summary_sha256": "a3ed16b0975eca3622abfb991e2e27e334f29461d5a6139c881b9c98bfce76af",
+      "artifacts_sha256": {
+        "reports\\maxperf_20261103\\cache_bram_candidate\\coremark_perf\\summary.json": "0a9d7de65faf07f10148805f7800cc3bf00f99e0c77b163e93f71b0a9435ba6a",
+        "reports\\maxperf_20261103\\frontend\\tb_cache_preview_edges.v": "1ec48b79541c8dc3d8cbb7a61d955671ad205c54985780fe60c713a77284d2af",
+        "reports\\maxperf_20261103\\icache_data_decouple\\cache_regression\\compile.log": "32d5a5aec24f7a1d38d477922232f4a87a6c05ede9bf42c4f5b8df81a7daf6b1",
+        "reports\\maxperf_20261103\\icache_data_decouple\\cache_regression\\edges.log": "43e15166785465b911b207d17537e241de4b76c5ba7d231e5c45ba4c67eedeef",
+        "reports\\maxperf_20261103\\icache_data_decouple\\cache_regression\\edges_compile.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "reports\\maxperf_20261103\\icache_data_decouple\\cache_regression\\lookahead_0_forward_0.log": "28f892715943a919c18794b02668c13f9fae655dfaa3c01a61c9107715b4ca3f",
+        "reports\\maxperf_20261103\\icache_data_decouple\\cache_regression\\lookahead_0_forward_0_compile.log": "4522abcdf4706f7abb1647295a2ab943a18d362188032d5420bb34a22f735492",
+        "reports\\maxperf_20261103\\icache_data_decouple\\cache_regression\\lookahead_0_forward_1.log": "6088f126b106f4a5bf322c108c3faf7e42baf3a50ee941b61a42b0a17a432d8b",
+        "reports\\maxperf_20261103\\icache_data_decouple\\cache_regression\\lookahead_0_forward_1_compile.log": "4522abcdf4706f7abb1647295a2ab943a18d362188032d5420bb34a22f735492",
+        "reports\\maxperf_20261103\\icache_data_decouple\\cache_regression\\lookahead_1_forward_1.log": "fef603cd567f2f68c5424ec495cd63bf839f12e1901eca27e19e1e3da051bcc7",
+        "reports\\maxperf_20261103\\icache_data_decouple\\cache_regression\\lookahead_1_forward_1_compile.log": "4522abcdf4706f7abb1647295a2ab943a18d362188032d5420bb34a22f735492",
+        "reports\\maxperf_20261103\\icache_data_decouple\\cache_regression\\run.log": "808c4e7d66edd30896451b78e9b088fb7d285a88cbc7c7e6699d82468da8561e",
+        "reports\\maxperf_20261103\\icache_data_decouple\\cache_regression\\summary.json": "49293b3d5300a5833d1833c0d93cc1baa447d35401236c132c6829e19db80abd",
+        "reports\\maxperf_20261103\\icache_data_decouple\\cache_regression\\tb_cache_preview_oracle.v": "67edfa17f031d08a1db4959b7fae2f9f8e1435c6b14c1a5bfec226d7609bf19c",
+        "reports\\maxperf_20261103\\icache_data_decouple\\check_equivalence.py": "5088e09b30146e67edefe014b4278a7a1f8c15a328a616709ad13da2773c4879",
+        "reports\\maxperf_20261103\\icache_data_decouple\\check_mapped_selection.py": "b9f4b3d01581cee47daf3518d51fa590f2d21a5f2b828bccd52bad6a15d40ebf",
+        "reports\\maxperf_20261103\\icache_data_decouple\\coremark_perf\\summary.json": "0518a78440a8212f395e72ad91dc320222be7d6be1036bcf0ececfb29594ea20",
+        "reports\\maxperf_20261103\\icache_data_decouple\\equivalence\\cache_2way_reference.v": "fb0bef79ccb92b8987820f2994f6295b4a677ee646d7724de711945c7e49564c",
+        "reports\\maxperf_20261103\\icache_data_decouple\\equivalence\\la0_forward0.log": "71f6151b96baeb908abc52917027090be531cd7a111c272cf98408f8d84cfbf4",
+        "reports\\maxperf_20261103\\icache_data_decouple\\equivalence\\la0_forward0_compile.log": "bdd8b7163ae58f1dbd63651ff3efdf8f02708af632dad623f6cc5dcc97a46800",
+        "reports\\maxperf_20261103\\icache_data_decouple\\equivalence\\la0_forward1.log": "679a49a92cb05fb976b1818bc4e16e80859150f313ddb501e613373253b53d5c",
+        "reports\\maxperf_20261103\\icache_data_decouple\\equivalence\\la0_forward1_compile.log": "bdd8b7163ae58f1dbd63651ff3efdf8f02708af632dad623f6cc5dcc97a46800",
+        "reports\\maxperf_20261103\\icache_data_decouple\\equivalence\\la1_forward1.log": "c350376e5a074ec56521de740633124c54c3cfaccdf93c8d4fd3725ee17542ff",
+        "reports\\maxperf_20261103\\icache_data_decouple\\equivalence\\la1_forward1_compile.log": "bdd8b7163ae58f1dbd63651ff3efdf8f02708af632dad623f6cc5dcc97a46800",
+        "reports\\maxperf_20261103\\icache_data_decouple\\equivalence\\summary.json": "ca6363fd9790d17bbc95864e66c95c90519906a9defd4117d21b9a872570bb9f",
+        "reports\\maxperf_20261103\\icache_data_decouple\\equivalence\\tb_cache_lookahead_equivalence.v": "2302345bad9bde746bcb2cfc255c741a6c4cf7a2ffcc24af4c660829e797dfdf",
+        "reports\\maxperf_20261103\\icache_data_decouple\\freeze_summary.py": "b94e45eddbbd93798160d539411c42bc5e5f546a065e20a866599228d17cf23c",
+        "reports\\maxperf_20261103\\icache_data_decouple\\run_frozen_isa.py": "afb4e7d5999fd8cca8ec42c7538c13d06d29553ad8c1bd06520473af3ce96edc",
+        "reports\\maxperf_20261103\\icache_data_decouple\\summary.json": "a3ed16b0975eca3622abfb991e2e27e334f29461d5a6139c881b9c98bfce76af",
+        "reports\\maxperf_20261103\\selected_bram_i8_d4\\rtl\\cache_2way.v": "98aa6b1ba03e566589467434c7c150c06878e6f0abadf1ec5907da9b8dda2c4b",
+        "sim\\tb_cache_2way.v": "c25246b4df87e0bec0293332018fa17ef13f364a74f6221c4cecfffbbe89896f",
+        "sim\\tb_cache_lookahead.v": "63197e5aa76aa839e94d5402cd8724ed08f1d0799ccd89958c60ebd056b3a831"
+      },
+      "scope": "RTL handshake equivalence and independent cache regression; not an Fmax result",
+      "combinational_assignments": 262144,
+      "lockstep_runs": [
+        {
+          "lookahead": 0,
+          "refill_forward": 0,
+          "cycles": 551,
+          "handshakes": 192,
+          "idle_data_differences": 0
+        },
+        {
+          "lookahead": 0,
+          "refill_forward": 1,
+          "cycles": 528,
+          "handshakes": 192,
+          "idle_data_differences": 0
+        },
+        {
+          "lookahead": 1,
+          "refill_forward": 1,
+          "cycles": 378,
+          "handshakes": 192,
+          "idle_data_differences": 45
+        }
+      ],
+      "same_coremark_metrics_and_crc": true
+    }
+  },
+  "previous_board_result": {
+    "coremark": 24.053533,
+    "cpu_hz": 27000000,
+    "provenance": "User-reported board UART, fully validated; not agent-operated board",
+    "record_sha256": "f8fc68db70d5e0d5c9d9bb307a79e0d453e0a31f55c615b750cde432633654f9"
+  },
+  "final_rtl_sha256": {
+    "advanced_soc.v": "c09cb42c057d4204c5c5870990ae0cf5e8486aee22ba2669a862a7f3987abc87",
+    "advanced_top.v": "fcd4e3c99b92c0d70379bc2e2caccb56fce7c7deb679afdcfdcd3ddd8591a9d7",
+    "alu.v": "5f53b372aabd205e485fa299d1bf7624c51ae1dc90e0903a6dc76c4e27acc711",
+    "cache_2way.v": "1638fea389f5d18a755e145a7097ca153d7374dbaea9fb0f1140476bc0408ac9",
+    "camera_dvp_capture.v": "59ef641d47586b1d18f32da348b188abaf0b4053b1ddbc25abc71ee12eda2d74",
+    "camera_sccb_write.v": "73910e450f4f36d3e02c1d2eb925e368f1b9be60c91a0d5d9e523675727a284c",
+    "cpu_core.v": "ccb43bd36d5e050b97e2f71d86ba54eb1d1d33b7cf5e9cb976caa3dbec9ecaf8",
+    "cpu_top.v": "8a67233e20affb552ae73309240e580a339d45618626a7da8a9b59cc8a57aa17",
+    "data_bus.v": "7adc18ac0724a457dd3ec8349d6bf9079edaf723d6f83e101c017068d7859b80",
+    "decoder.v": "0e11234d7352393c23ec882b5e5221974efb9050d7ecd4a90f8756dbbe0177cf",
+    "fpga_top.v": "c0999157b6d5b9e6b89ed91d31c523ac7a010bb2a4064ee8427dfb094bee73d3",
+    "int8_dot.v": "27b0c16ebab7695d79c206f2bf655e7be519b6d2a838593a6ab4914c8b2320a5",
+    "machine_csr.v": "4df8fce167ba4371bd98ee9736628224bafdeaf682a38d8d7136765566379d4b",
+    "pc_reg.v": "4038873a252f8486307eb7a27e504a6c4fe0c665711c9025ed8183f63a03c568",
+    "ram.v": "9c9846bdc58fbba620b4f6326aa134757ee7117dbf081143917fed0341dcdd01",
+    "ram_sync.v": "f66eb0e9a84b608a2d5c44682cb713ea02f2e19503e27ffbf6f2a6077ed7fdb5",
+    "regfile.v": "0d5f03aa884c1725a51269a4a69e8f6a3740eb56d87b7fd50df0af92d13296f2",
+    "remote_top.v": "940cb0d11a30d14bbfbdf218017c4e5790c8ebf8dbbb011959481551f2dbc576",
+    "rom.v": "d38d93cea50620274f35fcf242fdba4a77b9835c855338d4942c50c46a16be3c",
+    "rom_sync.v": "da9da1de535d89f68b08d8bc9eb8b4068a755289091f82c79774f21665fd62f7",
+    "selftest_top.v": "18b17b6c24531a11ddc8f02986de704746030401b3d1f3afa2d71bf36a001fa5",
+    "soc_peripherals.v": "0ae1a5d042b80ae560d7198dbc8300c0a16337de69cd21d0d1cff0c697d0c30c",
+    "uart_rx.v": "f5c547dad8d21ab8894e4933f5ecfcd94bb71643d7af8c62449bcbf84274a0e3",
+    "uart_tx.v": "d93824751216ab3319ad7d4e755e59009d1c4a204cb7da685addfdf42e859077",
+    "video_mmio.v": "6b2ddadf22b2c0b695f1948b98661ed0d16fe94c03c47dcb7061363ec36f0679",
+    "video_rgb_scanout.v": "fbd2c54a1838c3f71ce53bd72a5707cf76b56d57f8aa16beb9c8b83ca963c452"
+  },
+  "multimodal_soc_sha256": "e60b68e6b865a4b1a1f3c47c4ad64dec30b3bfe329dd5927af38b7d005523d60",
+  "release_script_sha256": "bd7c00dbcbff0f6857d44989013e5b1e512b567dc286572eb4797f762badfdd1",
+  "artifacts": {
+    "coremark_pg2l200h_maxperf_66mhz_2000iter.sbit": {
+      "sha256": "6a8df5d2d847a4ffc58694d6eac1f52e2c17043fe1d9d4cdc25447b66fc84f27",
+      "bytes": 9188552
+    },
+    "coremark_pg2l200h_maxperf_66mhz_2000iter_source.zip": {
+      "sha256": "5fc1d1d872cd2aecaf8bc1b7279bcf7ab5807fa8ebb52e9a912954fa44579a25",
+      "bytes": 1521224,
+      "source_entries": 177
+    },
+    "multimodal_pg2l200h_maxperf_66mhz.sbit": {
+      "sha256": "b122142a3c4ba8937854628d858bda3c743fbdb3d5d47cad975ec4fa9c856e22",
+      "bytes": 9188552
+    },
+    "multimodal_pg2l200h_maxperf_66mhz_source.zip": {
+      "sha256": "93e1c5eaecc86913871cdcca8797254ccf4ba6d7fff5f7326d34ef0493bdae53",
+      "bytes": 3263408,
+      "source_entries": 419
+    }
+  },
+  "scoring_metrics": {
+    "score_coremark_per_mhz": 2.7536641094507908,
+    "implemented_clock_passing_defined_constraints_mhz": 66.0,
+    "coremark_per_lut": 0.022517882694059247,
+    "coremark": 181.74183122375217,
+    "formula": {
+      "score": "N / (TotalTime_seconds * Frequency_MHz)",
+      "coremark_per_lut": "(N / TotalTime_seconds) / postroute_CoreMark_top_LUT"
+    },
+    "scope": "RTL score plus actual implemented clock and CoreMark top post-route resources; new board score pending",
+    "physical_board_verified": false,
+    "combined_weighted_score": null,
+    "frequency_note": "This implemented clock passed defined PDS constraints; not the estimated Fmax or a measured physical-board maximum",
+    "resource_scope": "CoreMark advanced_top only; excludes multimodal application DDR/display resource counts",
+    "resources": {
+      "LUT": 8071,
+      "FF": 5154,
+      "APM": 8,
+      "DRM": 51.5
+    },
+    "resource_report": "reports\\maxperf_20261103\\pds_decouple66_coremark\\work\\place_route\\advanced_top.ror",
+    "resource_report_sha256": "20416e83847127a2dc0149cfeab28b1a08d91c8da5aa1e99e0e53e1c488d97de",
+    "timing_report_sha256": "2166a645b69bfd56cfc7a428438c720acfbb512e267fe5ed079a209492efde07"
+  },
+  "candidate_score_comparison": {
+    "comparison.json": "1f9aaa3ce22217e84b5751c9525a96ce1b2b5f6e73ccfe09a533b3ccd723425c",
+    "comparison.csv": "8de96ab29f9d37e6c09cceda25ec9fe4df3524f9d6db38047eb76b829f65bf04"
+  }
+}

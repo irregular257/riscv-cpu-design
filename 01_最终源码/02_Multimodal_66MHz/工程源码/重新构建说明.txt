@@ -1,0 +1,5 @@
+work/包含可直接用PDS重建的RTL、引脚/时序约束、DDR厂商工程（完整应用）和run.tcl。
+使用支持PG2L200H-6 FBB676的PDS及有效许可证，在work目录运行pds_shell -file run.tcl。
+source/保留冻结C源码、头文件、链接脚本、编译命令/ELF/HEX、原始RTL及构建脚本。
+重新编译C需配置GCC15.2.0路径，并按source/firmware/build.json的命令与选项构建。
+商业PDS工具、其许可证和GCC安装包不包含在归档内。RTL及PDS证据不等同于实板验收。

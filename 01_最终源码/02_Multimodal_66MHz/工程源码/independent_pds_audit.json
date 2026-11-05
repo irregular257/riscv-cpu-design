@@ -1,0 +1,1040 @@
+{
+  "status": "PASS_DEFINED_TIMING_PINS_PROVENANCE",
+  "work": "D:\\基于RISCV指令集CPU设计\\remote_pg2l200h\\advanced\\reports\\maxperf_20261103\\pds_decouple66_multimodal\\work",
+  "kind": "multimodal",
+  "cpu_hz": 66000000,
+  "audit_script_sha256": "f91ed2ce1b6d5c162fbacc3c4bbc7ebc6f2aa5b1911cf0100d0f6a812d71cc82",
+  "physical_board_verified": false,
+  "source_audit": {
+    "frozen_input_files": 88,
+    "frozen_source_files": 70,
+    "elf_sha256": "55dcf5609b75307197b092e4ddf2e9ea38ac00fedab39eaf1a6c689d4104e4ed",
+    "images": {
+      "rom": {
+        "words": 16384,
+        "hex_sha256": "d68f9d19bfa5373b36a373820bb6d5b4d810e452cea8da0e1b5339a85445a5b8"
+      },
+      "ram": {
+        "words": 16384,
+        "hex_sha256": "184e1b487e971657641cd18d7c5c2f6b29ab3eb8e46bcbe63150ff84f230061d"
+      }
+    },
+    "preserved_peripherals": [
+      "ddr_cpu_bridge",
+      "ddr_pango_subsystem",
+      "matrix_display"
+    ],
+    "cpu_hz": 66000000,
+    "constraints_unchanged_except_cpu_generated_clock": true
+  },
+  "timing": {
+    "timing_report_sha256": "604936ef73de69a6301d81386d7e0a980466b1571f07011b97c46b0e67be3565",
+    "summaries": {
+      "Slow Setup": [
+        {
+          "clocks": "cpu_clk                cpu_clk",
+          "slack_ns": 1.165,
+          "endpoints": 29440
+        },
+        {
+          "clocks": "rst_clk                rst_clk",
+          "slack_ns": 4.41,
+          "endpoints": 417
+        },
+        {
+          "clocks": "ddrphy_sysclk          ddrphy_sysclk",
+          "slack_ns": 0.756,
+          "endpoints": 13960
+        },
+        {
+          "clocks": "phy_dq_sysclk_1        ddrphy_sysclk",
+          "slack_ns": 3.101,
+          "endpoints": 260
+        },
+        {
+          "clocks": "phy_dq_sysclk_0        ddrphy_sysclk",
+          "slack_ns": 4.258,
+          "endpoints": 1
+        },
+        {
+          "clocks": "ddrphy_sysclk          phy_dq_sysclk_0",
+          "slack_ns": 1.578,
+          "endpoints": 196
+        },
+        {
+          "clocks": "ddrphy_sysclk          phy_dq_sysclk_1",
+          "slack_ns": 0.432,
+          "endpoints": 420
+        }
+      ],
+      "Slow Hold": [
+        {
+          "clocks": "cpu_clk                cpu_clk",
+          "slack_ns": 0.101,
+          "endpoints": 29440
+        },
+        {
+          "clocks": "rst_clk                rst_clk",
+          "slack_ns": 0.255,
+          "endpoints": 417
+        },
+        {
+          "clocks": "ddrphy_sysclk          ddrphy_sysclk",
+          "slack_ns": 0.103,
+          "endpoints": 13960
+        },
+        {
+          "clocks": "phy_dq_sysclk_1        ddrphy_sysclk",
+          "slack_ns": 0.513,
+          "endpoints": 260
+        },
+        {
+          "clocks": "phy_dq_sysclk_0        ddrphy_sysclk",
+          "slack_ns": 0.665,
+          "endpoints": 1
+        },
+        {
+          "clocks": "ddrphy_sysclk          phy_dq_sysclk_0",
+          "slack_ns": 0.455,
+          "endpoints": 196
+        },
+        {
+          "clocks": "ddrphy_sysclk          phy_dq_sysclk_1",
+          "slack_ns": 0.453,
+          "endpoints": 420
+        }
+      ],
+      "Slow Recovery": [
+        {
+          "clocks": "cpu_clk                cpu_clk",
+          "slack_ns": 11.996,
+          "endpoints": 121
+        },
+        {
+          "clocks": "rst_clk                rst_clk",
+          "slack_ns": 5.785,
+          "endpoints": 100
+        },
+        {
+          "clocks": "ddrphy_sysclk          ddrphy_sysclk",
+          "slack_ns": 3.412,
+          "endpoints": 3911
+        }
+      ],
+      "Slow Removal": [
+        {
+          "clocks": "cpu_clk                cpu_clk",
+          "slack_ns": 0.613,
+          "endpoints": 121
+        },
+        {
+          "clocks": "rst_clk                rst_clk",
+          "slack_ns": 0.429,
+          "endpoints": 100
+        },
+        {
+          "clocks": "ddrphy_sysclk          ddrphy_sysclk",
+          "slack_ns": 0.319,
+          "endpoints": 3911
+        }
+      ],
+      "Slow Minimum Pulse Width": [
+        {
+          "clocks": "cpu_clk",
+          "slack_ns": 6.615,
+          "endpoints": 4800
+        },
+        {
+          "clocks": "rst_clk",
+          "slack_ns": 3.8,
+          "endpoints": 101
+        },
+        {
+          "clocks": "ddrphy_sysclk",
+          "slack_ns": 3.8,
+          "endpoints": 3954
+        },
+        {
+          "clocks": "phy_dq_clk_0",
+          "slack_ns": 0.035,
+          "endpoints": 35
+        },
+        {
+          "clocks": "phy_dq_sysclk_0",
+          "slack_ns": 1.85,
+          "endpoints": 35
+        },
+        {
+          "clocks": "phy_dq_clk_1",
+          "slack_ns": 0.035,
+          "endpoints": 84
+        },
+        {
+          "clocks": "phy_dq_sysclk_1",
+          "slack_ns": 2.4,
+          "endpoints": 84
+        }
+      ],
+      "Fast Setup": [
+        {
+          "clocks": "cpu_clk                cpu_clk",
+          "slack_ns": 5.929,
+          "endpoints": 29440
+        },
+        {
+          "clocks": "rst_clk                rst_clk",
+          "slack_ns": 6.02,
+          "endpoints": 417
+        },
+        {
+          "clocks": "ddrphy_sysclk          ddrphy_sysclk",
+          "slack_ns": 3.715,
+          "endpoints": 13960
+        },
+        {
+          "clocks": "phy_dq_sysclk_1        ddrphy_sysclk",
+          "slack_ns": 4.882,
+          "endpoints": 260
+        },
+        {
+          "clocks": "phy_dq_sysclk_0        ddrphy_sysclk",
+          "slack_ns": 5.557,
+          "endpoints": 1
+        },
+        {
+          "clocks": "ddrphy_sysclk          phy_dq_sysclk_0",
+          "slack_ns": 3.863,
+          "endpoints": 196
+        },
+        {
+          "clocks": "ddrphy_sysclk          phy_dq_sysclk_1",
+          "slack_ns": 3.178,
+          "endpoints": 420
+        }
+      ],
+      "Fast Hold": [
+        {
+          "clocks": "cpu_clk                cpu_clk",
+          "slack_ns": 0.1,
+          "endpoints": 29440
+        },
+        {
+          "clocks": "rst_clk                rst_clk",
+          "slack_ns": 0.174,
+          "endpoints": 417
+        },
+        {
+          "clocks": "ddrphy_sysclk          ddrphy_sysclk",
+          "slack_ns": 0.101,
+          "endpoints": 13960
+        },
+        {
+          "clocks": "phy_dq_sysclk_1        ddrphy_sysclk",
+          "slack_ns": 0.1,
+          "endpoints": 260
+        },
+        {
+          "clocks": "phy_dq_sysclk_0        ddrphy_sysclk",
+          "slack_ns": 0.251,
+          "endpoints": 1
+        },
+        {
+          "clocks": "ddrphy_sysclk          phy_dq_sysclk_0",
+          "slack_ns": 0.1,
+          "endpoints": 196
+        },
+        {
+          "clocks": "ddrphy_sysclk          phy_dq_sysclk_1",
+          "slack_ns": 0.1,
+          "endpoints": 420
+        }
+      ],
+      "Fast Recovery": [
+        {
+          "clocks": "cpu_clk                cpu_clk",
+          "slack_ns": 13.298,
+          "endpoints": 121
+        },
+        {
+          "clocks": "rst_clk                rst_clk",
+          "slack_ns": 6.757,
+          "endpoints": 100
+        },
+        {
+          "clocks": "ddrphy_sysclk          ddrphy_sysclk",
+          "slack_ns": 5.4,
+          "endpoints": 3911
+        }
+      ],
+      "Fast Removal": [
+        {
+          "clocks": "cpu_clk                cpu_clk",
+          "slack_ns": 0.402,
+          "endpoints": 121
+        },
+        {
+          "clocks": "rst_clk                rst_clk",
+          "slack_ns": 0.287,
+          "endpoints": 100
+        },
+        {
+          "clocks": "ddrphy_sysclk          ddrphy_sysclk",
+          "slack_ns": 0.213,
+          "endpoints": 3911
+        }
+      ],
+      "Fast Minimum Pulse Width": [
+        {
+          "clocks": "cpu_clk",
+          "slack_ns": 6.92,
+          "endpoints": 4800
+        },
+        {
+          "clocks": "rst_clk",
+          "slack_ns": 3.8,
+          "endpoints": 101
+        },
+        {
+          "clocks": "ddrphy_sysclk",
+          "slack_ns": 3.8,
+          "endpoints": 3954
+        },
+        {
+          "clocks": "phy_dq_clk_0",
+          "slack_ns": 0.035,
+          "endpoints": 35
+        },
+        {
+          "clocks": "phy_dq_sysclk_0",
+          "slack_ns": 1.85,
+          "endpoints": 35
+        },
+        {
+          "clocks": "phy_dq_clk_1",
+          "slack_ns": 0.035,
+          "endpoints": 84
+        },
+        {
+          "clocks": "phy_dq_sysclk_1",
+          "slack_ns": 2.4,
+          "endpoints": 84
+        }
+      ]
+    },
+    "clocks": {
+      "sys_clk": {
+        "period_ns": 37.037,
+        "type": "Declared",
+        "clock_loads": 0,
+        "non_clock_loads": 1,
+        "source": "sys_clk"
+      },
+      "cpu_clk": {
+        "period_ns": 15.1515,
+        "type": "Generated (sys_clk)",
+        "clock_loads": 5255,
+        "non_clock_loads": 0,
+        "source": "u_cpu_clock/u_pll/gpll_inst/CLKOUT0"
+      },
+      "ref_clk": {
+        "period_ns": 8.0,
+        "type": "Declared",
+        "clock_loads": 0,
+        "non_clock_loads": 4,
+        "source": "ddr_ref_clk_p"
+      },
+      "rst_clk": {
+        "period_ns": 8.0,
+        "type": "Generated (ref_clk)",
+        "clock_loads": 121,
+        "non_clock_loads": 0,
+        "source": "u_ddr/u_ip/u_ddrphy_top/rst_clk_gpll/u_gpll/gpll_inst/CLKOUT0"
+      },
+      "ddrphy_sysclk": {
+        "period_ns": 8.0,
+        "type": "Generated (ref_clk)",
+        "clock_loads": 4162,
+        "non_clock_loads": 1,
+        "source": "u_ddr/u_ip/u_ddrphy_top/ddrphy_gpll/u_gpll/gpll_inst/CLKOUT0"
+      },
+      "phy_dq_clk_0": {
+        "period_ns": 1.0,
+        "type": "Generated (ref_clk)",
+        "clock_loads": 35,
+        "non_clock_loads": 1,
+        "source": "u_ddr/u_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_bank[0].ddrphy_ppll/u_ppll/ppll_inst/CLKOUTPHY"
+      },
+      "phy_dq_sysclk_0": {
+        "period_ns": 8.0,
+        "type": "Generated (phy_dq_clk_0)",
+        "clock_loads": 35,
+        "non_clock_loads": 0,
+        "source": "u_ddr/u_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_bank[0].u_ddrphy_ioclkdiv/ddrphy_ioclk_div_inst/CLKOUT"
+      },
+      "phy_dq_clk_1": {
+        "period_ns": 1.0,
+        "type": "Generated (ref_clk)",
+        "clock_loads": 84,
+        "non_clock_loads": 1,
+        "source": "u_ddr/u_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_bank[1].ddrphy_ppll/u_ppll/ppll_inst/CLKOUTPHY"
+      },
+      "phy_dq_sysclk_1": {
+        "period_ns": 8.0,
+        "type": "Generated (phy_dq_clk_1)",
+        "clock_loads": 84,
+        "non_clock_loads": 0,
+        "source": "u_ddr/u_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_bank[1].u_ddrphy_ioclkdiv/ddrphy_ioclk_div_inst/CLKOUT"
+      }
+    },
+    "pins": {
+      "sys_clk": {
+        "pin": "D18",
+        "direction": "input"
+      },
+      "rst_n": {
+        "pin": "C22",
+        "direction": "input"
+      },
+      "led[3]": {
+        "pin": "E18",
+        "direction": "output"
+      },
+      "led[2]": {
+        "pin": "C18",
+        "direction": "output"
+      },
+      "led[1]": {
+        "pin": "C19",
+        "direction": "output"
+      },
+      "led[0]": {
+        "pin": "A20",
+        "direction": "output"
+      },
+      "G_Matrix[2]": {
+        "pin": "K25",
+        "direction": "output"
+      },
+      "SCLK_Matrix[2]": {
+        "pin": "L24",
+        "direction": "output"
+      },
+      "DS_Matrix[1]": {
+        "pin": "M24",
+        "direction": "output"
+      },
+      "DS_Matrix[3]": {
+        "pin": "L22",
+        "direction": "output"
+      },
+      "SCLK_Matrix[0]": {
+        "pin": "P19",
+        "direction": "output"
+      },
+      "G_Matrix[0]": {
+        "pin": "R20",
+        "direction": "output"
+      },
+      "RCK_Matrix[1]": {
+        "pin": "T24",
+        "direction": "output"
+      },
+      "SCLR_Matrix[1]": {
+        "pin": "T22",
+        "direction": "output"
+      },
+      "DS_Matrix[2]": {
+        "pin": "K26",
+        "direction": "output"
+      },
+      "RCK_Matrix[2]": {
+        "pin": "L25",
+        "direction": "output"
+      },
+      "SCLR_Matrix[0]": {
+        "pin": "M25",
+        "direction": "output"
+      },
+      "SCLR_Matrix[2]": {
+        "pin": "L23",
+        "direction": "output"
+      },
+      "RCK_Matrix[0]": {
+        "pin": "N19",
+        "direction": "output"
+      },
+      "DS_Matrix[0]": {
+        "pin": "R21",
+        "direction": "output"
+      },
+      "G_Matrix[1]": {
+        "pin": "T25",
+        "direction": "output"
+      },
+      "SCLK_Matrix[1]": {
+        "pin": "R22",
+        "direction": "output"
+      },
+      "uart_tx": {
+        "pin": "AB26",
+        "direction": "output"
+      },
+      "RCK_Matrix[3]": {
+        "pin": "Y25",
+        "direction": "output"
+      },
+      "SCLR_Matrix[3]": {
+        "pin": "AA24",
+        "direction": "output"
+      },
+      "uart_rx": {
+        "pin": "AC26",
+        "direction": "input"
+      },
+      "G_Matrix[3]": {
+        "pin": "AA25",
+        "direction": "output"
+      },
+      "SCLK_Matrix[3]": {
+        "pin": "AB25",
+        "direction": "output"
+      },
+      "mem_dq[13]": {
+        "pin": "E6",
+        "direction": "inout"
+      },
+      "mem_dq[10]": {
+        "pin": "H8",
+        "direction": "inout"
+      },
+      "mem_dqs[1]": {
+        "pin": "H7",
+        "direction": "inout"
+      },
+      "mem_dq[9]": {
+        "pin": "F8",
+        "direction": "inout"
+      },
+      "mem_dq[8]": {
+        "pin": "H6",
+        "direction": "inout"
+      },
+      "mem_dq[14]": {
+        "pin": "H9",
+        "direction": "inout"
+      },
+      "mem_dq[1]": {
+        "pin": "J6",
+        "direction": "inout"
+      },
+      "mem_dq[3]": {
+        "pin": "L8",
+        "direction": "inout"
+      },
+      "mem_dqs[0]": {
+        "pin": "J4",
+        "direction": "inout"
+      },
+      "mem_dq[5]": {
+        "pin": "K7",
+        "direction": "inout"
+      },
+      "mem_dq[4]": {
+        "pin": "G4",
+        "direction": "inout"
+      },
+      "mem_dq[0]": {
+        "pin": "G5",
+        "direction": "inout"
+      },
+      "mem_dq[17]": {
+        "pin": "D4",
+        "direction": "inout"
+      },
+      "mem_dqs[2]": {
+        "pin": "B5",
+        "direction": "inout"
+      },
+      "mem_dq[22]": {
+        "pin": "B4",
+        "direction": "inout"
+      },
+      "mem_dq[23]": {
+        "pin": "D3",
+        "direction": "inout"
+      },
+      "mem_dq[21]": {
+        "pin": "F3",
+        "direction": "inout"
+      },
+      "mem_dq[31]": {
+        "pin": "C2",
+        "direction": "inout"
+      },
+      "mem_dq[29]": {
+        "pin": "A3",
+        "direction": "inout"
+      },
+      "mem_dqs[3]": {
+        "pin": "C1",
+        "direction": "inout"
+      },
+      "mem_dq[24]": {
+        "pin": "F2",
+        "direction": "inout"
+      },
+      "mem_dq[28]": {
+        "pin": "E1",
+        "direction": "inout"
+      },
+      "mem_dq[30]": {
+        "pin": "G2",
+        "direction": "inout"
+      },
+      "mem_dq[11]": {
+        "pin": "D6",
+        "direction": "inout"
+      },
+      "mem_dq[12]": {
+        "pin": "G8",
+        "direction": "inout"
+      },
+      "mem_dqs_n[1]": {
+        "pin": "G7",
+        "direction": "inout"
+      },
+      "mem_dm[1]": {
+        "pin": "F7",
+        "direction": "output"
+      },
+      "mem_dq[15]": {
+        "pin": "G6",
+        "direction": "inout"
+      },
+      "mem_dq[7]": {
+        "pin": "J5",
+        "direction": "inout"
+      },
+      "mem_dqs_n[0]": {
+        "pin": "H4",
+        "direction": "inout"
+      },
+      "mem_dm[0]": {
+        "pin": "K6",
+        "direction": "output"
+      },
+      "mem_dq[6]": {
+        "pin": "F4",
+        "direction": "inout"
+      },
+      "mem_dq[2]": {
+        "pin": "F5",
+        "direction": "inout"
+      },
+      "mem_dm[2]": {
+        "pin": "D5",
+        "direction": "output"
+      },
+      "mem_dq[16]": {
+        "pin": "C4",
+        "direction": "inout"
+      },
+      "mem_dqs_n[2]": {
+        "pin": "A5",
+        "direction": "inout"
+      },
+      "mem_dq[18]": {
+        "pin": "A4",
+        "direction": "inout"
+      },
+      "mem_dq[20]": {
+        "pin": "C3",
+        "direction": "inout"
+      },
+      "mem_dq[19]": {
+        "pin": "E3",
+        "direction": "inout"
+      },
+      "mem_dq[27]": {
+        "pin": "A2",
+        "direction": "inout"
+      },
+      "mem_dqs_n[3]": {
+        "pin": "B1",
+        "direction": "inout"
+      },
+      "mem_dm[3]": {
+        "pin": "E2",
+        "direction": "output"
+      },
+      "mem_dq[25]": {
+        "pin": "D1",
+        "direction": "inout"
+      },
+      "mem_dq[26]": {
+        "pin": "G1",
+        "direction": "inout"
+      },
+      "mem_a[7]": {
+        "pin": "K1",
+        "direction": "output"
+      },
+      "mem_a[1]": {
+        "pin": "L3",
+        "direction": "output"
+      },
+      "mem_a[14]": {
+        "pin": "N1",
+        "direction": "output"
+      },
+      "mem_odt": {
+        "pin": "H2",
+        "direction": "output"
+      },
+      "mem_a[13]": {
+        "pin": "M2",
+        "direction": "output"
+      },
+      "ddr_ref_clk_p": {
+        "pin": "N3",
+        "direction": "input"
+      },
+      "mem_ba[0]": {
+        "pin": "P4",
+        "direction": "output"
+      },
+      "mem_cke": {
+        "pin": "R1",
+        "direction": "output"
+      },
+      "mem_a[12]": {
+        "pin": "T4",
+        "direction": "output"
+      },
+      "mem_a[4]": {
+        "pin": "T2",
+        "direction": "output"
+      },
+      "mem_a[8]": {
+        "pin": "U2",
+        "direction": "output"
+      },
+      "mem_ras_n": {
+        "pin": "P6",
+        "direction": "output"
+      },
+      "mem_ba[2]": {
+        "pin": "T5",
+        "direction": "output"
+      },
+      "mem_ck": {
+        "pin": "U6",
+        "direction": "output"
+      },
+      "mem_we_n": {
+        "pin": "T8",
+        "direction": "output"
+      },
+      "mem_a[0]": {
+        "pin": "J1",
+        "direction": "output"
+      },
+      "mem_a[9]": {
+        "pin": "K2",
+        "direction": "output"
+      },
+      "mem_a[5]": {
+        "pin": "M1",
+        "direction": "output"
+      },
+      "mem_rst_n": {
+        "pin": "H1",
+        "direction": "output"
+      },
+      "mem_a[2]": {
+        "pin": "L2",
+        "direction": "output"
+      },
+      "ddr_ref_clk_n": {
+        "pin": "N2",
+        "direction": "input"
+      },
+      "mem_a[3]": {
+        "pin": "P3",
+        "direction": "output"
+      },
+      "mem_cs_n": {
+        "pin": "N4",
+        "direction": "output"
+      },
+      "mem_a[11]": {
+        "pin": "P1",
+        "direction": "output"
+      },
+      "mem_a[10]": {
+        "pin": "T3",
+        "direction": "output"
+      },
+      "mem_ba[1]": {
+        "pin": "R2",
+        "direction": "output"
+      },
+      "mem_a[6]": {
+        "pin": "U1",
+        "direction": "output"
+      },
+      "mem_ck_n": {
+        "pin": "U5",
+        "direction": "output"
+      },
+      "mem_cas_n": {
+        "pin": "T7",
+        "direction": "output"
+      }
+    },
+    "pin_report_sha256": "417271374185fee5433f86a29c68f34c2f50bd51d7d59db9f2f32d3ef60dc9e5",
+    "no_new_internal_unconstrained_warnings": true,
+    "unchanged_constraint_object_warnings": [
+      "W: ConstraintEditor-4040: Port p:DS_Matrix[0] has been placed at location R21, whose type is share pin.",
+      "W: ConstraintEditor-4040: Port p:DS_Matrix[1] has been placed at location M24, whose type is share pin.",
+      "W: ConstraintEditor-4040: Port p:DS_Matrix[2] has been placed at location K26, whose type is share pin.",
+      "W: ConstraintEditor-4040: Port p:G_Matrix[0] has been placed at location R20, whose type is share pin.",
+      "W: ConstraintEditor-4040: Port p:G_Matrix[1] has been placed at location T25, whose type is share pin.",
+      "W: ConstraintEditor-4040: Port p:G_Matrix[2] has been placed at location K25, whose type is share pin.",
+      "W: ConstraintEditor-4040: Port p:RCK_Matrix[0] has been placed at location N19, whose type is share pin.",
+      "W: ConstraintEditor-4040: Port p:RCK_Matrix[2] has been placed at location L25, whose type is share pin.",
+      "W: ConstraintEditor-4040: Port p:SCLK_Matrix[0] has been placed at location P19, whose type is share pin.",
+      "W: ConstraintEditor-4040: Port p:SCLK_Matrix[1] has been placed at location R22, whose type is share pin.",
+      "W: ConstraintEditor-4040: Port p:SCLR_Matrix[0] has been placed at location M25, whose type is share pin.",
+      "W: ConstraintEditor-4040: Port p:SCLR_Matrix[1] has been placed at location T22, whose type is share pin.",
+      "W: ConstraintEditor-4040: Port p:mem_dm[0] has been placed at location K6, whose type is share pin.",
+      "W: ConstraintEditor-4040: Port p:mem_dq[10] has been placed at location H8, whose type is share pin.",
+      "W: ConstraintEditor-4040: Port p:mem_dq[11] has been placed at location D6, whose type is share pin.",
+      "W: ConstraintEditor-4040: Port p:mem_dq[12] has been placed at location G8, whose type is share pin.",
+      "W: ConstraintEditor-4040: Port p:mem_dq[13] has been placed at location E6, whose type is share pin.",
+      "W: ConstraintEditor-4040: Port p:mem_dq[15] has been placed at location G6, whose type is share pin.",
+      "W: ConstraintEditor-4040: Port p:mem_dq[1] has been placed at location J6, whose type is share pin.",
+      "W: ConstraintEditor-4040: Port p:mem_dq[3] has been placed at location L8, whose type is share pin.",
+      "W: ConstraintEditor-4040: Port p:mem_dq[5] has been placed at location K7, whose type is share pin.",
+      "W: ConstraintEditor-4040: Port p:mem_dq[7] has been placed at location J5, whose type is share pin.",
+      "W: ConstraintEditor-4040: Port p:mem_dq[8] has been placed at location H6, whose type is share pin.",
+      "W: ConstraintEditor-4040: Port p:mem_dqs[0] has been placed at location J4, whose type is share pin.",
+      "W: ConstraintEditor-4040: Port p:mem_dqs[1] has been placed at location H7, whose type is share pin.",
+      "W: ConstraintEditor-4040: Port p:mem_dqs_n[0] has been placed at location H4, whose type is share pin.",
+      "W: ConstraintEditor-4040: Port p:mem_dqs_n[1] has been placed at location G7, whose type is share pin."
+    ],
+    "known_external_ports_without_IO_delays": [
+      "DS_Matrix[0]",
+      "DS_Matrix[1]",
+      "DS_Matrix[2]",
+      "DS_Matrix[3]",
+      "G_Matrix[0]",
+      "G_Matrix[1]",
+      "G_Matrix[2]",
+      "G_Matrix[3]",
+      "RCK_Matrix[0]",
+      "RCK_Matrix[1]",
+      "RCK_Matrix[2]",
+      "RCK_Matrix[3]",
+      "SCLK_Matrix[0]",
+      "SCLK_Matrix[1]",
+      "SCLK_Matrix[2]",
+      "SCLK_Matrix[3]",
+      "SCLR_Matrix[0]",
+      "SCLR_Matrix[1]",
+      "SCLR_Matrix[2]",
+      "SCLR_Matrix[3]",
+      "led[0]",
+      "led[1]",
+      "led[2]",
+      "led[3]",
+      "mem_a[0]",
+      "mem_a[10]",
+      "mem_a[11]",
+      "mem_a[12]",
+      "mem_a[13]",
+      "mem_a[14]",
+      "mem_a[1]",
+      "mem_a[2]",
+      "mem_a[3]",
+      "mem_a[4]",
+      "mem_a[5]",
+      "mem_a[6]",
+      "mem_a[7]",
+      "mem_a[8]",
+      "mem_a[9]",
+      "mem_ba[0]",
+      "mem_ba[1]",
+      "mem_ba[2]",
+      "mem_cas_n",
+      "mem_ck",
+      "mem_ck_n",
+      "mem_cke",
+      "mem_cs_n",
+      "mem_dm[0]",
+      "mem_dm[1]",
+      "mem_dm[2]",
+      "mem_dm[3]",
+      "mem_dq[0]",
+      "mem_dq[10]",
+      "mem_dq[11]",
+      "mem_dq[12]",
+      "mem_dq[13]",
+      "mem_dq[14]",
+      "mem_dq[15]",
+      "mem_dq[16]",
+      "mem_dq[17]",
+      "mem_dq[18]",
+      "mem_dq[19]",
+      "mem_dq[1]",
+      "mem_dq[20]",
+      "mem_dq[21]",
+      "mem_dq[22]",
+      "mem_dq[23]",
+      "mem_dq[24]",
+      "mem_dq[25]",
+      "mem_dq[26]",
+      "mem_dq[27]",
+      "mem_dq[28]",
+      "mem_dq[29]",
+      "mem_dq[2]",
+      "mem_dq[30]",
+      "mem_dq[31]",
+      "mem_dq[3]",
+      "mem_dq[4]",
+      "mem_dq[5]",
+      "mem_dq[6]",
+      "mem_dq[7]",
+      "mem_dq[8]",
+      "mem_dq[9]",
+      "mem_dqs[0]",
+      "mem_dqs[1]",
+      "mem_dqs[2]",
+      "mem_dqs[3]",
+      "mem_dqs_n[0]",
+      "mem_dqs_n[1]",
+      "mem_dqs_n[2]",
+      "mem_dqs_n[3]",
+      "mem_odt",
+      "mem_ras_n",
+      "mem_rst_n",
+      "mem_we_n",
+      "rst_n",
+      "uart_rx",
+      "uart_tx"
+    ],
+    "ddr_payload_boundaries": {
+      "exception_report_sha256": "7f4f9fb6bf1a9123bed49c73e1455153cbc18cf5fa1db431134a30f720780b99",
+      "request_max_ns": 8,
+      "response_max_ns": 20,
+      "request_paths": [
+        {
+          "start": "u_ddr/u_bridge/request_data[23]/opit_0/Q",
+          "end": "u_ddr/u_bridge/data_latched[63]/opit_0/D",
+          "corner": "slow",
+          "slack_ns": 3.672
+        },
+        {
+          "start": "u_ddr/u_bridge/request_data[23]/opit_0/Q",
+          "end": "u_ddr/u_bridge/data_latched[31]/opit_0/D",
+          "corner": "slow",
+          "slack_ns": 3.686
+        },
+        {
+          "start": "u_ddr/u_bridge/request_data[23]/opit_0/Q",
+          "end": "u_ddr/u_bridge/data_latched[255]/opit_0/D",
+          "corner": "slow",
+          "slack_ns": 3.768
+        },
+        {
+          "start": "u_ddr/u_bridge/request_data[23]/opit_0/Q",
+          "end": "u_ddr/u_bridge/data_latched[31]/opit_0/D",
+          "corner": "fast",
+          "slack_ns": 5.465
+        },
+        {
+          "start": "u_ddr/u_bridge/request_data[23]/opit_0/Q",
+          "end": "u_ddr/u_bridge/data_latched[63]/opit_0/D",
+          "corner": "fast",
+          "slack_ns": 5.467
+        },
+        {
+          "start": "u_ddr/u_bridge/request_data[23]/opit_0/Q",
+          "end": "u_ddr/u_bridge/data_latched[255]/opit_0/D",
+          "corner": "fast",
+          "slack_ns": 5.513
+        }
+      ],
+      "response_paths": [
+        {
+          "start": "u_ddr/u_bridge/response_data[0]/opit_0/Q",
+          "end": "u_ddr/u_bridge/rsp_rdata[0]/opit_0/D",
+          "corner": "slow",
+          "slack_ns": 17.744
+        },
+        {
+          "start": "u_ddr/u_bridge/response_data[28]/opit_0/Q",
+          "end": "u_ddr/u_bridge/rsp_rdata[28]/opit_0/D",
+          "corner": "slow",
+          "slack_ns": 18.079
+        },
+        {
+          "start": "u_ddr/u_bridge/response_data[4]/opit_0/Q",
+          "end": "u_ddr/u_bridge/rsp_rdata[4]/opit_0/D",
+          "corner": "slow",
+          "slack_ns": 18.186
+        },
+        {
+          "start": "u_ddr/u_bridge/response_data[0]/opit_0/Q",
+          "end": "u_ddr/u_bridge/rsp_rdata[0]/opit_0/D",
+          "corner": "fast",
+          "slack_ns": 18.723
+        },
+        {
+          "start": "u_ddr/u_bridge/response_data[28]/opit_0/Q",
+          "end": "u_ddr/u_bridge/rsp_rdata[28]/opit_0/D",
+          "corner": "fast",
+          "slack_ns": 18.916
+        },
+        {
+          "start": "u_ddr/u_bridge/response_data[4]/opit_0/Q",
+          "end": "u_ddr/u_bridge/rsp_rdata[4]/opit_0/D",
+          "corner": "fast",
+          "slack_ns": 18.966
+        }
+      ]
+    },
+    "resources": {
+      "LUT": 13394,
+      "FF": 10919,
+      "Distributed RAM": 260,
+      "APM": 8,
+      "DRM": 51,
+      "ADC": 0,
+      "ANALOG": 0,
+      "CCS": 1,
+      "DDRPHY_CPD": 1,
+      "DDRPHY_IOCLK_DIV": 2,
+      "DDR_PHY": 7,
+      "GCLK_INBUF_SYN": 0,
+      "GPLL": 3,
+      "HCKB": 0,
+      "HSSTLP": 0,
+      "IO": 101,
+      "IOCKB": 0,
+      "KEYRAM": 0,
+      "MRCKB": 1,
+      "PCIE": 0,
+      "PPLL": 2,
+      "RCKB": 2,
+      "SCANCHAIN": 0,
+      "TSERDES": 14,
+      "USCM": 3
+    }
+  },
+  "bitstream_sha256": "b122142a3c4ba8937854628d858bda3c743fbdb3d5d47cad975ec4fa9c856e22",
+  "limitations": [
+    "Known external asynchronous IO lacks full input/output delay constraints.",
+    "This audit does not replace long RTL, matrix netlist equivalence, or physical-board validation."
+  ]
+}

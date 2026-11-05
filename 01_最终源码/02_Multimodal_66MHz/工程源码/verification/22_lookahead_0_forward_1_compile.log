@@ -1,0 +1,2 @@
+D:\codex_rv32_advanced_20261028\sim\tb_cache_lookahead.v:24: warning: Instantiating module cache_2way with dangling input port 26 (preview_valid) floating.
+D:\codex_rv32_advanced_20261028\sim\tb_cache_lookahead.v:24: warning: Instantiating module cache_2way with dangling input port 27 (preview_addr) floating.

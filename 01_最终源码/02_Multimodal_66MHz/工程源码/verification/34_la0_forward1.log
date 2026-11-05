@@ -1,0 +1,3 @@
+PASS CACHE_LOOKAHEAD lookahead=0 forward=1 checks=196 stream_requests=128 stream_cycles=256 cold_wait=5
+EQUIVALENCE cycles=528 handshakes=192 idle_data_differences=0
+D:\codex_rv32_advanced_20261028\reports\maxperf_20261103\icache_data_decouple\equivalence\tb_cache_lookahead_equivalence.v:172: $finish called at 5330000 (1ps)

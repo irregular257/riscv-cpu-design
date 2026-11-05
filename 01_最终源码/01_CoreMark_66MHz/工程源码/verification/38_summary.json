@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "combinational_assignments": 262144,
+  "runs": [
+    {
+      "lookahead": 0,
+      "refill_forward": 0,
+      "cycles": 551,
+      "handshakes": 192,
+      "idle_data_differences": 0
+    },
+    {
+      "lookahead": 0,
+      "refill_forward": 1,
+      "cycles": 528,
+      "handshakes": 192,
+      "idle_data_differences": 0
+    },
+    {
+      "lookahead": 1,
+      "refill_forward": 1,
+      "cycles": 378,
+      "handshakes": 192,
+      "idle_data_differences": 45
+    }
+  ],
+  "old_sha256": "98aa6b1ba03e566589467434c7c150c06878e6f0abadf1ec5907da9b8dda2c4b",
+  "new_sha256": "1638fea389f5d18a755e145a7097ca153d7374dbaea9fb0f1140476bc0408ac9",
+  "scope": "Exhaustive Boolean mux implication plus lockstep RTL regression; no PDS timing or physical board result implied.",
+  "proof": "Only I-cache rdata mux selection changes. When req_valid && ready in S_IDLE, lookahead_hit must be true, so speculative data selection is true and identical. In other states selection is false; D-cache selection always false. All sequential logic and ready/error equations are unchanged.",
+  "consumer": "cpu_core fetch_keep gates id_inst capture and predicted branch redirect; a non-handshake rdata change cannot become an architectural instruction."
+}

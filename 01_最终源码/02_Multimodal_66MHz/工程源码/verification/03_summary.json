@@ -1,0 +1,49 @@
+{
+  "result": "PASS_USER_REPORTED_BOARD_LOG",
+  "source": "User-supplied remote board UART log in this conversation, 2026-11-03 20:00:13.354 to 20:00:42.093 Asia/Shanghai",
+  "raw_log": "user_uart.log",
+  "observed_directly_by_agent": false,
+  "board_context": "Remote experiment box 5 / PG2L200H-6 FBB676",
+  "cpu_hz": 27000000,
+  "clock_source": "Existing delivered build configuration; start banner was not included in this pasted excerpt",
+  "iterations": 1000,
+  "coremark_size_per_algorithm": 666,
+  "total_ticks": 1122496199,
+  "reported_seconds": 41.573933,
+  "reported_coremark": 24.053533,
+  "calculated_seconds_from_ticks": 41.573933296296296,
+  "calculated_coremark_from_ticks": 24.053533565684706,
+  "coremark_per_mhz": 0.8908715925925926,
+  "compiler": "GCC 15.2.0",
+  "compiler_flags": "-O2 -march=rv32i -mabi=ilp32 -msmall-data-limit=0 -ffreestanding -fno-builtin -fno-common -ffunction-sections -fdata-sections",
+  "memory_location": "Static RAM, actual advanced_soc 2-way I/D cache, memory:core 1:1",
+  "crc": {
+    "seedcrc": "e9f5",
+    "crclist": "e714",
+    "crcmatrix": "1fd7",
+    "crcstate": "8e3a",
+    "crcfinal": "d340"
+  },
+  "official_validation_text_present": true,
+  "runtime_at_least_10_seconds": true,
+  "crc_matches_validated_1000_iteration_rtl": true,
+  "firmware_identity": {
+    "compiler_isa_iterations_match_delivered_build": true,
+    "uploaded_bitstream_filename_and_hash_independently_confirmed": false
+  },
+  "previous_user_report": {
+    "coremark": 22.33371,
+    "seconds": 44.775352,
+    "full_crc_and_validation_available": false,
+    "score_increase_percent": 7.7005701247128355,
+    "elapsed_time_reduction_percent": 7.14995830741878,
+    "scope": "Descriptive comparison of two user-reported runs; earlier run lacks full validation and firmware/log formatting differs, so not a controlled same-ELF hardware-only comparison"
+  },
+  "notes": [
+    "HTML numeric entities and Markdown escapes are preserved in the raw copied log; they represent webpage text formatting, not evidence of UART bit corruption in this run.",
+    "CoreMark Size 666 is expected for each of three algorithms in the standard 2K workload.",
+    "This board record is separate from the gap0 RTL simulation result; no simulation values were substituted for missing board output.",
+    "The earlier GCC 13.2.0 / RV32IM / 997-iteration log is not used as evidence for this result.",
+    "This record does not establish the cause of earlier anomalous serial data or validate the physical dot-matrix display."
+  ]
+}

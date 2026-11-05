@@ -1,0 +1,8 @@
+Generated with the built-in image_gen tool (2026-11-03).
+Output: 数字5_清晰版.png
+Purpose: replace the visually ambiguous digit-5 test sample with an unambiguous 5.
+
+Prompt:
+Create ONE simple grayscale test image for handwritten-digit recognition. An unmistakable Arabic numeral "5", centered, white thick strokes on a completely solid black square background, in the style of a clean MNIST digit. It must clearly read as 5 to an ordinary human: a straight horizontal top bar; a short vertical stem descending at the LEFT from the top bar to the middle; a middle stroke leading RIGHT; then a rounded lower bowl curving downward and back toward the LEFT. The upper half must stay OPEN on the right. No upper loop, no detached top bar, no closed oval that could make it look like a 6, no S-shaped upper curve. One connected, clear, simple glyph, mildly handwritten, about 70 percent of canvas height, centered with generous black margins, stroke width around 8 percent of canvas width. Monochrome black and white with only slight grayscale edge smoothing. Flat 2D front view. No other digit, text, label, frame, grid, bounding box, shadow, glow, decoration, paper, or watermark. Produce a crisp square PNG suitable for subsequently importing into a 28x28 digit-testing tool.
+
+This is a generated source image, not an FPGA inference result. Import it into the existing image-serial tool to prepare the model's input frame.

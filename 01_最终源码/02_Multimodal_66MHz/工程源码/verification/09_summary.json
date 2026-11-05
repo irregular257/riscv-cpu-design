@@ -1,0 +1,93 @@
+{
+  "result": "PASS_PIN_STREAM_REAL_CLOCK_DIVISORS",
+  "scope": "Full compiled timed RTL pin-stream oracle at actual default divisors; no post-route/physical board claim",
+  "clock_hz_parameter": 66000000,
+  "scan_interval_cycles": 66000,
+  "serial_div": 66,
+  "frame_cycles": 1056016,
+  "frame_seconds_nominal": 0.016000242424242424,
+  "frame_hz_nominal": 62.499053044650836,
+  "serial_clock_hz_nominal": 500000.0,
+  "simulation": {
+    "checks": 249460492,
+    "frames": 67,
+    "latches": 1034,
+    "full_on": 1036992,
+    "low1_on": 4112,
+    "half_on": 526336
+  },
+  "unchanged_sources_sha256": {
+    "multimodal\\rtl\\matrix_display.v": "40ed803d1d1c879e5e3736396092c531bf1f9a77cc0dcd553d56a6380dbb5533",
+    "multimodal\\sim\\tb_matrix_display.v": "88d070ac8482f2a2fff46ce8cd86fd620e81bdd0588af548799462d785c395fd"
+  },
+  "original_tb_sha256": "88d070ac8482f2a2fff46ce8cd86fd620e81bdd0588af548799462d785c395fd",
+  "adapted_tb_sha256": "3df6ce7e09a5412d6ddb57a4a653d4a291110a2265e77dd7be55899f45fb3916",
+  "rtl_sha256": "40ed803d1d1c879e5e3736396092c531bf1f9a77cc0dcd553d56a6380dbb5533",
+  "coverage": [
+    "17 exact glyphs and full four arrows",
+    "all 16 physical columns",
+    "four 595 streams and setup/blanking",
+    "frame-atomic update",
+    "PWM 0/1/128/255",
+    "in-flight shift/dwell resets",
+    "MMIO validation and full scan period"
+  ],
+  "commands": [
+    [
+      "D:\\codex_rv32_advanced_20261028\\tools\\oss-cad-suite\\bin\\verilator_bin.exe",
+      "--cc",
+      "--timing",
+      "--main",
+      "--top-module",
+      "tb_matrix_display",
+      "--Mdir",
+      "reports\\maxperf_20261103\\matrix_66000000\\verilator\\obj",
+      "-Wno-fatal",
+      "reports\\maxperf_20261103\\matrix_66000000\\matrix_display.v",
+      "reports\\maxperf_20261103\\matrix_66000000\\tb_matrix_display.v"
+    ],
+    [
+      "C:\\Users\\yh21t\\.codex\\tmp\\rv32-host-gcc-20261028\\bin\\g++.exe",
+      "-std=c++20",
+      "-O2",
+      "-pthread",
+      "-DVL_TIME_CONTEXT",
+      "-ID:\\codex_rv32_advanced_20261028\\reports\\maxperf_20261103\\matrix_66000000\\verilator\\obj",
+      "-ID:\\codex_rv32_advanced_20261028\\tools\\oss-cad-suite\\share\\verilator\\include",
+      "-ID:\\codex_rv32_advanced_20261028\\tools\\oss-cad-suite\\share\\verilator\\include\\vltstd",
+      "D:\\codex_rv32_advanced_20261028\\reports\\maxperf_20261103\\matrix_66000000\\verilator\\obj\\Vtb_matrix_display.cpp",
+      "D:\\codex_rv32_advanced_20261028\\reports\\maxperf_20261103\\matrix_66000000\\verilator\\obj\\Vtb_matrix_display___024root__0.cpp",
+      "D:\\codex_rv32_advanced_20261028\\reports\\maxperf_20261103\\matrix_66000000\\verilator\\obj\\Vtb_matrix_display___024root__0__Slow.cpp",
+      "D:\\codex_rv32_advanced_20261028\\reports\\maxperf_20261103\\matrix_66000000\\verilator\\obj\\Vtb_matrix_display___024root__Slow.cpp",
+      "D:\\codex_rv32_advanced_20261028\\reports\\maxperf_20261103\\matrix_66000000\\verilator\\obj\\Vtb_matrix_display__ConstPool__0__Slow.cpp",
+      "D:\\codex_rv32_advanced_20261028\\reports\\maxperf_20261103\\matrix_66000000\\verilator\\obj\\Vtb_matrix_display__main.cpp",
+      "D:\\codex_rv32_advanced_20261028\\reports\\maxperf_20261103\\matrix_66000000\\verilator\\obj\\Vtb_matrix_display__Syms__Slow.cpp",
+      "D:\\codex_rv32_advanced_20261028\\tools\\oss-cad-suite\\share\\verilator\\include\\verilated.cpp",
+      "D:\\codex_rv32_advanced_20261028\\tools\\oss-cad-suite\\share\\verilator\\include\\verilated_threads.cpp",
+      "D:\\codex_rv32_advanced_20261028\\tools\\oss-cad-suite\\share\\verilator\\include\\verilated_timing.cpp",
+      "-o",
+      "D:\\codex_rv32_advanced_20261028\\reports\\maxperf_20261103\\matrix_66000000\\verilator\\matrix.exe"
+    ],
+    [
+      "D:\\codex_rv32_advanced_20261028\\reports\\maxperf_20261103\\matrix_66000000\\verilator\\matrix.exe"
+    ]
+  ],
+  "stages": [
+    {
+      "stage": "verilator",
+      "returncode": 0,
+      "wall_seconds": 0.2960000000020955
+    },
+    {
+      "stage": "compile",
+      "returncode": 0,
+      "wall_seconds": 70.01599999999598
+    },
+    {
+      "stage": "simulation",
+      "returncode": 0,
+      "wall_seconds": 345.234000000004
+    }
+  ],
+  "wall_seconds": 415.5460000000021
+}

@@ -1,0 +1,34 @@
+{
+  "evidence_source": "User-supplied remote-board console transcript; user explicitly confirmed 66 MHz. Not a direct serial capture by the assistant.",
+  "timestamp_label": "2026-11-03 22:47 Asia/Shanghai",
+  "clock_hz": 66000000,
+  "clock_source": "User-confirmed intended CPU frequency; not an independent physical clock measurement",
+  "iterations": 2000,
+  "ticks": 726304994,
+  "printed_time_s": "11.004621",
+  "printed_coremark": "181.741831",
+  "time_s": 11.004621121212121,
+  "coremark_recomputed": 181.74183172420814,
+  "coremark_per_mhz": 2.753664117033457,
+  "lut_count": 8071,
+  "coremark_per_lut": 0.02251788275606593,
+  "resource_source": "Published main 66 MHz CoreMark PDS build, 8071 LUT. Transcript alone does not independently identify a bitstream SHA.",
+  "crc": {
+    "seedcrc": "0xe9f5",
+    "crclist": "0xe714",
+    "crcmatrix": "0x1fd7",
+    "crcstate": "0x8e3a",
+    "crcfinal": "0x4983"
+  },
+  "correct_operation_validated": true,
+  "runtime_at_least_10s": true,
+  "rtl_comparison": {
+    "ticks": 726304996,
+    "board_minus_rtl_ticks": -2,
+    "difference_ns": -30.303030303030305,
+    "cause": "Not established by this transcript; not attributed to printf truncation."
+  },
+  "board_run_scope": "One reported 66 MHz CoreMark performance run. Not long-term stability, Fmax scan, full multimodal application or 60 MHz resource variant acceptance.",
+  "raw_sha256": "d89b68a89e4b8277465b9f81bdbabe81f978574140e1657efa40a5ba0b02850a",
+  "prior_release_manifests": "Preserved as historical snapshots; new physical evidence recorded separately."
+}

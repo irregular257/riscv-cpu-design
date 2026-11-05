@@ -1,0 +1,106 @@
+{
+  "status": "PASS_GLYPH_CONES",
+  "scope": "Vendor-primitives functional gate-level glyph-load cone; not timing or full sequential simulation",
+  "source_netlist": "D:\\codex_rv32_advanced_20261028\\reports\\maxperf_20261103\\pds_decouple66_multimodal\\work\\synthesize\\multimodal_top_syn.vm",
+  "source_netlist_sha256": "7142c43df446b61a2f7a9cf8e7c103e058784d3498c1316d00c66862a5b35dcf",
+  "golden_source": "D:\\\u57fa\u4e8eRISCV\u6307\u4ee4\u96c6CPU\u8bbe\u8ba1\\remote_pg2l200h\\advanced\\multimodal\\sim\\tb_matrix_display.v",
+  "golden_sha256": "88d070ac8482f2a2fff46ce8cd86fd620e81bdd0588af548799462d785c395fd",
+  "words_checked": 272,
+  "mismatch_count": 0,
+  "unknown_words": 0,
+  "folded_bit0": {
+    "method": "Actual successor-register D cone in SHIFT_HIGH, at all-zero/all-one shift state",
+    "checks": 544
+  },
+  "expect_mismatch": false,
+  "verification_passed": true,
+  "exit_code": 0,
+  "glyphs": {
+    "0": {
+      "left_pixels": 38,
+      "right_pixels": 38,
+      "mismatched_columns": 0
+    },
+    "1": {
+      "left_pixels": 22,
+      "right_pixels": 18,
+      "mismatched_columns": 0
+    },
+    "2": {
+      "left_pixels": 26,
+      "right_pixels": 30,
+      "mismatched_columns": 0
+    },
+    "3": {
+      "left_pixels": 26,
+      "right_pixels": 34,
+      "mismatched_columns": 0
+    },
+    "4": {
+      "left_pixels": 20,
+      "right_pixels": 36,
+      "mismatched_columns": 0
+    },
+    "5": {
+      "left_pixels": 38,
+      "right_pixels": 30,
+      "mismatched_columns": 0
+    },
+    "6": {
+      "left_pixels": 38,
+      "right_pixels": 26,
+      "mismatched_columns": 0
+    },
+    "7": {
+      "left_pixels": 24,
+      "right_pixels": 20,
+      "mismatched_columns": 0
+    },
+    "8": {
+      "left_pixels": 34,
+      "right_pixels": 34,
+      "mismatched_columns": 0
+    },
+    "9": {
+      "left_pixels": 26,
+      "right_pixels": 38,
+      "mismatched_columns": 0
+    },
+    "10": {
+      "left_pixels": 33,
+      "right_pixels": 33,
+      "mismatched_columns": 0
+    },
+    "11": {
+      "left_pixels": 33,
+      "right_pixels": 33,
+      "mismatched_columns": 0
+    },
+    "12": {
+      "left_pixels": 42,
+      "right_pixels": 24,
+      "mismatched_columns": 0
+    },
+    "13": {
+      "left_pixels": 24,
+      "right_pixels": 42,
+      "mismatched_columns": 0
+    },
+    "14": {
+      "left_pixels": 14,
+      "right_pixels": 22,
+      "mismatched_columns": 0
+    },
+    "15": {
+      "left_pixels": 0,
+      "right_pixels": 0,
+      "mismatched_columns": 0
+    },
+    "16": {
+      "left_pixels": 38,
+      "right_pixels": 38,
+      "mismatched_columns": 0
+    }
+  },
+  "mismatches": []
+}

@@ -1,0 +1,21 @@
+﻿串口图片工具示例来源
+
+本目录仅复制既有请求/回包并确定性还原像素，没有使用AI生成图像，也没有重新运行识别模型。
+“图片请求”有1036字节：10字节头部 + 1024字节32×32灰度像素 + 2字节CRC。
+“识别回包”有22字节，来自用户此前粘贴的实板串口数据，包含类别、框和耗时，不包含图片像素。
+还原32×32 PNG来自请求的第10..1033号字节（从0计数），把0..16灰度映射为0..255便于查看。
+还原28×28 PNG裁掉四边各2像素的零填充，不放大、不插值；它是传输的量化像素，并非量化前的原始MNIST灰度。
+.hex是纯文本HEX，可用文本编辑器打开；.bin为相同字节的二进制文件。
+图片请求与识别回包均已校验CRC16-CCITT-FALSE；两个请求的SHA256与既有实板核验记录一致。
+
+数字8：
+请求来源：D:\基于RISCV指令集CPU设计\remote_pg2l200h\advanced\reports\trained_digit_hanzi_20261101\digit\cases\native28_digit8\request.bin
+回包记录：D:\基于RISCV指令集CPU设计\remote_pg2l200h\advanced\reports\trained_digit_hanzi_20261101\digit\board_response_verified.json
+请求SHA256：d596ce26a88e2efcb7dc92e9e218c29a6b973246c6304f7366b463aef8de434f
+请求CRC：5CCD；回包CRC：15B4
+
+数字3：
+请求来源：D:\基于RISCV指令集CPU设计\remote_pg2l200h\advanced\reports\trained_digit_hanzi_20261101\digit\tests\digit3\request.bin
+回包记录：D:\基于RISCV指令集CPU设计\remote_pg2l200h\advanced\reports\trained_digit_hanzi_20261101\digit\tests\digit3\board_response_verified.json
+请求SHA256：c763b251bd691b480df59a5e54378ffd48415f0c02600dd2bcbffe0391e6c9cd
+请求CRC：0679；回包CRC：E270

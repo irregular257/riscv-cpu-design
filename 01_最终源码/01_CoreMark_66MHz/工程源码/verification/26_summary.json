@@ -1,0 +1,13 @@
+{
+  "result": "PASS",
+  "scope": "RTL preview loads, store response forwarding and original independent cache oracle",
+  "log": "DATA_PREVIEW completions=27\nPASS: 2-way I/D cache; checks=2004 randomized=800 D_hits=41 D_misses=786 refill_words=3142 writes=389; locality_requests=128 locality_backend_reads=4 hit_wait_cycles=1 burst_beats=4 burst_cycles=4; LRU, byte lanes, waits, errors, DMA invalidation\nD:\\codex_rv32_advanced_20261028\\reports\\maxperf_20261103\\icache_data_decouple\\cache_regression\\tb_cache_preview_oracle.v:322: $finish called at 157540000 (1ps)\n",
+  "rtl_sha256": "1638fea389f5d18a755e145a7097ca153d7374dbaea9fb0f1140476bc0408ac9",
+  "directed_edges_log": "PASS DATA_PREVIEW_EDGES checks=14\nD:\\codex_rv32_advanced_20261028\\reports\\maxperf_20261103\\frontend\\tb_cache_preview_edges.v:83: $finish called at 1300000 (1ps)\n",
+  "test_sources_sha256": {
+    "reports\\maxperf_20261103\\icache_data_decouple\\cache_regression\\tb_cache_preview_oracle.v": "67edfa17f031d08a1db4959b7fae2f9f8e1435c6b14c1a5bfec226d7609bf19c",
+    "sim\\tb_cache_2way.v": "c25246b4df87e0bec0293332018fa17ef13f364a74f6221c4cecfffbbe89896f",
+    "sim\\tb_cache_lookahead.v": "63197e5aa76aa839e94d5402cd8724ed08f1d0799ccd89958c60ebd056b3a831",
+    "reports\\maxperf_20261103\\frontend\\tb_cache_preview_edges.v": "1ec48b79541c8dc3d8cbb7a61d955671ad205c54985780fe60c713a77284d2af"
+  }
+}

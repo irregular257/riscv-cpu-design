@@ -1,0 +1,2 @@
+PASS CACHE_LOOKAHEAD lookahead=1 forward=1 checks=196 stream_requests=128 stream_cycles=132 cold_wait=5
+D:\codex_rv32_advanced_20261028\sim\tb_cache_lookahead.v:140: $finish called at 3830000 (1ps)

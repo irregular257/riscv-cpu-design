@@ -1,0 +1,3 @@
+DATA_PREVIEW completions=27
+PASS: 2-way I/D cache; checks=2004 randomized=800 D_hits=41 D_misses=786 refill_words=3142 writes=389; locality_requests=128 locality_backend_reads=4 hit_wait_cycles=1 burst_beats=4 burst_cycles=4; LRU, byte lanes, waits, errors, DMA invalidation
+D:\codex_rv32_advanced_20261028\reports\maxperf_20261103\icache_data_decouple\cache_regression\tb_cache_preview_oracle.v:322: $finish called at 157540000 (1ps)

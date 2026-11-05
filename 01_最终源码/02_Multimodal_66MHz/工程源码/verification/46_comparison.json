@@ -1,0 +1,892 @@
+{
+  "scope": "Independent metrics; simulation results separate from user board measurements. No weighted total or proof of absolute upper limit.",
+  "formula": {
+    "score": "N / (TotalTime_seconds * Frequency_MHz)",
+    "coremark": "N / TotalTime_seconds",
+    "coremark_per_lut": "coremark / CoreMark_advanced_top_postroute_LUT"
+  },
+  "resource_scope": "CoreMark PDS top only; APM/DRM/FF shown, application DDR/display resources never substituted",
+  "frequency_scope": "Maximum among actually implemented candidates passing defined Slow/Fast constraints; known external IO delay limitations remain. Physical frequency maximum not established.",
+  "best_observed_metrics_separately": {
+    "highest_core_pds_passed_clock_mhz": 66.0,
+    "highest_both_core_and_app_pds_passed_clock_mhz": 66.0,
+    "best_validated_rtl_coremark_per_mhz_with_pds": 2.7536641094507908,
+    "best_validated_rtl_coremark_per_lut_with_pds": 0.024553017885467272
+  },
+  "combined_weighted_score": null,
+  "script_sha256": "cdbf0df865e2dc40e3ae6ee1603bda3183c2223d06c6c21cee3b8bc8cdf2ed4b",
+  "rows": [
+    {
+      "candidate": "user_measured_27mhz_baseline",
+      "result_kind": "USER_REPORTED_VALIDATED_PHYSICAL_BOARD",
+      "physical_board_verified": "User UART; not directly operated by agent",
+      "coremark": 24.053533,
+      "requested_clock_mhz": 27.0,
+      "score_coremark_per_mhz": 0.8908715925925926,
+      "coremark_per_lut": null,
+      "LUT": null,
+      "FF": null,
+      "APM": null,
+      "DRM": null,
+      "implemented_clock_passing_defined_constraints_mhz": null,
+      "core_pds_status": "EXACT_UPLOADED_BITSTREAM_NOT_BOUND",
+      "resource_unknown_reason": "User log does not identify exact uploaded bitstream/hash; do not substitute another build resource count",
+      "calculation_note": "Preserves printed CoreMark rounding; normalized value is printed CoreMark divided by 27 MHz",
+      "provenance": {
+        "user_board_record": {
+          "path": "reports\\coremark_board_20261103\\summary.json",
+          "sha256": "f8fc68db70d5e0d5c9d9bb307a79e0d453e0a31f55c615b750cde432633654f9"
+        }
+      }
+    },
+    {
+      "candidate": "bram36",
+      "result_kind": "RTL_SIMULATION_BOARD_PENDING",
+      "core_build": "pds_bram36_coremark",
+      "coremark": 99.13190794022846,
+      "score_coremark_per_mhz": 2.7536641094507908,
+      "coremark_per_lut": 0.012435011031137538,
+      "implemented_clock_passing_defined_constraints_mhz": 36.0,
+      "LUT": 7972,
+      "FF": 5142,
+      "APM": 8,
+      "DRM": 51.5,
+      "physical_board_verified": false,
+      "long_rtl_binding_passed": true,
+      "provenance": {
+        "core_build": {
+          "path": "reports\\maxperf_20261103\\pds_bram36_coremark\\build.json",
+          "sha256": "be3591c96dadbc597fd28ef03df01a6403d8309fd69386d6d13550697c70ffd4"
+        },
+        "core_audit": {
+          "path": "reports\\maxperf_20261103\\pds_bram36_coremark\\independent_pds_audit.json",
+          "sha256": "262664105cd65d115e8cd2950632d2c4763431641d38fa9894c96e0daff940bc"
+        },
+        "core_timing_report": {
+          "path": "reports\\maxperf_20261103\\pds_bram36_coremark\\work\\report_timing\\advanced_top.rtr",
+          "sha256": "75bf3b0495c4829d1f8b788bb7ac131422cbc2a36383a5e1f126cd58c0f52b80"
+        },
+        "core_resource_report": {
+          "path": "reports\\maxperf_20261103\\pds_bram36_coremark\\work\\place_route\\advanced_top.ror",
+          "sha256": "efef3f56edd076a9047ce383905d26318f6b0aee5fb916c63ab3d5117b72a1b0"
+        },
+        "bitstream": {
+          "sha256": "5520209d449f2821bf6c2a75a042c315e4f6f98f5bad0cb45fc795a5bcd93104"
+        },
+        "long_run": {
+          "path": "reports\\maxperf_20261103\\long_bram36_2000\\summary.json",
+          "sha256": "a3b989d924a66aaa1dcb653ed4ebc79eb43ee90cf5c5d3aab8c4286e66e4d73a"
+        },
+        "long_uart": {
+          "path": "reports\\maxperf_20261103\\long_bram36_2000\\uart.log",
+          "sha256": "0b3704e434f558ace495a974a84ef9ee129aef978a9c37a224b7d91f1879283c"
+        }
+      },
+      "application_scope": "Full application candidate",
+      "requested_clock_mhz": 36.0,
+      "compiler_flags": "-O3 -march=rv32i_zmmul -mabi=ilp32 -msmall-data-limit=0 -ffreestanding -fno-builtin -fno-common -ffunction-sections -fdata-sections -funroll-all-loops --param=max-unroll-times=4",
+      "rtl_sha256": {
+        "advanced_soc.v": "c09cb42c057d4204c5c5870990ae0cf5e8486aee22ba2669a862a7f3987abc87",
+        "advanced_top.v": "fcd4e3c99b92c0d70379bc2e2caccb56fce7c7deb679afdcfdcd3ddd8591a9d7",
+        "alu.v": "5f53b372aabd205e485fa299d1bf7624c51ae1dc90e0903a6dc76c4e27acc711",
+        "cache_2way.v": "98aa6b1ba03e566589467434c7c150c06878e6f0abadf1ec5907da9b8dda2c4b",
+        "camera_dvp_capture.v": "59ef641d47586b1d18f32da348b188abaf0b4053b1ddbc25abc71ee12eda2d74",
+        "camera_sccb_write.v": "73910e450f4f36d3e02c1d2eb925e368f1b9be60c91a0d5d9e523675727a284c",
+        "cpu_core.v": "ccb43bd36d5e050b97e2f71d86ba54eb1d1d33b7cf5e9cb976caa3dbec9ecaf8",
+        "cpu_top.v": "8a67233e20affb552ae73309240e580a339d45618626a7da8a9b59cc8a57aa17",
+        "data_bus.v": "7adc18ac0724a457dd3ec8349d6bf9079edaf723d6f83e101c017068d7859b80",
+        "decoder.v": "0e11234d7352393c23ec882b5e5221974efb9050d7ecd4a90f8756dbbe0177cf",
+        "fpga_top.v": "c0999157b6d5b9e6b89ed91d31c523ac7a010bb2a4064ee8427dfb094bee73d3",
+        "int8_dot.v": "27b0c16ebab7695d79c206f2bf655e7be519b6d2a838593a6ab4914c8b2320a5",
+        "machine_csr.v": "4df8fce167ba4371bd98ee9736628224bafdeaf682a38d8d7136765566379d4b",
+        "pc_reg.v": "4038873a252f8486307eb7a27e504a6c4fe0c665711c9025ed8183f63a03c568",
+        "ram.v": "9c9846bdc58fbba620b4f6326aa134757ee7117dbf081143917fed0341dcdd01",
+        "ram_sync.v": "f66eb0e9a84b608a2d5c44682cb713ea02f2e19503e27ffbf6f2a6077ed7fdb5",
+        "regfile.v": "0d5f03aa884c1725a51269a4a69e8f6a3740eb56d87b7fd50df0af92d13296f2",
+        "remote_top.v": "940cb0d11a30d14bbfbdf218017c4e5790c8ebf8dbbb011959481551f2dbc576",
+        "rom.v": "d38d93cea50620274f35fcf242fdba4a77b9835c855338d4942c50c46a16be3c",
+        "rom_sync.v": "da9da1de535d89f68b08d8bc9eb8b4068a755289091f82c79774f21665fd62f7",
+        "selftest_top.v": "18b17b6c24531a11ddc8f02986de704746030401b3d1f3afa2d71bf36a001fa5",
+        "soc_peripherals.v": "0ae1a5d042b80ae560d7198dbc8300c0a16337de69cd21d0d1cff0c697d0c30c",
+        "uart_rx.v": "f5c547dad8d21ab8894e4933f5ecfcd94bb71643d7af8c62449bcbf84274a0e3",
+        "uart_tx.v": "d93824751216ab3319ad7d4e755e59009d1c4a204cb7da685addfdf42e859077",
+        "video_mmio.v": "6b2ddadf22b2c0b695f1948b98661ed0d16fe94c03c47dcb7061363ec36f0679",
+        "video_rgb_scanout.v": "fbd2c54a1838c3f71ce53bd72a5707cf76b56d57f8aa16beb9c8b83ca963c452"
+      },
+      "core_pds_status": "PASS_DEFINED_TIMING_PINS_PROVENANCE",
+      "slow_setup_ns": 3.157,
+      "slow_hold_ns": 0.148,
+      "estimated_fmax_mhz_not_a_tested_frequency": 40.6163,
+      "app_pds_status": "FAILED",
+      "iterations": 2000,
+      "timed_cycles": 726304996,
+      "total_seconds_rtl": 20.17513877777778,
+      "scoring_metrics": {
+        "score_coremark_per_mhz": 2.7536641094507903,
+        "implemented_clock_passing_defined_constraints_mhz": 36.0,
+        "coremark_per_lut": 0.012435011031137538,
+        "coremark": 99.13190794022846,
+        "formula": {
+          "score": "N / (TotalTime_seconds * Frequency_MHz)",
+          "coremark_per_lut": "(N / TotalTime_seconds) / postroute_CoreMark_top_LUT"
+        },
+        "scope": "RTL score plus actual implemented clock and CoreMark top post-route resources; new board score pending",
+        "physical_board_verified": false,
+        "combined_weighted_score": null,
+        "frequency_note": "This implemented clock passed defined PDS constraints; not the estimated Fmax or a measured physical-board maximum",
+        "resource_scope": "CoreMark advanced_top only; excludes multimodal application DDR/display resource counts",
+        "resources": {
+          "LUT": 7972,
+          "FF": 5142,
+          "APM": 8,
+          "DRM": 51.5
+        },
+        "resource_report": "reports\\maxperf_20261103\\pds_bram36_coremark\\work\\place_route\\advanced_top.ror",
+        "resource_report_sha256": "efef3f56edd076a9047ce383905d26318f6b0aee5fb916c63ab3d5117b72a1b0",
+        "timing_report_sha256": "75bf3b0495c4829d1f8b788bb7ac131422cbc2a36383a5e1f126cd58c0f52b80"
+      }
+    },
+    {
+      "candidate": "bram39",
+      "result_kind": "RTL_SIMULATION_BOARD_PENDING",
+      "core_build": "pds_bram39_coremark",
+      "coremark": 107.39290026858083,
+      "score_coremark_per_mhz": 2.7536641094507908,
+      "coremark_per_lut": 0.013469572340220849,
+      "implemented_clock_passing_defined_constraints_mhz": 39.0,
+      "LUT": 7973,
+      "FF": 5142,
+      "APM": 8,
+      "DRM": 51.5,
+      "physical_board_verified": false,
+      "long_rtl_binding_passed": true,
+      "provenance": {
+        "core_build": {
+          "path": "reports\\maxperf_20261103\\pds_bram39_coremark\\build.json",
+          "sha256": "278b96fc2563359a8acd79a66959a901b8fbaa2f55d2f5d4f5fc544e1b0e4bfb"
+        },
+        "core_audit": {
+          "path": "reports\\maxperf_20261103\\pds_bram39_coremark\\independent_pds_audit.json",
+          "sha256": "b1afe0873322eac408c3ab4a1038cfab760a532eead0125653840b90d3f21f98"
+        },
+        "core_timing_report": {
+          "path": "reports\\maxperf_20261103\\pds_bram39_coremark\\work\\report_timing\\advanced_top.rtr",
+          "sha256": "752a5e82caa913a0a3b56c6be5c64cc371f72682510964d8822329347870e974"
+        },
+        "core_resource_report": {
+          "path": "reports\\maxperf_20261103\\pds_bram39_coremark\\work\\place_route\\advanced_top.ror",
+          "sha256": "5a798c12e1952461b57e4c79891b5e6233c10ef2057da789322ce02415599163"
+        },
+        "bitstream": {
+          "sha256": "3b725ee7551adf9acc218a9e7c37d991d4a2fd467e7bd2b47a73ea01f4d7d1a3"
+        },
+        "app_audit": {
+          "path": "reports\\maxperf_20261103\\pds_bram39_multimodal_greedy\\independent_pds_audit.json",
+          "sha256": "36acb32cb54fae559f1b30759464fc295c2480390106d76bea5e15679870c823"
+        },
+        "long_run": {
+          "path": "reports\\maxperf_20261103\\long_bram39_2000\\summary.json",
+          "sha256": "3396fcf12d940920cf20970924e4ca7ed67bfc39bbeee1a49910910354e0e3b7"
+        },
+        "long_uart": {
+          "path": "reports\\maxperf_20261103\\long_bram39_2000\\uart.log",
+          "sha256": "dca5bf09fe4609ece512c4406c6680e1bffe732f057acb19caa9b2d2555a2dfc"
+        }
+      },
+      "application_scope": "Full application candidate",
+      "requested_clock_mhz": 39.0,
+      "compiler_flags": "-O3 -march=rv32i_zmmul -mabi=ilp32 -msmall-data-limit=0 -ffreestanding -fno-builtin -fno-common -ffunction-sections -fdata-sections -funroll-all-loops --param=max-unroll-times=4",
+      "rtl_sha256": {
+        "advanced_soc.v": "c09cb42c057d4204c5c5870990ae0cf5e8486aee22ba2669a862a7f3987abc87",
+        "advanced_top.v": "fcd4e3c99b92c0d70379bc2e2caccb56fce7c7deb679afdcfdcd3ddd8591a9d7",
+        "alu.v": "5f53b372aabd205e485fa299d1bf7624c51ae1dc90e0903a6dc76c4e27acc711",
+        "cache_2way.v": "98aa6b1ba03e566589467434c7c150c06878e6f0abadf1ec5907da9b8dda2c4b",
+        "camera_dvp_capture.v": "59ef641d47586b1d18f32da348b188abaf0b4053b1ddbc25abc71ee12eda2d74",
+        "camera_sccb_write.v": "73910e450f4f36d3e02c1d2eb925e368f1b9be60c91a0d5d9e523675727a284c",
+        "cpu_core.v": "ccb43bd36d5e050b97e2f71d86ba54eb1d1d33b7cf5e9cb976caa3dbec9ecaf8",
+        "cpu_top.v": "8a67233e20affb552ae73309240e580a339d45618626a7da8a9b59cc8a57aa17",
+        "data_bus.v": "7adc18ac0724a457dd3ec8349d6bf9079edaf723d6f83e101c017068d7859b80",
+        "decoder.v": "0e11234d7352393c23ec882b5e5221974efb9050d7ecd4a90f8756dbbe0177cf",
+        "fpga_top.v": "c0999157b6d5b9e6b89ed91d31c523ac7a010bb2a4064ee8427dfb094bee73d3",
+        "int8_dot.v": "27b0c16ebab7695d79c206f2bf655e7be519b6d2a838593a6ab4914c8b2320a5",
+        "machine_csr.v": "4df8fce167ba4371bd98ee9736628224bafdeaf682a38d8d7136765566379d4b",
+        "pc_reg.v": "4038873a252f8486307eb7a27e504a6c4fe0c665711c9025ed8183f63a03c568",
+        "ram.v": "9c9846bdc58fbba620b4f6326aa134757ee7117dbf081143917fed0341dcdd01",
+        "ram_sync.v": "f66eb0e9a84b608a2d5c44682cb713ea02f2e19503e27ffbf6f2a6077ed7fdb5",
+        "regfile.v": "0d5f03aa884c1725a51269a4a69e8f6a3740eb56d87b7fd50df0af92d13296f2",
+        "remote_top.v": "940cb0d11a30d14bbfbdf218017c4e5790c8ebf8dbbb011959481551f2dbc576",
+        "rom.v": "d38d93cea50620274f35fcf242fdba4a77b9835c855338d4942c50c46a16be3c",
+        "rom_sync.v": "da9da1de535d89f68b08d8bc9eb8b4068a755289091f82c79774f21665fd62f7",
+        "selftest_top.v": "18b17b6c24531a11ddc8f02986de704746030401b3d1f3afa2d71bf36a001fa5",
+        "soc_peripherals.v": "0ae1a5d042b80ae560d7198dbc8300c0a16337de69cd21d0d1cff0c697d0c30c",
+        "uart_rx.v": "f5c547dad8d21ab8894e4933f5ecfcd94bb71643d7af8c62449bcbf84274a0e3",
+        "uart_tx.v": "d93824751216ab3319ad7d4e755e59009d1c4a204cb7da685addfdf42e859077",
+        "video_mmio.v": "6b2ddadf22b2c0b695f1948b98661ed0d16fe94c03c47dcb7061363ec36f0679",
+        "video_rgb_scanout.v": "fbd2c54a1838c3f71ce53bd72a5707cf76b56d57f8aa16beb9c8b83ca963c452"
+      },
+      "core_pds_status": "PASS_DEFINED_TIMING_PINS_PROVENANCE",
+      "slow_setup_ns": 3.019,
+      "slow_hold_ns": 0.142,
+      "estimated_fmax_mhz_not_a_tested_frequency": 44.2048,
+      "app_pds_status": "PASS_DEFINED_TIMING_PINS_PROVENANCE",
+      "iterations": 2000,
+      "timed_cycles": 726304996,
+      "total_seconds_rtl": 18.623205025641024,
+      "scoring_metrics": {
+        "score_coremark_per_mhz": 2.7536641094507908,
+        "implemented_clock_passing_defined_constraints_mhz": 39.0,
+        "coremark_per_lut": 0.013469572340220849,
+        "coremark": 107.39290026858083,
+        "formula": {
+          "score": "N / (TotalTime_seconds * Frequency_MHz)",
+          "coremark_per_lut": "(N / TotalTime_seconds) / postroute_CoreMark_top_LUT"
+        },
+        "scope": "RTL score plus actual implemented clock and CoreMark top post-route resources; new board score pending",
+        "physical_board_verified": false,
+        "combined_weighted_score": null,
+        "frequency_note": "This implemented clock passed defined PDS constraints; not the estimated Fmax or a measured physical-board maximum",
+        "resource_scope": "CoreMark advanced_top only; excludes multimodal application DDR/display resource counts",
+        "resources": {
+          "LUT": 7973,
+          "FF": 5142,
+          "APM": 8,
+          "DRM": 51.5
+        },
+        "resource_report": "reports\\maxperf_20261103\\pds_bram39_coremark\\work\\place_route\\advanced_top.ror",
+        "resource_report_sha256": "5a798c12e1952461b57e4c79891b5e6233c10ef2057da789322ce02415599163",
+        "timing_report_sha256": "752a5e82caa913a0a3b56c6be5c64cc371f72682510964d8822329347870e974"
+      }
+    },
+    {
+      "candidate": "bram42",
+      "result_kind": "RTL_SIMULATION_BOARD_PENDING",
+      "core_build": "pds_bram42_coremark",
+      "coremark": null,
+      "score_coremark_per_mhz": null,
+      "coremark_per_lut": null,
+      "implemented_clock_passing_defined_constraints_mhz": 42.0,
+      "LUT": 7990,
+      "FF": 5142,
+      "APM": 8,
+      "DRM": 51.5,
+      "physical_board_verified": false,
+      "long_rtl_binding_passed": false,
+      "provenance": {
+        "core_build": {
+          "path": "reports\\maxperf_20261103\\pds_bram42_coremark\\build.json",
+          "sha256": "fab26f665aef1de5897ee52c5d451e1386ecae20d78f4421d03b3cdd40edb6dc"
+        },
+        "core_audit": {
+          "path": "reports\\maxperf_20261103\\pds_bram42_coremark\\independent_pds_audit.json",
+          "sha256": "a24c70be16fde204e3a8bedd9b1e4a1f959ef3e1e1e0492d1e9515b099b1e514"
+        },
+        "core_timing_report": {
+          "path": "reports\\maxperf_20261103\\pds_bram42_coremark\\work\\report_timing\\advanced_top.rtr",
+          "sha256": "8555b49eac6e7fbd388a117e9a9c0e8ee35fc4b10520050ff655ef25d33d88bc"
+        },
+        "core_resource_report": {
+          "path": "reports\\maxperf_20261103\\pds_bram42_coremark\\work\\place_route\\advanced_top.ror",
+          "sha256": "889d6979a372ab79370bdc8252ce726601c5aa942748180d3f3d40e924ef8a18"
+        },
+        "bitstream": {
+          "sha256": "46ccd9d0a62a67fc663d127cec768389560cb8cbb852f145d17599c5ecb4f8f0"
+        }
+      },
+      "application_scope": "CoreMark resource/performance comparison only",
+      "requested_clock_mhz": 42.0,
+      "compiler_flags": "-O3 -march=rv32i_zmmul -mabi=ilp32 -msmall-data-limit=0 -ffreestanding -fno-builtin -fno-common -ffunction-sections -fdata-sections -funroll-all-loops --param=max-unroll-times=4",
+      "rtl_sha256": {
+        "advanced_soc.v": "c09cb42c057d4204c5c5870990ae0cf5e8486aee22ba2669a862a7f3987abc87",
+        "advanced_top.v": "fcd4e3c99b92c0d70379bc2e2caccb56fce7c7deb679afdcfdcd3ddd8591a9d7",
+        "alu.v": "5f53b372aabd205e485fa299d1bf7624c51ae1dc90e0903a6dc76c4e27acc711",
+        "cache_2way.v": "98aa6b1ba03e566589467434c7c150c06878e6f0abadf1ec5907da9b8dda2c4b",
+        "camera_dvp_capture.v": "59ef641d47586b1d18f32da348b188abaf0b4053b1ddbc25abc71ee12eda2d74",
+        "camera_sccb_write.v": "73910e450f4f36d3e02c1d2eb925e368f1b9be60c91a0d5d9e523675727a284c",
+        "cpu_core.v": "ccb43bd36d5e050b97e2f71d86ba54eb1d1d33b7cf5e9cb976caa3dbec9ecaf8",
+        "cpu_top.v": "8a67233e20affb552ae73309240e580a339d45618626a7da8a9b59cc8a57aa17",
+        "data_bus.v": "7adc18ac0724a457dd3ec8349d6bf9079edaf723d6f83e101c017068d7859b80",
+        "decoder.v": "0e11234d7352393c23ec882b5e5221974efb9050d7ecd4a90f8756dbbe0177cf",
+        "fpga_top.v": "c0999157b6d5b9e6b89ed91d31c523ac7a010bb2a4064ee8427dfb094bee73d3",
+        "int8_dot.v": "27b0c16ebab7695d79c206f2bf655e7be519b6d2a838593a6ab4914c8b2320a5",
+        "machine_csr.v": "4df8fce167ba4371bd98ee9736628224bafdeaf682a38d8d7136765566379d4b",
+        "pc_reg.v": "4038873a252f8486307eb7a27e504a6c4fe0c665711c9025ed8183f63a03c568",
+        "ram.v": "9c9846bdc58fbba620b4f6326aa134757ee7117dbf081143917fed0341dcdd01",
+        "ram_sync.v": "f66eb0e9a84b608a2d5c44682cb713ea02f2e19503e27ffbf6f2a6077ed7fdb5",
+        "regfile.v": "0d5f03aa884c1725a51269a4a69e8f6a3740eb56d87b7fd50df0af92d13296f2",
+        "remote_top.v": "940cb0d11a30d14bbfbdf218017c4e5790c8ebf8dbbb011959481551f2dbc576",
+        "rom.v": "d38d93cea50620274f35fcf242fdba4a77b9835c855338d4942c50c46a16be3c",
+        "rom_sync.v": "da9da1de535d89f68b08d8bc9eb8b4068a755289091f82c79774f21665fd62f7",
+        "selftest_top.v": "18b17b6c24531a11ddc8f02986de704746030401b3d1f3afa2d71bf36a001fa5",
+        "soc_peripherals.v": "0ae1a5d042b80ae560d7198dbc8300c0a16337de69cd21d0d1cff0c697d0c30c",
+        "uart_rx.v": "f5c547dad8d21ab8894e4933f5ecfcd94bb71643d7af8c62449bcbf84274a0e3",
+        "uart_tx.v": "d93824751216ab3319ad7d4e755e59009d1c4a204cb7da685addfdf42e859077",
+        "video_mmio.v": "6b2ddadf22b2c0b695f1948b98661ed0d16fe94c03c47dcb7061363ec36f0679",
+        "video_rgb_scanout.v": "fbd2c54a1838c3f71ce53bd72a5707cf76b56d57f8aa16beb9c8b83ca963c452"
+      },
+      "core_pds_status": "PASS_DEFINED_TIMING_PINS_PROVENANCE",
+      "slow_setup_ns": 3.082,
+      "slow_hold_ns": 0.144,
+      "estimated_fmax_mhz_not_a_tested_frequency": 48.2452,
+      "app_pds_status": "NOT_AN_APPLICATION_CANDIDATE"
+    },
+    {
+      "candidate": "decouple48",
+      "result_kind": "RTL_SIMULATION_BOARD_PENDING",
+      "core_build": "pds_decouple48_coremark",
+      "coremark": 132.17587725363794,
+      "score_coremark_per_mhz": 2.7536641094507908,
+      "coremark_per_lut": 0.016499298121787284,
+      "implemented_clock_passing_defined_constraints_mhz": 48.0,
+      "LUT": 8011,
+      "FF": 5142,
+      "APM": 8,
+      "DRM": 51.5,
+      "physical_board_verified": false,
+      "long_rtl_binding_passed": true,
+      "provenance": {
+        "core_build": {
+          "path": "reports\\maxperf_20261103\\pds_decouple48_coremark\\build.json",
+          "sha256": "59b7ecda4a780bd142e8cb63c4b4640282979e360532e5c52379af96c0c8c11a"
+        },
+        "core_audit": {
+          "path": "reports\\maxperf_20261103\\pds_decouple48_coremark\\independent_pds_audit.json",
+          "sha256": "dfaa573970dbb4e4ef56d5f17efffaf3d2a692cfa461eb8bbc446e024bdbeab5"
+        },
+        "core_timing_report": {
+          "path": "reports\\maxperf_20261103\\pds_decouple48_coremark\\work\\report_timing\\advanced_top.rtr",
+          "sha256": "227154de3e34261ac0177a350dfb3d199819594b61b66ab71ba9f863305b7f6c"
+        },
+        "core_resource_report": {
+          "path": "reports\\maxperf_20261103\\pds_decouple48_coremark\\work\\place_route\\advanced_top.ror",
+          "sha256": "49eeae4687493ba74d178e0f49f6df938b8e630063de314847e7772c75910cf1"
+        },
+        "bitstream": {
+          "sha256": "7e6c6662ac95cd4e5c2c823bacecb634a8deb1649991847e1cd85fcc409d6fc4"
+        },
+        "app_audit": {
+          "path": "reports\\maxperf_20261103\\pds_decouple48_multimodal\\independent_pds_audit.json",
+          "sha256": "d1dbc9f8d916038b7aa0ed86f92a2589283aaddfe452e22f240b9087663569e9"
+        },
+        "long_run": {
+          "path": "reports\\maxperf_20261103\\long_decouple48_2000\\summary.json",
+          "sha256": "7a0994ff9659c97e3094eea84fe87f83fab280c740be996cd26b5dc4030d4c8a"
+        },
+        "long_uart": {
+          "path": "reports\\maxperf_20261103\\long_decouple48_2000\\uart.log",
+          "sha256": "a1f7cf6e3de70dfff43220b1c9b42064bcf54336703815eafd40233b1e449055"
+        }
+      },
+      "application_scope": "Full application candidate",
+      "requested_clock_mhz": 48.0,
+      "compiler_flags": "-O3 -march=rv32i_zmmul -mabi=ilp32 -msmall-data-limit=0 -ffreestanding -fno-builtin -fno-common -ffunction-sections -fdata-sections -funroll-all-loops --param=max-unroll-times=4",
+      "rtl_sha256": {
+        "advanced_soc.v": "c09cb42c057d4204c5c5870990ae0cf5e8486aee22ba2669a862a7f3987abc87",
+        "advanced_top.v": "fcd4e3c99b92c0d70379bc2e2caccb56fce7c7deb679afdcfdcd3ddd8591a9d7",
+        "alu.v": "5f53b372aabd205e485fa299d1bf7624c51ae1dc90e0903a6dc76c4e27acc711",
+        "cache_2way.v": "1638fea389f5d18a755e145a7097ca153d7374dbaea9fb0f1140476bc0408ac9",
+        "camera_dvp_capture.v": "59ef641d47586b1d18f32da348b188abaf0b4053b1ddbc25abc71ee12eda2d74",
+        "camera_sccb_write.v": "73910e450f4f36d3e02c1d2eb925e368f1b9be60c91a0d5d9e523675727a284c",
+        "cpu_core.v": "ccb43bd36d5e050b97e2f71d86ba54eb1d1d33b7cf5e9cb976caa3dbec9ecaf8",
+        "cpu_top.v": "8a67233e20affb552ae73309240e580a339d45618626a7da8a9b59cc8a57aa17",
+        "data_bus.v": "7adc18ac0724a457dd3ec8349d6bf9079edaf723d6f83e101c017068d7859b80",
+        "decoder.v": "0e11234d7352393c23ec882b5e5221974efb9050d7ecd4a90f8756dbbe0177cf",
+        "fpga_top.v": "c0999157b6d5b9e6b89ed91d31c523ac7a010bb2a4064ee8427dfb094bee73d3",
+        "int8_dot.v": "27b0c16ebab7695d79c206f2bf655e7be519b6d2a838593a6ab4914c8b2320a5",
+        "machine_csr.v": "4df8fce167ba4371bd98ee9736628224bafdeaf682a38d8d7136765566379d4b",
+        "pc_reg.v": "4038873a252f8486307eb7a27e504a6c4fe0c665711c9025ed8183f63a03c568",
+        "ram.v": "9c9846bdc58fbba620b4f6326aa134757ee7117dbf081143917fed0341dcdd01",
+        "ram_sync.v": "f66eb0e9a84b608a2d5c44682cb713ea02f2e19503e27ffbf6f2a6077ed7fdb5",
+        "regfile.v": "0d5f03aa884c1725a51269a4a69e8f6a3740eb56d87b7fd50df0af92d13296f2",
+        "remote_top.v": "940cb0d11a30d14bbfbdf218017c4e5790c8ebf8dbbb011959481551f2dbc576",
+        "rom.v": "d38d93cea50620274f35fcf242fdba4a77b9835c855338d4942c50c46a16be3c",
+        "rom_sync.v": "da9da1de535d89f68b08d8bc9eb8b4068a755289091f82c79774f21665fd62f7",
+        "selftest_top.v": "18b17b6c24531a11ddc8f02986de704746030401b3d1f3afa2d71bf36a001fa5",
+        "soc_peripherals.v": "0ae1a5d042b80ae560d7198dbc8300c0a16337de69cd21d0d1cff0c697d0c30c",
+        "uart_rx.v": "f5c547dad8d21ab8894e4933f5ecfcd94bb71643d7af8c62449bcbf84274a0e3",
+        "uart_tx.v": "d93824751216ab3319ad7d4e755e59009d1c4a204cb7da685addfdf42e859077",
+        "video_mmio.v": "6b2ddadf22b2c0b695f1948b98661ed0d16fe94c03c47dcb7061363ec36f0679",
+        "video_rgb_scanout.v": "fbd2c54a1838c3f71ce53bd72a5707cf76b56d57f8aa16beb9c8b83ca963c452"
+      },
+      "core_pds_status": "PASS_DEFINED_TIMING_PINS_PROVENANCE",
+      "slow_setup_ns": 3.09,
+      "slow_hold_ns": 0.139,
+      "estimated_fmax_mhz_not_a_tested_frequency": 56.3594,
+      "app_pds_status": "PASS_DEFINED_TIMING_PINS_PROVENANCE",
+      "iterations": 2000,
+      "timed_cycles": 726304996,
+      "total_seconds_rtl": 15.131354083333333,
+      "scoring_metrics": {
+        "score_coremark_per_mhz": 2.7536641094507908,
+        "implemented_clock_passing_defined_constraints_mhz": 48.0,
+        "coremark_per_lut": 0.016499298121787284,
+        "coremark": 132.17587725363794,
+        "formula": {
+          "score": "N / (TotalTime_seconds * Frequency_MHz)",
+          "coremark_per_lut": "(N / TotalTime_seconds) / postroute_CoreMark_top_LUT"
+        },
+        "scope": "RTL score plus actual implemented clock and CoreMark top post-route resources; new board score pending",
+        "physical_board_verified": false,
+        "combined_weighted_score": null,
+        "frequency_note": "This implemented clock passed defined PDS constraints; not the estimated Fmax or a measured physical-board maximum",
+        "resource_scope": "CoreMark advanced_top only; excludes multimodal application DDR/display resource counts",
+        "resources": {
+          "LUT": 8011,
+          "FF": 5142,
+          "APM": 8,
+          "DRM": 51.5
+        },
+        "resource_report": "reports\\maxperf_20261103\\pds_decouple48_coremark\\work\\place_route\\advanced_top.ror",
+        "resource_report_sha256": "49eeae4687493ba74d178e0f49f6df938b8e630063de314847e7772c75910cf1",
+        "timing_report_sha256": "227154de3e34261ac0177a350dfb3d199819594b61b66ab71ba9f863305b7f6c"
+      }
+    },
+    {
+      "candidate": "decouple54",
+      "result_kind": "RTL_SIMULATION_BOARD_PENDING",
+      "core_build": "pds_decouple54_coremark",
+      "coremark": 148.69786191034268,
+      "score_coremark_per_mhz": 2.7536641094507908,
+      "coremark_per_lut": 0.018540880537449213,
+      "implemented_clock_passing_defined_constraints_mhz": 54.0,
+      "LUT": 8020,
+      "FF": 5142,
+      "APM": 8,
+      "DRM": 51.5,
+      "physical_board_verified": false,
+      "long_rtl_binding_passed": true,
+      "provenance": {
+        "core_build": {
+          "path": "reports\\maxperf_20261103\\pds_decouple54_coremark\\build.json",
+          "sha256": "1bde7336888b97a8f5827c9d0b97d02ea5034393c8fcac7a1136834a313d1a70"
+        },
+        "core_audit": {
+          "path": "reports\\maxperf_20261103\\pds_decouple54_coremark\\independent_pds_audit.json",
+          "sha256": "86046a13c5bd9a3553260ca4107c05cef8764cbbda86e6cfaa36e5c24879f39d"
+        },
+        "core_timing_report": {
+          "path": "reports\\maxperf_20261103\\pds_decouple54_coremark\\work\\report_timing\\advanced_top.rtr",
+          "sha256": "3343c2481b9dcef3a38ac10109ca89e9c4ed3049d5390694a9c501fd5f35533a"
+        },
+        "core_resource_report": {
+          "path": "reports\\maxperf_20261103\\pds_decouple54_coremark\\work\\place_route\\advanced_top.ror",
+          "sha256": "bd80371f3c6879a103ba1195d4ed0cccac79002ffffb79add144033c143d1e93"
+        },
+        "bitstream": {
+          "sha256": "59c388139ad77172f64d0567a4f9d8f761d8cc332f5406ed02fe32f8c018d1db"
+        },
+        "app_audit": {
+          "path": "reports\\maxperf_20261103\\pds_decouple54_multimodal\\independent_pds_audit.json",
+          "sha256": "3c98f660ef7e6a0899cc000347e1a0160d9b39596fbf9462a39ec6baac2975cc"
+        },
+        "long_run": {
+          "path": "reports\\maxperf_20261103\\long_decouple54_2000\\summary.json",
+          "sha256": "1e029e5b1f6ae076e7a4284209d284bbdf8bad40b93e3db16c10ca5a49ebc12b"
+        },
+        "long_uart": {
+          "path": "reports\\maxperf_20261103\\long_decouple54_2000\\uart.log",
+          "sha256": "097e5a3ffb634a2ccaca268ff6a9388c5a0e24d7267c862cd61c8249eaf7c1a7"
+        }
+      },
+      "application_scope": "Full application candidate",
+      "requested_clock_mhz": 54.0,
+      "compiler_flags": "-O3 -march=rv32i_zmmul -mabi=ilp32 -msmall-data-limit=0 -ffreestanding -fno-builtin -fno-common -ffunction-sections -fdata-sections -funroll-all-loops --param=max-unroll-times=4",
+      "rtl_sha256": {
+        "advanced_soc.v": "c09cb42c057d4204c5c5870990ae0cf5e8486aee22ba2669a862a7f3987abc87",
+        "advanced_top.v": "fcd4e3c99b92c0d70379bc2e2caccb56fce7c7deb679afdcfdcd3ddd8591a9d7",
+        "alu.v": "5f53b372aabd205e485fa299d1bf7624c51ae1dc90e0903a6dc76c4e27acc711",
+        "cache_2way.v": "1638fea389f5d18a755e145a7097ca153d7374dbaea9fb0f1140476bc0408ac9",
+        "camera_dvp_capture.v": "59ef641d47586b1d18f32da348b188abaf0b4053b1ddbc25abc71ee12eda2d74",
+        "camera_sccb_write.v": "73910e450f4f36d3e02c1d2eb925e368f1b9be60c91a0d5d9e523675727a284c",
+        "cpu_core.v": "ccb43bd36d5e050b97e2f71d86ba54eb1d1d33b7cf5e9cb976caa3dbec9ecaf8",
+        "cpu_top.v": "8a67233e20affb552ae73309240e580a339d45618626a7da8a9b59cc8a57aa17",
+        "data_bus.v": "7adc18ac0724a457dd3ec8349d6bf9079edaf723d6f83e101c017068d7859b80",
+        "decoder.v": "0e11234d7352393c23ec882b5e5221974efb9050d7ecd4a90f8756dbbe0177cf",
+        "fpga_top.v": "c0999157b6d5b9e6b89ed91d31c523ac7a010bb2a4064ee8427dfb094bee73d3",
+        "int8_dot.v": "27b0c16ebab7695d79c206f2bf655e7be519b6d2a838593a6ab4914c8b2320a5",
+        "machine_csr.v": "4df8fce167ba4371bd98ee9736628224bafdeaf682a38d8d7136765566379d4b",
+        "pc_reg.v": "4038873a252f8486307eb7a27e504a6c4fe0c665711c9025ed8183f63a03c568",
+        "ram.v": "9c9846bdc58fbba620b4f6326aa134757ee7117dbf081143917fed0341dcdd01",
+        "ram_sync.v": "f66eb0e9a84b608a2d5c44682cb713ea02f2e19503e27ffbf6f2a6077ed7fdb5",
+        "regfile.v": "0d5f03aa884c1725a51269a4a69e8f6a3740eb56d87b7fd50df0af92d13296f2",
+        "remote_top.v": "940cb0d11a30d14bbfbdf218017c4e5790c8ebf8dbbb011959481551f2dbc576",
+        "rom.v": "d38d93cea50620274f35fcf242fdba4a77b9835c855338d4942c50c46a16be3c",
+        "rom_sync.v": "da9da1de535d89f68b08d8bc9eb8b4068a755289091f82c79774f21665fd62f7",
+        "selftest_top.v": "18b17b6c24531a11ddc8f02986de704746030401b3d1f3afa2d71bf36a001fa5",
+        "soc_peripherals.v": "0ae1a5d042b80ae560d7198dbc8300c0a16337de69cd21d0d1cff0c697d0c30c",
+        "uart_rx.v": "f5c547dad8d21ab8894e4933f5ecfcd94bb71643d7af8c62449bcbf84274a0e3",
+        "uart_tx.v": "d93824751216ab3319ad7d4e755e59009d1c4a204cb7da685addfdf42e859077",
+        "video_mmio.v": "6b2ddadf22b2c0b695f1948b98661ed0d16fe94c03c47dcb7061363ec36f0679",
+        "video_rgb_scanout.v": "fbd2c54a1838c3f71ce53bd72a5707cf76b56d57f8aa16beb9c8b83ca963c452"
+      },
+      "core_pds_status": "PASS_DEFINED_TIMING_PINS_PROVENANCE",
+      "slow_setup_ns": 1.741,
+      "slow_hold_ns": 0.146,
+      "estimated_fmax_mhz_not_a_tested_frequency": 59.6038,
+      "app_pds_status": "PASS_DEFINED_TIMING_PINS_PROVENANCE",
+      "iterations": 2000,
+      "timed_cycles": 726304996,
+      "total_seconds_rtl": 13.450092518518519,
+      "scoring_metrics": {
+        "score_coremark_per_mhz": 2.7536641094507908,
+        "implemented_clock_passing_defined_constraints_mhz": 54.0,
+        "coremark_per_lut": 0.018540880537449213,
+        "coremark": 148.69786191034268,
+        "formula": {
+          "score": "N / (TotalTime_seconds * Frequency_MHz)",
+          "coremark_per_lut": "(N / TotalTime_seconds) / postroute_CoreMark_top_LUT"
+        },
+        "scope": "RTL score plus actual implemented clock and CoreMark top post-route resources; new board score pending",
+        "physical_board_verified": false,
+        "combined_weighted_score": null,
+        "frequency_note": "This implemented clock passed defined PDS constraints; not the estimated Fmax or a measured physical-board maximum",
+        "resource_scope": "CoreMark advanced_top only; excludes multimodal application DDR/display resource counts",
+        "resources": {
+          "LUT": 8020,
+          "FF": 5142,
+          "APM": 8,
+          "DRM": 51.5
+        },
+        "resource_report": "reports\\maxperf_20261103\\pds_decouple54_coremark\\work\\place_route\\advanced_top.ror",
+        "resource_report_sha256": "bd80371f3c6879a103ba1195d4ed0cccac79002ffffb79add144033c143d1e93",
+        "timing_report_sha256": "3343c2481b9dcef3a38ac10109ca89e9c4ed3049d5390694a9c501fd5f35533a"
+      }
+    },
+    {
+      "candidate": "decouple60",
+      "result_kind": "RTL_SIMULATION_BOARD_PENDING",
+      "core_build": "pds_decouple60_coremark",
+      "coremark": 165.21984656704743,
+      "score_coremark_per_mhz": 2.7536641094507908,
+      "coremark_per_lut": 0.020506372913869607,
+      "implemented_clock_passing_defined_constraints_mhz": 60.0,
+      "LUT": 8057,
+      "FF": 5144,
+      "APM": 8,
+      "DRM": 51.5,
+      "physical_board_verified": false,
+      "long_rtl_binding_passed": true,
+      "provenance": {
+        "core_build": {
+          "path": "reports\\maxperf_20261103\\pds_decouple60_coremark\\build.json",
+          "sha256": "b6390b9479c599197506594b37aec0c9cf9b8ad88b56de63ebceb535e33732fd"
+        },
+        "core_audit": {
+          "path": "reports\\maxperf_20261103\\pds_decouple60_coremark\\independent_pds_audit.json",
+          "sha256": "e54d91a94e170eb5a51e7eceaba842f1fe73b287be810003880467a7e705dd9e"
+        },
+        "core_timing_report": {
+          "path": "reports\\maxperf_20261103\\pds_decouple60_coremark\\work\\report_timing\\advanced_top.rtr",
+          "sha256": "bc0051f0b43e6f5d7ee891f8b101874b925acbe18f03b9c092fa1f117d9c5e9c"
+        },
+        "core_resource_report": {
+          "path": "reports\\maxperf_20261103\\pds_decouple60_coremark\\work\\place_route\\advanced_top.ror",
+          "sha256": "26632f27db18cbf6be1ec0d74460742ce12fdc4575d2520e684ef109049772a5"
+        },
+        "bitstream": {
+          "sha256": "d23f3745ebf4d27313b8b0d23962f38673cd32bea5ae4172ff52f565fa614afe"
+        },
+        "app_audit": {
+          "path": "reports\\maxperf_20261103\\pds_decouple60_multimodal\\independent_pds_audit.json",
+          "sha256": "f72c36b60cbc7fdb01e60858b0c8a52ae5aaa7b4fc8e3fbf574db505ae21f245"
+        },
+        "long_run": {
+          "path": "reports\\maxperf_20261103\\long_decouple60_2000\\summary.json",
+          "sha256": "25af4bac948b0968b6b9c37d4cfeae1c22105502a92366d2467c9a04633aa752"
+        },
+        "long_uart": {
+          "path": "reports\\maxperf_20261103\\long_decouple60_2000\\uart.log",
+          "sha256": "ef8d75239ebe6bbb9cf2ca7b224e0fdba737f94684040be4d93f3a3aa950344e"
+        }
+      },
+      "application_scope": "Full application candidate",
+      "requested_clock_mhz": 60.0,
+      "compiler_flags": "-O3 -march=rv32i_zmmul -mabi=ilp32 -msmall-data-limit=0 -ffreestanding -fno-builtin -fno-common -ffunction-sections -fdata-sections -funroll-all-loops --param=max-unroll-times=4",
+      "rtl_sha256": {
+        "advanced_soc.v": "c09cb42c057d4204c5c5870990ae0cf5e8486aee22ba2669a862a7f3987abc87",
+        "advanced_top.v": "fcd4e3c99b92c0d70379bc2e2caccb56fce7c7deb679afdcfdcd3ddd8591a9d7",
+        "alu.v": "5f53b372aabd205e485fa299d1bf7624c51ae1dc90e0903a6dc76c4e27acc711",
+        "cache_2way.v": "1638fea389f5d18a755e145a7097ca153d7374dbaea9fb0f1140476bc0408ac9",
+        "camera_dvp_capture.v": "59ef641d47586b1d18f32da348b188abaf0b4053b1ddbc25abc71ee12eda2d74",
+        "camera_sccb_write.v": "73910e450f4f36d3e02c1d2eb925e368f1b9be60c91a0d5d9e523675727a284c",
+        "cpu_core.v": "ccb43bd36d5e050b97e2f71d86ba54eb1d1d33b7cf5e9cb976caa3dbec9ecaf8",
+        "cpu_top.v": "8a67233e20affb552ae73309240e580a339d45618626a7da8a9b59cc8a57aa17",
+        "data_bus.v": "7adc18ac0724a457dd3ec8349d6bf9079edaf723d6f83e101c017068d7859b80",
+        "decoder.v": "0e11234d7352393c23ec882b5e5221974efb9050d7ecd4a90f8756dbbe0177cf",
+        "fpga_top.v": "c0999157b6d5b9e6b89ed91d31c523ac7a010bb2a4064ee8427dfb094bee73d3",
+        "int8_dot.v": "27b0c16ebab7695d79c206f2bf655e7be519b6d2a838593a6ab4914c8b2320a5",
+        "machine_csr.v": "4df8fce167ba4371bd98ee9736628224bafdeaf682a38d8d7136765566379d4b",
+        "pc_reg.v": "4038873a252f8486307eb7a27e504a6c4fe0c665711c9025ed8183f63a03c568",
+        "ram.v": "9c9846bdc58fbba620b4f6326aa134757ee7117dbf081143917fed0341dcdd01",
+        "ram_sync.v": "f66eb0e9a84b608a2d5c44682cb713ea02f2e19503e27ffbf6f2a6077ed7fdb5",
+        "regfile.v": "0d5f03aa884c1725a51269a4a69e8f6a3740eb56d87b7fd50df0af92d13296f2",
+        "remote_top.v": "940cb0d11a30d14bbfbdf218017c4e5790c8ebf8dbbb011959481551f2dbc576",
+        "rom.v": "d38d93cea50620274f35fcf242fdba4a77b9835c855338d4942c50c46a16be3c",
+        "rom_sync.v": "da9da1de535d89f68b08d8bc9eb8b4068a755289091f82c79774f21665fd62f7",
+        "selftest_top.v": "18b17b6c24531a11ddc8f02986de704746030401b3d1f3afa2d71bf36a001fa5",
+        "soc_peripherals.v": "0ae1a5d042b80ae560d7198dbc8300c0a16337de69cd21d0d1cff0c697d0c30c",
+        "uart_rx.v": "f5c547dad8d21ab8894e4933f5ecfcd94bb71643d7af8c62449bcbf84274a0e3",
+        "uart_tx.v": "d93824751216ab3319ad7d4e755e59009d1c4a204cb7da685addfdf42e859077",
+        "video_mmio.v": "6b2ddadf22b2c0b695f1948b98661ed0d16fe94c03c47dcb7061363ec36f0679",
+        "video_rgb_scanout.v": "fbd2c54a1838c3f71ce53bd72a5707cf76b56d57f8aa16beb9c8b83ca963c452"
+      },
+      "core_pds_status": "PASS_DEFINED_TIMING_PINS_PROVENANCE",
+      "slow_setup_ns": 1.825,
+      "slow_hold_ns": 0.152,
+      "estimated_fmax_mhz_not_a_tested_frequency": 67.3783,
+      "app_pds_status": "PASS_DEFINED_TIMING_PINS_PROVENANCE",
+      "iterations": 2000,
+      "timed_cycles": 726304996,
+      "total_seconds_rtl": 12.105083266666666,
+      "scoring_metrics": {
+        "score_coremark_per_mhz": 2.7536641094507908,
+        "implemented_clock_passing_defined_constraints_mhz": 60.0,
+        "coremark_per_lut": 0.020506372913869607,
+        "coremark": 165.21984656704743,
+        "formula": {
+          "score": "N / (TotalTime_seconds * Frequency_MHz)",
+          "coremark_per_lut": "(N / TotalTime_seconds) / postroute_CoreMark_top_LUT"
+        },
+        "scope": "RTL score plus actual implemented clock and CoreMark top post-route resources; new board score pending",
+        "physical_board_verified": false,
+        "combined_weighted_score": null,
+        "frequency_note": "This implemented clock passed defined PDS constraints; not the estimated Fmax or a measured physical-board maximum",
+        "resource_scope": "CoreMark advanced_top only; excludes multimodal application DDR/display resource counts",
+        "resources": {
+          "LUT": 8057,
+          "FF": 5144,
+          "APM": 8,
+          "DRM": 51.5
+        },
+        "resource_report": "reports\\maxperf_20261103\\pds_decouple60_coremark\\work\\place_route\\advanced_top.ror",
+        "resource_report_sha256": "26632f27db18cbf6be1ec0d74460742ce12fdc4575d2520e684ef109049772a5",
+        "timing_report_sha256": "bc0051f0b43e6f5d7ee891f8b101874b925acbe18f03b9c092fa1f117d9c5e9c"
+      }
+    },
+    {
+      "candidate": "decouple66",
+      "result_kind": "RTL_SIMULATION_BOARD_PENDING",
+      "core_build": "pds_decouple66_coremark",
+      "coremark": 181.74183122375217,
+      "score_coremark_per_mhz": 2.7536641094507908,
+      "coremark_per_lut": 0.022517882694059247,
+      "implemented_clock_passing_defined_constraints_mhz": 66.0,
+      "LUT": 8071,
+      "FF": 5154,
+      "APM": 8,
+      "DRM": 51.5,
+      "physical_board_verified": false,
+      "long_rtl_binding_passed": true,
+      "provenance": {
+        "core_build": {
+          "path": "reports\\maxperf_20261103\\pds_decouple66_coremark\\build.json",
+          "sha256": "7c162baef44e29140740f310d4f96e0d12f8211752958e1a449284e43047d25a"
+        },
+        "core_audit": {
+          "path": "reports\\maxperf_20261103\\pds_decouple66_coremark\\independent_pds_audit.json",
+          "sha256": "b4a86c2aa8581d09b028cae152af262a594fa539c29cd02db1e674abd6cfe669"
+        },
+        "core_timing_report": {
+          "path": "reports\\maxperf_20261103\\pds_decouple66_coremark\\work\\report_timing\\advanced_top.rtr",
+          "sha256": "2166a645b69bfd56cfc7a428438c720acfbb512e267fe5ed079a209492efde07"
+        },
+        "core_resource_report": {
+          "path": "reports\\maxperf_20261103\\pds_decouple66_coremark\\work\\place_route\\advanced_top.ror",
+          "sha256": "20416e83847127a2dc0149cfeab28b1a08d91c8da5aa1e99e0e53e1c488d97de"
+        },
+        "bitstream": {
+          "sha256": "6a8df5d2d847a4ffc58694d6eac1f52e2c17043fe1d9d4cdc25447b66fc84f27"
+        },
+        "app_audit": {
+          "path": "reports\\maxperf_20261103\\pds_decouple66_multimodal\\independent_pds_audit.json",
+          "sha256": "6c82df014cfe038e1f4968046b929ba0c12e50975ebaa6912e010c9b460e9bbc"
+        },
+        "long_run": {
+          "path": "reports\\maxperf_20261103\\long_decouple66_2000\\summary.json",
+          "sha256": "fe2385895ca1b5121b59e872c885effbadc99bd5483027e86e02e50e177e10b7"
+        },
+        "long_uart": {
+          "path": "reports\\maxperf_20261103\\long_decouple66_2000\\uart.log",
+          "sha256": "ed51a89c6347a633e5e919cc7ad98d1568e1fbef0e431df2d8c6a1a5c7efe243"
+        }
+      },
+      "application_scope": "Full application candidate",
+      "requested_clock_mhz": 66.0,
+      "compiler_flags": "-O3 -march=rv32i_zmmul -mabi=ilp32 -msmall-data-limit=0 -ffreestanding -fno-builtin -fno-common -ffunction-sections -fdata-sections -funroll-all-loops --param=max-unroll-times=4",
+      "rtl_sha256": {
+        "advanced_soc.v": "c09cb42c057d4204c5c5870990ae0cf5e8486aee22ba2669a862a7f3987abc87",
+        "advanced_top.v": "fcd4e3c99b92c0d70379bc2e2caccb56fce7c7deb679afdcfdcd3ddd8591a9d7",
+        "alu.v": "5f53b372aabd205e485fa299d1bf7624c51ae1dc90e0903a6dc76c4e27acc711",
+        "cache_2way.v": "1638fea389f5d18a755e145a7097ca153d7374dbaea9fb0f1140476bc0408ac9",
+        "camera_dvp_capture.v": "59ef641d47586b1d18f32da348b188abaf0b4053b1ddbc25abc71ee12eda2d74",
+        "camera_sccb_write.v": "73910e450f4f36d3e02c1d2eb925e368f1b9be60c91a0d5d9e523675727a284c",
+        "cpu_core.v": "ccb43bd36d5e050b97e2f71d86ba54eb1d1d33b7cf5e9cb976caa3dbec9ecaf8",
+        "cpu_top.v": "8a67233e20affb552ae73309240e580a339d45618626a7da8a9b59cc8a57aa17",
+        "data_bus.v": "7adc18ac0724a457dd3ec8349d6bf9079edaf723d6f83e101c017068d7859b80",
+        "decoder.v": "0e11234d7352393c23ec882b5e5221974efb9050d7ecd4a90f8756dbbe0177cf",
+        "fpga_top.v": "c0999157b6d5b9e6b89ed91d31c523ac7a010bb2a4064ee8427dfb094bee73d3",
+        "int8_dot.v": "27b0c16ebab7695d79c206f2bf655e7be519b6d2a838593a6ab4914c8b2320a5",
+        "machine_csr.v": "4df8fce167ba4371bd98ee9736628224bafdeaf682a38d8d7136765566379d4b",
+        "pc_reg.v": "4038873a252f8486307eb7a27e504a6c4fe0c665711c9025ed8183f63a03c568",
+        "ram.v": "9c9846bdc58fbba620b4f6326aa134757ee7117dbf081143917fed0341dcdd01",
+        "ram_sync.v": "f66eb0e9a84b608a2d5c44682cb713ea02f2e19503e27ffbf6f2a6077ed7fdb5",
+        "regfile.v": "0d5f03aa884c1725a51269a4a69e8f6a3740eb56d87b7fd50df0af92d13296f2",
+        "remote_top.v": "940cb0d11a30d14bbfbdf218017c4e5790c8ebf8dbbb011959481551f2dbc576",
+        "rom.v": "d38d93cea50620274f35fcf242fdba4a77b9835c855338d4942c50c46a16be3c",
+        "rom_sync.v": "da9da1de535d89f68b08d8bc9eb8b4068a755289091f82c79774f21665fd62f7",
+        "selftest_top.v": "18b17b6c24531a11ddc8f02986de704746030401b3d1f3afa2d71bf36a001fa5",
+        "soc_peripherals.v": "0ae1a5d042b80ae560d7198dbc8300c0a16337de69cd21d0d1cff0c697d0c30c",
+        "uart_rx.v": "f5c547dad8d21ab8894e4933f5ecfcd94bb71643d7af8c62449bcbf84274a0e3",
+        "uart_tx.v": "d93824751216ab3319ad7d4e755e59009d1c4a204cb7da685addfdf42e859077",
+        "video_mmio.v": "6b2ddadf22b2c0b695f1948b98661ed0d16fe94c03c47dcb7061363ec36f0679",
+        "video_rgb_scanout.v": "fbd2c54a1838c3f71ce53bd72a5707cf76b56d57f8aa16beb9c8b83ca963c452"
+      },
+      "core_pds_status": "PASS_DEFINED_TIMING_PINS_PROVENANCE",
+      "slow_setup_ns": 0.799,
+      "slow_hold_ns": 0.148,
+      "estimated_fmax_mhz_not_a_tested_frequency": 69.6744,
+      "app_pds_status": "PASS_DEFINED_TIMING_PINS_PROVENANCE",
+      "iterations": 2000,
+      "timed_cycles": 726304996,
+      "total_seconds_rtl": 11.00462115151515,
+      "scoring_metrics": {
+        "score_coremark_per_mhz": 2.7536641094507908,
+        "implemented_clock_passing_defined_constraints_mhz": 66.0,
+        "coremark_per_lut": 0.022517882694059247,
+        "coremark": 181.74183122375217,
+        "formula": {
+          "score": "N / (TotalTime_seconds * Frequency_MHz)",
+          "coremark_per_lut": "(N / TotalTime_seconds) / postroute_CoreMark_top_LUT"
+        },
+        "scope": "RTL score plus actual implemented clock and CoreMark top post-route resources; new board score pending",
+        "physical_board_verified": false,
+        "combined_weighted_score": null,
+        "frequency_note": "This implemented clock passed defined PDS constraints; not the estimated Fmax or a measured physical-board maximum",
+        "resource_scope": "CoreMark advanced_top only; excludes multimodal application DDR/display resource counts",
+        "resources": {
+          "LUT": 8071,
+          "FF": 5154,
+          "APM": 8,
+          "DRM": 51.5
+        },
+        "resource_report": "reports\\maxperf_20261103\\pds_decouple66_coremark\\work\\place_route\\advanced_top.ror",
+        "resource_report_sha256": "20416e83847127a2dc0149cfeab28b1a08d91c8da5aa1e99e0e53e1c488d97de",
+        "timing_report_sha256": "2166a645b69bfd56cfc7a428438c720acfbb512e267fe5ed079a209492efde07"
+      }
+    },
+    {
+      "candidate": "smallcache60",
+      "result_kind": "RTL_SIMULATION_BOARD_PENDING",
+      "core_build": "pds_smallcache60_coremark",
+      "coremark": 162.83561461641895,
+      "score_coremark_per_mhz": 2.713926910273649,
+      "coremark_per_lut": 0.024553017885467272,
+      "implemented_clock_passing_defined_constraints_mhz": 60.0,
+      "LUT": 6632,
+      "FF": 4503,
+      "APM": 8,
+      "DRM": 50.5,
+      "physical_board_verified": false,
+      "long_rtl_binding_passed": true,
+      "provenance": {
+        "core_build": {
+          "path": "reports\\maxperf_20261103\\pds_smallcache60_coremark\\build.json",
+          "sha256": "1f75931fd60ae08d1380a49d8ade2ad2d4123d68f584aed1986155e90463c708"
+        },
+        "core_audit": {
+          "path": "reports\\maxperf_20261103\\pds_smallcache60_coremark\\independent_pds_audit.json",
+          "sha256": "3b450c1fac1c4d47c8a32d5ba940563c2b038a17d26a0e19c8608f2be1daff0c"
+        },
+        "core_timing_report": {
+          "path": "reports\\maxperf_20261103\\pds_smallcache60_coremark\\work\\report_timing\\advanced_top.rtr",
+          "sha256": "cfb6100a6c5c2eb8eac017474d1600a23a64e71aa86840245433ea26f14b75d1"
+        },
+        "core_resource_report": {
+          "path": "reports\\maxperf_20261103\\pds_smallcache60_coremark\\work\\place_route\\advanced_top.ror",
+          "sha256": "39e11b2cec7349a3a2080af2ab1e9d5c99961edca79a72ed939575e8437e5377"
+        },
+        "bitstream": {
+          "sha256": "c7f1745c087a8f8f85fdb497d22b9fb6adc943f259d0a98702ca3dc2de8f0c13"
+        },
+        "long_run": {
+          "path": "reports\\maxperf_20261103\\long_smallcache60_2000\\summary.json",
+          "sha256": "15948aabb018ed6fe4e3001e3d4eca174a7535b44cddb78c83f11f1f0a93f3ca"
+        },
+        "long_uart": {
+          "path": "reports\\maxperf_20261103\\long_smallcache60_2000\\uart.log",
+          "sha256": "05c026cd4fb2cad0866d611d43151162dfc1f82f9e1ac58f7813a4f56ddeae7f"
+        }
+      },
+      "application_scope": "CoreMark resource/performance comparison only",
+      "requested_clock_mhz": 60.0,
+      "compiler_flags": "-O3 -march=rv32i_zmmul -mabi=ilp32 -msmall-data-limit=0 -ffreestanding -fno-builtin -fno-common -ffunction-sections -fdata-sections -funroll-all-loops --param=max-unroll-times=4",
+      "rtl_sha256": {
+        "advanced_soc.v": "ef7e85b5b17c1e3518e2cd1c45b98f4f6300b32dc1546b75182cf7e0b80cad8c",
+        "advanced_top.v": "fcd4e3c99b92c0d70379bc2e2caccb56fce7c7deb679afdcfdcd3ddd8591a9d7",
+        "alu.v": "5f53b372aabd205e485fa299d1bf7624c51ae1dc90e0903a6dc76c4e27acc711",
+        "cache_2way.v": "1638fea389f5d18a755e145a7097ca153d7374dbaea9fb0f1140476bc0408ac9",
+        "camera_dvp_capture.v": "59ef641d47586b1d18f32da348b188abaf0b4053b1ddbc25abc71ee12eda2d74",
+        "camera_sccb_write.v": "73910e450f4f36d3e02c1d2eb925e368f1b9be60c91a0d5d9e523675727a284c",
+        "cpu_core.v": "ccb43bd36d5e050b97e2f71d86ba54eb1d1d33b7cf5e9cb976caa3dbec9ecaf8",
+        "cpu_top.v": "8a67233e20affb552ae73309240e580a339d45618626a7da8a9b59cc8a57aa17",
+        "data_bus.v": "7adc18ac0724a457dd3ec8349d6bf9079edaf723d6f83e101c017068d7859b80",
+        "decoder.v": "0e11234d7352393c23ec882b5e5221974efb9050d7ecd4a90f8756dbbe0177cf",
+        "fpga_top.v": "c0999157b6d5b9e6b89ed91d31c523ac7a010bb2a4064ee8427dfb094bee73d3",
+        "int8_dot.v": "27b0c16ebab7695d79c206f2bf655e7be519b6d2a838593a6ab4914c8b2320a5",
+        "machine_csr.v": "4df8fce167ba4371bd98ee9736628224bafdeaf682a38d8d7136765566379d4b",
+        "pc_reg.v": "4038873a252f8486307eb7a27e504a6c4fe0c665711c9025ed8183f63a03c568",
+        "ram.v": "9c9846bdc58fbba620b4f6326aa134757ee7117dbf081143917fed0341dcdd01",
+        "ram_sync.v": "f66eb0e9a84b608a2d5c44682cb713ea02f2e19503e27ffbf6f2a6077ed7fdb5",
+        "regfile.v": "0d5f03aa884c1725a51269a4a69e8f6a3740eb56d87b7fd50df0af92d13296f2",
+        "remote_top.v": "940cb0d11a30d14bbfbdf218017c4e5790c8ebf8dbbb011959481551f2dbc576",
+        "rom.v": "d38d93cea50620274f35fcf242fdba4a77b9835c855338d4942c50c46a16be3c",
+        "rom_sync.v": "da9da1de535d89f68b08d8bc9eb8b4068a755289091f82c79774f21665fd62f7",
+        "selftest_top.v": "18b17b6c24531a11ddc8f02986de704746030401b3d1f3afa2d71bf36a001fa5",
+        "soc_peripherals.v": "0ae1a5d042b80ae560d7198dbc8300c0a16337de69cd21d0d1cff0c697d0c30c",
+        "uart_rx.v": "f5c547dad8d21ab8894e4933f5ecfcd94bb71643d7af8c62449bcbf84274a0e3",
+        "uart_tx.v": "d93824751216ab3319ad7d4e755e59009d1c4a204cb7da685addfdf42e859077",
+        "video_mmio.v": "6b2ddadf22b2c0b695f1948b98661ed0d16fe94c03c47dcb7061363ec36f0679",
+        "video_rgb_scanout.v": "fbd2c54a1838c3f71ce53bd72a5707cf76b56d57f8aa16beb9c8b83ca963c452"
+      },
+      "core_pds_status": "PASS_DEFINED_TIMING_PINS_PROVENANCE",
+      "slow_setup_ns": 1.946,
+      "slow_hold_ns": 0.135,
+      "estimated_fmax_mhz_not_a_tested_frequency": 67.9321,
+      "app_pds_status": "NOT_AN_APPLICATION_CANDIDATE",
+      "iterations": 2000,
+      "timed_cycles": 736939522,
+      "total_seconds_rtl": 12.282325366666667,
+      "scoring_metrics": {
+        "score_coremark_per_mhz": 2.713926910273649,
+        "implemented_clock_passing_defined_constraints_mhz": 60.0,
+        "coremark_per_lut": 0.024553017885467272,
+        "coremark": 162.83561461641895,
+        "formula": {
+          "score": "N / (TotalTime_seconds * Frequency_MHz)",
+          "coremark_per_lut": "(N / TotalTime_seconds) / postroute_CoreMark_top_LUT"
+        },
+        "scope": "RTL score plus actual implemented clock and CoreMark top post-route resources; new board score pending",
+        "physical_board_verified": false,
+        "combined_weighted_score": null,
+        "frequency_note": "This implemented clock passed defined PDS constraints; not the estimated Fmax or a measured physical-board maximum",
+        "resource_scope": "CoreMark advanced_top only; excludes multimodal application DDR/display resource counts",
+        "resources": {
+          "LUT": 6632,
+          "FF": 4503,
+          "APM": 8,
+          "DRM": 50.5
+        },
+        "resource_report": "reports\\maxperf_20261103\\pds_smallcache60_coremark\\work\\place_route\\advanced_top.ror",
+        "resource_report_sha256": "39e11b2cec7349a3a2080af2ab1e9d5c99961edca79a72ed939575e8437e5377",
+        "timing_report_sha256": "cfb6100a6c5c2eb8eac017474d1600a23a64e71aa86840245433ea26f14b75d1"
+      },
+      "short_regression_not_reportable_score": {
+        "timed_cycles": 369265,
+        "result": "PASS",
+        "provenance": {
+          "path": "reports\\maxperf_20261103\\smallcache_candidate\\short_coremark\\summary.json",
+          "sha256": "b1648595d83ed654af4774d546ad94dce75336f1f9bf8413cd9692c3867d0825"
+        }
+      }
+    }
+  ]
+}

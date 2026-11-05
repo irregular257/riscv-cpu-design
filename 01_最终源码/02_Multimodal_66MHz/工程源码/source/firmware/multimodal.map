@@ -1,0 +1,1066 @@
+Archive member included to satisfy reference by file (symbol)
+
+tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-wf_exp.o)
+                              reports/maxperf_20261103/vision_firmware/board66/llm_llm.o (expf)
+tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-wf_pow.o)
+                              reports/maxperf_20261103/vision_firmware/board66/llm_llm.o (powf)
+tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-wf_sqrt.o)
+                              reports/maxperf_20261103/vision_firmware/board66/llm_llm.o (sqrtf)
+tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-sf_cos.o)
+                              reports/maxperf_20261103/vision_firmware/board66/llm_llm.o (cosf)
+tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-sf_sin.o)
+                              reports/maxperf_20261103/vision_firmware/board66/llm_llm.o (sinf)
+tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-ef_sqrt.o)
+                              tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-wf_sqrt.o) (__ieee754_sqrtf)
+tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-sf_finite.o)
+                              tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-wf_exp.o) (finitef)
+tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-kf_cos.o)
+                              tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-sf_cos.o) (__kernel_cosf)
+tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-kf_sin.o)
+                              tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-sf_cos.o) (__kernel_sinf)
+tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-ef_exp.o)
+                              tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-wf_exp.o) (__ieee754_expf)
+tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-ef_pow.o)
+                              tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-wf_pow.o) (__ieee754_powf)
+tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-ef_rem_pio2.o)
+                              tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-sf_cos.o) (__ieee754_rem_pio2f)
+tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-sf_scalbn.o)
+                              tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-ef_pow.o) (scalbnf)
+tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-math_errf.o)
+                              tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-ef_exp.o) (__math_uflowf)
+tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-sf_fabs.o)
+                              tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-ef_pow.o) (fabsf)
+tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-kf_rem_pio2.o)
+                              tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-ef_rem_pio2.o) (__kernel_rem_pio2f)
+tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-sf_floor.o)
+                              tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-kf_rem_pio2.o) (floorf)
+tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(addsf3.o)
+                              reports/maxperf_20261103/vision_firmware/board66/llm_llm.o (__addsf3)
+tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(divsf3.o)
+                              reports/maxperf_20261103/vision_firmware/board66/llm_llm.o (__divsf3)
+tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(eqsf2.o)
+                              reports/maxperf_20261103/vision_firmware/board66/llm_llm.o (__eqsf2)
+tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(gesf2.o)
+                              reports/maxperf_20261103/vision_firmware/board66/llm_llm.o (__gesf2)
+tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(lesf2.o)
+                              tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-ef_sqrt.o) (__lesf2)
+tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(mulsf3.o)
+                              reports/maxperf_20261103/vision_firmware/board66/llm_llm.o (__mulsf3)
+tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(subsf3.o)
+                              reports/maxperf_20261103/vision_firmware/board66/llm_llm.o (__subsf3)
+tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(unordsf2.o)
+                              tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-wf_pow.o) (__unordsf2)
+tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(fixsfsi.o)
+                              tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-kf_cos.o) (__fixsfsi)
+tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(floatsisf.o)
+                              reports/maxperf_20261103/vision_firmware/board66/llm_llm.o (__floatsisf)
+tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(floatunsisf.o)
+                              reports/maxperf_20261103/vision_firmware/board66/llm_llm.o (__floatunsisf)
+tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(muldi3.o)
+                              tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(divsf3.o) (__mulsi3)
+tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(div.o)
+                              reports/maxperf_20261103/vision_firmware/board66/digit.o (__udivsi3)
+tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(_clzsi2.o)
+                              tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(addsf3.o) (__clzsi2)
+tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(_clz.o)
+                              tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(_clzsi2.o) (__clz_tab)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 reports/maxperf_20261103/vision_firmware/board66/start.o
+ .data          0x00000000        0x0 reports/maxperf_20261103/vision_firmware/board66/start.o
+ .bss           0x00000000        0x0 reports/maxperf_20261103/vision_firmware/board66/start.o
+ .text          0x00000000        0x0 reports/maxperf_20261103/vision_firmware/board66/trap.o
+ .data          0x00000000        0x0 reports/maxperf_20261103/vision_firmware/board66/trap.o
+ .bss           0x00000000        0x0 reports/maxperf_20261103/vision_firmware/board66/trap.o
+ .text          0x00000000        0x0 reports/maxperf_20261103/vision_firmware/board66/main.o
+ .data          0x00000000        0x0 reports/maxperf_20261103/vision_firmware/board66/main.o
+ .bss           0x00000000        0x0 reports/maxperf_20261103/vision_firmware/board66/main.o
+ .comment       0x00000000       0x34 reports/maxperf_20261103/vision_firmware/board66/main.o
+ .note.GNU-stack
+                0x00000000        0x0 reports/maxperf_20261103/vision_firmware/board66/main.o
+ .text          0x00000000        0x0 reports/maxperf_20261103/vision_firmware/board66/multimodal.o
+ .data          0x00000000        0x0 reports/maxperf_20261103/vision_firmware/board66/multimodal.o
+ .bss           0x00000000        0x0 reports/maxperf_20261103/vision_firmware/board66/multimodal.o
+ .comment       0x00000000       0x34 reports/maxperf_20261103/vision_firmware/board66/multimodal.o
+ .note.GNU-stack
+                0x00000000        0x0 reports/maxperf_20261103/vision_firmware/board66/multimodal.o
+ .text          0x00000000        0x0 reports/maxperf_20261103/vision_firmware/board66/digit.o
+ .data          0x00000000        0x0 reports/maxperf_20261103/vision_firmware/board66/digit.o
+ .bss           0x00000000        0x0 reports/maxperf_20261103/vision_firmware/board66/digit.o
+ .text.text     0x00000000       0x34 reports/maxperf_20261103/vision_firmware/board66/digit.o
+ .text.get_timeout
+                0x00000000       0x5c reports/maxperf_20261103/vision_firmware/board66/digit.o
+ .text.response
+                0x00000000      0x60c reports/maxperf_20261103/vision_firmware/board66/digit.o
+ .rodata.digit_unused_loop.str1.4
+                0x00000000       0x2f reports/maxperf_20261103/vision_firmware/board66/digit.o
+ .text.digit_unused_loop
+                0x00000000      0x320 reports/maxperf_20261103/vision_firmware/board66/digit.o
+ .bss.frame     0x00000000      0x400 reports/maxperf_20261103/vision_firmware/board66/digit.o
+ .rodata        0x00000000      0x200 reports/maxperf_20261103/vision_firmware/board66/digit.o
+ .comment       0x00000000       0x34 reports/maxperf_20261103/vision_firmware/board66/digit.o
+ .note.GNU-stack
+                0x00000000        0x0 reports/maxperf_20261103/vision_firmware/board66/digit.o
+ .text          0x00000000        0x0 reports/maxperf_20261103/vision_firmware/board66/hanzi.o
+ .data          0x00000000        0x0 reports/maxperf_20261103/vision_firmware/board66/hanzi.o
+ .bss           0x00000000        0x0 reports/maxperf_20261103/vision_firmware/board66/hanzi.o
+ .text.text     0x00000000       0x34 reports/maxperf_20261103/vision_firmware/board66/hanzi.o
+ .text.get_timeout
+                0x00000000       0x5c reports/maxperf_20261103/vision_firmware/board66/hanzi.o
+ .text.response
+                0x00000000      0x60c reports/maxperf_20261103/vision_firmware/board66/hanzi.o
+ .rodata.hanzi_unused_loop.str1.4
+                0x00000000       0x27 reports/maxperf_20261103/vision_firmware/board66/hanzi.o
+ .text.hanzi_unused_loop
+                0x00000000      0x320 reports/maxperf_20261103/vision_firmware/board66/hanzi.o
+ .bss.frame     0x00000000      0x400 reports/maxperf_20261103/vision_firmware/board66/hanzi.o
+ .rodata        0x00000000      0x200 reports/maxperf_20261103/vision_firmware/board66/hanzi.o
+ .comment       0x00000000       0x34 reports/maxperf_20261103/vision_firmware/board66/hanzi.o
+ .note.GNU-stack
+                0x00000000        0x0 reports/maxperf_20261103/vision_firmware/board66/hanzi.o
+ .text          0x00000000        0x0 reports/maxperf_20261103/vision_firmware/board66/minilib.o
+ .data          0x00000000        0x0 reports/maxperf_20261103/vision_firmware/board66/minilib.o
+ .bss           0x00000000        0x0 reports/maxperf_20261103/vision_firmware/board66/minilib.o
+ .text.memset   0x00000000       0x1c reports/maxperf_20261103/vision_firmware/board66/minilib.o
+ .comment       0x00000000       0x34 reports/maxperf_20261103/vision_firmware/board66/minilib.o
+ .note.GNU-stack
+                0x00000000        0x0 reports/maxperf_20261103/vision_firmware/board66/minilib.o
+ .text          0x00000000        0x0 reports/maxperf_20261103/vision_firmware/board66/llm_llm.o
+ .data          0x00000000        0x0 reports/maxperf_20261103/vision_firmware/board66/llm_llm.o
+ .bss           0x00000000        0x0 reports/maxperf_20261103/vision_firmware/board66/llm_llm.o
+ .text.llm_get_info
+                0x00000000       0x54 reports/maxperf_20261103/vision_firmware/board66/llm_llm.o
+ .text.llm_set_generation_limit
+                0x00000000       0x24 reports/maxperf_20261103/vision_firmware/board66/llm_llm.o
+ .comment       0x00000000       0x34 reports/maxperf_20261103/vision_firmware/board66/llm_llm.o
+ .note.GNU-stack
+                0x00000000        0x0 reports/maxperf_20261103/vision_firmware/board66/llm_llm.o
+ .text          0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-wf_exp.o)
+ .data          0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-wf_exp.o)
+ .bss           0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-wf_exp.o)
+ .comment       0x00000000       0x34 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-wf_exp.o)
+ .note.GNU-stack
+                0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-wf_exp.o)
+ .text          0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-wf_pow.o)
+ .data          0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-wf_pow.o)
+ .bss           0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-wf_pow.o)
+ .comment       0x00000000       0x34 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-wf_pow.o)
+ .note.GNU-stack
+                0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-wf_pow.o)
+ .text          0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-wf_sqrt.o)
+ .data          0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-wf_sqrt.o)
+ .bss           0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-wf_sqrt.o)
+ .comment       0x00000000       0x34 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-wf_sqrt.o)
+ .note.GNU-stack
+                0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-wf_sqrt.o)
+ .text          0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-sf_cos.o)
+ .data          0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-sf_cos.o)
+ .bss           0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-sf_cos.o)
+ .comment       0x00000000       0x34 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-sf_cos.o)
+ .note.GNU-stack
+                0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-sf_cos.o)
+ .text          0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-sf_sin.o)
+ .data          0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-sf_sin.o)
+ .bss           0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-sf_sin.o)
+ .comment       0x00000000       0x34 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-sf_sin.o)
+ .note.GNU-stack
+                0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-sf_sin.o)
+ .text          0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-ef_sqrt.o)
+ .data          0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-ef_sqrt.o)
+ .bss           0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-ef_sqrt.o)
+ .comment       0x00000000       0x34 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-ef_sqrt.o)
+ .note.GNU-stack
+                0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-ef_sqrt.o)
+ .text          0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-sf_finite.o)
+ .data          0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-sf_finite.o)
+ .bss           0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-sf_finite.o)
+ .comment       0x00000000       0x34 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-sf_finite.o)
+ .note.GNU-stack
+                0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-sf_finite.o)
+ .text          0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-kf_cos.o)
+ .data          0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-kf_cos.o)
+ .bss           0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-kf_cos.o)
+ .comment       0x00000000       0x34 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-kf_cos.o)
+ .note.GNU-stack
+                0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-kf_cos.o)
+ .text          0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-kf_sin.o)
+ .data          0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-kf_sin.o)
+ .bss           0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-kf_sin.o)
+ .comment       0x00000000       0x34 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-kf_sin.o)
+ .note.GNU-stack
+                0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-kf_sin.o)
+ .text          0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-ef_exp.o)
+ .data          0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-ef_exp.o)
+ .bss           0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-ef_exp.o)
+ .comment       0x00000000       0x34 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-ef_exp.o)
+ .note.GNU-stack
+                0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-ef_exp.o)
+ .text          0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-ef_pow.o)
+ .data          0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-ef_pow.o)
+ .bss           0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-ef_pow.o)
+ .comment       0x00000000       0x34 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-ef_pow.o)
+ .note.GNU-stack
+                0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-ef_pow.o)
+ .text          0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-ef_rem_pio2.o)
+ .data          0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-ef_rem_pio2.o)
+ .bss           0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-ef_rem_pio2.o)
+ .comment       0x00000000       0x34 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-ef_rem_pio2.o)
+ .note.GNU-stack
+                0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-ef_rem_pio2.o)
+ .text          0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-sf_scalbn.o)
+ .data          0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-sf_scalbn.o)
+ .bss           0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-sf_scalbn.o)
+ .comment       0x00000000       0x34 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-sf_scalbn.o)
+ .note.GNU-stack
+                0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-sf_scalbn.o)
+ .text          0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-math_errf.o)
+ .data          0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-math_errf.o)
+ .bss           0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-math_errf.o)
+ .text.__math_divzerof
+                0x00000000       0x5c tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-math_errf.o)
+ .text.__math_invalidf
+                0x00000000       0x7c tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-math_errf.o)
+ .comment       0x00000000       0x34 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-math_errf.o)
+ .note.GNU-stack
+                0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-math_errf.o)
+ .text          0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-sf_fabs.o)
+ .data          0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-sf_fabs.o)
+ .bss           0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-sf_fabs.o)
+ .comment       0x00000000       0x34 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-sf_fabs.o)
+ .note.GNU-stack
+                0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-sf_fabs.o)
+ .text          0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-kf_rem_pio2.o)
+ .data          0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-kf_rem_pio2.o)
+ .bss           0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-kf_rem_pio2.o)
+ .comment       0x00000000       0x34 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-kf_rem_pio2.o)
+ .note.GNU-stack
+                0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-kf_rem_pio2.o)
+ .text          0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-sf_floor.o)
+ .data          0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-sf_floor.o)
+ .bss           0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-sf_floor.o)
+ .comment       0x00000000       0x34 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-sf_floor.o)
+ .note.GNU-stack
+                0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-sf_floor.o)
+ .text          0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(addsf3.o)
+ .data          0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(addsf3.o)
+ .bss           0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(addsf3.o)
+ .comment       0x00000000       0x34 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(addsf3.o)
+ .note.GNU-stack
+                0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(addsf3.o)
+ .text          0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(divsf3.o)
+ .data          0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(divsf3.o)
+ .bss           0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(divsf3.o)
+ .comment       0x00000000       0x34 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(divsf3.o)
+ .note.GNU-stack
+                0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(divsf3.o)
+ .text          0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(eqsf2.o)
+ .data          0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(eqsf2.o)
+ .bss           0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(eqsf2.o)
+ .comment       0x00000000       0x34 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(eqsf2.o)
+ .note.GNU-stack
+                0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(eqsf2.o)
+ .text          0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(gesf2.o)
+ .data          0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(gesf2.o)
+ .bss           0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(gesf2.o)
+ .comment       0x00000000       0x34 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(gesf2.o)
+ .note.GNU-stack
+                0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(gesf2.o)
+ .text          0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(lesf2.o)
+ .data          0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(lesf2.o)
+ .bss           0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(lesf2.o)
+ .comment       0x00000000       0x34 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(lesf2.o)
+ .note.GNU-stack
+                0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(lesf2.o)
+ .text          0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(mulsf3.o)
+ .data          0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(mulsf3.o)
+ .bss           0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(mulsf3.o)
+ .comment       0x00000000       0x34 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(mulsf3.o)
+ .note.GNU-stack
+                0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(mulsf3.o)
+ .text          0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(subsf3.o)
+ .data          0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(subsf3.o)
+ .bss           0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(subsf3.o)
+ .comment       0x00000000       0x34 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(subsf3.o)
+ .note.GNU-stack
+                0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(subsf3.o)
+ .text          0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(unordsf2.o)
+ .data          0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(unordsf2.o)
+ .bss           0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(unordsf2.o)
+ .comment       0x00000000       0x34 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(unordsf2.o)
+ .note.GNU-stack
+                0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(unordsf2.o)
+ .text          0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(fixsfsi.o)
+ .data          0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(fixsfsi.o)
+ .bss           0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(fixsfsi.o)
+ .comment       0x00000000       0x34 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(fixsfsi.o)
+ .note.GNU-stack
+                0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(fixsfsi.o)
+ .text          0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(floatsisf.o)
+ .data          0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(floatsisf.o)
+ .bss           0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(floatsisf.o)
+ .comment       0x00000000       0x34 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(floatsisf.o)
+ .note.GNU-stack
+                0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(floatsisf.o)
+ .text          0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(floatunsisf.o)
+ .data          0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(floatunsisf.o)
+ .bss           0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(floatunsisf.o)
+ .comment       0x00000000       0x34 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(floatunsisf.o)
+ .note.GNU-stack
+                0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(floatunsisf.o)
+ .data          0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(muldi3.o)
+ .bss           0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(muldi3.o)
+ .data          0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(div.o)
+ .bss           0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(div.o)
+ .text          0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(_clzsi2.o)
+ .data          0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(_clzsi2.o)
+ .bss           0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(_clzsi2.o)
+ .comment       0x00000000       0x34 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(_clzsi2.o)
+ .note.GNU-stack
+                0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(_clzsi2.o)
+ .text          0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(_clz.o)
+ .data          0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(_clz.o)
+ .bss           0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(_clz.o)
+ .comment       0x00000000       0x34 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(_clz.o)
+ .note.GNU-stack
+                0x00000000        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(_clz.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+ROM              0x00000000         0x00010000         xr
+RAM              0x00001000         0x0000e000         rw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD reports/maxperf_20261103/vision_firmware/board66/start.o
+LOAD reports/maxperf_20261103/vision_firmware/board66/trap.o
+LOAD reports/maxperf_20261103/vision_firmware/board66/main.o
+LOAD reports/maxperf_20261103/vision_firmware/board66/multimodal.o
+LOAD reports/maxperf_20261103/vision_firmware/board66/digit.o
+LOAD reports/maxperf_20261103/vision_firmware/board66/hanzi.o
+LOAD reports/maxperf_20261103/vision_firmware/board66/minilib.o
+LOAD reports/maxperf_20261103/vision_firmware/board66/llm_llm.o
+START GROUP
+LOAD tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a
+LOAD tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a
+END GROUP
+
+.text           0x00000000     0xab2c
+ *(.text.start)
+ .text.start    0x00000000       0x58 reports/maxperf_20261103/vision_firmware/board66/start.o
+                0x00000000                _start
+ *(.text.trap)
+ .text.trap     0x00000058      0x104 reports/maxperf_20261103/vision_firmware/board66/trap.o
+                0x00000058                trap_entry
+ *(.text .text.*)
+ .text.hex      0x0000015c       0x44 reports/maxperf_20261103/vision_firmware/board66/main.o
+ .text.text     0x000001a0       0x2c reports/maxperf_20261103/vision_firmware/board66/main.o
+ .text.failed   0x000001cc       0x4c reports/maxperf_20261103/vision_firmware/board66/main.o
+ .text.trap_dispatch
+                0x00000218       0xfc reports/maxperf_20261103/vision_firmware/board66/main.o
+                0x00000218                trap_dispatch
+ .text.startup.main
+                0x00000314      0x2fc reports/maxperf_20261103/vision_firmware/board66/main.o
+                0x00000314                main
+ .text.put      0x00000610       0x20 reports/maxperf_20261103/vision_firmware/board66/multimodal.o
+ .text.get      0x00000630       0x50 reports/maxperf_20261103/vision_firmware/board66/multimodal.o
+ .text.crc16    0x00000680       0x30 reports/maxperf_20261103/vision_firmware/board66/multimodal.o
+ .text.crc32    0x000006b0       0x30 reports/maxperf_20261103/vision_firmware/board66/multimodal.o
+ .text.load32   0x000006e0       0x2c reports/maxperf_20261103/vision_firmware/board66/multimodal.o
+ .text.save32   0x0000070c        0x8 reports/maxperf_20261103/vision_firmware/board66/multimodal.o
+ .text.send     0x00000714       0x48 reports/maxperf_20261103/vision_firmware/board66/multimodal.o
+ .text.display_reset
+                0x0000075c       0x28 reports/maxperf_20261103/vision_firmware/board66/multimodal.o
+ .text.control_reply
+                0x00000784      0x110 reports/maxperf_20261103/vision_firmware/board66/multimodal.o
+ .text.emit_token
+                0x00000894       0x80 reports/maxperf_20261103/vision_firmware/board66/multimodal.o
+ .text.vision_reply
+                0x00000914      0x23c reports/maxperf_20261103/vision_firmware/board66/multimodal.o
+ .text.multimodal_loop
+                0x00000b50      0xd68 reports/maxperf_20261103/vision_firmware/board66/multimodal.o
+                0x00000b50                multimodal_loop
+ .text.convolution.constprop.0
+                0x000018b8      0x334 reports/maxperf_20261103/vision_firmware/board66/digit.o
+ .text.digit_vision_infer
+                0x00001bec      0x720 reports/maxperf_20261103/vision_firmware/board66/digit.o
+                0x00001bec                digit_vision_infer
+ .text.digit_vision_last_head
+                0x0000230c        0xc reports/maxperf_20261103/vision_firmware/board66/digit.o
+                0x0000230c                digit_vision_last_head
+ .text.convolution.constprop.0
+                0x00002318      0x334 reports/maxperf_20261103/vision_firmware/board66/hanzi.o
+ .text.hanzi_vision_infer
+                0x0000264c      0x718 reports/maxperf_20261103/vision_firmware/board66/hanzi.o
+                0x0000264c                hanzi_vision_infer
+ .text.hanzi_vision_last_head
+                0x00002d64        0xc reports/maxperf_20261103/vision_firmware/board66/hanzi.o
+                0x00002d64                hanzi_vision_last_head
+ .text.memcpy   0x00002d70       0x24 reports/maxperf_20261103/vision_firmware/board66/minilib.o
+                0x00002d70                memcpy
+ .text.__errno  0x00002d94        0xc reports/maxperf_20261103/vision_firmware/board66/minilib.o
+                0x00002d94                __errno
+ .text.read32   0x00002da0       0x2c reports/maxperf_20261103/vision_firmware/board66/llm_llm.o
+ .text.arena    0x00002dcc       0x48 reports/maxperf_20261103/vision_firmware/board66/llm_llm.o
+ .text.tok32    0x00002e14       0x14 reports/maxperf_20261103/vision_firmware/board66/llm_llm.o
+ .text.unicode_flags
+                0x00002e28       0xf8 reports/maxperf_20261103/vision_firmware/board66/llm_llm.o
+ .text.append_decomposed
+                0x00002f20      0x258 reports/maxperf_20261103/vision_firmware/board66/llm_llm.o
+ .text.descriptor
+                0x00003178       0x2c reports/maxperf_20261103/vision_firmware/board66/llm_llm.o
+ .text.valid_tensor
+                0x000031a4       0xf8 reports/maxperf_20261103/vision_firmware/board66/llm_llm.o
+ .text.signed4  0x0000329c       0x10 reports/maxperf_20261103/vision_firmware/board66/llm_llm.o
+ .text.matvec   0x000032ac      0x1a0 reports/maxperf_20261103/vision_firmware/board66/llm_llm.o
+ .text.add_bias
+                0x0000344c       0x94 reports/maxperf_20261103/vision_firmware/board66/llm_llm.o
+ .text.apply_rope
+                0x000034e0      0x158 reports/maxperf_20261103/vision_firmware/board66/llm_llm.o
+ .text.rmsnorm  0x00003638      0x144 reports/maxperf_20261103/vision_firmware/board66/llm_llm.o
+ .text.decode_utf8.part.0
+                0x0000377c       0xe0 reports/maxperf_20261103/vision_firmware/board66/llm_llm.o
+ .text.cp_at    0x0000385c       0x2c reports/maxperf_20261103/vision_firmware/board66/llm_llm.o
+ .text.forward  0x00003888      0x7b4 reports/maxperf_20261103/vision_firmware/board66/llm_llm.o
+ .text.llm_tokenize
+                0x0000403c      0x970 reports/maxperf_20261103/vision_firmware/board66/llm_llm.o
+                0x0000403c                llm_tokenize
+ .text.append_encoded
+                0x000049ac       0x58 reports/maxperf_20261103/vision_firmware/board66/llm_llm.o
+ .text.llm_reset
+                0x00004a04       0x1c reports/maxperf_20261103/vision_firmware/board66/llm_llm.o
+                0x00004a04                llm_reset
+ .text.llm_init
+                0x00004a20      0x974 reports/maxperf_20261103/vision_firmware/board66/llm_llm.o
+                0x00004a20                llm_init
+ .text.llm_init_loaded
+                0x00005394       0xb8 reports/maxperf_20261103/vision_firmware/board66/llm_llm.o
+                0x00005394                llm_init_loaded
+ .text.llm_chat
+                0x0000544c      0x438 reports/maxperf_20261103/vision_firmware/board66/llm_llm.o
+                0x0000544c                llm_chat
+ .text.expf     0x00005884       0xc0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-wf_exp.o)
+                0x00005884                expf
+ .text.powf     0x00005944      0x154 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-wf_pow.o)
+                0x00005944                powf
+ .text.sqrtf    0x00005a98       0x9c tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-wf_sqrt.o)
+                0x00005a98                sqrtf
+ .text.cosf     0x00005b34       0xbc tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-sf_cos.o)
+                0x00005b34                cosf
+ .text.sinf     0x00005bf0       0xbc tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-sf_sin.o)
+                0x00005bf0                sinf
+ .text.__ieee754_sqrtf
+                0x00005cac      0x1e4 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-ef_sqrt.o)
+                0x00005cac                __ieee754_sqrtf
+ .text.finitef  0x00005e90       0x14 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-sf_finite.o)
+                0x00005e90                finitef
+ .text.__kernel_cosf
+                0x00005ea4      0x350 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-kf_cos.o)
+                0x00005ea4                __kernel_cosf
+ .text.__kernel_sinf
+                0x000061f4      0x1f8 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-kf_sin.o)
+                0x000061f4                __kernel_sinf
+ .text.__ieee754_expf
+                0x000063ec      0x4a0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-ef_exp.o)
+                0x000063ec                __ieee754_expf
+ .text.__ieee754_powf
+                0x0000688c      0xf18 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-ef_pow.o)
+                0x0000688c                __ieee754_powf
+ .text.__ieee754_rem_pio2f
+                0x000077a4      0x640 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-ef_rem_pio2.o)
+                0x000077a4                __ieee754_rem_pio2f
+ .text.scalbnf  0x00007de4      0x16c tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-sf_scalbn.o)
+                0x00007de4                scalbnf
+ .text.with_errnof
+                0x00007f50       0x38 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-math_errf.o)
+ .text.xflowf   0x00007f88       0x50 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-math_errf.o)
+ .text.__math_uflowf
+                0x00007fd8       0x10 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-math_errf.o)
+                0x00007fd8                __math_uflowf
+ .text.__math_oflowf
+                0x00007fe8       0x10 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-math_errf.o)
+                0x00007fe8                __math_oflowf
+ .text.fabsf    0x00007ff8        0xc tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-sf_fabs.o)
+                0x00007ff8                fabsf
+ .text.__kernel_rem_pio2f
+                0x00008004      0xb78 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-kf_rem_pio2.o)
+                0x00008004                __kernel_rem_pio2f
+ .text.floorf   0x00008b7c      0x12c tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-sf_floor.o)
+                0x00008b7c                floorf
+ .text.__addsf3
+                0x00008ca8      0x790 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(addsf3.o)
+                0x00008ca8                __addsf3
+ .text.__divsf3
+                0x00009438      0x524 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(divsf3.o)
+                0x00009438                __divsf3
+ .text.__eqsf2  0x0000995c       0x70 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(eqsf2.o)
+                0x0000995c                __eqsf2
+                0x0000995c                __nesf2
+ .text.__gesf2  0x000099cc       0xa8 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(gesf2.o)
+                0x000099cc                __gesf2
+                0x000099cc                __gtsf2
+ .text.__lesf2  0x00009a74       0xac tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(lesf2.o)
+                0x00009a74                __ltsf2
+                0x00009a74                __lesf2
+ .text.__mulsf3
+                0x00009b20      0x49c tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(mulsf3.o)
+                0x00009b20                __mulsf3
+ .text.__subsf3
+                0x00009fbc      0x70c tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(subsf3.o)
+                0x00009fbc                __subsf3
+ .text.__unordsf2
+                0x0000a6c8       0x48 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(unordsf2.o)
+                0x0000a6c8                __unordsf2
+ .text.__fixsfsi
+                0x0000a710       0x74 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(fixsfsi.o)
+                0x0000a710                __fixsfsi
+ .text.__floatsisf
+                0x0000a784      0x140 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(floatsisf.o)
+                0x0000a784                __floatsisf
+ .text.__floatunsisf
+                0x0000a8c4      0x108 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(floatunsisf.o)
+                0x0000a8c4                __floatunsisf
+ .text          0x0000a9cc       0x24 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(muldi3.o)
+                0x0000a9cc                __mulsi3
+ .text          0x0000a9f0       0xb4 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(div.o)
+                0x0000a9f0                __divsi3
+                0x0000a9f8                __udivsi3
+                0x0000a9f8                __hidden___udivsi3
+                0x0000aa40                __umodsi3
+                0x0000aa74                __modsi3
+ .text.__clzsi2
+                0x0000aaa4       0x88 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(_clzsi2.o)
+                0x0000aaa4                __clzsi2
+
+.rodata         0x00001000     0x5658 load address 0x00011000
+ *(.rodata .rodata.*)
+ .rodata.failed.str1.4
+                0x00001000      0x188 reports/maxperf_20261103/vision_firmware/board66/main.o
+                                  0xb (size before relaxing)
+ .rodata.trap_dispatch.str1.4
+                0x00001188        0x0 reports/maxperf_20261103/vision_firmware/board66/main.o
+                                 0x25 (size before relaxing)
+ .rodata.main.str1.4
+                0x00001188        0x0 reports/maxperf_20261103/vision_firmware/board66/main.o
+                                 0xfd (size before relaxing)
+ .rodata.d.0    0x00001188       0x11 reports/maxperf_20261103/vision_firmware/board66/main.o
+ .rodata.multimodal_loop.str1.4
+                0x00001199        0x0 reports/maxperf_20261103/vision_firmware/board66/multimodal.o
+                                 0x54 (size before relaxing)
+ *fill*         0x00001199        0x3 
+ .rodata.multimodal_loop
+                0x0000119c       0x40 reports/maxperf_20261103/vision_firmware/board66/multimodal.o
+ .rodata.offset.0
+                0x000011dc       0x18 reports/maxperf_20261103/vision_firmware/board66/multimodal.o
+ .rodata        0x000011f4      0x200 reports/maxperf_20261103/vision_firmware/board66/multimodal.o
+ .rodata.vision_sigmoid_q15
+                0x000013f4      0x200 reports/maxperf_20261103/vision_firmware/board66/digit.o
+ .rodata.vision_l4_bias
+                0x000015f4       0x3c reports/maxperf_20261103/vision_firmware/board66/digit.o
+ .rodata.vision_l4_weights
+                0x00001630      0x1e0 reports/maxperf_20261103/vision_firmware/board66/digit.o
+ .rodata.vision_l3_bias
+                0x00001810       0x80 reports/maxperf_20261103/vision_firmware/board66/digit.o
+ .rodata.vision_l3_weights
+                0x00001890     0x1200 reports/maxperf_20261103/vision_firmware/board66/digit.o
+ .rodata.vision_l2_bias
+                0x00002a90       0x40 reports/maxperf_20261103/vision_firmware/board66/digit.o
+ .rodata.vision_l2_weights
+                0x00002ad0      0x900 reports/maxperf_20261103/vision_firmware/board66/digit.o
+ .rodata.vision_l1_bias
+                0x000033d0       0x40 reports/maxperf_20261103/vision_firmware/board66/digit.o
+ .rodata.vision_l1_weights
+                0x00003410      0x480 reports/maxperf_20261103/vision_firmware/board66/digit.o
+ .rodata.vision_l0_bias
+                0x00003890       0x20 reports/maxperf_20261103/vision_firmware/board66/digit.o
+ .rodata.vision_l0_weights
+                0x000038b0       0xc8 reports/maxperf_20261103/vision_firmware/board66/digit.o
+ .rodata.vision_sigmoid_q15
+                0x00003978      0x200 reports/maxperf_20261103/vision_firmware/board66/hanzi.o
+ .rodata.vision_l4_bias
+                0x00003b78       0x3c reports/maxperf_20261103/vision_firmware/board66/hanzi.o
+ .rodata.vision_l4_weights
+                0x00003bb4      0x1e0 reports/maxperf_20261103/vision_firmware/board66/hanzi.o
+ .rodata.vision_l3_bias
+                0x00003d94       0x80 reports/maxperf_20261103/vision_firmware/board66/hanzi.o
+ .rodata.vision_l3_weights
+                0x00003e14     0x1200 reports/maxperf_20261103/vision_firmware/board66/hanzi.o
+ .rodata.vision_l2_bias
+                0x00005014       0x40 reports/maxperf_20261103/vision_firmware/board66/hanzi.o
+ .rodata.vision_l2_weights
+                0x00005054      0x900 reports/maxperf_20261103/vision_firmware/board66/hanzi.o
+ .rodata.vision_l1_bias
+                0x00005954       0x40 reports/maxperf_20261103/vision_firmware/board66/hanzi.o
+ .rodata.vision_l1_weights
+                0x00005994      0x480 reports/maxperf_20261103/vision_firmware/board66/hanzi.o
+ .rodata.vision_l0_bias
+                0x00005e14       0x20 reports/maxperf_20261103/vision_firmware/board66/hanzi.o
+ .rodata.vision_l0_weights
+                0x00005e34       0xc8 reports/maxperf_20261103/vision_firmware/board66/hanzi.o
+ .rodata.assistant_role.0
+                0x00005efc        0xb reports/maxperf_20261103/vision_firmware/board66/llm_llm.o
+ *fill*         0x00005f07        0x1 
+ .rodata.user_role.1
+                0x00005f08        0x6 reports/maxperf_20261103/vision_firmware/board66/llm_llm.o
+ *fill*         0x00005f0e        0x2 
+ .rodata.newline.2
+                0x00005f10        0x2 reports/maxperf_20261103/vision_firmware/board66/llm_llm.o
+ *fill*         0x00005f12        0x2 
+ .rodata.system.3
+                0x00005f14       0x4c reports/maxperf_20261103/vision_firmware/board66/llm_llm.o
+ .rodata.cst4   0x00005f60      0x12c reports/maxperf_20261103/vision_firmware/board66/llm_llm.o
+                                 0x1c (size before relaxing)
+ .rodata        0x0000608c       0x60 reports/maxperf_20261103/vision_firmware/board66/llm_llm.o
+ .rodata.npio2_hw
+                0x000060ec       0x80 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-ef_rem_pio2.o)
+ .rodata.two_over_pi
+                0x0000616c      0x318 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-ef_rem_pio2.o)
+ .rodata.PIo2   0x00006484       0x2c tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-kf_rem_pio2.o)
+ .rodata.init_jk
+                0x000064b0        0xc tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-kf_rem_pio2.o)
+ .rodata.__divsf3
+                0x000064bc       0x7c tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(divsf3.o)
+ .rodata.__clz_tab
+                0x00006538      0x100 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(_clz.o)
+                0x00006538                __clz_tab
+ *(.srodata .srodata.*)
+ .srodata.cst4  0x00006638        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-wf_exp.o)
+                                  0xc (size before relaxing)
+ .srodata.cst4  0x00006638        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-wf_pow.o)
+                                  0x4 (size before relaxing)
+ .srodata.tiny  0x00006638        0x4 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-ef_sqrt.o)
+ .srodata.one   0x0000663c        0x4 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-ef_sqrt.o)
+ .srodata.cst4  0x00006640        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-kf_cos.o)
+                                 0x28 (size before relaxing)
+ .srodata.cst4  0x00006640        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-kf_sin.o)
+                                 0x1c (size before relaxing)
+ .srodata.ln2LO
+                0x00006640        0x8 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-ef_exp.o)
+ .srodata.ln2HI
+                0x00006648        0x8 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-ef_exp.o)
+ .srodata.halF  0x00006650        0x8 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-ef_exp.o)
+ .srodata.cst4  0x00006658        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-ef_exp.o)
+                                 0x30 (size before relaxing)
+ .srodata.cst4  0x00006658        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-ef_pow.o)
+                                 0x7c (size before relaxing)
+ .srodata.cst4  0x00006658        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-ef_rem_pio2.o)
+                                 0x24 (size before relaxing)
+ .srodata.cst4  0x00006658        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-sf_scalbn.o)
+                                 0x18 (size before relaxing)
+ .srodata.cst4  0x00006658        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-math_errf.o)
+                                 0x10 (size before relaxing)
+ .srodata.cst4  0x00006658        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-kf_rem_pio2.o)
+                                 0x1c (size before relaxing)
+ .srodata.cst4  0x00006658        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-sf_floor.o)
+                                  0xc (size before relaxing)
+
+.rela.dyn       0x00006658        0x0 load address 0x00016658
+ .rela.text.start
+                0x00006658        0x0 reports/maxperf_20261103/vision_firmware/board66/start.o
+
+.data           0x00006658        0x4 load address 0x00016658
+ *(.data .data.*)
+ .data.shown    0x00006658        0x1 reports/maxperf_20261103/vision_firmware/board66/multimodal.o
+ .data.last_candidate
+                0x00006659        0x1 reports/maxperf_20261103/vision_firmware/board66/multimodal.o
+ .data.stable_required
+                0x0000665a        0x1 reports/maxperf_20261103/vision_firmware/board66/multimodal.o
+ .data.threshold
+                0x0000665b        0x1 reports/maxperf_20261103/vision_firmware/board66/multimodal.o
+ *(.sdata .sdata.*)
+                0x00006660                        . = ALIGN (0x10)
+                0x00006660                        _bss_start = .
+
+.bss            0x00006700     0x2c64 load address 0x00016700
+ *(.bss .bss.*)
+ .bss.cache_words
+                0x00006700      0x300 reports/maxperf_20261103/vision_firmware/board66/main.o
+ .bss.expected_cause
+                0x00006a00        0x4 reports/maxperf_20261103/vision_firmware/board66/main.o
+ .bss.sync_traps
+                0x00006a04        0x4 reports/maxperf_20261103/vision_firmware/board66/main.o
+ .bss.timer_irqs
+                0x00006a08        0x4 reports/maxperf_20261103/vision_firmware/board66/main.o
+ .bss.software_irqs
+                0x00006a0c        0x4 reports/maxperf_20261103/vision_firmware/board66/main.o
+ .bss.upload_active
+                0x00006a10        0x1 reports/maxperf_20261103/vision_firmware/board66/multimodal.o
+ .bss.model_ready
+                0x00006a11        0x1 reports/maxperf_20261103/vision_firmware/board66/multimodal.o
+ .bss.ddr_tested
+                0x00006a12        0x1 reports/maxperf_20261103/vision_firmware/board66/multimodal.o
+ *fill*         0x00006a13        0x1 
+ .bss.last_length
+                0x00006a14        0x4 reports/maxperf_20261103/vision_firmware/board66/multimodal.o
+ .bss.last_offset
+                0x00006a18        0x4 reports/maxperf_20261103/vision_firmware/board66/multimodal.o
+ .bss.model_crc
+                0x00006a1c        0x4 reports/maxperf_20261103/vision_firmware/board66/multimodal.o
+ .bss.model_expected_crc
+                0x00006a20        0x4 reports/maxperf_20261103/vision_firmware/board66/multimodal.o
+ .bss.model_offset
+                0x00006a24        0x4 reports/maxperf_20261103/vision_firmware/board66/multimodal.o
+ .bss.model_size
+                0x00006a28        0x4 reports/maxperf_20261103/vision_firmware/board66/multimodal.o
+ .bss.history_count
+                0x00006a2c        0x4 reports/maxperf_20261103/vision_firmware/board66/multimodal.o
+ .bss.history_next
+                0x00006a30        0x4 reports/maxperf_20261103/vision_firmware/board66/multimodal.o
+ .bss.history   0x00006a34       0x80 reports/maxperf_20261103/vision_firmware/board66/multimodal.o
+ .bss.last_cycles
+                0x00006ab4        0x4 reports/maxperf_20261103/vision_firmware/board66/multimodal.o
+ .bss.crc_errors
+                0x00006ab8        0x4 reports/maxperf_20261103/vision_firmware/board66/multimodal.o
+ .bss.unknown   0x00006abc        0x4 reports/maxperf_20261103/vision_firmware/board66/multimodal.o
+ .bss.accepted  0x00006ac0        0x4 reports/maxperf_20261103/vision_firmware/board66/multimodal.o
+ .bss.frames    0x00006ac4        0x4 reports/maxperf_20261103/vision_firmware/board66/multimodal.o
+ .bss.stable_count
+                0x00006ac8        0x1 reports/maxperf_20261103/vision_firmware/board66/multimodal.o
+ .bss.mode      0x00006ac9        0x1 reports/maxperf_20261103/vision_firmware/board66/multimodal.o
+ *fill*         0x00006aca        0x2 
+ .bss.reply     0x00006acc      0x100 reports/maxperf_20261103/vision_firmware/board66/multimodal.o
+ .bss.frame     0x00006bcc      0x400 reports/maxperf_20261103/vision_firmware/board66/multimodal.o
+ .bss.patch     0x00006fcc       0x90 reports/maxperf_20261103/vision_firmware/board66/digit.o
+ .bss.head      0x0000705c      0x1e0 reports/maxperf_20261103/vision_firmware/board66/digit.o
+ .bss.feature3  0x0000723c      0x200 reports/maxperf_20261103/vision_firmware/board66/digit.o
+ .bss.feature2  0x0000743c      0x100 reports/maxperf_20261103/vision_firmware/board66/digit.o
+ .bss.feature1  0x0000753c      0x400 reports/maxperf_20261103/vision_firmware/board66/digit.o
+ .bss.feature0  0x0000793c      0x800 reports/maxperf_20261103/vision_firmware/board66/digit.o
+ .bss.patch     0x0000813c       0x90 reports/maxperf_20261103/vision_firmware/board66/hanzi.o
+ .bss.head      0x000081cc      0x1e0 reports/maxperf_20261103/vision_firmware/board66/hanzi.o
+ .bss.feature3  0x000083ac      0x200 reports/maxperf_20261103/vision_firmware/board66/hanzi.o
+ .bss.feature2  0x000085ac      0x100 reports/maxperf_20261103/vision_firmware/board66/hanzi.o
+ .bss.feature1  0x000086ac      0x400 reports/maxperf_20261103/vision_firmware/board66/hanzi.o
+ .bss.feature0  0x00008aac      0x800 reports/maxperf_20261103/vision_firmware/board66/hanzi.o
+ .bss.bare_errno
+                0x000092ac        0x4 reports/maxperf_20261103/vision_firmware/board66/minilib.o
+ .bss.s         0x000092b0       0xb4 reports/maxperf_20261103/vision_firmware/board66/llm_llm.o
+ *(.sbss .sbss.*)
+ *(COMMON)
+                0x00009370                        . = ALIGN (0x10)
+                0x00009370                        _bss_end = .
+                0x00010000                        _stack_top = 0x10000
+                0x00001800                        __global_pointer$ = 0x1800
+                0x00000001                        ASSERT ((_bss_end <= 0xf000), RAM overlaps reserved 4 KiB stack)
+
+/DISCARD/
+ *(.comment)
+ *(.note*)
+ *(.eh_frame*)
+OUTPUT(reports/maxperf_20261103/vision_firmware/board66/multimodal.elf elf32-littleriscv)
+
+.riscv.attributes
+                0x00000000       0x3e
+ .riscv.attributes
+                0x00000000       0x3c reports/maxperf_20261103/vision_firmware/board66/start.o
+ .riscv.attributes
+                0x0000003c       0x3c reports/maxperf_20261103/vision_firmware/board66/trap.o
+ .riscv.attributes
+                0x00000078       0x3e reports/maxperf_20261103/vision_firmware/board66/main.o
+ .riscv.attributes
+                0x000000b6       0x3a reports/maxperf_20261103/vision_firmware/board66/multimodal.o
+ .riscv.attributes
+                0x000000f0       0x3a reports/maxperf_20261103/vision_firmware/board66/digit.o
+ .riscv.attributes
+                0x0000012a       0x3a reports/maxperf_20261103/vision_firmware/board66/hanzi.o
+ .riscv.attributes
+                0x00000164       0x3a reports/maxperf_20261103/vision_firmware/board66/minilib.o
+ .riscv.attributes
+                0x0000019e       0x3a reports/maxperf_20261103/vision_firmware/board66/llm_llm.o
+ .riscv.attributes
+                0x000001d8       0x1c tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-wf_exp.o)
+ .riscv.attributes
+                0x000001f4       0x1c tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-wf_pow.o)
+ .riscv.attributes
+                0x00000210       0x1c tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-wf_sqrt.o)
+ .riscv.attributes
+                0x0000022c       0x1c tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-sf_cos.o)
+ .riscv.attributes
+                0x00000248       0x1c tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-sf_sin.o)
+ .riscv.attributes
+                0x00000264       0x1c tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-ef_sqrt.o)
+ .riscv.attributes
+                0x00000280       0x1c tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-sf_finite.o)
+ .riscv.attributes
+                0x0000029c       0x1c tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-kf_cos.o)
+ .riscv.attributes
+                0x000002b8       0x1c tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-kf_sin.o)
+ .riscv.attributes
+                0x000002d4       0x1c tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-ef_exp.o)
+ .riscv.attributes
+                0x000002f0       0x1c tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-ef_pow.o)
+ .riscv.attributes
+                0x0000030c       0x1c tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-ef_rem_pio2.o)
+ .riscv.attributes
+                0x00000328       0x1c tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-sf_scalbn.o)
+ .riscv.attributes
+                0x00000344       0x1c tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-math_errf.o)
+ .riscv.attributes
+                0x00000360       0x1c tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-sf_fabs.o)
+ .riscv.attributes
+                0x0000037c       0x1c tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-kf_rem_pio2.o)
+ .riscv.attributes
+                0x00000398       0x1c tools/xpack-riscv-none-elf-gcc-15.2.0-1/riscv-none-elf/lib/rv32i/ilp32/libm.a(libm_a-sf_floor.o)
+ .riscv.attributes
+                0x000003b4       0x1c tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(addsf3.o)
+ .riscv.attributes
+                0x000003d0       0x1c tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(divsf3.o)
+ .riscv.attributes
+                0x000003ec       0x1c tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(eqsf2.o)
+ .riscv.attributes
+                0x00000408       0x1c tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(gesf2.o)
+ .riscv.attributes
+                0x00000424       0x1c tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(lesf2.o)
+ .riscv.attributes
+                0x00000440       0x1c tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(mulsf3.o)
+ .riscv.attributes
+                0x0000045c       0x1c tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(subsf3.o)
+ .riscv.attributes
+                0x00000478       0x1c tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(unordsf2.o)
+ .riscv.attributes
+                0x00000494       0x1c tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(fixsfsi.o)
+ .riscv.attributes
+                0x000004b0       0x1c tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(floatsisf.o)
+ .riscv.attributes
+                0x000004cc       0x1c tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(floatunsisf.o)
+ .riscv.attributes
+                0x000004e8       0x1a tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(muldi3.o)
+ .riscv.attributes
+                0x00000502       0x1a tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(div.o)
+ .riscv.attributes
+                0x0000051c       0x1c tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(_clzsi2.o)
+ .riscv.attributes
+                0x00000538       0x1c tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(_clz.o)
+
+.debug_info     0x00000000     0x207d
+ .debug_info    0x00000000      0x343 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(addsf3.o)
+ .debug_info    0x00000343      0x440 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(divsf3.o)
+ .debug_info    0x00000783      0x215 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(eqsf2.o)
+ .debug_info    0x00000998      0x221 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(gesf2.o)
+ .debug_info    0x00000bb9      0x221 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(lesf2.o)
+ .debug_info    0x00000dda      0x43d tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(mulsf3.o)
+ .debug_info    0x00001217      0x343 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(subsf3.o)
+ .debug_info    0x0000155a      0x202 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(unordsf2.o)
+ .debug_info    0x0000175c      0x1ca tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(fixsfsi.o)
+ .debug_info    0x00001926      0x23c tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(floatsisf.o)
+ .debug_info    0x00001b62      0x231 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(floatunsisf.o)
+ .debug_info    0x00001d93       0x31 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(muldi3.o)
+ .debug_info    0x00001dc4       0x5f tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(div.o)
+ .debug_info    0x00001e23      0x168 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(_clzsi2.o)
+ .debug_info    0x00001f8b       0xf2 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(_clz.o)
+
+.debug_abbrev   0x00000000     0x1112
+ .debug_abbrev  0x00000000      0x173 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(addsf3.o)
+ .debug_abbrev  0x00000173      0x150 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(divsf3.o)
+ .debug_abbrev  0x000002c3      0x14b tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(eqsf2.o)
+ .debug_abbrev  0x0000040e      0x164 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(gesf2.o)
+ .debug_abbrev  0x00000572      0x164 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(lesf2.o)
+ .debug_abbrev  0x000006d6      0x187 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(mulsf3.o)
+ .debug_abbrev  0x0000085d      0x173 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(subsf3.o)
+ .debug_abbrev  0x000009d0      0x153 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(unordsf2.o)
+ .debug_abbrev  0x00000b23      0x159 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(fixsfsi.o)
+ .debug_abbrev  0x00000c7c      0x17c tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(floatsisf.o)
+ .debug_abbrev  0x00000df8      0x17b tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(floatunsisf.o)
+ .debug_abbrev  0x00000f73       0x28 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(muldi3.o)
+ .debug_abbrev  0x00000f9b       0x28 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(div.o)
+ .debug_abbrev  0x00000fc3       0xd9 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(_clzsi2.o)
+ .debug_abbrev  0x0000109c       0x76 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(_clz.o)
+
+.debug_loclists
+                0x00000000     0x4029
+ .debug_loclists
+                0x00000000     0x1348 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(addsf3.o)
+ .debug_loclists
+                0x00001348      0x9e9 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(divsf3.o)
+ .debug_loclists
+                0x00001d31       0x9b tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(eqsf2.o)
+ .debug_loclists
+                0x00001dcc       0xe5 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(gesf2.o)
+ .debug_loclists
+                0x00001eb1       0xce tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(lesf2.o)
+ .debug_loclists
+                0x00001f7f      0x8b1 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(mulsf3.o)
+ .debug_loclists
+                0x00002830     0x1140 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(subsf3.o)
+ .debug_loclists
+                0x00003970       0x4c tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(unordsf2.o)
+ .debug_loclists
+                0x000039bc      0x11c tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(fixsfsi.o)
+ .debug_loclists
+                0x00003ad8      0x245 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(floatsisf.o)
+ .debug_loclists
+                0x00003d1d      0x229 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(floatunsisf.o)
+ .debug_loclists
+                0x00003f46       0xe3 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(_clzsi2.o)
+
+.debug_aranges  0x00000000      0x1d8
+ .debug_aranges
+                0x00000000       0x20 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(addsf3.o)
+ .debug_aranges
+                0x00000020       0x20 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(divsf3.o)
+ .debug_aranges
+                0x00000040       0x20 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(eqsf2.o)
+ .debug_aranges
+                0x00000060       0x20 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(gesf2.o)
+ .debug_aranges
+                0x00000080       0x20 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(lesf2.o)
+ .debug_aranges
+                0x000000a0       0x20 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(mulsf3.o)
+ .debug_aranges
+                0x000000c0       0x20 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(subsf3.o)
+ .debug_aranges
+                0x000000e0       0x20 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(unordsf2.o)
+ .debug_aranges
+                0x00000100       0x20 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(fixsfsi.o)
+ .debug_aranges
+                0x00000120       0x20 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(floatsisf.o)
+ .debug_aranges
+                0x00000140       0x20 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(floatunsisf.o)
+ .debug_aranges
+                0x00000160       0x20 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(muldi3.o)
+ .debug_aranges
+                0x00000180       0x20 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(div.o)
+ .debug_aranges
+                0x000001a0       0x20 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(_clzsi2.o)
+ .debug_aranges
+                0x000001c0       0x18 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(_clz.o)
+
+.debug_rnglists
+                0x00000000      0x8b3
+ .debug_rnglists
+                0x00000000      0x271 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(addsf3.o)
+ .debug_rnglists
+                0x00000271       0xf3 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(divsf3.o)
+ .debug_rnglists
+                0x00000364       0x2b tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(eqsf2.o)
+ .debug_rnglists
+                0x0000038f       0x38 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(gesf2.o)
+ .debug_rnglists
+                0x000003c7       0x38 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(lesf2.o)
+ .debug_rnglists
+                0x000003ff       0xdd tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(mulsf3.o)
+ .debug_rnglists
+                0x000004dc      0x25d tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(subsf3.o)
+ .debug_rnglists
+                0x00000739       0x22 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(unordsf2.o)
+ .debug_rnglists
+                0x0000075b       0x2b tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(fixsfsi.o)
+ .debug_rnglists
+                0x00000786       0x8a tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(floatsisf.o)
+ .debug_rnglists
+                0x00000810       0x79 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(floatunsisf.o)
+ .debug_rnglists
+                0x00000889       0x2a tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(_clzsi2.o)
+
+.debug_line     0x00000000     0x69fe
+ .debug_line    0x00000000     0x1c4e tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(addsf3.o)
+ .debug_line    0x00001c4e      0xce0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(divsf3.o)
+ .debug_line    0x0000292e      0x211 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(eqsf2.o)
+ .debug_line    0x00002b3f      0x2ab tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(gesf2.o)
+ .debug_line    0x00002dea      0x2c3 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(lesf2.o)
+ .debug_line    0x000030ad      0xdbf tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(mulsf3.o)
+ .debug_line    0x00003e6c     0x1bb9 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(subsf3.o)
+ .debug_line    0x00005a25      0x181 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(unordsf2.o)
+ .debug_line    0x00005ba6      0x24d tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(fixsfsi.o)
+ .debug_line    0x00005df3      0x463 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(floatsisf.o)
+ .debug_line    0x00006256      0x433 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(floatunsisf.o)
+ .debug_line    0x00006689       0x7a tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(muldi3.o)
+ .debug_line    0x00006703      0x153 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(div.o)
+ .debug_line    0x00006856      0x15f tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(_clzsi2.o)
+ .debug_line    0x000069b5       0x49 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(_clz.o)
+
+.debug_str      0x00000000      0x7c2
+ .debug_str     0x00000000      0x7c2 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(addsf3.o)
+                                0x27f (size before relaxing)
+ .debug_str     0x000007c2        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(divsf3.o)
+                                0x306 (size before relaxing)
+ .debug_str     0x000007c2        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(eqsf2.o)
+                                0x1b2 (size before relaxing)
+ .debug_str     0x000007c2        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(gesf2.o)
+                                0x1d6 (size before relaxing)
+ .debug_str     0x000007c2        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(lesf2.o)
+                                0x1d6 (size before relaxing)
+ .debug_str     0x000007c2        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(mulsf3.o)
+                                0x2b0 (size before relaxing)
+ .debug_str     0x000007c2        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(subsf3.o)
+                                0x27f (size before relaxing)
+ .debug_str     0x000007c2        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(unordsf2.o)
+                                0x1b5 (size before relaxing)
+ .debug_str     0x000007c2        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(fixsfsi.o)
+                                0x1b7 (size before relaxing)
+ .debug_str     0x000007c2        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(floatsisf.o)
+                                0x247 (size before relaxing)
+ .debug_str     0x000007c2        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(floatunsisf.o)
+                                0x242 (size before relaxing)
+ .debug_str     0x000007c2        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(muldi3.o)
+                                0x1a3 (size before relaxing)
+ .debug_str     0x000007c2        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(div.o)
+                                0x1d0 (size before relaxing)
+ .debug_str     0x000007c2        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(_clzsi2.o)
+                                0x1ec (size before relaxing)
+ .debug_str     0x000007c2        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(_clz.o)
+                                0x1cf (size before relaxing)
+
+.debug_line_str
+                0x00000000      0xb0e
+ .debug_line_str
+                0x00000000      0xb0e tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(addsf3.o)
+                                0x23e (size before relaxing)
+ .debug_line_str
+                0x00000b0e        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(divsf3.o)
+                                0x23e (size before relaxing)
+ .debug_line_str
+                0x00000b0e        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(eqsf2.o)
+                                0x24a (size before relaxing)
+ .debug_line_str
+                0x00000b0e        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(gesf2.o)
+                                0x24a (size before relaxing)
+ .debug_line_str
+                0x00000b0e        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(lesf2.o)
+                                0x24a (size before relaxing)
+ .debug_line_str
+                0x00000b0e        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(mulsf3.o)
+                                0x248 (size before relaxing)
+ .debug_line_str
+                0x00000b0e        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(subsf3.o)
+                                0x23e (size before relaxing)
+ .debug_line_str
+                0x00000b0e        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(unordsf2.o)
+                                0x250 (size before relaxing)
+ .debug_line_str
+                0x00000b0e        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(fixsfsi.o)
+                                0x24a (size before relaxing)
+ .debug_line_str
+                0x00000b0e        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(floatsisf.o)
+                                0x24e (size before relaxing)
+ .debug_line_str
+                0x00000b0e        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(floatunsisf.o)
+                                0x252 (size before relaxing)
+ .debug_line_str
+                0x00000b0e        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(muldi3.o)
+                                0x18e (size before relaxing)
+ .debug_line_str
+                0x00000b0e        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(div.o)
+                                0x18b (size before relaxing)
+ .debug_line_str
+                0x00000b0e        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(_clzsi2.o)
+                                0x231 (size before relaxing)
+ .debug_line_str
+                0x00000b0e        0x0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(_clz.o)
+                                0x231 (size before relaxing)
+
+.debug_frame    0x00000000      0x2d0
+ .debug_frame   0x00000000       0xa0 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(addsf3.o)
+ .debug_frame   0x000000a0       0x70 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(divsf3.o)
+ .debug_frame   0x00000110       0x20 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(eqsf2.o)
+ .debug_frame   0x00000130       0x20 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(gesf2.o)
+ .debug_frame   0x00000150       0x20 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(lesf2.o)
+ .debug_frame   0x00000170       0x44 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(mulsf3.o)
+ .debug_frame   0x000001b4       0x44 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(subsf3.o)
+ .debug_frame   0x000001f8       0x20 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(unordsf2.o)
+ .debug_frame   0x00000218       0x20 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(fixsfsi.o)
+ .debug_frame   0x00000238       0x3c tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(floatsisf.o)
+ .debug_frame   0x00000274       0x3c tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(floatunsisf.o)
+ .debug_frame   0x000002b0       0x20 tools/xpack-riscv-none-elf-gcc-15.2.0-1/lib/gcc/riscv-none-elf/15.2.0/rv32i/ilp32/libgcc.a(_clzsi2.o)

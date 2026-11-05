@@ -1,0 +1,49 @@
+{
+  "result": "PASS",
+  "scope": "Host fixed-point C reference and UART packet integrity only; no physical board inference",
+  "physical_board_verified": false,
+  "source_image": "D:\\基于RISCV指令集CPU设计\\串口图片工具示例\\数字5_清晰版.png",
+  "source_image_sha256": "22226c06953e1ce4def22ec84472a9b91b9f3aa022e64852156011e692c3cb82",
+  "preprocessing": {
+    "source_size": [
+      1254,
+      1254
+    ],
+    "mode": "fit28",
+    "invert": "no",
+    "inversion_applied": false
+  },
+  "detections_xywh_label_objectness": [
+    [
+      8,
+      6,
+      17,
+      21,
+      5,
+      254
+    ]
+  ],
+  "predicted_label": 5,
+  "objectness_0_to_255": 254,
+  "objectness_note": "Model objectness is not calibrated classification accuracy",
+  "reference": {
+    "library_sha256": "d67d01f746164668ef123f2d0ab3d21e1026f4d7104c8bcf523aff4620a7b1f3",
+    "model_header_sha256": "91abd48c20b412b33507e00584f41fbce550ef3511da095d18d9b061f2e7deb6",
+    "c_sha256": "314d8857329caef86378df9038af909fb8ac8a32c287095d26ec9151d90b3872"
+  },
+  "packet_bytes": 1036,
+  "packet_sha256": "ad3f07698e6fc8933a499df55e2c2fe79c993b300baafbe1fab271ff21e3b4f3",
+  "crc16_ccitt_false": "71B9",
+  "crc_wire_little_endian": "B9 71",
+  "chunk_bytes": [
+    256,
+    256,
+    256,
+    256,
+    12
+  ],
+  "packet_reassembly_verified": true,
+  "source_pixel_roundtrip_verified": true,
+  "preview": "D:\\基于RISCV指令集CPU设计\\串口图片工具示例\\数字5_清晰版_串口测试\\preview280.png",
+  "reproduce_script": "D:\\基于RISCV指令集CPU设计\\remote_pg2l200h\\advanced\\reports\\digit5_clear_20261103\\prepare.py"
+}

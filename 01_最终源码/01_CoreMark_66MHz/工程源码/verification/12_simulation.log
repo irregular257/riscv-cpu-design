@@ -1,0 +1,5 @@
+MATRIX PASS checks=249460492 frames=67 latches=1034 full_on=1036992 low1_on=4112 half_on=526336
+- reports\maxperf_20261103\matrix_66000000\tb_matrix_display.v:191: Verilog $finish
+- S i m u l a t i o n   R e p o r t: Verilator 5.053 devel
+- Verilator: $finish at 1s; walltime 344.864 s; speed 2.993 ms/s
+- Verilator: cpu 335.016 s on 1 threads; allocated 5 MB
